@@ -1,7 +1,7 @@
 {
   "Title": "Albisoara",
   "Type": "addon",
-  "Org": "local",
+  "Org": "nite",
   "Ident": "albisoara",
   "Tags": null,
   "Schema": 1,
@@ -13,5 +13,13 @@
   "CodePath": "/code/",
   "PackageReferences": [],
   "EditorReferences": null,
-  "Metadata": {}
+  "Metadata": {
+    "CsProjName": "",
+    "PrimaryAsset": "",
+    "PhysicsMins": "-1,-1,-1",
+    "PhysicsMaxs": "1,1,1",
+    "RenderMins": "-1,-1,-1",
+    "RenderMaxs": "-1,-1,-1",
+    "ParentPackage": "facepunch.sandbox"
+  }
 }
