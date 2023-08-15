@@ -3,10 +3,10 @@
     "Allowed": true,
     "Enabled": false,
     "ProjectConfig": {
-      "Title": "candles",
+      "Title": "albisoara",
       "Type": "map",
       "Org": "local",
-      "Ident": "candles",
+      "Ident": "albisoara",
       "Tags": null,
       "Schema": 0,
       "HasAssets": false,
@@ -17,11 +17,12 @@
       "CodePath": null,
       "PackageReferences": [],
       "EditorReferences": [
-        "fish.roblox_skybox#8534",
-        "fishum.dev_rouge#25872"
+        "facepunch.roof_tile_a#18739",
+        "caro.bluecloudysky#27761",
+        "facepunch.floor_dirt_b#18644"
       ],
       "Metadata": {
-        "SingleAssetSource": "maps/candles.vmap"
+        "SingleAssetSource": "maps/albisoara.vmap"
       }
     }
   }
