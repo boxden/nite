@@ -87,7 +87,10 @@
         "facepunch.metal_painted_red_a_hs#28958",
         "facepunch.metal_painted_green_b_hs#28953",
         "facepunch.metal_painted_grey_a_hs#28954",
-        "facepunch.metal_painted_navy_b_hs#28956"
+        "facepunch.metal_painted_navy_b_hs#28956",
+        "facepunch.glass_a_hs#28943",
+        "facepunch.floor_asphalt_blend#33646",
+        "facepunch.glass_a_hs#33634"
       ],
       "Metadata": {
         "SingleAssetSource": "maps/hollywood.vmap",
