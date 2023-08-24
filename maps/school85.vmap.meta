@@ -1,11 +1,11 @@
 {
   "publish": {
     "Allowed": true,
-    "Enabled": false,
+    "Enabled": true,
     "ProjectConfig": {
       "Title": "school85",
       "Type": "map",
-      "Org": "local",
+      "Org": "nite",
       "Ident": "school85",
       "Tags": null,
       "Schema": 0,
@@ -17,10 +17,27 @@
       "CodePath": null,
       "PackageReferences": [],
       "EditorReferences": [
-        "facepunch.floor_grass_dirt_weed_blend_a#18756"
+        "facepunch.floor_grass_dirt_weed_blend_a#18756",
+        "sundayservice.woodpanelwall_03#27386",
+        "drakefruit.glass_blocks_001a#20453"
       ],
       "Metadata": {
-        "SingleAssetSource": "maps/school85.vmap"
+        "SingleAssetSource": "maps/school85.vmap",
+        "GameSupport": [
+          "facepunch.sandbox"
+        ],
+        "LaunchConfigs": [
+          {
+            "Name": "school85",
+            "GameIdent": "facepunch.sandbox",
+            "MapName": "nite.school85#local",
+            "MaxPlayers": 1,
+            "GameSettings": {},
+            "Addons": "",
+            "PreLaunchCommand": "",
+            "PostLaunchCommand": ""
+          }
+        ]
       }
     }
   }
