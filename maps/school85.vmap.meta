@@ -19,7 +19,11 @@
       "EditorReferences": [
         "facepunch.floor_grass_dirt_weed_blend_a#18756",
         "sundayservice.woodpanelwall_03#27386",
-        "drakefruit.glass_blocks_001a#20453"
+        "drakefruit.glass_blocks_001a#20453",
+        "wujekfoliarz.sl_skybox3#34512",
+        "semxy.bluecloudskybox#24832",
+        "eurorp.monitor#9925",
+        "titanovsky.h_house_dec#11835"
       ],
       "Metadata": {
         "SingleAssetSource": "maps/school85.vmap",
