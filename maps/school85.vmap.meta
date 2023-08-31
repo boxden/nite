@@ -3,7 +3,7 @@
     "Allowed": true,
     "Enabled": true,
     "ProjectConfig": {
-      "Title": "school85",
+      "Title": "School 85",
       "Type": "map",
       "Org": "nite",
       "Ident": "school85",
@@ -23,7 +23,8 @@
         "wujekfoliarz.sl_skybox3#34512",
         "semxy.bluecloudskybox#24832",
         "eurorp.monitor#9925",
-        "titanovsky.h_house_dec#11835"
+        "titanovsky.h_house_dec#11835",
+        "facepunch.floor_grass_wetdirt_blend_a#18652"
       ],
       "Metadata": {
         "SingleAssetSource": "maps/school85.vmap",

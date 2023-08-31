@@ -1,0 +1,31 @@
+{
+  "publish": {
+    "Allowed": true,
+    "Enabled": true,
+    "ProjectConfig": {
+      "Title": "The Lobby",
+      "Type": "map",
+      "Org": "nite",
+      "Ident": "phys_lobby",
+      "Tags": null,
+      "Schema": 0,
+      "HasAssets": false,
+      "AssetsPath": null,
+      "Resources": null,
+      "MenuResources": null,
+      "HasCode": false,
+      "CodePath": null,
+      "PackageReferences": [],
+      "EditorReferences": [
+        "saandy.glass02_hs#17240",
+        "facepunch.glass_dotted_a#19950"
+      ],
+      "Metadata": {
+        "SingleAssetSource": "maps/phys_lobby.vmap",
+        "GameSupport": [
+          "swb.demo"
+        ]
+      }
+    }
+  }
+}

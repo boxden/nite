@@ -1,0 +1,43 @@
+{
+  "publish": {
+    "Allowed": true,
+    "Enabled": true,
+    "ProjectConfig": {
+      "Title": "AWP Lego",
+      "Type": "map",
+      "Org": "nite",
+      "Ident": "awp_lego_2b",
+      "Tags": "awp lego css",
+      "Schema": 0,
+      "HasAssets": false,
+      "AssetsPath": null,
+      "Resources": null,
+      "MenuResources": null,
+      "HasCode": false,
+      "CodePath": null,
+      "PackageReferences": [],
+      "EditorReferences": [
+        "swb.demo#36796",
+        "caro.sky_001#27739"
+      ],
+      "Metadata": {
+        "SingleAssetSource": "maps/awp_lego_2b.vmap",
+        "GameSupport": [
+          "swb.demo"
+        ],
+        "LaunchConfigs": [
+          {
+            "Name": "Game",
+            "GameIdent": "swb.demo",
+            "MapName": "nite.awp_lego_2b#local",
+            "MaxPlayers": 64,
+            "GameSettings": {},
+            "Addons": "",
+            "PreLaunchCommand": "",
+            "PostLaunchCommand": ""
+          }
+        ]
+      }
+    }
+  }
+}
