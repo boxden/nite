@@ -18,7 +18,10 @@
       "PackageReferences": [],
       "EditorReferences": [
         "swb.demo#36796",
-        "caro.sky_001#27739"
+        "caro.sky_001#27739",
+        "nite.factory-noise01#37922",
+        "way.dev_grid_red#10633",
+        "quack.devgen01#11247"
       ],
       "Metadata": {
         "SingleAssetSource": "maps/awp_lego_2b.vmap",

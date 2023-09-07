@@ -18,7 +18,10 @@
       "PackageReferences": [],
       "EditorReferences": [
         "saandy.glass02_hs#17240",
-        "facepunch.glass_dotted_a#19950"
+        "facepunch.glass_dotted_a#19950",
+        "mufamoof.dev_glass#30717",
+        "facepunch.wood_painted_a_hs#28972",
+        "creation.skyonlyhdri040_4k-hdr#19799"
       ],
       "Metadata": {
         "SingleAssetSource": "maps/phys_lobby.vmap",

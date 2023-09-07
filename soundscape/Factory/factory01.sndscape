@@ -1,0 +1,17 @@
+{
+  "MasterVolume": "0.75,1.00,0",
+  "LoopedSounds": [
+    {
+      "SoundFile": "sounds/machine/000b11b0.vsnd",
+      "Volume": "0.09,0.09,0"
+    }
+  ],
+  "StingSounds": [
+    {
+      "SoundFile": "sounds/machine/strings/000f465b.sound",
+      "InstanceCount": 1,
+      "RepeatTime": "10.60,16.55,1",
+      "Distance": "5000.00,203.65,0"
+    }
+  ]
+}
