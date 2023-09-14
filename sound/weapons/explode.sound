@@ -1,0 +1,14 @@
+{
+  "UI": false,
+  "Volume": "1.00,1.00,0",
+  "Pitch": "1.00,1.00,0",
+  "Decibels": 170,
+  "SelectionMode": "Random",
+  "Sounds": [
+    "sound/weapons/explode3.vsnd",
+    "sound/weapons/explode4.vsnd",
+    "sound/weapons/explode5.vsnd"
+  ],
+  "MaximumDistance": 6590.138,
+  "MinimumDistance": 329.50693
+}
