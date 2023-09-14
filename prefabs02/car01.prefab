@@ -1,0 +1,195 @@
+{
+  "SchemaVersion": 1,
+  "Name": null,
+  "Description": null,
+  "Root": {
+    "Guid": "592f9b70-88af-494d-af5d-dca664421f0b",
+    "Class": "model_entity",
+    "Entities": [
+      {
+        "Guid": "3e14c29f-ea42-49e2-87ba-d79673d601eb",
+        "Class": "model_entity",
+        "Entities": [],
+        "Components": [],
+        "Keys": {
+          "Model": {
+            "Type": "Model",
+            "Value": "\u0022entities/modular_vehicle/wheel_a.vmdl\u0022"
+          },
+          "_name": {
+            "JsonValue": "Wheel"
+          },
+          "_localposition": {
+            "JsonValue": "42,-28,14"
+          },
+          "_localrotation": {
+            "JsonValue": "0,-90,0"
+          },
+          "_scale": {
+            "JsonValue": 1
+          },
+          "_tags": {
+            "JsonValue": ""
+          }
+        }
+      },
+      {
+        "Guid": "d50b56cf-a6f3-4bfa-bb55-d08328f41f3f",
+        "Class": "model_entity",
+        "Entities": [],
+        "Components": [],
+        "Keys": {
+          "Model": {
+            "Type": "Model",
+            "Value": "\u0022entities/modular_vehicle/vehicle_fuel_tank.vmdl\u0022"
+          },
+          "_name": {
+            "JsonValue": "Fuel"
+          },
+          "_localposition": {
+            "JsonValue": "29.41962,0,0"
+          },
+          "_localrotation": {
+            "JsonValue": "0,0,0"
+          },
+          "_scale": {
+            "JsonValue": 1
+          },
+          "_tags": {
+            "JsonValue": ""
+          }
+        }
+      },
+      {
+        "Guid": "9aad213a-921f-40ed-8f56-56a56b290fb9",
+        "Class": "model_entity",
+        "Entities": [],
+        "Components": [],
+        "Keys": {
+          "Model": {
+            "Type": "Model",
+            "Value": "\u0022entities/modular_vehicle/chassis_transmission.vmdl\u0022"
+          },
+          "_name": {
+            "JsonValue": "Untitled Entity"
+          },
+          "_localposition": {
+            "JsonValue": "-46.52887,0,24.87432"
+          },
+          "_localrotation": {
+            "JsonValue": "0,0,0"
+          },
+          "_scale": {
+            "JsonValue": 1
+          },
+          "_tags": {
+            "JsonValue": ""
+          }
+        }
+      },
+      {
+        "Guid": "7f706078-f984-461b-bd16-365a8cfbfdd8",
+        "Class": "model_entity",
+        "Entities": [],
+        "Components": [],
+        "Keys": {
+          "Model": {
+            "Type": "Model",
+            "Value": "\u0022entities/modular_vehicle/chassis_steering.vmdl\u0022"
+          },
+          "_name": {
+            "JsonValue": "Untitled Entity"
+          },
+          "_localposition": {
+            "JsonValue": "42.35777,0,23.01717"
+          },
+          "_localrotation": {
+            "JsonValue": "0,0,0"
+          },
+          "_scale": {
+            "JsonValue": 1
+          },
+          "_tags": {
+            "JsonValue": ""
+          }
+        }
+      },
+      {
+        "Guid": "f78fa224-e3f6-45f3-8a0d-9905d4a8e9ec",
+        "Class": "model_entity",
+        "Entities": [],
+        "Components": [],
+        "Keys": {
+          "Model": {
+            "Type": "Model",
+            "Value": "\u0022entities/modular_vehicle/chassis_axle_rear.vmdl\u0022"
+          },
+          "_name": {
+            "JsonValue": "axle_rear"
+          },
+          "_localposition": {
+            "JsonValue": "-42.19443,0,13.82573"
+          },
+          "_localrotation": {
+            "JsonValue": "0,0,0"
+          },
+          "_scale": {
+            "JsonValue": 1
+          },
+          "_tags": {
+            "JsonValue": ""
+          }
+        }
+      },
+      {
+        "Guid": "90916b0d-c429-491b-84ef-28a3b34fcd84",
+        "Class": "model_entity",
+        "Entities": [],
+        "Components": [],
+        "Keys": {
+          "Model": {
+            "Type": "Model",
+            "Value": "\u0022entities/modular_vehicle/chassis_axle_front.vmdl\u0022"
+          },
+          "_name": {
+            "JsonValue": "axle_"
+          },
+          "_localposition": {
+            "JsonValue": "41.72059,0,14.29851"
+          },
+          "_localrotation": {
+            "JsonValue": "0,0,0"
+          },
+          "_scale": {
+            "JsonValue": 1
+          },
+          "_tags": {
+            "JsonValue": ""
+          }
+        }
+      }
+    ],
+    "Components": [],
+    "Keys": {
+      "Model": {
+        "Type": "Model",
+        "Value": "\u0022models/car/car.vmdl\u0022"
+      },
+      "_name": {
+        "JsonValue": "Root Entity"
+      },
+      "_localposition": {
+        "JsonValue": "0,0,0"
+      },
+      "_localrotation": {
+        "JsonValue": "0,0,0"
+      },
+      "_scale": {
+        "JsonValue": 1
+      },
+      "_tags": {
+        "JsonValue": ""
+      }
+    }
+  }
+}
