@@ -142,7 +142,15 @@
         "facepunch.pipe_a_corner_32#33818",
         "facepunch.pipe_a_64#33815",
         "facepunch.metal_beam_stairs_a_64#33743",
-        "facepunch.pipe_a_32#33813"
+        "facepunch.pipe_a_32#33813",
+        "facepunch.gutter_roof_pipe_b#28878",
+        "facepunch.gutter_roof_end_mirror_b#28874",
+        "facepunch.gutter_roof_junction_a#28867",
+        "facepunch.gutter_roof_pipe_corner_in_b#28877",
+        "facepunch.gutter_roof_t_b#28872",
+        "eurorp.door01_right_01#12553",
+        "facepunch.gutter_roof_end_b#28871",
+        "facepunch.gutter_roof_bracket_a#28865"
       ],
       "Metadata": {
         "SingleAssetSource": "maps/hollywood.vmap",
