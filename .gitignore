@@ -17,5 +17,5 @@ code/Properties/*
 *.los
 *.vpk
 
-# Folders
+# Sounds folder
 sounds/*
