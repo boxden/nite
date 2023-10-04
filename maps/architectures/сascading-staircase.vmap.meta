@@ -1,0 +1,29 @@
+{
+  "publish": {
+    "Allowed": true,
+    "Enabled": false,
+    "ProjectConfig": {
+      "Title": "arch",
+      "Type": "map",
+      "Org": "local",
+      "Ident": "arch",
+      "Tags": null,
+      "Schema": 0,
+      "HasAssets": false,
+      "AssetsPath": null,
+      "Resources": null,
+      "MenuResources": null,
+      "HasCode": false,
+      "CodePath": null,
+      "PackageReferences": [],
+      "EditorReferences": [
+        "creation.dayskyhdri030a_4k-hdr#36432",
+        "facepunch.metal_painted_grey_a_hs#28954",
+        "facepunch.concrete_a_wetmoss_hs#28969"
+      ],
+      "Metadata": {
+        "SingleAssetSource": "maps/architectures/\u0441ascading-staircase.vmap"
+      }
+    }
+  }
+}
