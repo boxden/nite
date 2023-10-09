@@ -20,6 +20,6 @@
     "PhysicsMaxs": "1,1,1",
     "RenderMins": "-1,-1,-1",
     "RenderMaxs": "-1,-1,-1",
-    "ParentPackage": "facepunch.sandbox"
+    "ParentPackage": ""
   }
 }
