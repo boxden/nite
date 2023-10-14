@@ -1,0 +1,27 @@
+{
+  "publish": {
+    "Allowed": true,
+    "Enabled": false,
+    "ProjectConfig": {
+      "Title": "asem",
+      "Type": "map",
+      "Org": "local",
+      "Ident": "asem",
+      "Tags": null,
+      "Schema": 0,
+      "HasAssets": false,
+      "AssetsPath": null,
+      "Resources": null,
+      "MenuResources": null,
+      "HasCode": false,
+      "CodePath": null,
+      "PackageReferences": [],
+      "EditorReferences": [
+        "facepunch.concrete_cast_hs_02#37803"
+      ],
+      "Metadata": {
+        "SingleAssetSource": "maps/houses/asem.vmap"
+      }
+    }
+  }
+}
