@@ -1,7 +1,7 @@
 {
   "Title": "Albisoara",
   "Type": "addon",
-  "Org": "local",
+  "Org": "nite",
   "Ident": "albisoara",
   "Tags": null,
   "Schema": 1,
@@ -20,6 +20,6 @@
     "PhysicsMaxs": "1,1,1",
     "RenderMins": "-1,-1,-1",
     "RenderMaxs": "-1,-1,-1",
-    "ParentPackage": ""
+    "ParentPackage": "facepunch.sandbox"
   }
 }
