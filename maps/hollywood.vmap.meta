@@ -150,7 +150,9 @@
         "facepunch.gutter_roof_t_b#28872",
         "eurorp.door01_right_01#12553",
         "facepunch.gutter_roof_end_b#28871",
-        "facepunch.gutter_roof_bracket_a#28865"
+        "facepunch.gutter_roof_bracket_a#28865",
+        "sugmatextures.dirtfloor3#37292",
+        "mrtrn.mrtrn_ground2#32331"
       ],
       "Metadata": {
         "SingleAssetSource": "maps/hollywood.vmap",
