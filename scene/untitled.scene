@@ -1,78 +1,10 @@
 {
   "GameObjects": [
     {
-      "Id": "80fee686-ef2e-49e3-a75f-9859bf6d7201",
-      "Name": "Cube",
-      "Position": "301,-3.765492,11.48384",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "ModelRenderer",
-          "__enabled": true,
-          "BodyGroups": 18446744073709551615,
-          "MaterialGroup": null,
-          "MaterialOverride": null,
-          "Model": "models/dev/box.vmdl",
-          "ShouldCastShadows": true,
-          "Tint": "1,1,1,1"
-        }
-      ]
-    },
-    {
-      "Id": "a09242c9-e815-4217-8f99-d8b732833866",
-      "Name": "Plane",
-      "Position": "301.8083,11.12442,-1.605598",
-      "Scale": "2.25738,2.814688,1",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "ModelRenderer",
-          "__enabled": true,
-          "BodyGroups": 18446744073709551615,
-          "MaterialGroup": null,
-          "MaterialOverride": null,
-          "Model": "models/dev/plane.vmdl",
-          "ShouldCastShadows": true,
-          "Tint": "1,1,1,1"
-        }
-      ]
-    },
-    {
-      "Id": "3075d23e-fa7c-4b60-98bd-8940c5035eff",
-      "Name": "World",
-      "Position": "605.3344,-104.0182,-22.12459",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "WorldPanel",
-          "__enabled": true,
-          "HorizontalAlign": "Center",
-          "LookAtCamera": false,
-          "PanelSize": "512,512",
-          "RenderScale": 1,
-          "VerticalAlign": "Center"
-        }
-      ]
-    },
-    {
-      "Id": "77234f7c-7799-4965-9cbc-0b624b42ca1a",
-      "Name": "2D Skybox",
-      "Position": "341.913,35.26836,5.98191",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "SkyBox2D",
-          "__enabled": true,
-          "SkyMaterial": "materials/skybox/light_test_sky_sunny02.vmat",
-          "Tint": "1,1,1,1"
-        }
-      ]
-    },
-    {
-      "Id": "23b9ff99-c25f-4a9e-920b-e62e6d6a6753",
+      "Id": "e25b975e-5828-4cef-a0be-9ba1ed1517d3",
       "Name": "Sun",
-      "Position": "283.9668,49.83799,35.79631",
-      "Rotation": "0.1175463,0.5505192,-0.1327353,0.8157785",
+      "Position": "0,0,46.66574",
+      "Rotation": "-0.00000004105711,0.6888239,-0.0000000000000008172128,0.7249287",
       "Enabled": true,
       "Components": [
         {
@@ -85,40 +17,20 @@
       ]
     },
     {
-      "Id": "1ceb9d14-ff42-4e9b-bd05-9600f97543e4",
-      "Name": "Camera",
-      "Position": "245.1409,0.3916886,5.217172",
-      "Tags": "maincamera",
+      "Id": "89fa9c8b-6fef-4d5a-b8f0-95206bdb91a4",
+      "Name": "Plane",
+      "Scale": "2.504906,2.356496,1",
       "Enabled": true,
       "Components": [
         {
-          "__type": "CameraComponent",
+          "__type": "ModelRenderer",
           "__enabled": true,
-          "BackgroundColor": "0.33333,0.46275,0.52157,1",
-          "ClearFlags": "All",
-          "FieldOfView": 60,
-          "IsMainCamera": true,
-          "Orthographic": false,
-          "OrthographicHeight": 1204,
-          "Priority": 1,
-          "RenderExcludeTags": "",
-          "RenderTags": "",
-          "TargetEye": "None",
-          "Viewport": "0,0,1,1",
-          "ZFar": 10000,
-          "ZNear": 10
-        }
-      ]
-    },
-    {
-      "Id": "e5eb4fd7-5f79-4d52-9ed4-16dc7010139d",
-      "Name": "Listener",
-      "Position": "346.9774,62.7259,6.597826",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "AudioListener",
-          "__enabled": true
+          "BodyGroups": 18446744073709551615,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Model": "models/dev/plane.vmdl",
+          "ShouldCastShadows": true,
+          "Tint": "1,1,1,1"
         }
       ]
     }
