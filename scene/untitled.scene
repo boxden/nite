@@ -217,6 +217,23 @@
           "Tint": "1,1,1,1"
         }
       ]
+    },
+    {
+      "Id": "32cd7639-088c-402c-8081-2f69b5e9e023",
+      "Name": "Text",
+      "Position": "-4.12559,0,49.7501",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "TextRenderer",
+          "__enabled": true,
+          "Color": "1,1,1,1",
+          "FontFamily": "Poppins",
+          "FontSize": 128,
+          "Scale": 0.01,
+          "Text": "Hello! \u2764"
+        }
+      ]
     }
   ],
   "SceneProperties": {
