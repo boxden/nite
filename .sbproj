@@ -5,7 +5,7 @@
   "Ident": "albisoara",
   "Tags": null,
   "Schema": 1,
-  "HasAssets": false,
+  "HasAssets": true,
   "AssetsPath": "",
   "Resources": null,
   "MenuResources": null,
