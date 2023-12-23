@@ -1,10 +1,47 @@
 {
   "GameObjects": [
     {
-      "Id": "e25b975e-5828-4cef-a0be-9ba1ed1517d3",
+      "Id": "e4f397f8-e258-42b4-b6d9-a97d6093a937",
+      "Name": "Plane",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "__enabled": true,
+          "BodyGroups": 18446744073709551615,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Model": "models/dev/plane.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        }
+      ]
+    },
+    {
+      "Id": "d053dce8-1234-40e3-8ac9-e4c1def96350",
+      "Name": "Decal",
+      "Position": "17.26098,16.28919,16.0041",
+      "Rotation": "0.00000004055947,-0.000000000000004082055,0.6804761,0.7327703",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "DecalRenderer",
+          "__enabled": true,
+          "CutoffAngle": 60,
+          "CutoffAngleSoftness": 5,
+          "Material": "materials/decals/default.vmat",
+          "Mod2XBlending": false,
+          "Size": "64,64,32",
+          "TintColor": "1,1,1,1",
+          "TriPlanar": false
+        }
+      ]
+    },
+    {
+      "Id": "9b2a4cb2-162b-422a-afef-bcd842ada1fe",
       "Name": "Sun",
-      "Position": "0,0,46.66574",
-      "Rotation": "-0.00000004105711,0.6888239,-0.0000000000000008172128,0.7249287",
+      "Position": "0,0,35.26436",
+      "Rotation": "0.2000663,0.7493285,-0.1628366,0.6098887",
       "Enabled": true,
       "Components": [
         {
@@ -17,20 +54,27 @@
       ]
     },
     {
-      "Id": "89fa9c8b-6fef-4d5a-b8f0-95206bdb91a4",
-      "Name": "Plane",
-      "Scale": "2.504906,2.356496,1",
+      "Id": "7f90a35a-dff5-4adb-ab90-88f157338708",
+      "Name": "Listener",
       "Enabled": true,
       "Components": [
         {
-          "__type": "ModelRenderer",
+          "__type": "AudioListener",
+          "__enabled": true
+        },
+        {
+          "__type": "SoundPointComponent",
           "__enabled": true,
-          "BodyGroups": 18446744073709551615,
-          "MaterialGroup": null,
-          "MaterialOverride": null,
-          "Model": "models/dev/plane.vmdl",
-          "ShouldCastShadows": true,
-          "Tint": "1,1,1,1"
+          "Force2d": false,
+          "MaxRepeatTime": 1,
+          "MinRepeatTime": 1,
+          "Pitch": 1,
+          "PlayOnStart": true,
+          "Repeat": false,
+          "SoundEvent": null,
+          "SoundOverride": false,
+          "StopOnNew": false,
+          "Volume": 1
         }
       ]
     }
@@ -39,12 +83,12 @@
     "FixedUpdateFrequency": 50,
     "Lerping": true,
     "MaxFixedUpdates": 5,
-    "NetworkFrequency": 60,
+    "NetworkFrequency": 30,
     "ThreadedAnimation": true,
     "TimeScale": 1,
     "UseFixedUpdate": true
   },
-  "Title": "Map",
+  "Title": "untitled",
   "Description": "",
   "__references": []
 }
