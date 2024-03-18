@@ -7,12 +7,11 @@
       "Type": "map",
       "Org": "nite",
       "Ident": "school85",
-      "Tags": null,
+      "Tags": "realplace chisinau moldova school",
       "Schema": 0,
       "HasAssets": false,
       "AssetsPath": null,
       "Resources": null,
-      "MenuResources": null,
       "HasCode": false,
       "CodePath": null,
       "PackageReferences": [],
@@ -31,7 +30,8 @@
         "facepunch.decal_road_sign_dead_end_square#29226",
         "fennec.night_sky_1#24390",
         "facepunch.studio_light_projector#29115",
-        "eurorp.door01_right_01#12553"
+        "eurorp.door01_right_01#12553",
+        "caro.sky_001#27739"
       ],
       "Metadata": {
         "SingleAssetSource": "maps/school85.vmap",
