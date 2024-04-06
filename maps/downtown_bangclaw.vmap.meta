@@ -1,0 +1,26 @@
+{
+  "publish": {
+    "Allowed": true,
+    "Enabled": true,
+    "ProjectConfig": {
+      "Title": "Downtown Bangclaw",
+      "Type": "map",
+      "Org": "nite",
+      "Ident": "downtown_bangclaw",
+      "Tags": "bangclaw downtown downtown_bangclaw gmod source1 s1",
+      "Schema": 0,
+      "HasAssets": false,
+      "AssetsPath": null,
+      "Resources": null,
+      "HasCode": false,
+      "CodePath": null,
+      "PackageReferences": [],
+      "EditorReferences": [
+        "caro.bluecloudysky#27761"
+      ],
+      "Metadata": {
+        "SingleAssetSource": "maps/downtown_bangclaw.vmap"
+      }
+    }
+  }
+}
