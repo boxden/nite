@@ -1,0 +1,56 @@
+{
+  "publish": {
+    "Allowed": true,
+    "Enabled": true,
+    "ProjectConfig": {
+      "Title": "School 85",
+      "Type": "map",
+      "Org": "nite",
+      "Ident": "school85",
+      "Tags": "realplace chisinau moldova school",
+      "Schema": 0,
+      "HasAssets": false,
+      "AssetsPath": null,
+      "Resources": null,
+      "HasCode": false,
+      "CodePath": null,
+      "PackageReferences": [],
+      "EditorReferences": [
+        "facepunch.floor_grass_dirt_weed_blend_a#18756",
+        "sundayservice.woodpanelwall_03#27386",
+        "drakefruit.glass_blocks_001a#20453",
+        "wujekfoliarz.sl_skybox3#34512",
+        "semxy.bluecloudskybox#24832",
+        "eurorp.monitor#9925",
+        "titanovsky.h_house_dec#11835",
+        "facepunch.floor_grass_wetdirt_blend_a#18652",
+        "facepunch.wood_plank_hs_02#33585",
+        "polyhaven.sky_kloofendal_38d_partly_cloudy#25710",
+        "mrlokan.vehicle#26136",
+        "facepunch.decal_road_sign_dead_end_square#29226",
+        "fennec.night_sky_1#24390",
+        "facepunch.studio_light_projector#29115",
+        "eurorp.door01_right_01#12553",
+        "caro.sky_001#27739"
+      ],
+      "Metadata": {
+        "SingleAssetSource": "maps/school85.vmap",
+        "GameSupport": [
+          "facepunch.sandbox"
+        ],
+        "LaunchConfigs": [
+          {
+            "Name": "school85",
+            "GameIdent": "facepunch.sandbox",
+            "MapName": "nite.school85#local",
+            "MaxPlayers": 1,
+            "GameSettings": {},
+            "Addons": "",
+            "PreLaunchCommand": "",
+            "PostLaunchCommand": ""
+          }
+        ]
+      }
+    }
+  }
+}

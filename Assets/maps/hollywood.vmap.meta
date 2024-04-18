@@ -1,0 +1,39 @@
+{
+  "tags": [
+    "Dev"
+  ],
+  "publish": {
+    "Allowed": true,
+    "Enabled": true,
+    "ProjectConfig": {
+      "Title": "Albisoara",
+      "Type": "map",
+      "Org": "nite",
+      "Ident": "alba",
+      "Tags": "realplace chisinau moldova urban",
+      "Schema": 0,
+      "HasAssets": false,
+      "AssetsPath": null,
+      "Resources": null,
+      "MenuResources": null,
+      "HasCode": false,
+      "CodePath": null,
+      "PackageReferences": [],
+      "EditorReferences": [
+        "pouragegaming.grass004_2k#28475",
+        "rustextended.terrain_grass#43376",
+        "rustextended.terrain_stones#43384",
+        "facepunch.concrete_cast_hs_01#28794",
+        "facepunch.rubber_a_hs#28967",
+        "caro.bluecloudysky#27761",
+        "facepunch.roof_tile_a#18739"
+      ],
+      "Metadata": {
+        "SingleAssetSource": "maps/hollywood.vmap",
+        "GameSupport": [
+          "facepunch.sandbox"
+        ]
+      }
+    }
+  }
+}
