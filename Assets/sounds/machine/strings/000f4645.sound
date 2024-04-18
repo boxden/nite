@@ -1,0 +1,12 @@
+{
+  "UI": false,
+  "Volume": "1.00,1.00,0",
+  "Pitch": "1.00,1.00,0",
+  "Decibels": 25,
+  "SelectionMode": "Random",
+  "Sounds": [
+    "sounds/machine/strings/000f4645.vsnd"
+  ],
+  "MaximumDistance": 173.82826,
+  "MinimumDistance": 8.691413
+}

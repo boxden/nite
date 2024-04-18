@@ -1,0 +1,13 @@
+{
+  "UI": true,
+  "Volume": "0.02,0.05,1",
+  "Pitch": "1.00,1.07,1",
+  "Decibels": 25,
+  "SelectionMode": "Forward",
+  "Sounds": [
+    "sounds/machine/strings/000f465b.vsnd",
+    "sounds/machine/strings/000f462d.vsnd"
+  ],
+  "MaximumDistance": 173.82826,
+  "MinimumDistance": 8.691413
+}
