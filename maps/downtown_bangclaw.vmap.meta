@@ -16,7 +16,12 @@
       "CodePath": null,
       "PackageReferences": [],
       "EditorReferences": [
-        "caro.bluecloudysky#27761"
+        "caro.bluecloudysky#27761",
+        "blmndy.rrr_s90#26985",
+        "jodiscontent.enhanced_speaker#24257",
+        "sundayservice.speaker#43172",
+        "frogpond.speaker#12960",
+        "saandy.ceiling_light03#41435"
       ],
       "Metadata": {
         "SingleAssetSource": "maps/downtown_bangclaw.vmap"
