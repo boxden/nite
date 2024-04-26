@@ -5,11 +5,7 @@
   "Ident": "repo-albisoara",
   "Tags": null,
   "Schema": 1,
-  "HasAssets": true,
-  "AssetsPath": "",
   "Resources": null,
-  "HasCode": false,
-  "CodePath": "",
   "PackageReferences": [],
   "EditorReferences": null,
   "Metadata": {
