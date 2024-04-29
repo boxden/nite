@@ -194,31 +194,22 @@
       ]
     },
     {
-      "__guid": "54713913-4c51-46ed-9007-3767ed29ef98",
-      "Name": "Lights",
-      "Position": "-5818.127,-4667.859,-5.751274",
+      "__guid": "7aad854b-f48e-4ce3-a6e0-8bc094290269",
+      "Name": "Point Light",
+      "Position": "-5822.823,-4744.111,35.08342",
+      "Tags": "light_point,light",
       "Enabled": true,
       "NetworkMode": 2,
-      "Children": [
+      "Components": [
         {
-          "__guid": "7aad854b-f48e-4ce3-a6e0-8bc094290269",
-          "Name": "Point Light",
-          "Position": "-4.695801,-76.25195,40.83469",
-          "Tags": "light_point,light",
-          "Enabled": true,
-          "NetworkMode": 2,
-          "Components": [
-            {
-              "__type": "Sandbox.PointLight",
-              "__guid": "ea056e23-c7b1-4e03-9e20-e5d983361afe",
-              "Attenuation": 1,
-              "FogMode": "Enabled",
-              "FogStrength": 1,
-              "LightColor": "0.91373,0.98039,1,1",
-              "Radius": 400,
-              "Shadows": true
-            }
-          ]
+          "__type": "Sandbox.PointLight",
+          "__guid": "ea056e23-c7b1-4e03-9e20-e5d983361afe",
+          "Attenuation": 1,
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "Radius": 400,
+          "Shadows": true
         }
       ]
     },
@@ -291,7 +282,7 @@
   },
   "Title": "testing maps",
   "Description": "",
-  "LastSaved": "2024-04-10T19:35:51.8312755\u002B03:00",
+  "LastSaved": "2024-04-28T20:48:07.4580152\u002B03:00",
   "ResourceVersion": 1,
   "__version": 1,
   "__references": [
