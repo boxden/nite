@@ -1,0 +1,10 @@
+﻿global using BspImport.Decompiler;
+global using BspImport.Decompiler.Lumps;
+global using BspImport.Extensions;
+global using Sandbox;
+global using System;
+global using System.Collections.Generic;
+global using System.IO;
+global using System.Linq;
+global using System.Runtime.InteropServices;
+global using System.Text;

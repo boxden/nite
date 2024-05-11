@@ -3,11 +3,13 @@
   "GameObjects": [
     {
       "__guid": "9e49159a-186f-47ae-8d98-a538d069e868",
+      "Flags": 0,
       "Name": "Main Camera",
       "Position": "-5840.802,-4777.979,-23.12464",
       "Rotation": "0,0,0.9238795,0.3826834",
       "Enabled": true,
       "NetworkMode": 2,
+      "NetworkInterpolation": true,
       "Components": [
         {
           "__type": "Sandbox.CameraComponent",
@@ -30,12 +32,14 @@
     },
     {
       "__guid": "2ffb20c5-9c91-4e2c-9e79-b1e38492efa5",
+      "Flags": 0,
       "Name": "Directional Light",
       "Position": "0,0,200",
       "Rotation": "-0.2459842,0.5938582,0.2931525,0.7077327",
       "Tags": "light_directional,light",
       "Enabled": true,
       "NetworkMode": 2,
+      "NetworkInterpolation": true,
       "Components": [
         {
           "__type": "Sandbox.DirectionalLight",
@@ -50,10 +54,12 @@
     },
     {
       "__guid": "480b2cb3-c6d4-4aee-8146-64096616479c",
+      "Flags": 0,
       "Name": "Map",
       "Position": "0,0,100",
       "Enabled": true,
       "NetworkMode": 2,
+      "NetworkInterpolation": true,
       "Components": [
         {
           "__type": "Sandbox.MapInstance",
@@ -66,17 +72,21 @@
     },
     {
       "__guid": "84c30892-d53d-472b-9fcc-9539d72585bb",
+      "Flags": 0,
       "Name": "Sounds",
       "Position": "-6083.026,-4521.291,118.3372",
       "Enabled": true,
       "NetworkMode": 2,
+      "NetworkInterpolation": true,
       "Children": [
         {
           "__guid": "a1829d44-e7db-436b-a484-c16f131cfa7a",
+          "Flags": 0,
           "Name": "boc - drone",
           "Position": "395.1338,-120.9922,-171.2695",
           "Enabled": true,
           "NetworkMode": 2,
+          "NetworkInterpolation": true,
           "Components": [
             {
               "__type": "Sandbox.SoundPointComponent",
@@ -97,16 +107,22 @@
               "SoundEvent": "sounds/music/boc/boards of canada - tellia - drone.sound",
               "SoundOverride": true,
               "StopOnNew": false,
+              "TargetMixer": {
+                "Name": "unknown",
+                "Id": "00000000-0000-0000-0000-000000000000"
+              },
               "Volume": 1
             }
           ]
         },
         {
           "__guid": "466b8b07-2c03-4011-a62a-a2d6e6b4dc90",
+          "Flags": 0,
           "Name": "boc - perc",
           "Position": "58.32227,-103.2847,-134.5389",
           "Enabled": true,
           "NetworkMode": 2,
+          "NetworkInterpolation": true,
           "Components": [
             {
               "__type": "Sandbox.SoundPointComponent",
@@ -127,16 +143,22 @@
               "SoundEvent": "sounds/music/boc/boards of canada - tellia - perc.sound",
               "SoundOverride": true,
               "StopOnNew": false,
+              "TargetMixer": {
+                "Name": "unknown",
+                "Id": "00000000-0000-0000-0000-000000000000"
+              },
               "Volume": 1
             }
           ]
         },
         {
           "__guid": "460cd3a1-8808-4156-ac38-61b98aaa690e",
+          "Flags": 0,
           "Name": "boc - bass",
           "Position": "445.5308,-459.4888,-173.1751",
           "Enabled": true,
           "NetworkMode": 2,
+          "NetworkInterpolation": true,
           "Components": [
             {
               "__type": "Sandbox.SoundPointComponent",
@@ -157,16 +179,22 @@
               "SoundEvent": "sounds/music/boc/boards of canada - tellia - bass.sound",
               "SoundOverride": true,
               "StopOnNew": false,
+              "TargetMixer": {
+                "Name": "unknown",
+                "Id": "00000000-0000-0000-0000-000000000000"
+              },
               "Volume": 1
             }
           ]
         },
         {
           "__guid": "df662d2a-dd46-4cb8-b971-ed95376eade7",
+          "Flags": 0,
           "Name": "boc - drums",
           "Position": "120.6836,-406.0674,-69.75261",
           "Enabled": true,
           "NetworkMode": 2,
+          "NetworkInterpolation": true,
           "Components": [
             {
               "__type": "Sandbox.SoundPointComponent",
@@ -187,6 +215,10 @@
               "SoundEvent": "sounds/music/boc/boards of canada - tellia - drums.sound",
               "SoundOverride": true,
               "StopOnNew": false,
+              "TargetMixer": {
+                "Name": "unknown",
+                "Id": "00000000-0000-0000-0000-000000000000"
+              },
               "Volume": 1
             }
           ]
@@ -195,11 +227,13 @@
     },
     {
       "__guid": "7aad854b-f48e-4ce3-a6e0-8bc094290269",
+      "Flags": 0,
       "Name": "Point Light",
       "Position": "-5822.823,-4744.111,35.08342",
       "Tags": "light_point,light",
       "Enabled": true,
       "NetworkMode": 2,
+      "NetworkInterpolation": true,
       "Components": [
         {
           "__type": "Sandbox.PointLight",
@@ -215,18 +249,22 @@
     },
     {
       "__guid": "4f451259-a2e8-4591-b581-c5a74c4abc75",
+      "Flags": 0,
       "Name": "Models",
       "Position": "-5701.314,-4622.276,-75.22082",
       "Enabled": true,
       "NetworkMode": 2,
+      "NetworkInterpolation": true,
       "Children": [
         {
           "__guid": "61c1dd28-da55-46d3-8e42-0ca07f496f41",
+          "Flags": 0,
           "Name": "Speaker",
           "Position": "0,-112.5884,16.22044",
           "Rotation": "0,0,1,0.0000001947072",
           "Enabled": true,
           "NetworkMode": 2,
+          "NetworkInterpolation": true,
           "Components": [
             {
               "__type": "Sandbox.Prop",
@@ -240,11 +278,13 @@
         },
         {
           "__guid": "8c5c0698-4f74-4b59-8ea9-e731938c2e0e",
+          "Flags": 0,
           "Name": "Speaker",
           "Position": "-170.0591,-55.42529,16.22044",
           "Rotation": "0,0,0.3103543,-0.9506209",
           "Enabled": true,
           "NetworkMode": 2,
+          "NetworkInterpolation": true,
           "Components": [
             {
               "__type": "Sandbox.Prop",
@@ -261,9 +301,9 @@
   ],
   "SceneProperties": {
     "FixedUpdateFrequency": 50,
-    "Lerping": true,
     "MaxFixedUpdates": 5,
     "NetworkFrequency": 30,
+    "NetworkInterpolation": true,
     "ThreadedAnimation": true,
     "TimeScale": 1,
     "UseFixedUpdate": true,
@@ -282,7 +322,7 @@
   },
   "Title": "testing maps",
   "Description": "",
-  "LastSaved": "2024-04-28T20:48:07.4580152\u002B03:00",
+  "LastSaved": "2024-05-09T23:04:05.6210011\u002B03:00",
   "ResourceVersion": 1,
   "__version": 1,
   "__references": [
