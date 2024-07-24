@@ -3,15 +3,14 @@
     "Dev"
   ],
   "publish": {
-    "Allowed": true,
     "Enabled": true,
     "ProjectConfig": {
       "Title": "Albisoara",
       "Type": "map",
       "Org": "nite",
       "Ident": "alba",
-      "Tags": "realplace chisinau moldova urban",
       "Schema": 0,
+      "IncludeSourceFiles": false,
       "Resources": null,
       "PackageReferences": [],
       "EditorReferences": [
@@ -21,7 +20,8 @@
         "facepunch.concrete_cast_hs_01#28794",
         "facepunch.rubber_a_hs#28967",
         "caro.bluecloudysky#27761",
-        "facepunch.roof_tile_a#18739"
+        "facepunch.roof_tile_a#18739",
+        "frogpond.speaker#12960"
       ],
       "Metadata": {
         "SingleAssetSource": "maps/hollywood.vmap",
