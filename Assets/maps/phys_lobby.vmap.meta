@@ -1,20 +1,14 @@
 {
   "publish": {
-    "Allowed": true,
     "Enabled": true,
     "ProjectConfig": {
       "Title": "The Lobby",
       "Type": "map",
       "Org": "nite",
       "Ident": "phys_lobby",
-      "Tags": null,
       "Schema": 0,
-      "HasAssets": false,
-      "AssetsPath": null,
+      "IncludeSourceFiles": false,
       "Resources": null,
-      "MenuResources": null,
-      "HasCode": false,
-      "CodePath": null,
       "PackageReferences": [],
       "EditorReferences": [
         "saandy.glass02_hs#17240",
@@ -24,7 +18,9 @@
         "creation.skyonlyhdri040_4k-hdr#19799",
         "titanovsky.h_house_dec#11835",
         "eurorp.monitor#9925",
-        "facepunch.glass_a#19946"
+        "facepunch.glass_a#19946",
+        "sundayservice.floralcarpet_02#32653",
+        "tridge.carpet_checker01#31726"
       ],
       "Metadata": {
         "SingleAssetSource": "maps/phys_lobby.vmap",
