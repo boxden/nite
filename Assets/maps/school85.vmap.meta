@@ -1,19 +1,14 @@
 {
   "publish": {
-    "Allowed": true,
     "Enabled": true,
     "ProjectConfig": {
       "Title": "School 85",
       "Type": "map",
       "Org": "nite",
       "Ident": "school85",
-      "Tags": "realplace chisinau moldova school",
       "Schema": 0,
-      "HasAssets": false,
-      "AssetsPath": null,
+      "IncludeSourceFiles": false,
       "Resources": null,
-      "HasCode": false,
-      "CodePath": null,
       "PackageReferences": [],
       "EditorReferences": [
         "facepunch.floor_grass_dirt_weed_blend_a#18756",
@@ -31,7 +26,9 @@
         "fennec.night_sky_1#24390",
         "facepunch.studio_light_projector#29115",
         "eurorp.door01_right_01#12553",
-        "caro.sky_001#27739"
+        "caro.sky_001#27739",
+        "drakefruit.glass_blocks_001#20452",
+        "facepunch.wood_plank_blend_hs_01#28805"
       ],
       "Metadata": {
         "SingleAssetSource": "maps/school85.vmap",
