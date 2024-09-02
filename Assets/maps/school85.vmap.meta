@@ -29,8 +29,11 @@
         "caro.sky_001#27739",
         "drakefruit.glass_blocks_001#20452",
         "facepunch.wood_plank_blend_hs_01#28805",
-        "saandy.glass02_hs#17240"
+        "saandy.glass02_hs#17240",
+        "facepunch.glass_opaque_a#19951",
+        "facepunch.glass_a_hs#70687"
       ],
+      "IsWhitelistDisabled": false,
       "Metadata": {
         "SingleAssetSource": "maps/school85.vmap",
         "GameSupport": [
