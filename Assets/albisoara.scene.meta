@@ -1,0 +1,21 @@
+{
+  "publish": {
+    "Enabled": true,
+    "ProjectConfig": {
+      "Title": "Albisoara",
+      "Type": "map",
+      "Org": "nite",
+      "Ident": "albastreet",
+      "Schema": 0,
+      "IncludeSourceFiles": true,
+      "Resources": null,
+      "PackageReferences": [],
+      "EditorReferences": null,
+      "IsWhitelistDisabled": false,
+      "Metadata": {
+        "SingleAssetSource": "albisoara.scene",
+        "ParentPackage": "carsonk.talker"
+      }
+    }
+  }
+}

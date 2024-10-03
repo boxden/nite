@@ -1,35 +1,20 @@
 {
   "publish": {
-    "Allowed": true,
     "Enabled": true,
     "ProjectConfig": {
       "Title": "AWP Lego",
       "Type": "map",
       "Org": "nite",
       "Ident": "awp_lego_2b",
-      "Tags": "awp lego css",
       "Schema": 0,
-      "HasAssets": false,
-      "AssetsPath": null,
+      "IncludeSourceFiles": false,
       "Resources": null,
-      "MenuResources": null,
-      "HasCode": false,
-      "CodePath": null,
       "PackageReferences": [],
       "EditorReferences": [
-        "swb.demo#36796",
         "caro.sky_001#27739",
-        "nite.factory-noise01#37922",
-        "way.dev_grid_red#10633",
-        "quack.devgen01#11247",
-        "nite.factory-noise01#37923",
-        "facepunch.plastic_glossy_a_hs#28966",
-        "facepunch.concrete_a_hs#28938",
-        "kvien.concretefloor04_pixel#37124",
-        "sugmatextures.stripedconcretewall#34990",
-        "facepunch.concrete_c_blend_hs#28985",
-        "way.dev_grid_red#41421"
+        "titanovsky.h_house_dec#11835"
       ],
+      "IsWhitelistDisabled": false,
       "Metadata": {
         "SingleAssetSource": "maps/awp_lego_2b.vmap",
         "GameSupport": [
