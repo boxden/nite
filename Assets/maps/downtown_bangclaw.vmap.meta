@@ -1,26 +1,27 @@
 {
   "publish": {
-    "Allowed": true,
     "Enabled": true,
     "ProjectConfig": {
       "Title": "Downtown Bangclaw",
       "Type": "map",
       "Org": "nite",
       "Ident": "downtown_bangclaw",
-      "Tags": "bangclaw downtown downtown_bangclaw gmod source1 s1",
       "Schema": 0,
+      "IncludeSourceFiles": false,
       "Resources": null,
       "PackageReferences": [],
       "EditorReferences": [
-        "caro.bluecloudysky#27761",
         "blmndy.rrr_s90#26985",
-        "jodiscontent.enhanced_speaker#24257",
-        "sundayservice.speaker#43172",
+        "caro.bluecloudysky#27761",
         "frogpond.speaker#12960",
-        "saandy.ceiling_light03#41435"
+        "jodiscontent.enhanced_speaker#24257",
+        "saandy.ceiling_light03#41435",
+        "sundayservice.speaker#43172"
       ],
+      "IsWhitelistDisabled": false,
       "Metadata": {
-        "SingleAssetSource": "maps/downtown_bangclaw.vmap"
+        "SingleAssetSource": "maps/downtown_bangclaw.vmap",
+        "ParentPackage": "carsonk.talker"
       }
     }
   }

@@ -31,7 +31,8 @@
             "PreLaunchCommand": "",
             "PostLaunchCommand": ""
           }
-        ]
+        ],
+        "ParentPackage": "carsonk.talker"
       }
     }
   }

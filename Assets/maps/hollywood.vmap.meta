@@ -14,20 +14,22 @@
       "Resources": null,
       "PackageReferences": [],
       "EditorReferences": [
+        "caro.bluecloudysky#27761",
+        "facepunch.concrete_cast_hs_01#28794",
+        "facepunch.roof_tile_a#18739",
+        "facepunch.rubber_a_hs#28967",
+        "frogpond.speaker#12960",
         "pouragegaming.grass004_2k#28475",
         "rustextended.terrain_grass#43376",
-        "rustextended.terrain_stones#43384",
-        "facepunch.concrete_cast_hs_01#28794",
-        "facepunch.rubber_a_hs#28967",
-        "caro.bluecloudysky#27761",
-        "facepunch.roof_tile_a#18739",
-        "frogpond.speaker#12960"
+        "rustextended.terrain_stones#43384"
       ],
+      "IsWhitelistDisabled": false,
       "Metadata": {
         "SingleAssetSource": "maps/hollywood.vmap",
         "GameSupport": [
           "facepunch.sandbox"
-        ]
+        ],
+        "ParentPackage": "carsonk.talker"
       }
     }
   }
