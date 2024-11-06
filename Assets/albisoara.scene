@@ -2,6 +2,21 @@
   "__guid": "a844fa63-859e-40f6-9efe-b3b70d98dbec",
   "GameObjects": [
     {
+      "__guid": "c55fc6aa-1979-4549-ad7c-f5dadfebb156",
+      "Flags": 0,
+      "Name": "Scene Information",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.SceneInformation",
+          "__guid": "aa8c4f33-4e31-4058-a192-e7d6354f0ec1",
+          "Description": "",
+          "SceneTags": "",
+          "Title": "albisoara"
+        }
+      ]
+    },
+    {
       "__guid": "fa6cf5ec-8ce9-4d10-890d-33d07a1afb61",
       "Flags": 0,
       "Name": "Main Camera",
@@ -58,6 +73,7 @@
         {
           "__type": "Sandbox.SkyBox2D",
           "__guid": "9c9949cf-e816-45b8-a5bc-3f70c4545937",
+          "SkyIndirectLighting": true,
           "SkyMaterial": "materials/skybox/skybox_day_01.vmat",
           "Tint": "1,1,1,1"
         }
@@ -187,7 +203,8 @@
             ]
           },
           "SmoothingAngle": 40,
-          "Static": true
+          "Static": true,
+          "SurfaceVelocity": "0,0,0"
         }
       ]
     },
@@ -772,7 +789,8 @@
             ]
           },
           "SmoothingAngle": 40,
-          "Static": true
+          "Static": true,
+          "SurfaceVelocity": "0,0,0"
         }
       ]
     },
@@ -796,6 +814,155 @@
         }
       ],
       "Children": []
+    },
+    {
+      "__guid": "e054ff6d-8ccf-43f7-aa8b-2ab09ee4d52f",
+      "Flags": 0,
+      "Name": "Player Controller",
+      "Position": "-847.3474,0.2232094,33.4426",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.PlayerController",
+          "__guid": "20715ac8-a6b4-441d-92c2-22ba1f485338",
+          "Body": {
+            "_type": "component",
+            "component_id": "9ced4e5f-f6a9-4b89-8b3a-947edb56fd65",
+            "go": "e054ff6d-8ccf-43f7-aa8b-2ab09ee4d52f",
+            "component_type": "Rigidbody"
+          },
+          "BodyHeight": 72,
+          "BodyMass": 500,
+          "BodyRadius": 16,
+          "CameraOffset": "256,0,12",
+          "DuckedHeight": 36,
+          "DuckedSpeed": 70,
+          "EnableFootstepSounds": true,
+          "EnablePressing": true,
+          "EyeDistanceFromTop": 8,
+          "FootstepMixer": {
+            "Name": "unknown",
+            "Id": "00000000-0000-0000-0000-000000000000"
+          },
+          "FootstepVolume": 1,
+          "HideBodyInFirstPerson": true,
+          "JumpSpeed": 300,
+          "ReachLength": 130,
+          "Renderer": {
+            "_type": "component",
+            "component_id": "c2a713c1-01e3-4d66-90d8-bff3e7659da7",
+            "go": "729d477c-c8c3-43df-96ca-d479ff4af065",
+            "component_type": "SkinnedModelRenderer"
+          },
+          "RotateWithGround": true,
+          "RotationAngleLimit": 45,
+          "RotationSpeed": 1,
+          "RunSpeed": 320,
+          "ShowColliderComponents": false,
+          "ShowRigidbodyComponent": false,
+          "ThirdPerson": true,
+          "ToggleCameraModeButton": "view",
+          "UseAnimatorControls": true,
+          "UseButton": "use",
+          "UseCameraControls": true,
+          "UseInputControls": true,
+          "WalkSpeed": 110
+        },
+        {
+          "__type": "Sandbox.Rigidbody",
+          "__guid": "9ced4e5f-f6a9-4b89-8b3a-947edb56fd65",
+          "AngularDamping": 1,
+          "Gravity": true,
+          "LinearDamping": 0.1,
+          "Locking": {
+            "Pitch": true,
+            "Yaw": true,
+            "Roll": true
+          },
+          "MassCenterOverride": "0,0,10.44765",
+          "MassOverride": 500,
+          "MotionEnabled": true,
+          "OverrideMassCenter": true,
+          "RigidbodyFlags": "DisableCollisionSounds",
+          "StartAsleep": false
+        },
+        {
+          "__type": "Sandbox.Movement.MoveModeWalk",
+          "__guid": "0ccef673-271e-40e8-b73e-d9595631aac0",
+          "GroundAngle": 45,
+          "Priority": 0,
+          "StepDownHeight": 18,
+          "StepUpHeight": 18
+        },
+        {
+          "__type": "Sandbox.CapsuleCollider",
+          "__guid": "9302df55-b155-42c5-9e5f-d4b0e6e09449",
+          "End": "0,0,45.05097",
+          "Friction": 0,
+          "IsTrigger": false,
+          "Radius": 11.313708,
+          "Start": "0,0,60.68629",
+          "Static": false,
+          "SurfaceVelocity": "0,0,0"
+        },
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "bb6ee81a-0031-4c95-8b4c-d6cd63e592e1",
+          "Center": "0,0,18",
+          "Friction": 0,
+          "IsTrigger": false,
+          "Scale": "16,16,36",
+          "Static": false,
+          "SurfaceVelocity": "0,0,0"
+        },
+        {
+          "__type": "Sandbox.Movement.MoveModeSwim",
+          "__guid": "62bd923b-4dda-4e1b-8d39-796db03661eb",
+          "Priority": 10,
+          "SwimLevel": 0.7
+        },
+        {
+          "__type": "Sandbox.Movement.MoveModeLadder",
+          "__guid": "cace00d8-0f18-4405-a4c2-a7ac6652c931",
+          "ClimbableTags": "ladder",
+          "Priority": 5
+        }
+      ],
+      "Children": [
+        {
+          "__guid": "729d477c-c8c3-43df-96ca-d479ff4af065",
+          "Flags": 0,
+          "Name": "Body",
+          "Position": "0,0,-1.076691",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.SkinnedModelRenderer",
+              "__guid": "c2a713c1-01e3-4d66-90d8-bff3e7659da7",
+              "BodyGroups": 341,
+              "CreateBoneObjects": false,
+              "Model": "models/citizen/citizen.vmdl",
+              "Morphs": {},
+              "Parameters": {
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "vectors": {},
+                "rotations": {}
+              },
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1",
+              "UseAnimGraph": true
+            }
+          ]
+        }
+      ]
     }
   ],
   "SceneProperties": {
@@ -803,9 +970,13 @@
     "MaxFixedUpdates": 5,
     "NetworkFrequency": 30,
     "NetworkInterpolation": true,
+    "PhysicsSubSteps": 1,
     "ThreadedAnimation": true,
     "TimeScale": 1,
     "UseFixedUpdate": true,
+    "Metadata": {
+      "Title": "albisoara"
+    },
     "NavMesh": {
       "Enabled": false,
       "IncludeStaticBodies": true,
@@ -819,14 +990,13 @@
       "IncludedBodies": ""
     }
   },
+  "ResourceVersion": 2,
   "Title": "albisoara",
-  "Description": "",
-  "ResourceVersion": 1,
+  "Description": null,
   "__references": [
     "hyperscroll.grassfloor001a#64264",
     "tiowevolve.dev_red_08#53024",
     "tiowevolve.dev_red_10#53026"
   ],
-  "IsValid": true,
-  "__version": 1
+  "__version": 2
 }
