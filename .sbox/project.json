@@ -1,17 +1,17 @@
 {
   "SceneView.Viewport0.Settings": {
     "Value": "{\u0022CameraPosition\u0022:\u0022491.8782,-2013.487,178.0365\u0022,\u0022CameraRotation\u0022:\u0022-0.1162523,0.04684838,0.9202034,0.3708318\u0022,\u0022View\u0022:0,\u0022RenderMode\u0022:0,\u0022WireframeMode\u0022:false,\u0022EnablePostProcessing\u0022:true,\u0022ShowGrid\u0022:true,\u0022GridOpacity\u0022:0.2,\u0022GridAxis\u0022:0,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1733872369,
+    "Timeout": 1733872452,
     "DeleteAt": 0
   },
   "gizmo.settings": {
-    "Value": "{\u0022EditMode\u0022:\u0022position\u0022,\u0022Selection\u0022:true,\u0022ViewMode\u0022:\u00223d\u0022,\u0022GizmosEnabled\u0022:true,\u0022GizmoScale\u0022:1,\u0022GridSpacing\u0022:32,\u0022SnapToGrid\u0022:false,\u0022SnapToAngles\u0022:true,\u0022AngleSpacing\u0022:15,\u0022GlobalSpace\u0022:false,\u0022DebugActionGraphs\u0022:false}",
-    "Timeout": 1733870893,
+    "Value": "{\u0022EditMode\u0022:\u0022position\u0022,\u0022Selection\u0022:false,\u0022ViewMode\u0022:\u00223d\u0022,\u0022GizmosEnabled\u0022:true,\u0022GizmoScale\u0022:1,\u0022GridSpacing\u0022:32,\u0022SnapToGrid\u0022:false,\u0022SnapToAngles\u0022:true,\u0022AngleSpacing\u0022:15,\u0022GlobalSpace\u0022:true,\u0022DebugActionGraphs\u0022:false}",
+    "Timeout": 1733872452,
     "DeleteAt": 0
   },
   "SceneView.Layout": {
     "Value": "{\u0022Layout\u0022:0,\u0022SplitterState\u0022:[]}",
-    "Timeout": 1733870894,
+    "Timeout": 1733872452,
     "DeleteAt": 0
   },
   "folder-metadata": {
@@ -61,7 +61,7 @@
   },
   "albisoara2.scene.Viewport0": {
     "Value": "{\u0022CameraPosition\u0022:\u0022491.8782,-2013.487,178.0365\u0022,\u0022CameraRotation\u0022:\u0022-0.1162523,0.04684838,0.9202034,0.3708318\u0022,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1733872369,
+    "Timeout": 1733872452,
     "DeleteAt": 0
   },
   "scene.lastopened": {
