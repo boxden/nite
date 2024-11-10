@@ -11,12 +11,7 @@
       "Resources": null,
       "PackageReferences": [],
       "EditorReferences": [
-        "blmndy.rrr_s90#26985",
-        "caro.bluecloudysky#27761",
-        "frogpond.speaker#12960",
-        "jodiscontent.enhanced_speaker#24257",
-        "saandy.ceiling_light03#41435",
-        "sundayservice.speaker#43172"
+        "caro.bluecloudysky#27761"
       ],
       "IsWhitelistDisabled": false,
       "Metadata": {
