@@ -13,25 +13,10 @@
       "EditorReferences": [
         "caro.sky_001#27739",
         "drakefruit.glass_blocks_001#20452",
-        "drakefruit.glass_blocks_001a#20453",
-        "eurorp.door01_right_01#12553",
-        "eurorp.monitor#9925",
-        "facepunch.decal_road_sign_dead_end_square#29226",
         "facepunch.floor_grass_dirt_weed_blend_a#18756",
         "facepunch.floor_grass_wetdirt_blend_a#18652",
-        "facepunch.glass_a_hs#70687",
-        "facepunch.glass_opaque_a#19951",
-        "facepunch.studio_light_projector#29115",
         "facepunch.wood_plank_blend_hs_01#28805",
-        "facepunch.wood_plank_hs_02#33585",
-        "fennec.night_sky_1#24390",
-        "mrlokan.vehicle#26136",
-        "polyhaven.sky_kloofendal_38d_partly_cloudy#25710",
-        "saandy.glass02_hs#17240",
-        "semxy.bluecloudskybox#24832",
-        "sundayservice.woodpanelwall_03#27386",
-        "titanovsky.h_house_dec#11835",
-        "wujekfoliarz.sl_skybox3#34512"
+        "saandy.glass02_hs#17240"
       ],
       "IsWhitelistDisabled": false,
       "Metadata": {
