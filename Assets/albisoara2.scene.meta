@@ -1,0 +1,21 @@
+{
+  "publish": {
+    "Enabled": true,
+    "ProjectConfig": {
+      "Title": "Albisoara 2 Scene Test",
+      "Type": "map",
+      "Org": "nite",
+      "Ident": "albisoara2",
+      "Schema": 0,
+      "IncludeSourceFiles": true,
+      "Resources": null,
+      "PackageReferences": [],
+      "EditorReferences": null,
+      "IsWhitelistDisabled": false,
+      "Metadata": {
+        "SingleAssetSource": "albisoara2.scene",
+        "ParentPackage": "carsonk.talker"
+      }
+    }
+  }
+}
