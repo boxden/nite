@@ -5,7 +5,8 @@
       "__guid": "650bdf82-953a-4b3d-8adb-4976e363d9b9",
       "Flags": 0,
       "Name": "Main Camera",
-      "Position": "-300,0,100",
+      "Position": "321.3652,-1726.943,100",
+      "Rotation": "0.1305262,-0.00000002541439,-0.9914449,0.0000001930414",
       "Enabled": true,
       "Components": [
         {
@@ -71,7 +72,8 @@
       "__guid": "9676df35-c7aa-4275-9f82-3b4c514bc6b1",
       "Flags": 0,
       "Name": "Player",
-      "Position": "157.4696,-1269.652,5.6945",
+      "Position": "157.4696,-1712.594,5.6945",
+      "Rotation": "0,0,-0.7071067,0.7071068",
       "Enabled": true,
       "Components": [
         {
@@ -112,7 +114,7 @@
           "RunSpeed": 320,
           "ShowColliderComponents": false,
           "ShowRigidbodyComponent": false,
-          "ThirdPerson": true,
+          "ThirdPerson": false,
           "ToggleCameraModeButton": "view",
           "UseAnimatorControls": true,
           "UseButton": "use",
@@ -217,429 +219,359 @@
       ]
     },
     {
-      "__guid": "f797d34c-5a61-4c53-90de-a12fd2760944",
+      "__guid": "8c2f9fde-d9a1-4a3f-9786-1752e32bf95b",
       "Flags": 0,
-      "Name": "concrete_barrier",
-      "Position": "180.8805,-1846.556,-0.3847752",
-      "Rotation": "0.0002700361,-0.0001940602,-0.7019277,0.7122482",
+      "Name": "Park",
+      "Position": "83.46233,-1841.646,21.50396",
       "Enabled": true,
-      "Components": [
+      "Children": [
         {
-          "__type": "Sandbox.Prop",
-          "__guid": "5d2de124-c580-4e2d-9f1e-f809f6729656",
-          "BodyGroups": 18446744073709551615,
-          "Health": 2000,
-          "IsStatic": false,
-          "Model": "models/sbox_props/concrete_barrier/concrete_barrier.vmdl",
-          "StartAsleep": false,
-          "Tint": "1,1,1,1"
-        }
-      ]
-    },
-    {
-      "__guid": "2461ae70-4a39-4746-b4bb-d23ea1882253",
-      "Flags": 0,
-      "Name": "concrete_barrier (1)",
-      "Position": "175.4786,-1747.503,-0.4004211",
-      "Rotation": "0.00001660897,-0.00002003405,-0.6873369,0.7263388",
-      "Enabled": true,
-      "Components": [
+          "__guid": "fd53794d-bade-4500-8d7e-bb40420f3537",
+          "Flags": 0,
+          "Name": "oldradio",
+          "Position": "30.07872,-22.63501,-3.082962",
+          "Rotation": "-0.001059435,-0.01202269,0.1737977,0.9847074",
+          "Scale": "0.5041785,0.5041785,0.5041785",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.Prop",
+              "__guid": "2b4dff03-dc6a-44f3-a745-fdd29a8d7749",
+              "BodyGroups": 18446744073709551615,
+              "Health": 0,
+              "IsStatic": true,
+              "Model": "models/oldradio/oldradio.vmdl",
+              "StartAsleep": false,
+              "Tint": "1,1,1,1"
+            }
+          ],
+          "Children": [
+            {
+              "__guid": "ff2211fd-6976-48af-9f4f-d55bdc51dee3",
+              "Flags": 0,
+              "Name": "music",
+              "Position": "14.5331,-0.1099854,10.88263",
+              "Enabled": true,
+              "Components": [
+                {
+                  "__type": "Sandbox.SoundPointComponent",
+                  "__guid": "7cfd0b0e-4f79-4919-8672-3695f84590de",
+                  "Distance": 1000,
+                  "DistanceAttenuation": true,
+                  "DistanceAttenuationOverride": true,
+                  "Falloff": [
+                    {
+                      "y": 1,
+                      "in": 3.1415927,
+                      "out": -3.1415927
+                    },
+                    {
+                      "x": 1
+                    }
+                  ],
+                  "Force2d": false,
+                  "MaxRepeatTime": 1,
+                  "MinRepeatTime": 1,
+                  "Occlusion": false,
+                  "OcclusionOverride": false,
+                  "OcclusionRadius": 32,
+                  "Pitch": 1,
+                  "PlayOnStart": true,
+                  "ReflectionOverride": false,
+                  "Reflections": false,
+                  "Repeat": false,
+                  "SoundEvent": "sounds/music/radio/360462552.sound",
+                  "SoundOverride": false,
+                  "StopOnNew": false,
+                  "TargetMixer": {
+                    "Name": "game",
+                    "Id": "45365a80-9160-405a-b53b-eda0bbf3329d"
+                  },
+                  "Volume": 1
+                }
+              ]
+            }
+          ]
+        },
         {
-          "__type": "Sandbox.Prop",
-          "__guid": "dec6786c-ae15-4759-b431-ed99ca16de95",
-          "BodyGroups": 18446744073709551615,
-          "Health": 2000,
-          "IsStatic": false,
-          "Model": "models/sbox_props/concrete_barrier/concrete_barrier.vmdl",
-          "StartAsleep": false,
-          "Tint": "1,1,1,1"
-        }
-      ]
-    },
-    {
-      "__guid": "dfd3d579-a633-436b-8aad-5c3ee2c476f8",
-      "Flags": 0,
-      "Name": "concrete_barrier (2)",
-      "Position": "172.4741,-1647.598,-0.4011765",
-      "Rotation": "0.0000006544258,-0.0000005398952,-0.7124599,0.7017128",
-      "Enabled": true,
-      "Components": [
+          "__guid": "5cde5009-f7c6-4c2f-a549-e38ed68d547b",
+          "Flags": 0,
+          "Name": "leaves_scatter_pile_a5",
+          "Position": "55.96442,-77.95532,-22.13151",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "58f1185f-f12b-4ebc-a9d6-d4355ad08a4d",
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "Model": "models/sbox_props/leaves_scatter/leaves_scatter_pile_a5.vmdl",
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
         {
-          "__type": "Sandbox.Prop",
-          "__guid": "dce187ec-9b12-48d2-ac25-33eea135aae5",
-          "BodyGroups": 18446744073709551615,
-          "Health": 2000,
-          "IsStatic": false,
-          "Model": "models/sbox_props/concrete_barrier/concrete_barrier.vmdl",
-          "StartAsleep": false,
-          "Tint": "1,1,1,1"
-        }
-      ]
-    },
-    {
-      "__guid": "6aca938b-9414-4e4a-8850-c07301d47cf0",
-      "Flags": 0,
-      "Name": "concrete_barrier (3)",
-      "Position": "174.2037,-1547.929,-0.3939438",
-      "Rotation": "-0.0002083775,0.0002153027,-0.7183493,0.6956825",
-      "Enabled": true,
-      "Components": [
+          "__guid": "e01a38f4-344f-410f-a332-30ee69562eaa",
+          "Flags": 0,
+          "Name": "park_bin",
+          "Position": "28.10722,-52.07825,-21.90231",
+          "Rotation": "-0.0007635487,-0.0008361098,-0.008624566,0.9999622",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.Prop",
+              "__guid": "58b375c9-13b7-4ffe-a9a1-957e32b78a12",
+              "BodyGroups": 18446744073709551615,
+              "Health": 100,
+              "IsStatic": false,
+              "Model": "models/sbox_props/park_bin/park_bin.vmdl",
+              "StartAsleep": false,
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
         {
-          "__type": "Sandbox.Prop",
-          "__guid": "0242b8d7-aabc-4caf-869d-f216f878bfdc",
-          "BodyGroups": 18446744073709551615,
-          "Health": 2000,
-          "IsStatic": false,
-          "Model": "models/sbox_props/concrete_barrier/concrete_barrier.vmdl",
-          "StartAsleep": false,
-          "Tint": "1,1,1,1"
-        }
-      ]
-    },
-    {
-      "__guid": "bc3fdbec-d37b-4145-a0f6-fa91d168af69",
-      "Flags": 0,
-      "Name": "concrete_barrier (4)",
-      "Position": "176.6268,-1447.554,-0.401166",
-      "Rotation": "0.000001037965,-0.0000008697967,-0.688148,0.7255704",
-      "Enabled": true,
-      "Components": [
+          "__guid": "cfe2fb1f-fa6e-47a4-9371-9ef6a09ff983",
+          "Flags": 0,
+          "Name": "old_bench",
+          "Position": "28.36571,5.02002,-21.85178",
+          "Rotation": "0.0002235552,0.0002395577,-0.7306762,-0.6827242",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.Prop",
+              "__guid": "549344f8-e9a9-4566-a0bc-af86ba1a089a",
+              "BodyGroups": 18446744073709551615,
+              "Health": 200,
+              "IsStatic": false,
+              "Model": "models/sbox_props/benches/old_bench.vmdl",
+              "StartAsleep": false,
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
         {
-          "__type": "Sandbox.Prop",
-          "__guid": "9fec446e-efab-4651-9b17-eb1a437753f2",
-          "BodyGroups": 18446744073709551615,
-          "Health": 2000,
-          "IsStatic": false,
-          "Model": "models/sbox_props/concrete_barrier/concrete_barrier.vmdl",
-          "StartAsleep": false,
-          "Tint": "1,1,1,1"
-        }
-      ]
-    },
-    {
-      "__guid": "d9378649-64e4-4816-b285-21ddc447bb28",
-      "Flags": 0,
-      "Name": "leaves_scatter_pile_a1",
-      "Position": "34.82121,-1780.743,-0.4662454",
-      "Enabled": true,
-      "Components": [
+          "__guid": "c5f447e7-2cde-4563-a650-2b86c1ee75f2",
+          "Flags": 0,
+          "Name": "cola_can_gib",
+          "Position": "-7.554718,17.05994,10.32235",
+          "Rotation": "0.05435778,-0.2182774,0.1509349,0.9626105",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.Prop",
+              "__guid": "6c5d2f2c-2cb2-45bc-b4e7-a2a8242eb467",
+              "BodyGroups": 18446744073709551615,
+              "Health": 0,
+              "IsStatic": false,
+              "Model": "models/sbox_props/cola_can/cola_can_gib.vmdl",
+              "StartAsleep": false,
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
         {
-          "__type": "Sandbox.ModelRenderer",
-          "__guid": "40886e8b-c232-45d0-baca-6c08ae572760",
-          "BodyGroups": 18446744073709551615,
-          "CreateAttachments": false,
-          "Model": "models/sbox_props/leaves_scatter/leaves_scatter_pile_a1.vmdl",
-          "RenderOptions": {
-            "GameLayer": true,
-            "OverlayLayer": false,
-            "BloomLayer": false,
-            "AfterUILayer": false
-          },
-          "RenderType": "On",
-          "Tint": "1,1,1,1"
-        }
-      ]
-    },
-    {
-      "__guid": "e7ce9e73-d8e6-4d4d-86ed-93bdab24d266",
-      "Flags": 0,
-      "Name": "leaves_scatter_pile_a4",
-      "Position": "90.23985,-1680.542,-0.3407585",
-      "Enabled": true,
-      "Components": [
+          "__guid": "fddaf6b8-55eb-4d29-9ee9-30adcd1b7482",
+          "Flags": 0,
+          "Name": "leaves_scatter_pile_a6",
+          "Position": "38.58055,80.09631,-22.18799",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "8f631a1a-da96-416a-8b64-7b22a9eff662",
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "Model": "models/sbox_props/leaves_scatter/leaves_scatter_pile_a6.vmdl",
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
         {
-          "__type": "Sandbox.ModelRenderer",
-          "__guid": "902c3d85-d770-4d41-a29e-9d5957880a44",
-          "BodyGroups": 18446744073709551615,
-          "CreateAttachments": false,
-          "Model": "models/sbox_props/leaves_scatter/leaves_scatter_pile_a4.vmdl",
-          "RenderOptions": {
-            "GameLayer": true,
-            "OverlayLayer": false,
-            "BloomLayer": false,
-            "AfterUILayer": false
-          },
-          "RenderType": "On",
-          "Tint": "1,1,1,1"
-        }
-      ]
-    },
-    {
-      "__guid": "be0fd005-b8ae-48d8-b034-e8dc33b3ce28",
-      "Flags": 0,
-      "Name": "leaves_scatter_pile_a2",
-      "Position": "74.66195,-1857.991,-0.3732491",
-      "Enabled": true,
-      "Components": [
+          "__guid": "e7ce9e73-d8e6-4d4d-86ed-93bdab24d266",
+          "Flags": 0,
+          "Name": "leaves_scatter_pile_a4",
+          "Position": "52.02482,49.68689,-21.86826",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "902c3d85-d770-4d41-a29e-9d5957880a44",
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "Model": "models/sbox_props/leaves_scatter/leaves_scatter_pile_a4.vmdl",
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
         {
-          "__type": "Sandbox.ModelRenderer",
-          "__guid": "f6797ebc-5ddd-4c7e-a598-51efc1e559bd",
-          "BodyGroups": 18446744073709551615,
-          "CreateAttachments": false,
-          "Model": "models/sbox_props/leaves_scatter/leaves_scatter_pile_a2.vmdl",
-          "RenderOptions": {
-            "GameLayer": true,
-            "OverlayLayer": false,
-            "BloomLayer": false,
-            "AfterUILayer": false
-          },
-          "RenderType": "On",
-          "Tint": "1,1,1,1"
-        }
-      ]
-    },
-    {
-      "__guid": "fddaf6b8-55eb-4d29-9ee9-30adcd1b7482",
-      "Flags": 0,
-      "Name": "leaves_scatter_pile_a6",
-      "Position": "-28.88124,-1728.215,-0.340728",
-      "Enabled": true,
-      "Components": [
+          "__guid": "be0fd005-b8ae-48d8-b034-e8dc33b3ce28",
+          "Flags": 0,
+          "Name": "leaves_scatter_pile_a2",
+          "Position": "69.71995,-16.34497,-22.01943",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "f6797ebc-5ddd-4c7e-a598-51efc1e559bd",
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "Model": "models/sbox_props/leaves_scatter/leaves_scatter_pile_a2.vmdl",
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
         {
-          "__type": "Sandbox.ModelRenderer",
-          "__guid": "8f631a1a-da96-416a-8b64-7b22a9eff662",
-          "BodyGroups": 18446744073709551615,
-          "CreateAttachments": false,
-          "Model": "models/sbox_props/leaves_scatter/leaves_scatter_pile_a6.vmdl",
-          "RenderOptions": {
-            "GameLayer": true,
-            "OverlayLayer": false,
-            "BloomLayer": false,
-            "AfterUILayer": false
-          },
-          "RenderType": "On",
-          "Tint": "1,1,1,1"
-        }
-      ]
-    },
-    {
-      "__guid": "c5f447e7-2cde-4563-a650-2b86c1ee75f2",
-      "Flags": 0,
-      "Name": "cola_can_gib",
-      "Position": "180.5396,-1824.586,31.82631",
-      "Rotation": "0.05435778,-0.2182774,0.1509349,0.9626105",
-      "Enabled": true,
-      "Components": [
+          "__guid": "bc3fdbec-d37b-4145-a0f6-fa91d168af69",
+          "Flags": 0,
+          "Name": "concrete_barrier (4)",
+          "Position": "-11.46751,394.092,-21.90513",
+          "Rotation": "0.000001037965,-0.0000008697967,-0.688148,0.7255704",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.Prop",
+              "__guid": "9fec446e-efab-4651-9b17-eb1a437753f2",
+              "BodyGroups": 18446744073709551615,
+              "Health": 2000,
+              "IsStatic": false,
+              "Model": "models/sbox_props/concrete_barrier/concrete_barrier.vmdl",
+              "StartAsleep": false,
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
         {
-          "__type": "Sandbox.Prop",
-          "__guid": "6c5d2f2c-2cb2-45bc-b4e7-a2a8242eb467",
-          "BodyGroups": 18446744073709551615,
-          "Health": 0,
-          "IsStatic": false,
-          "Model": "models/sbox_props/cola_can/cola_can_gib.vmdl",
-          "StartAsleep": false,
-          "Tint": "1,1,1,1"
-        }
-      ]
-    },
-    {
-      "__guid": "cfe2fb1f-fa6e-47a4-9371-9ef6a09ff983",
-      "Flags": 0,
-      "Name": "old_bench",
-      "Position": "216.4149,-1836.626,-0.06346512",
-      "Rotation": "0.008076007,0.008611091,-0.7306244,-0.6826776",
-      "Enabled": true,
-      "Components": [
+          "__guid": "6aca938b-9414-4e4a-8850-c07301d47cf0",
+          "Flags": 0,
+          "Name": "concrete_barrier (3)",
+          "Position": "-13.89061,293.717,-21.8979",
+          "Rotation": "-0.0002083775,0.0002153027,-0.7183493,0.6956825",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.Prop",
+              "__guid": "0242b8d7-aabc-4caf-869d-f216f878bfdc",
+              "BodyGroups": 18446744073709551615,
+              "Health": 2000,
+              "IsStatic": false,
+              "Model": "models/sbox_props/concrete_barrier/concrete_barrier.vmdl",
+              "StartAsleep": false,
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
         {
-          "__type": "Sandbox.Prop",
-          "__guid": "549344f8-e9a9-4566-a0bc-af86ba1a089a",
-          "BodyGroups": 18446744073709551615,
-          "Health": 200,
-          "IsStatic": false,
-          "Model": "models/sbox_props/benches/old_bench.vmdl",
-          "StartAsleep": false,
-          "Tint": "1,1,1,1"
-        }
-      ]
-    },
-    {
-      "__guid": "5cde5009-f7c6-4c2f-a549-e38ed68d547b",
-      "Flags": 0,
-      "Name": "leaves_scatter_pile_a5",
-      "Position": "127.6515,-1810.208,-0.1934772",
-      "Enabled": true,
-      "Components": [
+          "__guid": "dfd3d579-a633-436b-8aad-5c3ee2c476f8",
+          "Flags": 0,
+          "Name": "concrete_barrier (2)",
+          "Position": "-15.62021,194.048,-21.90514",
+          "Rotation": "0.0000006544258,-0.0000005398952,-0.7124599,0.7017128",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.Prop",
+              "__guid": "dce187ec-9b12-48d2-ac25-33eea135aae5",
+              "BodyGroups": 18446744073709551615,
+              "Health": 2000,
+              "IsStatic": false,
+              "Model": "models/sbox_props/concrete_barrier/concrete_barrier.vmdl",
+              "StartAsleep": false,
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
         {
-          "__type": "Sandbox.ModelRenderer",
-          "__guid": "58f1185f-f12b-4ebc-a9d6-d4355ad08a4d",
-          "BodyGroups": 18446744073709551615,
-          "CreateAttachments": false,
-          "Model": "models/sbox_props/leaves_scatter/leaves_scatter_pile_a5.vmdl",
-          "RenderOptions": {
-            "GameLayer": true,
-            "OverlayLayer": false,
-            "BloomLayer": false,
-            "AfterUILayer": false
-          },
-          "RenderType": "On",
-          "Tint": "1,1,1,1"
-        }
-      ]
-    },
-    {
-      "__guid": "e01a38f4-344f-410f-a332-30ee69562eaa",
-      "Flags": 0,
-      "Name": "park_bin",
-      "Position": "216.1817,-1893.768,0.1233768",
-      "Rotation": "-0.00003427127,-0.0009695501,-0.008622709,0.9999624",
-      "Enabled": true,
-      "Components": [
+          "__guid": "d9378649-64e4-4816-b285-21ddc447bb28",
+          "Flags": 0,
+          "Name": "leaves_scatter_pile_a1",
+          "Position": "98.44193,60.90295,-21.48804",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "40886e8b-c232-45d0-baca-6c08ae572760",
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "Model": "models/sbox_props/leaves_scatter/leaves_scatter_pile_a1.vmdl",
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
         {
-          "__type": "Sandbox.Prop",
-          "__guid": "58b375c9-13b7-4ffe-a9a1-957e32b78a12",
-          "BodyGroups": 18446744073709551615,
-          "Health": 100,
-          "IsStatic": false,
-          "Model": "models/sbox_props/park_bin/park_bin.vmdl",
-          "StartAsleep": false,
-          "Tint": "1,1,1,1"
-        }
-      ]
-    },
-    {
-      "__guid": "15319ec7-f622-47ca-b8e0-155d94d11543",
-      "Flags": 0,
-      "Name": "Box",
-      "Position": "407.7367,-1735.862,29.80861",
-      "Enabled": true,
-      "Components": [
+          "__guid": "f797d34c-5a61-4c53-90de-a12fd2760944",
+          "Flags": 0,
+          "Name": "concrete_barrier",
+          "Position": "-7.213821,-4.910034,-21.88873",
+          "Rotation": "0.0002700361,-0.0001940602,-0.7019277,0.7122482",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.Prop",
+              "__guid": "5d2de124-c580-4e2d-9f1e-f809f6729656",
+              "BodyGroups": 18446744073709551615,
+              "Health": 2000,
+              "IsStatic": false,
+              "Model": "models/sbox_props/concrete_barrier/concrete_barrier.vmdl",
+              "StartAsleep": false,
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
         {
-          "__type": "Sandbox.MeshComponent",
-          "__guid": "241c8f6a-7cd4-431b-b458-45fd8b132ef9",
-          "Collision": "Mesh",
-          "Color": "1,1,1,1",
-          "HideInGame": false,
-          "IsTrigger": false,
-          "Mesh": {
-            "Topology": "H4sIAAAAAAAACs2RyQqAMBBD68EVBQUF9///S82D9CI99GgglHaSWTpdCOEWaxHM4vNBr7dR3MVVLMxTrOwDk1gm/H8Dsw6eiTszMOOS2X\u002Bc9bCWfOQiZ46fetSiJnf\u002Bkn/nzPE30mzeB7la7\u002BWyl/7oDRBHjxYPcfRo8RCPu0ztPoJ\u002B0byWziAmMAIAAA==",
-            "Positions": [
-              "-78.72809,-0.000003814697,29.80582",
-              "78.72809,-0.000003814697,29.80582",
-              "78.72809,59.58289,29.80582",
-              "-78.72809,59.58289,29.80582",
-              "-78.72809,59.58289,-29.80582",
-              "78.72809,59.58289,-29.80582",
-              "78.72809,-0.000003814697,-29.80582",
-              "-78.72809,-0.000003814697,-29.80582",
-              "-78.72809,158.0066,29.80582",
-              "78.72809,158.0066,29.80582"
-            ],
-            "TextureCoord": [
-              "3.800506,13.56142",
-              "2.57038,-0.4657378",
-              "0.6150632,-0.4654913",
-              "-0.4654913,-0.232858",
-              "-0.6150632,-0.4654913",
-              "-0.6150632,-0.232858",
-              "-0.6150632,0.4654913",
-              "-0.4654913,-0.232858",
-              "0.6150632,-0.4654913",
-              "0.6150632,0.232858",
-              "0.6150632,0.4654913",
-              "0.4654913,0.232858",
-              "-0.6150632,0.4654913",
-              "3.800506,-0.0000218004",
-              "-0.6150632,-0.4654913",
-              "0.4654913,0.232858",
-              "0.4654913,-0.232858",
-              "2.57038,-0.0000218004",
-              "-0.4654913,0.232858",
-              "0.6150632,-0.232858",
-              "-0.4654913,0.232858",
-              "3.800506,-0.4657378",
-              "0.4654913,-0.232858",
-              "-0.6150632,0.232858",
-              "2.57038,12.32699",
-              "0,0",
-              "2.57038,13.56142",
-              "0,0",
-              "3.800506,12.32699",
-              "0,0"
-            ],
-            "TextureUAxis": [
-              "1,0,0",
-              "1,0,-0",
-              "0,-1,0",
-              "0,1,0",
-              "-1,0,0",
-              "1,0,0",
-              "1,0,0"
-            ],
-            "TextureVAxis": [
-              "0,-1,0",
-              "0,-1,0",
-              "0,0,-1",
-              "-0,0,-1",
-              "0,0,-1",
-              "0,0,-1",
-              "0,-1,0"
-            ],
-            "TextureScale": [
-              "0.25,0.25",
-              "0.25,0.25",
-              "0.25,0.25",
-              "0.25,0.25",
-              "0.25,0.25",
-              "0.25,0.25",
-              "0.25,0.25"
-            ],
-            "TextureOffset": [
-              "417.0532,462.8843",
-              "417.0532,462.8843",
-              "462.8843,119.2344",
-              "49.11572,119.2344",
-              "94.94678,119.2344",
-              "0,0",
-              "0,0"
-            ],
-            "MaterialIndex": [
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
-            ],
-            "EdgeFlags": [
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
-            ],
-            "Materials": [
-              "materials/dev/reflectivity_30.vmat"
-            ]
-          },
-          "SmoothingAngle": 40,
-          "Static": true,
-          "SurfaceVelocity": "0,0,0"
+          "__guid": "2461ae70-4a39-4746-b4bb-d23ea1882253",
+          "Flags": 0,
+          "Name": "concrete_barrier (1)",
+          "Position": "-12.61571,94.14294,-21.90438",
+          "Rotation": "0.00001660897,-0.00002003405,-0.6873369,0.7263388",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.Prop",
+              "__guid": "dec6786c-ae15-4759-b431-ed99ca16de95",
+              "BodyGroups": 18446744073709551615,
+              "Health": 2000,
+              "IsStatic": false,
+              "Model": "models/sbox_props/concrete_barrier/concrete_barrier.vmdl",
+              "StartAsleep": false,
+              "Tint": "1,1,1,1"
+            }
+          ]
         }
       ]
     }
@@ -671,6 +603,7 @@
   "Title": null,
   "Description": null,
   "__references": [
+    "baik.oldradio#31087",
     "facepunch.cola_can_gib#33597",
     "facepunch.concrete_barrier#33663",
     "facepunch.leaves_pile_a1#56176",
