@@ -1,7 +1,7 @@
 {
   "SceneView.Viewport0.Settings": {
-    "Value": "{\u0022CameraPosition\u0022:\u0022160.254,-1891.283,37.99998\u0022,\u0022CameraRotation\u0022:\u0022-0.09954856,0.07473822,0.7934836,0.5957248\u0022,\u0022View\u0022:0,\u0022RenderMode\u0022:0,\u0022WireframeMode\u0022:false,\u0022EnablePostProcessing\u0022:true,\u0022ShowGrid\u0022:true,\u0022GridOpacity\u0022:0.2,\u0022GridAxis\u0022:0,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1733968589,
+    "Value": "{\u0022CameraPosition\u0022:\u0022273.1283,-1873.177,69.2104\u0022,\u0022CameraRotation\u0022:\u0022-0.1546697,0.02352446,0.9764566,0.1485141\u0022,\u0022View\u0022:0,\u0022RenderMode\u0022:0,\u0022WireframeMode\u0022:false,\u0022EnablePostProcessing\u0022:true,\u0022ShowGrid\u0022:true,\u0022GridOpacity\u0022:0.2,\u0022GridAxis\u0022:0,\u0022CameraOrthoHeight\u0022:1000}",
+    "Timeout": 1733968710,
     "DeleteAt": 0
   },
   "gizmo.settings": {
@@ -60,8 +60,8 @@
     "DeleteAt": 0
   },
   "albisoara2.scene.Viewport0": {
-    "Value": "{\u0022CameraPosition\u0022:\u0022160.254,-1891.283,37.99998\u0022,\u0022CameraRotation\u0022:\u0022-0.09954856,0.07473822,0.7934836,0.5957248\u0022,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1733968589,
+    "Value": "{\u0022CameraPosition\u0022:\u0022273.1283,-1873.177,69.2104\u0022,\u0022CameraRotation\u0022:\u0022-0.1546697,0.02352446,0.9764566,0.1485141\u0022,\u0022CameraOrthoHeight\u0022:1000}",
+    "Timeout": 1733968710,
     "DeleteAt": 0
   },
   "scene.lastopened": {
