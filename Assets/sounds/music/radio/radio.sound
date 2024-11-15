@@ -12,23 +12,26 @@
   "Transmission": true,
   "OcclusionRadius": 64,
   "DistanceAttenuation": true,
-  "Distance": 1500,
+  "Distance": 15000,
   "Falloff": [
     {
       "y": 1,
-      "in": 1.189873,
-      "out": -1.189873
+      "out": -1.8
     },
     {
-      "x": 0.26339287,
-      "y": 0.45133615,
-      "in": 1.1380948,
-      "out": -1.1380948
+      "x": 0.05,
+      "y": 0.22,
+      "in": 3.5,
+      "out": -3.5
     },
     {
-      "x": 1,
-      "in": 0.06926419,
-      "out": -0.06926419
+      "x": 0.2,
+      "y": 0.04,
+      "in": 0.16,
+      "out": -0.16
+    },
+    {
+      "x": 1
     }
   ],
   "__references": [],
