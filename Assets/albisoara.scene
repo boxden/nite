@@ -344,7 +344,7 @@
             "Yaw": true,
             "Roll": true
           },
-          "MassCenterOverride": "0,0,0",
+          "MassCenterOverride": "0,0,36",
           "MassOverride": 500,
           "MotionEnabled": true,
           "OverrideMassCenter": true,
@@ -374,7 +374,7 @@
           "__type": "Sandbox.BoxCollider",
           "__guid": "f0f50f1d-7ec9-4560-8def-880a83e23cf4",
           "Center": "0,0,18",
-          "Friction": 10,
+          "Friction": 0,
           "IsTrigger": false,
           "Scale": "16,16,36",
           "Static": false,
@@ -422,6 +422,9 @@
                 "AfterUILayer": false
               },
               "RenderType": "On",
+              "Sequence": {
+                "Name": null
+              },
               "Tint": "1,1,1,1",
               "UseAnimGraph": true
             }
@@ -464,5 +467,6 @@
     "facepunch.old_bench#33586",
     "facepunch.park_bin#33623"
   ],
+  "HasUnsavedChanges": false,
   "__version": 2
 }
