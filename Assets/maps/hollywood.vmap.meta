@@ -16,10 +16,9 @@
       "EditorReferences": [
         "caro.bluecloudysky#27761",
         "facepunch.concrete_cast_hs_01#28794",
-        "facepunch.roof_tile_a#18739",
+        "facepunch.floor_grass_dirt_weed_blend_a#18756",
         "facepunch.rubber_a_hs#28967",
-        "rustextended.terrain_grass#43376",
-        "rustextended.terrain_stones#43384"
+        "titanovsky.ground14_2k#54649"
       ],
       "IsWhitelistDisabled": false,
       "Metadata": {

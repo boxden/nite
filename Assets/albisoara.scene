@@ -79,7 +79,7 @@
           "__guid": "e01a38f4-344f-410f-a332-30ee69562eaa",
           "Flags": 0,
           "Name": "park_bin",
-          "Position": "29.15142,-51.70593,-21.90108",
+          "Position": "29.15142,-52.0614,-21.90108",
           "Rotation": "-0.0008563094,-0.0008378074,-0.008624764,0.9999621",
           "Scale": "0.8945505,0.8945505,0.8945505",
           "Enabled": true,
@@ -265,7 +265,6 @@
       "Flags": 0,
       "Name": "Volumetric Fog",
       "Position": "2595.718,-1811.916,-110.9619",
-      "Enabled": true,
       "Components": [
         {
           "__type": "Sandbox.VolumetricFogVolume",
@@ -280,20 +279,19 @@
       ]
     },
     {
-      "__guid": "ceb2ff63-fa99-43b1-9ac5-0f080f8f6872",
+      "__guid": "bbb92922-e122-43c4-8fd8-29175b6b9d61",
       "Flags": 0,
       "Name": "Player Controller",
-      "Position": "154.5962,-1828.218,-0.4182618",
-      "Rotation": "0,0,-0.9999999,0.0000001490116",
+      "Position": "-1070.552,-1787.49,11.39352",
       "Enabled": true,
       "Components": [
         {
           "__type": "Sandbox.PlayerController",
-          "__guid": "ae683c51-8023-4866-9bc4-6d38966eff11",
+          "__guid": "e2a75f98-3f75-4c6e-87a7-54eeabbf4f0e",
           "Body": {
             "_type": "component",
-            "component_id": "bbaad1ce-9ab3-47eb-b904-e52dfb8a8f63",
-            "go": "ceb2ff63-fa99-43b1-9ac5-0f080f8f6872",
+            "component_id": "dd1fc8d0-51ed-4276-a055-fd138dec42c9",
+            "go": "bbb92922-e122-43c4-8fd8-29175b6b9d61",
             "component_type": "Rigidbody"
           },
           "BodyHeight": 72,
@@ -304,7 +302,7 @@
           "DuckedSpeed": 70,
           "EnableFootstepSounds": true,
           "EnablePressing": true,
-          "EyeDistanceFromTop": -18,
+          "EyeDistanceFromTop": 8,
           "FootstepMixer": {
             "Name": "unknown",
             "Id": "00000000-0000-0000-0000-000000000000"
@@ -315,17 +313,17 @@
           "ReachLength": 130,
           "Renderer": {
             "_type": "component",
-            "component_id": "e4ccae42-9063-46e4-9f62-2e06760a3683",
-            "go": "982ff2b5-f786-4e23-a42c-e2e6effad45b",
+            "component_id": "9b0d6f70-214d-4650-b013-9f4364b5fb12",
+            "go": "4ecd9192-c8c6-4dee-9a15-09565b11ef90",
             "component_type": "SkinnedModelRenderer"
           },
           "RotateWithGround": true,
           "RotationAngleLimit": 45,
           "RotationSpeed": 1,
           "RunSpeed": 320,
-          "ShowColliderComponents": true,
-          "ShowRigidbodyComponent": true,
-          "ThirdPerson": false,
+          "ShowColliderComponents": false,
+          "ShowRigidbodyComponent": false,
+          "ThirdPerson": true,
           "ToggleCameraModeButton": "view",
           "UseAnimatorControls": true,
           "UseButton": "use",
@@ -335,7 +333,7 @@
         },
         {
           "__type": "Sandbox.Rigidbody",
-          "__guid": "bbaad1ce-9ab3-47eb-b904-e52dfb8a8f63",
+          "__guid": "dd1fc8d0-51ed-4276-a055-fd138dec42c9",
           "AngularDamping": 1,
           "Gravity": true,
           "LinearDamping": 0.1,
@@ -353,7 +351,7 @@
         },
         {
           "__type": "Sandbox.Movement.MoveModeWalk",
-          "__guid": "29e889d5-932b-4d06-808a-1034cbd7f0c0",
+          "__guid": "38423834-9d7d-4e8b-836c-873bda884d71",
           "GroundAngle": 45,
           "Priority": 0,
           "StepDownHeight": 18,
@@ -361,7 +359,7 @@
         },
         {
           "__type": "Sandbox.CapsuleCollider",
-          "__guid": "85c41a63-d63e-4aea-a8a0-7829dc38e6cd",
+          "__guid": "88da3839-6c88-4f51-a383-4ad479790659",
           "End": "0,0,45.05097",
           "Friction": 0,
           "IsTrigger": false,
@@ -372,7 +370,7 @@
         },
         {
           "__type": "Sandbox.BoxCollider",
-          "__guid": "f0f50f1d-7ec9-4560-8def-880a83e23cf4",
+          "__guid": "0de7cdd9-f530-4c2e-9f34-71b32a49292f",
           "Center": "0,0,18",
           "Friction": 0,
           "IsTrigger": false,
@@ -382,27 +380,27 @@
         },
         {
           "__type": "Sandbox.Movement.MoveModeSwim",
-          "__guid": "285ea2da-0ca9-4b2f-8640-34d1411ee0ac",
+          "__guid": "9f2a48f7-1e91-40bf-83a6-ce1c76c68d49",
           "Priority": 10,
           "SwimLevel": 0.7
         },
         {
           "__type": "Sandbox.Movement.MoveModeLadder",
-          "__guid": "97ca9e41-b9fc-430c-9dd1-b3510e45879a",
+          "__guid": "1b42ee93-45b9-4c8a-9d25-827508461187",
           "ClimbableTags": "ladder",
           "Priority": 5
         }
       ],
       "Children": [
         {
-          "__guid": "982ff2b5-f786-4e23-a42c-e2e6effad45b",
+          "__guid": "4ecd9192-c8c6-4dee-9a15-09565b11ef90",
           "Flags": 0,
           "Name": "Body",
           "Enabled": true,
           "Components": [
             {
               "__type": "Sandbox.SkinnedModelRenderer",
-              "__guid": "e4ccae42-9063-46e4-9f62-2e06760a3683",
+              "__guid": "9b0d6f70-214d-4650-b013-9f4364b5fb12",
               "BodyGroups": 341,
               "CreateAttachments": false,
               "CreateBoneObjects": false,
@@ -429,6 +427,135 @@
               "UseAnimGraph": true
             }
           ]
+        }
+      ]
+    },
+    {
+      "__guid": "cdf586e0-be7b-4cfa-9dae-7eed8bbe735c",
+      "Flags": 0,
+      "Name": "Box",
+      "Position": "-680.9587,-1994.703,2.954277",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.MeshComponent",
+          "__guid": "39cbfa6f-57ef-47d4-aca4-c728eb7d1f92",
+          "Collision": "Mesh",
+          "Color": "1,1,1,1",
+          "HideInGame": false,
+          "IsTrigger": false,
+          "Mesh": {
+            "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f\u002BlaMRGsohUVbFn1\u002Bt04ANs\u002BZ0VsM69AwfgBFyAKZ9MPXdgk3qLnsI\u002BUm/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt\u002BivpXZ3XnozaOndVn9vvVkkTjEAQAA",
+            "Positions": [
+              "-411.1865,-272.801,3.452324",
+              "411.1865,-272.801,3.452324",
+              "411.1865,272.801,3.452324",
+              "-411.1865,272.801,3.452324",
+              "-411.1865,272.801,-3.452324",
+              "411.1865,272.801,-3.452324",
+              "411.1865,-272.801,-3.452324",
+              "-411.1865,-272.801,-3.452324"
+            ],
+            "TextureCoord": [
+              "3.212395,2.131258",
+              "-3.212395,-0.02697128",
+              "3.212395,-2.131258",
+              "-2.131258,-0.02697128",
+              "-3.212395,-2.131258",
+              "-3.212395,-0.02697128",
+              "-3.212395,2.131258",
+              "-2.131258,-0.02697128",
+              "3.212395,-2.131258",
+              "3.212395,0.02697128",
+              "3.212395,2.131258",
+              "2.131258,0.02697128",
+              "-3.212395,2.131258",
+              "3.212395,0.02697128",
+              "-3.212395,-2.131258",
+              "2.131258,0.02697128",
+              "2.131258,-0.02697128",
+              "-3.212395,0.02697128",
+              "-2.131258,0.02697128",
+              "3.212395,-0.02697128",
+              "-2.131258,0.02697128",
+              "3.212395,-0.02697128",
+              "2.131258,-0.02697128",
+              "-3.212395,0.02697128"
+            ],
+            "TextureUAxis": [
+              "1,0,0",
+              "1,0,-0",
+              "0,-1,0",
+              "0,1,0",
+              "-1,0,0",
+              "1,-0,0"
+            ],
+            "TextureVAxis": [
+              "0,-1,0",
+              "0,-1,0",
+              "0,0,-1",
+              "-0,0,-1",
+              "0,0,-1",
+              "-0,0,-1"
+            ],
+            "TextureScale": [
+              "3.999999,3.999999",
+              "3.999999,3.999999",
+              "3.999999,4",
+              "3.999999,4",
+              "3.999999,4",
+              "3.999999,4"
+            ],
+            "TextureOffset": [
+              "10.23971,13.32416",
+              "10.23971,13.32416",
+              "13.32416,0.7385693",
+              "18.67584,0.7385693",
+              "21.7603,0.7385693",
+              "10.2397,0.7385693"
+            ],
+            "MaterialIndex": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "EdgeFlags": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "Materials": [
+              "materials/dev/reflectivity_10.vmat",
+              "materials/dev/reflectivity_90b.vmat"
+            ]
+          },
+          "SmoothingAngle": 40,
+          "Static": true,
+          "SurfaceVelocity": "0,0,0"
         }
       ]
     }
