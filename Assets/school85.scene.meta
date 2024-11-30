@@ -1,0 +1,21 @@
+{
+  "publish": {
+    "Enabled": true,
+    "ProjectConfig": {
+      "Title": "School 85",
+      "Type": "map",
+      "Org": "nite",
+      "Ident": "school85",
+      "Schema": 0,
+      "IncludeSourceFiles": true,
+      "Resources": null,
+      "PackageReferences": [],
+      "EditorReferences": null,
+      "IsWhitelistDisabled": false,
+      "Metadata": {
+        "SingleAssetSource": "school85.scene",
+        "ParentPackage": "carsonk.talker"
+      }
+    }
+  }
+}

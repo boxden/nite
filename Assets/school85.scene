@@ -1,0 +1,958 @@
+{
+  "__guid": "d8629230-f557-4c3d-b25b-1f3a0ea2c467",
+  "GameObjects": [
+    {
+      "__guid": "cf5cf0ae-9a4b-498a-8e39-e1f9932d23c7",
+      "Flags": 0,
+      "Name": "Main Camera",
+      "Position": "-661,-1950,398",
+      "Rotation": "0,0,0.6567645,0.7540958",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.CameraComponent",
+          "__guid": "b18779c9-79e7-4d12-85c5-633fefff40c6",
+          "BackgroundColor": "0.33333,0.46275,0.52157,1",
+          "ClearFlags": "All",
+          "FieldOfView": 60,
+          "IsMainCamera": true,
+          "Orthographic": false,
+          "OrthographicHeight": 1204,
+          "Priority": 1,
+          "RenderExcludeTags": "",
+          "RenderTags": "",
+          "TargetEye": "None",
+          "Viewport": "0,0,1,1",
+          "ZFar": 10000,
+          "ZNear": 10
+        }
+      ]
+    },
+    {
+      "__guid": "cb7e9d31-b754-4778-980f-11bb8c8ef4f8",
+      "Flags": 0,
+      "Name": "Map",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.MapInstance",
+          "__guid": "dd29f34e-41f7-4908-a9db-42bba61a0fbe",
+          "__version": 1,
+          "EnableCollision": true,
+          "MapName": "maps/school85.vmap",
+          "NoOrigin": false,
+          "OnMapLoaded": {
+            "__version": 8,
+            "__guid": "b38a3ab7-e8b7-4173-9255-2200fdbe4f09",
+            "__changeId": 285,
+            "UserData": {
+              "Title": "On Map Loaded",
+              "ReferencedComponentTypes": []
+            },
+            "Variables": [],
+            "Nodes": [
+              {
+                "Id": 0,
+                "Type": "input"
+              },
+              {
+                "Id": 10,
+                "Type": "resource.ref",
+                "Properties": {
+                  "T": "Sandbox.SoundEvent",
+                  "value": "sounds/1071160110.sound"
+                },
+                "UserData": {
+                  "Position": "288,252"
+                }
+              },
+              {
+                "Id": 15,
+                "Type": "scene.ref",
+                "UserData": {
+                  "Position": "276,108"
+                }
+              },
+              {
+                "Id": 18,
+                "Type": "sound.play",
+                "UserData": {
+                  "Position": "480,264"
+                }
+              },
+              {
+                "Id": 19,
+                "Type": "time.delayobj",
+                "UserData": {
+                  "Position": "204,0"
+                }
+              }
+            ],
+            "Links": [
+              {
+                "SrcId": 19,
+                "SrcName": "_signal",
+                "DstId": 18,
+                "DstName": "_signal"
+              },
+              {
+                "SrcId": 15,
+                "SrcName": "_result",
+                "DstId": 18,
+                "DstName": "_this"
+              },
+              {
+                "SrcId": 10,
+                "SrcName": "_result",
+                "DstId": 18,
+                "DstName": "soundEvent"
+              },
+              {
+                "SrcId": 0,
+                "SrcName": "_signal",
+                "DstId": 19,
+                "DstName": "_signal"
+              },
+              {
+                "Id": 20,
+                "Value": 0.49999994,
+                "DstId": 19,
+                "DstName": "seconds"
+              },
+              {
+                "SrcId": 0,
+                "SrcName": "_target",
+                "DstId": 19,
+                "DstName": "target"
+              }
+            ],
+            "Defaults": {
+              "$15.gameobject": {
+                "_type": "gameobject",
+                "go": "41f5f804-f846-4ce1-8817-4ad6e6397cde"
+              }
+            }
+          },
+          "OnMapUnloaded": null,
+          "UseMapFromLaunch": false
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "1ca16c1b-6d4a-4b6a-bef7-60193468f508",
+      "Flags": 0,
+      "Name": "Sun",
+      "Position": "42,-1969,20",
+      "Rotation": "0.1397651,0.6931564,0.4831477,0.5163023",
+      "Tags": "light,light_directional",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.DirectionalLight",
+          "__guid": "f9d8ac8b-4398-47b4-b61e-091dbae13d44",
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "Shadows": true,
+          "SkyColor": "0,0,0,0"
+        }
+      ]
+    },
+    {
+      "__guid": "41f5f804-f846-4ce1-8817-4ad6e6397cde",
+      "Flags": 0,
+      "Name": "Player Controller",
+      "Position": "78,-1966.504,-37",
+      "Rotation": "0,0,0.7071067,0.7071068",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.PlayerController",
+          "__guid": "e8ebeec4-4f6d-49fa-bc63-262c75de514c",
+          "AimStrengthBody": 1,
+          "AimStrengthEyes": 1,
+          "AimStrengthHead": 1,
+          "Body": {
+            "_type": "component",
+            "component_id": "2f5a6c50-b31d-4d29-89f2-1bc2874f7356",
+            "go": "41f5f804-f846-4ce1-8817-4ad6e6397cde",
+            "component_type": "Rigidbody"
+          },
+          "BodyHeight": 72,
+          "BodyMass": 500,
+          "BodyRadius": 16,
+          "CameraOffset": "256,0,12",
+          "ColliderObject": {
+            "_type": "gameobject",
+            "go": "c7feb358-fdff-4c68-b4f7-d7b523db7819"
+          },
+          "DuckedHeight": 36,
+          "DuckedSpeed": 70,
+          "EnableFootstepSounds": true,
+          "EnablePressing": true,
+          "EyeDistanceFromTop": 8,
+          "FootstepMixer": {
+            "Name": "unknown",
+            "Id": "00000000-0000-0000-0000-000000000000"
+          },
+          "FootstepVolume": 1,
+          "HideBodyInFirstPerson": true,
+          "JumpSpeed": 300,
+          "ReachLength": 130,
+          "Renderer": {
+            "_type": "component",
+            "component_id": "07d09def-15f4-48e0-b81b-09645b752a60",
+            "go": "ad2cebd5-a8d2-44fd-88ed-d49e13e1511b",
+            "component_type": "SkinnedModelRenderer"
+          },
+          "RotateWithGround": true,
+          "RotationAngleLimit": 45,
+          "RotationSpeed": 1,
+          "RunSpeed": 320,
+          "ShowColliderComponents": false,
+          "ShowRigidbodyComponent": false,
+          "ThirdPerson": true,
+          "ToggleCameraModeButton": "view",
+          "UseAnimatorControls": true,
+          "UseButton": "use",
+          "UseCameraControls": true,
+          "UseInputControls": true,
+          "WalkSpeed": 110
+        },
+        {
+          "__type": "Sandbox.Rigidbody",
+          "__guid": "2f5a6c50-b31d-4d29-89f2-1bc2874f7356",
+          "AngularDamping": 1,
+          "Gravity": true,
+          "LinearDamping": 0.1,
+          "Locking": {
+            "X": false,
+            "Y": false,
+            "Z": false,
+            "Pitch": true,
+            "Yaw": true,
+            "Roll": true
+          },
+          "MassCenterOverride": "0,0,36",
+          "MassOverride": 500,
+          "MotionEnabled": true,
+          "OverrideMassCenter": true,
+          "RigidbodyFlags": "DisableCollisionSounds",
+          "StartAsleep": false
+        },
+        {
+          "__type": "Sandbox.Movement.MoveModeWalk",
+          "__guid": "6e8d0314-31bf-4f85-a1d4-2e2d82d3fd46",
+          "GroundAngle": 45,
+          "Priority": 0,
+          "StepDownHeight": 18,
+          "StepUpHeight": 18
+        },
+        {
+          "__type": "Sandbox.Movement.MoveModeSwim",
+          "__guid": "391e88fe-a741-4b50-b1b4-84093f1d8848",
+          "Priority": 10,
+          "SwimLevel": 0.7
+        },
+        {
+          "__type": "Sandbox.Movement.MoveModeLadder",
+          "__guid": "0c916c5a-cac8-4943-a145-283c49db2ca9",
+          "ClimbableTags": "ladder",
+          "Priority": 5
+        }
+      ],
+      "Children": [
+        {
+          "__guid": "ad2cebd5-a8d2-44fd-88ed-d49e13e1511b",
+          "Flags": 0,
+          "Name": "Body",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.SkinnedModelRenderer",
+              "__guid": "07d09def-15f4-48e0-b81b-09645b752a60",
+              "BodyGroups": 341,
+              "CreateAttachments": false,
+              "CreateBoneObjects": false,
+              "Model": "models/citizen/citizen.vmdl",
+              "Morphs": {},
+              "Parameters": {
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "vectors": {},
+                "rotations": {}
+              },
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Sequence": {
+                "Name": null
+              },
+              "Tint": "1,1,1,1",
+              "UseAnimGraph": true
+            }
+          ]
+        },
+        {
+          "__guid": "c7feb358-fdff-4c68-b4f7-d7b523db7819",
+          "Flags": 1,
+          "Name": "Colliders",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.CapsuleCollider",
+              "__guid": "24c53690-3ea9-410f-a8a1-7b5ff8869f6f",
+              "End": "0,0,45.05097",
+              "Friction": 0,
+              "IsTrigger": false,
+              "Radius": 11.313708,
+              "Start": "0,0,60.68629",
+              "Static": false,
+              "SurfaceVelocity": "0,0,0"
+            },
+            {
+              "__type": "Sandbox.BoxCollider",
+              "__guid": "58133c21-436e-4a96-9427-95a8f89dd04c",
+              "Center": "0,0,18",
+              "Friction": 0,
+              "IsTrigger": false,
+              "Scale": "16,16,36",
+              "Static": false,
+              "SurfaceVelocity": "0,0,0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "__guid": "7f0bf7b1-e772-4fbe-9b2f-cbd186857d4b",
+      "Flags": 0,
+      "Name": "2D Skybox",
+      "Position": "-538.2614,-1659.224,82.80329",
+      "Tags": "skybox",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.SkyBox2D",
+          "__guid": "df4818da-702a-409e-b462-6f19ef272df1",
+          "SkyIndirectLighting": false,
+          "SkyMaterial": "materials/skybox/skybox_day_01.vmat",
+          "Tint": "1,1,1,1"
+        }
+      ]
+    },
+    {
+      "__guid": "8ac03f5e-e1de-47df-b02d-dbdb077b2e6e",
+      "Flags": 0,
+      "Name": "Line",
+      "Position": "98,-1916,4",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.LineRenderer",
+          "__guid": "16070d0a-c9b3-460f-9ca5-d65a7d0e4b4b",
+          "CastShadows": false,
+          "Color": {
+            "blend": "Linear",
+            "color": [
+              {
+                "t": 0.5,
+                "c": "1,1,1,1"
+              }
+            ],
+            "alpha": []
+          },
+          "EndCap": "Rounded",
+          "Face": "Camera",
+          "Opaque": false,
+          "Points": [
+            {
+              "_type": "gameobject",
+              "go": "25ef53d5-10e7-414f-95c3-3ceb2f59949e"
+            },
+            {
+              "_type": "gameobject",
+              "go": "285ddad0-aaba-4427-80ed-9550f4dead72"
+            },
+            {
+              "_type": "gameobject",
+              "go": "0267d6b9-7153-4559-8558-954956f8f04a"
+            },
+            {
+              "_type": "gameobject",
+              "go": "0666ec76-ad32-4309-9f80-2780a2103826"
+            }
+          ],
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "SplineBias": 0,
+          "SplineContinuity": 0,
+          "SplineInterpolation": 128,
+          "SplineTension": 0,
+          "StartCap": "Rounded",
+          "UseVectorPoints": false,
+          "VectorPoints": [],
+          "Width": [
+            {
+              "x": 0,
+              "y": 1,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            }
+          ],
+          "Wireframe": false
+        }
+      ],
+      "Children": [
+        {
+          "__guid": "25ef53d5-10e7-414f-95c3-3ceb2f59949e",
+          "Flags": 0,
+          "Name": "Point 1",
+          "Position": "-19,0,-41",
+          "Enabled": true
+        },
+        {
+          "__guid": "285ddad0-aaba-4427-80ed-9550f4dead72",
+          "Flags": 0,
+          "Name": "Point 2",
+          "Position": "-2449,974,0",
+          "Enabled": true
+        },
+        {
+          "__guid": "0267d6b9-7153-4559-8558-954956f8f04a",
+          "Flags": 0,
+          "Name": "Point 3",
+          "Position": "-2836,1992,47.99999",
+          "Enabled": true
+        },
+        {
+          "__guid": "0666ec76-ad32-4309-9f80-2780a2103826",
+          "Flags": 0,
+          "Name": "Point 4",
+          "Position": "-2198,2276,48.00005",
+          "Enabled": true
+        }
+      ]
+    },
+    {
+      "__guid": "7626e817-f016-4728-a655-fc74fa9e4507",
+      "Flags": 0,
+      "Name": "DSP",
+      "Position": "6,-1920,80.55099",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.DspVolume",
+          "__guid": "a82e15d5-aeb3-4b83-a15a-2209b3c028af",
+          "Dsp": "concrete.large",
+          "Priority": 0,
+          "SceneVolume": {
+            "Type": "Box",
+            "Sphere": {
+              "Center": "0,0,0",
+              "Radius": 10
+            },
+            "Box": {
+              "Mins": "-1274.672,-830.3563,-107.9574",
+              "Maxs": "762.5874,2479.899,366.4437"
+            }
+          },
+          "TargetMixer": {
+            "Name": "game",
+            "Id": "43a29896-663c-47c1-a494-4655643e9b98"
+          }
+        }
+      ]
+    },
+    {
+      "__guid": "05427932-40e6-4295-8140-58722770310a",
+      "Flags": 0,
+      "Name": "Sound Point",
+      "Position": "102,-1741,80.5509",
+      "Components": [
+        {
+          "__type": "Sandbox.SoundPointComponent",
+          "__guid": "b1940dc2-5c54-4f8f-855d-173011ac7748",
+          "Distance": 1000,
+          "DistanceAttenuation": true,
+          "DistanceAttenuationOverride": true,
+          "Falloff": [
+            {
+              "x": 0,
+              "y": 1,
+              "in": 3.1415927,
+              "out": -3.1415927,
+              "mode": "Mirrored"
+            },
+            {
+              "x": 1,
+              "y": 0,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            }
+          ],
+          "Force2d": false,
+          "MaxRepeatTime": 1,
+          "MinRepeatTime": 1,
+          "Occlusion": false,
+          "OcclusionOverride": false,
+          "OcclusionRadius": 32,
+          "Pitch": 1,
+          "PlayOnStart": true,
+          "ReflectionOverride": false,
+          "Reflections": false,
+          "Repeat": false,
+          "SoundEvent": "sounds/1071160110.sound",
+          "SoundOverride": false,
+          "StopOnNew": false,
+          "TargetMixer": {
+            "Name": "unknown",
+            "Id": "00000000-0000-0000-0000-000000000000"
+          },
+          "Volume": 1
+        }
+      ]
+    },
+    {
+      "__guid": "1df63814-aea3-4633-b0f6-7545ac14d579",
+      "Flags": 0,
+      "Name": "SoundBox",
+      "Position": "-2034,463,91",
+      "Scale": "5.643866,9.468046,3.336102",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.SoundBoxComponent",
+          "__guid": "86cd5934-f78f-413a-994f-bb73c43fa76b",
+          "Distance": 512,
+          "DistanceAttenuation": true,
+          "DistanceAttenuationOverride": true,
+          "Falloff": [
+            {
+              "x": 0,
+              "y": 1,
+              "in": 3.1415927,
+              "out": -3.1415927,
+              "mode": "Mirrored"
+            },
+            {
+              "x": 1,
+              "y": 0,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            }
+          ],
+          "Force2d": false,
+          "MaxRepeatTime": 0,
+          "MinRepeatTime": 0,
+          "Occlusion": true,
+          "OcclusionOverride": true,
+          "OcclusionRadius": 32,
+          "Pitch": 1,
+          "PlayOnStart": true,
+          "ReflectionOverride": true,
+          "Reflections": true,
+          "Repeat": true,
+          "Scale": "50,50,50",
+          "SoundEvent": "sounds/music/415555114.sound",
+          "SoundOverride": false,
+          "StopOnNew": false,
+          "TargetMixer": {
+            "Name": "unknown",
+            "Id": "00000000-0000-0000-0000-000000000000"
+          },
+          "Volume": 1
+        }
+      ]
+    },
+    {
+      "__guid": "89735cd2-0476-43ff-9273-a9bed5a17ad2",
+      "Flags": 0,
+      "Name": "Spot Light",
+      "Position": "-2897,379.2294,402",
+      "Rotation": "0,0.258819,0,0.9659258",
+      "Tags": "light_spot,light",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.SpotLight",
+          "__guid": "ac683de1-cb6b-407d-9102-f1c8efdc51c8",
+          "Attenuation": 0.24,
+          "ConeInner": 35.76,
+          "ConeOuter": 37.22,
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "Radius": 1000,
+          "Shadows": true
+        }
+      ]
+    },
+    {
+      "__guid": "50f0e2f7-6836-43d8-a7a8-124ae51b96ea",
+      "Flags": 0,
+      "Name": "Volumetric Fog",
+      "Position": "252.6276,-1903.065,174.1646",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.VolumetricFogVolume",
+          "__guid": "79740191-f110-49c4-9733-025112fd6ed5",
+          "Bounds": {
+            "Mins": "-1500,-1500,-1500",
+            "Maxs": "1500,1500,1500"
+          },
+          "FalloffExponent": 1,
+          "Strength": 0.26
+        }
+      ]
+    },
+    {
+      "__guid": "6073671c-3e49-48dc-801f-fcaf4e82a9a7",
+      "Flags": 0,
+      "Name": "DSP Vol",
+      "Position": "-1988.963,420.4692,206.6734",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.DspVolume",
+          "__guid": "49c07d61-2e8b-4d73-8dae-d22c4dc9297a",
+          "Dsp": "concrete.medium",
+          "Priority": 0,
+          "SceneVolume": {
+            "Type": "Box",
+            "Sphere": {
+              "Center": "0,0,0",
+              "Radius": 10
+            },
+            "Box": {
+              "Mins": "-186.2176,-194.3495,-204.3584",
+              "Maxs": "99.27911,279.9569,-31.48955"
+            }
+          },
+          "TargetMixer": {
+            "Name": "game",
+            "Id": "00000000-0000-0000-0000-000000000000"
+          }
+        }
+      ]
+    },
+    {
+      "__guid": "3f10be4b-d7ed-4016-bf9e-1b272fd3976f",
+      "Flags": 0,
+      "Name": "Box",
+      "Position": "-2050,365,240.0002",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.MeshComponent",
+          "__guid": "25167cb0-26cf-4b0f-8efd-2cad02394326",
+          "Collision": "Mesh",
+          "Color": "1,1,1,1",
+          "HideInGame": false,
+          "IsTrigger": false,
+          "Mesh": {
+            "Topology": "H4sIAAAAAAAACs3POw7CUBBD0RMJQvgEWva/0aArvTQRNcLlXI9lL3hjxnbQC1fcsX7hv9Z59LlhwgkL6hlvQ10fg\u002BfP20/8MnY8B8\u002Bft594eWWVGc\u002Bf9x\u002B276rP8fYBqEQ7m8QBAAA=",
+            "Positions": [
+              "-105,-154,64",
+              "105,-154,64",
+              "105,154,64",
+              "-105,154,64",
+              "-126,339,-64",
+              "162,339,-64",
+              "162,-141,-64",
+              "-126,-141,-64"
+            ],
+            "TextureCoord": [
+              "0.8203125,1.203125",
+              "-0.8203125,-0.5",
+              "0.8203125,-1.203125",
+              "-1.203125,-0.5",
+              "-0.8203125,-1.203125",
+              "-0.8203125,-0.5",
+              "-0.8203125,1.203125",
+              "-1.203125,-0.5",
+              "-59,-22",
+              "0.8203125,0.5",
+              "-59,-7",
+              "1.203125,0.5",
+              "-68,-7",
+              "0.8203125,0.5",
+              "-68,-22",
+              "1.203125,0.5",
+              "1.203125,-0.5",
+              "-0.8203125,0.5",
+              "-1.203125,0.5",
+              "0.8203125,-0.5",
+              "-1.203125,0.5",
+              "0.8203125,-0.5",
+              "1.203125,-0.5",
+              "-0.8203125,0.5"
+            ],
+            "TextureUAxis": [
+              "1,0,0",
+              "1,0,-0",
+              "0,-1,0",
+              "0,1,0",
+              "-1,0,0",
+              "1,-0,0"
+            ],
+            "TextureVAxis": [
+              "0,-1,0",
+              "0,-1,0",
+              "0,0,-1",
+              "-0,0,-1",
+              "0,0,-1",
+              "-0,0,-1"
+            ],
+            "TextureScale": [
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25"
+            ],
+            "TextureOffset": [
+              "8,436",
+              "0,0",
+              "436,448.001",
+              "76,448.001",
+              "504,448.001",
+              "8,448.001"
+            ],
+            "MaterialIndex": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "EdgeFlags": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "Materials": [
+              "materials/dev/reflectivity_30.vmat",
+              "materials/dev/dev_measuregeneric01b.vmat"
+            ]
+          },
+          "SmoothingAngle": 40,
+          "Static": true,
+          "SurfaceVelocity": "0,0,0"
+        }
+      ]
+    },
+    {
+      "__guid": "61ac914f-0c5e-4f49-b137-bdc37f85515d",
+      "Flags": 0,
+      "Name": "Point Light",
+      "Position": "-1985.03,446,94",
+      "Tags": "light_point,light",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.PointLight",
+          "__guid": "2e1a35e5-ce68-4e62-852d-5e2bdcabac6d",
+          "Attenuation": 1,
+          "FogMode": "Disabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "Radius": 400,
+          "Shadows": true
+        }
+      ]
+    },
+    {
+      "__guid": "049f7dd2-fde3-41a0-af64-a911295d9473",
+      "Flags": 0,
+      "Name": "Point Light (1)",
+      "Position": "-1693,807,94.00002",
+      "Tags": "light_point,light",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.PointLight",
+          "__guid": "18de31fd-7154-4248-bc87-75dfc1a4bb08",
+          "Attenuation": 8.920003,
+          "FogMode": "Disabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "Radius": 1000,
+          "Shadows": true
+        }
+      ]
+    },
+    {
+      "__guid": "621062c5-319c-4642-a498-8abf22b32563",
+      "Flags": 0,
+      "Name": "Point Light (2)",
+      "Position": "-1031,828,94.00002",
+      "Tags": "light_point,light",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.PointLight",
+          "__guid": "5dc9d2fe-5f41-4b8f-be4b-b72b7037403b",
+          "Attenuation": 8.920003,
+          "FogMode": "Disabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "Radius": 1000,
+          "Shadows": true
+        }
+      ]
+    },
+    {
+      "__guid": "21bf1a0f-6fab-4103-9f9e-f3c59eb2fc8a",
+      "Flags": 0,
+      "Name": "Point Light (3)",
+      "Position": "66,828,94.00002",
+      "Tags": "light_point,light",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.PointLight",
+          "__guid": "67229eac-3c27-486f-be4e-1e903dcaa5f7",
+          "Attenuation": 8.920003,
+          "FogMode": "Disabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "Radius": 1000,
+          "Shadows": true
+        }
+      ]
+    },
+    {
+      "__guid": "73581254-ef58-4a33-a49b-512549d7506e",
+      "Flags": 0,
+      "Name": "Gradient Fog",
+      "Position": "-1982.531,511.066,-52.00001",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.GradientFog",
+          "__guid": "62559815-7970-45ef-80ca-5601a7258c51",
+          "Color": "0.29912,0.29912,0.29912,0.3",
+          "EndDistance": 512,
+          "FalloffExponent": 1,
+          "Height": 128,
+          "StartDistance": 64,
+          "VerticalFalloffExponent": 2
+        }
+      ]
+    },
+    {
+      "__guid": "3b6975c4-9e2c-436b-8cad-88f1b465d7dd",
+      "Flags": 0,
+      "Name": "Volumetric Fog",
+      "Position": "144.6519,893.6016,87.75006",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.VolumetricFogVolume",
+          "__guid": "d9889ed6-427a-43ba-ac9a-48a5209e0819",
+          "Bounds": {
+            "Mins": "-1809.201,-170.9,-87.39998",
+            "Maxs": "753.8998,34.20001,87.60002"
+          },
+          "FalloffExponent": 1,
+          "Strength": 10
+        }
+      ]
+    },
+    {
+      "__guid": "aa14fb5f-5ab0-4eb4-8c01-80b902594052",
+      "Flags": 0,
+      "Name": "Trigger",
+      "Position": "96.76982,-1872.626,3.900948",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ActionGraphs.ActionsInvoker",
+          "__guid": "55c591c5-862d-498b-9f7d-2b9437240aff",
+          "OnEnabledAction": {
+            "__version": 8,
+            "__guid": "466cde30-da92-491d-9ac0-f50d92895573",
+            "__changeId": 2,
+            "UserData": {
+              "Title": "On Enabled Action"
+            },
+            "Variables": [],
+            "Nodes": [
+              {
+                "Id": 0,
+                "Type": "input"
+              }
+            ],
+            "Links": []
+          }
+        }
+      ]
+    }
+  ],
+  "SceneProperties": {
+    "FixedUpdateFrequency": 50,
+    "MaxFixedUpdates": 5,
+    "NetworkFrequency": 30,
+    "NetworkInterpolation": true,
+    "PhysicsSubSteps": 1,
+    "ThreadedAnimation": true,
+    "TimeScale": 1,
+    "UseFixedUpdate": true,
+    "Metadata": {},
+    "NavMesh": {
+      "Enabled": false,
+      "IncludeStaticBodies": true,
+      "IncludeKeyframedBodies": true,
+      "EditorAutoUpdate": true,
+      "AgentHeight": 64,
+      "AgentRadius": 16,
+      "AgentStepSize": 18,
+      "AgentMaxSlope": 40,
+      "ExcludedBodies": "",
+      "IncludedBodies": ""
+    }
+  },
+  "ResourceVersion": 2,
+  "Title": null,
+  "Description": null,
+  "__references": [],
+  "__version": 2
+}
