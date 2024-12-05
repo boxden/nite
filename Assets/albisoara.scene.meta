@@ -14,7 +14,10 @@
       "IsWhitelistDisabled": false,
       "Metadata": {
         "SingleAssetSource": "albisoara.scene",
-        "ParentPackage": "carsonk.talker"
+        "ParentPackage": "carsonk.talker",
+        "GameSupport": [
+          "carsonk.talker"
+        ]
       }
     }
   }
