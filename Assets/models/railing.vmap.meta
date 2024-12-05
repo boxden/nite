@@ -1,0 +1,21 @@
+{
+  "publish": {
+    "Enabled": false,
+    "ProjectConfig": {
+      "Title": "Railing",
+      "Type": "map",
+      "Org": "local",
+      "Ident": "railing",
+      "Schema": 0,
+      "IncludeSourceFiles": false,
+      "Resources": null,
+      "PackageReferences": [],
+      "EditorReferences": [],
+      "IsWhitelistDisabled": false,
+      "Metadata": {
+        "SingleAssetSource": "models/railing.vmap",
+        "ParentPackage": "carsonk.talker"
+      }
+    }
+  }
+}
