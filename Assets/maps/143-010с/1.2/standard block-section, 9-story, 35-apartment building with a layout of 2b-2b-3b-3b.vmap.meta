@@ -1,0 +1,21 @@
+{
+  "publish": {
+    "Enabled": false,
+    "ProjectConfig": {
+      "Title": "Standard Block Section, 9 Story, 35 Apartment Building With A Layout Of 2B 2B 3B 3B",
+      "Type": "map",
+      "Org": "local",
+      "Ident": "standardblocksection9story35apartmentbuildingwithalayoutof2b2b3",
+      "Schema": 0,
+      "IncludeSourceFiles": false,
+      "Resources": null,
+      "PackageReferences": [],
+      "EditorReferences": [],
+      "IsWhitelistDisabled": false,
+      "Metadata": {
+        "SingleAssetSource": "maps/143-010\u0441/1.2/standard block-section, 9-story, 35-apartment building with a layout of 2b-2b-3b-3b.vmap",
+        "ParentPackage": "carsonk.talker"
+      }
+    }
+  }
+}
