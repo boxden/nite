@@ -17,5 +17,8 @@ code/Properties/*
 *.los
 *.vpk
 
+# Folder sbox
+.sbox/*
+
 # Sounds files uncompiled
 sounds/*
