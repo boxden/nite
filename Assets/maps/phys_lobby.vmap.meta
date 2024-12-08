@@ -11,11 +11,8 @@
       "Resources": null,
       "PackageReferences": [],
       "EditorReferences": [
-        "creation.skyonlyhdri040_4k-hdr#19799",
         "facepunch.wood_painted_a_hs#28972",
-        "mufamoof.dev_glass#30717",
-        "saandy.glass02_hs#17240",
-        "sundayservice.floralcarpet_02#32653"
+        "rustextended.glass_dirty#43276"
       ],
       "IsWhitelistDisabled": false,
       "Metadata": {
