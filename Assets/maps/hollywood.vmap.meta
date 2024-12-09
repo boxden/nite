@@ -1,7 +1,4 @@
 {
-  "tags": [
-    "Dev"
-  ],
   "publish": {
     "Enabled": true,
     "ProjectConfig": {
@@ -29,5 +26,6 @@
         "ParentPackage": "carsonk.talker"
       }
     }
-  }
+  },
+  "tags": []
 }
