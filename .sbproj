@@ -4,7 +4,7 @@
   "Org": "nite",
   "Ident": "repo-albisoara",
   "Schema": 1,
-  "IncludeSourceFiles": false,
+  "IncludeSourceFiles": true,
   "Resources": null,
   "PackageReferences": [],
   "EditorReferences": null,
