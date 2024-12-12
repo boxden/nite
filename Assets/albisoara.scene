@@ -448,7 +448,7 @@
           "__guid": "560878f5-f621-4e75-8c6b-6e2a97ced781",
           "Flags": 0,
           "Name": "Text 100 Meters",
-          "Position": "-1935.066,-95,21.14839",
+          "Position": "-1906.435,-95,27.24691",
           "Rotation": "0,0,0.7071067,0.7071068",
           "Enabled": true,
           "Components": [
@@ -463,16 +463,16 @@
                 "BloomLayer": false,
                 "AfterUILayer": false
               },
-              "Scale": 0.09,
+              "Scale": 0.05,
               "TextAlignment": "Center",
               "TextScope": {
-                "Text": "100 Meters",
+                "Text": "100 Meters | 3937 Units",
                 "TextColor": "1,1,1,1",
-                "FontName": "Tahoma",
-                "FontSize": 128,
+                "FontName": "Coolvetica",
+                "FontSize": 256,
                 "FontWeight": 800,
                 "FontItalic": false,
-                "LineHeight": 1,
+                "LineHeight": 2.73,
                 "LetterSpacing": 0,
                 "WordSpacing": 0,
                 "Outline": {
@@ -492,7 +492,64 @@
                   "Color": "0,1,0,1"
                 },
                 "ShadowUnder": {
+                  "Enabled": true,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "__guid": "6bac7dc9-c069-4a95-a7eb-b57c1813ad2a",
+          "Flags": 0,
+          "Name": "Text 1 Meter",
+          "Position": "-1906.435,-95,39.97538",
+          "Rotation": "0,0,0.7071067,0.7071068",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.TextRenderer",
+              "__guid": "55237a43-6ce4-40c4-8945-97d978be1878",
+              "__version": 1,
+              "BlendMode": "Normal",
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "Scale": 0.05,
+              "TextAlignment": "Center",
+              "TextScope": {
+                "Text": "1 Meter | 39.37 Unit",
+                "TextColor": "1,1,1,1",
+                "FontName": "Coolvetica",
+                "FontSize": 256,
+                "FontWeight": 800,
+                "FontItalic": false,
+                "LineHeight": 2.73,
+                "LetterSpacing": 0,
+                "WordSpacing": 0,
+                "Outline": {
                   "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,1,1"
+                },
+                "Shadow": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                },
+                "OutlineUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,1,0,1"
+                },
+                "ShadowUnder": {
+                  "Enabled": true,
                   "Size": 4,
                   "Color": "0,0,0,1",
                   "Offset": "4,4"
@@ -5677,7 +5734,7 @@
             "Yaw": true,
             "Roll": true
           },
-          "MassCenterOverride": "0,0,4.478579",
+          "MassCenterOverride": "0,0,36",
           "MassOverride": 500,
           "MotionEnabled": true,
           "OverrideMassCenter": true,
