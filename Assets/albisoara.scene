@@ -5829,6 +5829,43 @@
           ]
         }
       ]
+    },
+    {
+      "__guid": "b15f3c22-9216-4c04-a3d6-5e36680bb30f",
+      "Flags": 0,
+      "Name": "2D Skybox",
+      "Position": "-761.9272,-2094.432,207.0245",
+      "Tags": "skybox",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.SkyBox2D",
+          "__guid": "afe2f02a-2ca2-4e7c-a097-c1e72a4944a0",
+          "SkyIndirectLighting": true,
+          "SkyMaterial": "materials/skyboxes/skyboxnowy.vmat",
+          "Tint": "1,1,1,1"
+        }
+      ]
+    },
+    {
+      "__guid": "c4a005a8-898f-4b72-addc-4a0e135b088c",
+      "Flags": 0,
+      "Name": "Sun",
+      "Position": "2347.751,-1762.005,16.91785",
+      "Rotation": "-0.01296428,0.7438713,0.162553,0.6481233",
+      "Tags": "light_directional,light",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.DirectionalLight",
+          "__guid": "d6761be0-b5be-48a4-8a2b-19f51efacbee",
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "Shadows": true,
+          "SkyColor": "0,0,0,0"
+        }
+      ]
     }
   ],
   "SceneProperties": {
@@ -5864,7 +5901,8 @@
     "facepunch.leaves_pile_a2#56177",
     "facepunch.leaves_pile_a5#56180",
     "facepunch.old_bench#33586",
-    "facepunch.park_bin#33623"
+    "facepunch.park_bin#33623",
+    "wujekfoliarz.skyboxnowy#40943"
   ],
   "__version": 2
 }
