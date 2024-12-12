@@ -5866,6 +5866,78 @@
           "SkyColor": "0,0,0,0"
         }
       ]
+    },
+    {
+      "__guid": "cff67f89-cbee-46d3-a84a-b34c335578c9",
+      "Flags": 0,
+      "Name": "Box",
+      "Position": "520.1865,-568.8708,1.000519",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.MeshComponent",
+          "__guid": "7f379c20-de97-4d1a-9c42-43de0e85778c",
+          "Collision": "Mesh",
+          "Color": "1,1,1,1",
+          "HideInGame": false,
+          "IsTrigger": false,
+          "Mesh": {
+            "Topology": "H4sIAAAAAAAACk2OAQoAIQzD4qmn/3\u002BxBFcwMAZtVzaADXxc3AP4gVYTL6xH75WXaLnTm9X1dqvrpyuom/VGPz8c9Bd8FaQAAAA=",
+            "Positions": [
+              "-3630.514,-6058.922,0",
+              "7543.728,-6058.922,0",
+              "7543.728,4744.664,0",
+              "-3630.514,4744.664,0"
+            ],
+            "TextureCoord": [
+              "63.93537,52.33533",
+              "-23.36339,52.33533",
+              "63.93537,-32.06769",
+              "63.93537,52.33533",
+              "-23.36339,-32.06769",
+              "63.93537,-32.06769",
+              "-23.36339,52.33533",
+              "-23.36339,-32.06769"
+            ],
+            "TextureUAxis": [
+              "1,0,0",
+              "1,-0,0"
+            ],
+            "TextureVAxis": [
+              "0,-1,0",
+              "0,-1,0"
+            ],
+            "TextureScale": [
+              "0.25,0.25",
+              "0.25,0.25"
+            ],
+            "TextureOffset": [
+              "479.2539,284.5166",
+              "479.2539,284.5166"
+            ],
+            "MaterialIndex": [
+              0,
+              0
+            ],
+            "EdgeFlags": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "Materials": [
+              "materials/dev/reflectivity_30.vmat"
+            ]
+          },
+          "SmoothingAngle": 40,
+          "Static": false,
+          "SurfaceVelocity": "0,0,0"
+        }
+      ]
     }
   ],
   "SceneProperties": {
