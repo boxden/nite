@@ -6084,7 +6084,7 @@
       "__guid": "99813407-a3ab-40c7-b41b-0c154f737d63",
       "Flags": 0,
       "Name": "Player Controller",
-      "Position": "2161.979,-2493.904,1.504907",
+      "Position": "2161.979,-2493.904,1.126769",
       "Rotation": "0,0,0.7071067,0.7071068",
       "Enabled": true,
       "Components": [
@@ -6155,7 +6155,7 @@
             "Yaw": true,
             "Roll": true
           },
-          "MassCenterOverride": "0,0,36",
+          "MassCenterOverride": "0,0,0",
           "MassOverride": 500,
           "MotionEnabled": true,
           "OverrideMassCenter": true,
@@ -6241,7 +6241,7 @@
               "__type": "Sandbox.BoxCollider",
               "__guid": "b0991a37-aa55-470a-be69-4dbeef8f3632",
               "Center": "0,0,18",
-              "Friction": 0,
+              "Friction": 10,
               "IsTrigger": false,
               "Scale": "16,16,36",
               "Static": false,
@@ -6786,7 +6786,7 @@
           "OnEnabledAction": {
             "__version": 8,
             "__guid": "a24fc454-2349-4023-a3da-d66b8c257f9c",
-            "__changeId": 9,
+            "__changeId": 91,
             "UserData": {
               "Title": "On Enabled Action",
               "ReferencedComponentTypes": [],
@@ -6810,7 +6810,7 @@
                   "value": "sounds/music/mr-oizo-secam.sound"
                 },
                 "UserData": {
-                  "Position": "48,228"
+                  "Position": "24,612"
                 }
               },
               {
@@ -6824,49 +6824,49 @@
                 "Id": 3,
                 "Type": "sound.play",
                 "UserData": {
-                  "Position": "852,0"
+                  "Position": "888,0"
                 }
               },
               {
                 "Id": 4,
                 "Type": "sound.play",
                 "UserData": {
-                  "Position": "588,0"
+                  "Position": "612,0"
                 }
               },
               {
                 "Id": 5,
                 "Type": "sound.play",
                 "UserData": {
-                  "Position": "1104,0"
-                }
-              },
-              {
-                "Id": 6,
-                "Type": "scene.ref",
-                "UserData": {
-                  "Position": "168,-420"
+                  "Position": "1164,0"
                 }
               },
               {
                 "Id": 7,
                 "Type": "scene.ref",
                 "UserData": {
-                  "Position": "420,-420"
+                  "Position": "36,336"
                 }
               },
               {
                 "Id": 8,
                 "Type": "scene.ref",
                 "UserData": {
-                  "Position": "300,-420"
+                  "Position": "36,180"
                 }
               },
               {
                 "Id": 9,
                 "Type": "scene.ref",
                 "UserData": {
-                  "Position": "540,-420"
+                  "Position": "36,456"
+                }
+              },
+              {
+                "Id": 30,
+                "Type": "scene.ref",
+                "UserData": {
+                  "Position": "36,72"
                 }
               }
             ],
@@ -6878,7 +6878,7 @@
                 "DstName": "_signal"
               },
               {
-                "SrcId": 6,
+                "SrcId": 30,
                 "SrcName": "_result",
                 "DstId": 2,
                 "DstName": "_this"
@@ -6890,7 +6890,7 @@
                 "DstName": "soundEvent"
               },
               {
-                "SrcId": 2,
+                "SrcId": 4,
                 "SrcName": "_signal",
                 "DstId": 3,
                 "DstName": "_signal"
@@ -6908,7 +6908,7 @@
                 "DstName": "soundEvent"
               },
               {
-                "SrcId": 3,
+                "SrcId": 2,
                 "SrcName": "_signal",
                 "DstId": 4,
                 "DstName": "_signal"
@@ -6926,7 +6926,7 @@
                 "DstName": "soundEvent"
               },
               {
-                "SrcId": 4,
+                "SrcId": 3,
                 "SrcName": "_signal",
                 "DstId": 5,
                 "DstName": "_signal"
@@ -6945,7 +6945,7 @@
               }
             ],
             "Defaults": {
-              "$6.gameobject": {
+              "$30.gameobject": {
                 "_type": "gameobject",
                 "go": "3489368b-0839-4426-bc07-9a7081b1ef05"
               },
