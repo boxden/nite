@@ -6445,153 +6445,153 @@
           "Static": true,
           "SurfaceVelocity": "0,0,0"
         }
+      ]
+    },
+    {
+      "__guid": "5a39f0e3-c196-4671-929a-e1229000a24f",
+      "Flags": 0,
+      "Name": "Speaker L Front",
+      "Position": "1447.092,-4150.5,26.70028",
+      "Rotation": "0,0,0.258819,0.9659258",
+      "Scale": "1.5,1.5,1.5",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.Prop",
+          "__guid": "0feb72d0-20b1-427b-9a12-80fd83ed8585",
+          "BodyGroups": 18446744073709551615,
+          "Health": 0,
+          "IsStatic": false,
+          "Model": "models/speakers90/s90.vmdl",
+          "StartAsleep": false,
+          "Tint": "1,1,1,1"
+        }
       ],
       "Children": [
         {
-          "__guid": "cdc78b07-c29a-478f-a2dc-f2a05a9823cc",
+          "__guid": "3489368b-0839-4426-bc07-9a7081b1ef05",
           "Flags": 0,
-          "Name": "Speaker s90 Right Front",
-          "Position": "161.4664,54.72266,12.61116",
-          "Rotation": "0,0,-0.258819,0.9659258",
-          "Scale": "1.5,1.5,1.5",
+          "Name": "Sound L Front",
+          "Position": "12.88629,19.5531,18.52769",
+          "Rotation": "0,0,0.5,0.8660254",
           "Enabled": true,
           "Components": [
             {
-              "__type": "Sandbox.Prop",
-              "__guid": "25dcc05f-eeb4-43cd-8698-b78c28a67d99",
-              "BodyGroups": 18446744073709551615,
-              "Health": 0,
-              "IsStatic": false,
-              "Model": "models/speakers90/s90.vmdl",
-              "StartAsleep": false,
-              "Tint": "1,1,1,1"
-            }
-          ],
-          "Children": [
-            {
-              "__guid": "98dc3c3a-906e-44f9-b704-8b86ec162cef",
-              "Flags": 0,
-              "Name": "Sound Point Right",
-              "Position": "12.88633,19.55317,18.52769",
-              "Rotation": "0,0,0.5,0.8660254",
-              "Enabled": true,
-              "Components": [
+              "__type": "Sandbox.SoundPointComponent",
+              "__guid": "179adfa8-68e6-4daf-aaea-ae3482d7980a",
+              "Distance": 1000,
+              "DistanceAttenuation": true,
+              "DistanceAttenuationOverride": true,
+              "Falloff": [
                 {
-                  "__type": "Sandbox.SoundPointComponent",
-                  "__guid": "793dadf7-67ac-404f-a971-9689b6911f2b",
-                  "Distance": 1000,
-                  "DistanceAttenuation": true,
-                  "DistanceAttenuationOverride": true,
-                  "Falloff": [
-                    {
-                      "x": 0,
-                      "y": 1,
-                      "in": 3.1415927,
-                      "out": -3.1415927,
-                      "mode": "Mirrored"
-                    },
-                    {
-                      "x": 1,
-                      "y": 0,
-                      "in": 0,
-                      "out": 0,
-                      "mode": "Mirrored"
-                    }
-                  ],
-                  "Force2d": false,
-                  "MaxRepeatTime": 1,
-                  "MinRepeatTime": 1,
-                  "Occlusion": false,
-                  "OcclusionOverride": false,
-                  "OcclusionRadius": 32,
-                  "Pitch": 1,
-                  "PlayOnStart": true,
-                  "ReflectionOverride": false,
-                  "Reflections": false,
-                  "Repeat": false,
-                  "SoundOverride": false,
-                  "StopOnNew": false,
-                  "TargetMixer": {
-                    "Name": "unknown",
-                    "Id": "00000000-0000-0000-0000-000000000000"
-                  },
-                  "Volume": 1
+                  "x": 0,
+                  "y": 1,
+                  "in": 3.1415927,
+                  "out": -3.1415927,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
                 }
-              ]
+              ],
+              "Force2d": false,
+              "MaxRepeatTime": 1,
+              "MinRepeatTime": 1,
+              "Occlusion": false,
+              "OcclusionOverride": false,
+              "OcclusionRadius": 32,
+              "Pitch": 1,
+              "PlayOnStart": true,
+              "ReflectionOverride": false,
+              "Reflections": false,
+              "Repeat": false,
+              "SoundEvent": "sounds/music/mr-oizo-secam.sound",
+              "SoundOverride": false,
+              "StopOnNew": false,
+              "TargetMixer": {
+                "Name": "unknown",
+                "Id": "00000000-0000-0000-0000-000000000000"
+              },
+              "Volume": 1
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "__guid": "cdc78b07-c29a-478f-a2dc-f2a05a9823cc",
+      "Flags": 0,
+      "Name": "Speaker R Front",
+      "Position": "1803.03,-4136.875,26.70034",
+      "Rotation": "0,0,-0.258819,0.9659258",
+      "Scale": "1.5,1.5,1.5",
+      "Enabled": true,
+      "Components": [
         {
-          "__guid": "5a39f0e3-c196-4671-929a-e1229000a24f",
+          "__type": "Sandbox.Prop",
+          "__guid": "25dcc05f-eeb4-43cd-8698-b78c28a67d99",
+          "BodyGroups": 18446744073709551615,
+          "Health": 0,
+          "IsStatic": false,
+          "Model": "models/speakers90/s90.vmdl",
+          "StartAsleep": false,
+          "Tint": "1,1,1,1"
+        }
+      ],
+      "Children": [
+        {
+          "__guid": "98dc3c3a-906e-44f9-b704-8b86ec162cef",
           "Flags": 0,
-          "Name": "Speaker s90 Left Front",
-          "Position": "-194.4723,41.09766,12.6111",
-          "Rotation": "0,0,0.258819,0.9659258",
-          "Scale": "1.5,1.5,1.5",
+          "Name": "Sound R Front",
+          "Position": "12.88637,19.55303,18.52769",
+          "Rotation": "0,0,0.5,0.8660253",
           "Enabled": true,
           "Components": [
             {
-              "__type": "Sandbox.Prop",
-              "__guid": "0feb72d0-20b1-427b-9a12-80fd83ed8585",
-              "BodyGroups": 18446744073709551615,
-              "Health": 0,
-              "IsStatic": false,
-              "Model": "models/speakers90/s90.vmdl",
-              "StartAsleep": false,
-              "Tint": "1,1,1,1"
-            }
-          ],
-          "Children": [
-            {
-              "__guid": "3489368b-0839-4426-bc07-9a7081b1ef05",
-              "Flags": 0,
-              "Name": "Sound Point Left",
-              "Position": "12.88633,19.55317,18.52769",
-              "Rotation": "0,0,0.5,0.8660254",
-              "Enabled": true,
-              "Components": [
+              "__type": "Sandbox.SoundPointComponent",
+              "__guid": "793dadf7-67ac-404f-a971-9689b6911f2b",
+              "Distance": 1000,
+              "DistanceAttenuation": true,
+              "DistanceAttenuationOverride": true,
+              "Falloff": [
                 {
-                  "__type": "Sandbox.SoundPointComponent",
-                  "__guid": "179adfa8-68e6-4daf-aaea-ae3482d7980a",
-                  "Distance": 1000,
-                  "DistanceAttenuation": true,
-                  "DistanceAttenuationOverride": true,
-                  "Falloff": [
-                    {
-                      "x": 0,
-                      "y": 1,
-                      "in": 3.1415927,
-                      "out": -3.1415927,
-                      "mode": "Mirrored"
-                    },
-                    {
-                      "x": 1,
-                      "y": 0,
-                      "in": 0,
-                      "out": 0,
-                      "mode": "Mirrored"
-                    }
-                  ],
-                  "Force2d": false,
-                  "MaxRepeatTime": 1,
-                  "MinRepeatTime": 1,
-                  "Occlusion": false,
-                  "OcclusionOverride": false,
-                  "OcclusionRadius": 32,
-                  "Pitch": 1,
-                  "PlayOnStart": true,
-                  "ReflectionOverride": false,
-                  "Reflections": false,
-                  "Repeat": false,
-                  "SoundOverride": false,
-                  "StopOnNew": false,
-                  "TargetMixer": {
-                    "Name": "unknown",
-                    "Id": "00000000-0000-0000-0000-000000000000"
-                  },
-                  "Volume": 1
+                  "x": 0,
+                  "y": 1,
+                  "in": 3.1415927,
+                  "out": -3.1415927,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
                 }
-              ]
+              ],
+              "Force2d": false,
+              "MaxRepeatTime": 1,
+              "MinRepeatTime": 1,
+              "Occlusion": false,
+              "OcclusionOverride": false,
+              "OcclusionRadius": 32,
+              "Pitch": 1,
+              "PlayOnStart": true,
+              "ReflectionOverride": false,
+              "Reflections": false,
+              "Repeat": false,
+              "SoundEvent": "sounds/music/mr-oizo-secam.sound",
+              "SoundOverride": false,
+              "StopOnNew": false,
+              "TargetMixer": {
+                "Name": "unknown",
+                "Id": "00000000-0000-0000-0000-000000000000"
+              },
+              "Volume": 1
             }
           ]
         }
@@ -6600,7 +6600,7 @@
     {
       "__guid": "6547ada8-47c3-4489-a69e-134fb5fe5328",
       "Flags": 0,
-      "Name": "Speaker s90 Left Back",
+      "Name": "Speaker L Back",
       "Position": "2378.3,-3006.95,250.2802",
       "Rotation": "0,0,0.9238795,0.3826836",
       "Scale": "1.5,1.5,1.5",
@@ -6621,8 +6621,8 @@
         {
           "__guid": "0c9a598f-0703-4ade-b869-ffbcf8783f2c",
           "Flags": 0,
-          "Name": "Sound Point Left",
-          "Position": "12.88633,19.55317,18.52769",
+          "Name": "Sound L Back",
+          "Position": "12.88628,19.55316,18.5277",
           "Rotation": "0,0,0.5,0.8660254",
           "Enabled": true,
           "Components": [
@@ -6659,6 +6659,7 @@
               "ReflectionOverride": false,
               "Reflections": false,
               "Repeat": false,
+              "SoundEvent": "sounds/music/mr-oizo-secam.sound",
               "SoundOverride": false,
               "StopOnNew": false,
               "TargetMixer": {
@@ -6674,7 +6675,7 @@
     {
       "__guid": "44c7aab0-e994-4bab-8747-042cd32cb109",
       "Flags": 0,
-      "Name": "Speaker s90 Right Back",
+      "Name": "Speaker R Back",
       "Position": "892.683,-3006.95,292.976",
       "Rotation": "0,0,0.9238796,-0.3826832",
       "Scale": "1.5,1.5,1.5",
@@ -6695,9 +6696,9 @@
         {
           "__guid": "ecd4f382-f409-41e9-bf9a-1f6172e738d6",
           "Flags": 0,
-          "Name": "Sound Point Right",
-          "Position": "12.88633,19.55317,18.52769",
-          "Rotation": "0,0,0.5,0.8660254",
+          "Name": "Sound R Back",
+          "Position": "12.88631,19.55314,18.52769",
+          "Rotation": "0,0,0.5000001,0.8660254",
           "Enabled": true,
           "Components": [
             {
@@ -6733,6 +6734,7 @@
               "ReflectionOverride": false,
               "Reflections": false,
               "Repeat": false,
+              "SoundEvent": "sounds/music/mr-oizo-secam.sound",
               "SoundOverride": false,
               "StopOnNew": false,
               "TargetMixer": {
@@ -6770,199 +6772,6 @@
           "Viewport": "0,0,1,1",
           "ZFar": 100000,
           "ZNear": 10
-        }
-      ]
-    },
-    {
-      "__guid": "1f565595-3d61-49f8-af78-f19ed2b35cc2",
-      "Flags": 0,
-      "Name": "Trigger on Start",
-      "Position": "1562,-3562,114",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "Sandbox.ActionGraphs.ActionsInvoker",
-          "__guid": "4201f9a8-e535-439c-8a47-0d5f3680bc65",
-          "OnEnabledAction": {
-            "__version": 8,
-            "__guid": "a24fc454-2349-4023-a3da-d66b8c257f9c",
-            "__changeId": 91,
-            "UserData": {
-              "Title": "On Enabled Action",
-              "ReferencedComponentTypes": [],
-              "Description": "Playback of a single sound on 4 speakers",
-              "Category": "Audio"
-            },
-            "Variables": [],
-            "Nodes": [
-              {
-                "Id": 0,
-                "Type": "input",
-                "UserData": {
-                  "Position": "0,0"
-                }
-              },
-              {
-                "Id": 1,
-                "Type": "resource.ref",
-                "Properties": {
-                  "T": "Sandbox.SoundEvent",
-                  "value": "sounds/music/mr-oizo-secam.sound"
-                },
-                "UserData": {
-                  "Position": "24,612"
-                }
-              },
-              {
-                "Id": 2,
-                "Type": "sound.play",
-                "UserData": {
-                  "Position": "336,-0"
-                }
-              },
-              {
-                "Id": 3,
-                "Type": "sound.play",
-                "UserData": {
-                  "Position": "888,0"
-                }
-              },
-              {
-                "Id": 4,
-                "Type": "sound.play",
-                "UserData": {
-                  "Position": "612,0"
-                }
-              },
-              {
-                "Id": 5,
-                "Type": "sound.play",
-                "UserData": {
-                  "Position": "1164,0"
-                }
-              },
-              {
-                "Id": 7,
-                "Type": "scene.ref",
-                "UserData": {
-                  "Position": "36,336"
-                }
-              },
-              {
-                "Id": 8,
-                "Type": "scene.ref",
-                "UserData": {
-                  "Position": "36,180"
-                }
-              },
-              {
-                "Id": 9,
-                "Type": "scene.ref",
-                "UserData": {
-                  "Position": "36,456"
-                }
-              },
-              {
-                "Id": 30,
-                "Type": "scene.ref",
-                "UserData": {
-                  "Position": "36,72"
-                }
-              }
-            ],
-            "Links": [
-              {
-                "SrcId": 0,
-                "SrcName": "_signal",
-                "DstId": 2,
-                "DstName": "_signal"
-              },
-              {
-                "SrcId": 30,
-                "SrcName": "_result",
-                "DstId": 2,
-                "DstName": "_this"
-              },
-              {
-                "SrcId": 1,
-                "SrcName": "_result",
-                "DstId": 2,
-                "DstName": "soundEvent"
-              },
-              {
-                "SrcId": 4,
-                "SrcName": "_signal",
-                "DstId": 3,
-                "DstName": "_signal"
-              },
-              {
-                "SrcId": 7,
-                "SrcName": "_result",
-                "DstId": 3,
-                "DstName": "_this"
-              },
-              {
-                "SrcId": 1,
-                "SrcName": "_result",
-                "DstId": 3,
-                "DstName": "soundEvent"
-              },
-              {
-                "SrcId": 2,
-                "SrcName": "_signal",
-                "DstId": 4,
-                "DstName": "_signal"
-              },
-              {
-                "SrcId": 8,
-                "SrcName": "_result",
-                "DstId": 4,
-                "DstName": "_this"
-              },
-              {
-                "SrcId": 1,
-                "SrcName": "_result",
-                "DstId": 4,
-                "DstName": "soundEvent"
-              },
-              {
-                "SrcId": 3,
-                "SrcName": "_signal",
-                "DstId": 5,
-                "DstName": "_signal"
-              },
-              {
-                "SrcId": 9,
-                "SrcName": "_result",
-                "DstId": 5,
-                "DstName": "_this"
-              },
-              {
-                "SrcId": 1,
-                "SrcName": "_result",
-                "DstId": 5,
-                "DstName": "soundEvent"
-              }
-            ],
-            "Defaults": {
-              "$30.gameobject": {
-                "_type": "gameobject",
-                "go": "3489368b-0839-4426-bc07-9a7081b1ef05"
-              },
-              "$7.gameobject": {
-                "_type": "gameobject",
-                "go": "0c9a598f-0703-4ade-b869-ffbcf8783f2c"
-              },
-              "$8.gameobject": {
-                "_type": "gameobject",
-                "go": "98dc3c3a-906e-44f9-b704-8b86ec162cef"
-              },
-              "$9.gameobject": {
-                "_type": "gameobject",
-                "go": "ecd4f382-f409-41e9-bf9a-1f6172e738d6"
-              }
-            }
-          }
         }
       ]
     }
