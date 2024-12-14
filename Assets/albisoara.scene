@@ -5426,7 +5426,6 @@
         {
           "__type": "Sandbox.EnvmapProbe",
           "__guid": "147e5e50-7edb-4f2b-a7d8-03c383a4daf8",
-          "Texture": "textures/cubemaps/default2.vtex",
           "Bounds": {
             "Mins": "-7857.316,-7218.153,-296.7832",
             "Maxs": "8941.33,6127.729,34857.27"
@@ -5438,6 +5437,7 @@
           "MultiBounce": false,
           "Projection": "Box",
           "RenderDynamically": true,
+          "Texture": "textures/cubemaps/default2.vtex",
           "TintColor": "0.15349,0.15349,0.15349,1",
           "UpdateStrategy": "OnEnabled",
           "ZFar": 4096,
@@ -5449,15 +5449,15 @@
       "__guid": "4f1fce82-4e9c-4a7d-9d7d-b852174000f2",
       "Flags": 0,
       "Name": "Volumetric Fog",
-      "Position": "1090.596,-2013.175,150.3896",
+      "Position": "1090.596,-1984.275,150.3896",
       "Enabled": true,
       "Components": [
         {
           "__type": "Sandbox.VolumetricFogVolume",
           "__guid": "4612b89e-c4fa-4dd8-93a0-55721b2890d1",
           "Bounds": {
-            "Mins": "-5000,-5000,-5000",
-            "Maxs": "10000,5000,5000"
+            "Mins": "-9200,-5000,-1000",
+            "Maxs": "7000,9000,5000"
           },
           "FalloffExponent": 1,
           "Strength": 0.07
@@ -5468,7 +5468,7 @@
       "__guid": "67ecfbe8-97a7-48ee-bef9-bb6de2975aaa",
       "Flags": 0,
       "Name": "Music Background",
-      "Position": "-815,-1692,25.87498",
+      "Position": "-909.9222,-1780.36,49.56281",
       "Enabled": true,
       "Components": [
         {
@@ -5519,7 +5519,7 @@
       "__guid": "b15f3c22-9216-4c04-a3d6-5e36680bb30f",
       "Flags": 0,
       "Name": "2D Skybox",
-      "Position": "-761.9272,-2094.432,207.0245",
+      "Position": "-909.3543,-1739.79,49.44135",
       "Rotation": "0,0,-0.7933533,0.6087615",
       "Tags": "skybox",
       "Enabled": true,
@@ -5537,7 +5537,7 @@
       "__guid": "c4a005a8-898f-4b72-addc-4a0e135b088c",
       "Flags": 0,
       "Name": "Sun",
-      "Position": "2347.751,-1762.005,16.91785",
+      "Position": "-909.3416,-1762.005,51.35089",
       "Rotation": "-0.01296428,0.7438713,0.162553,0.6481233",
       "Tags": "light_directional,light",
       "Enabled": true,
@@ -5627,34 +5627,6 @@
       ]
     },
     {
-      "__guid": "a676b7d7-7949-42ad-8acc-95c7f4b7bee7",
-      "Flags": 0,
-      "Name": "Camera",
-      "Position": "-2302.104,4310.795,32116.12",
-      "Rotation": "0.2846808,0.5710155,-0.3435553,0.6891066",
-      "Tags": "maincamera",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "Sandbox.CameraComponent",
-          "__guid": "86cc0bea-834e-4176-9816-bc8ae000a87a",
-          "BackgroundColor": "0.33333,0.46275,0.52157,1",
-          "ClearFlags": "All",
-          "FieldOfView": 12.7,
-          "IsMainCamera": true,
-          "Orthographic": false,
-          "OrthographicHeight": 1204,
-          "Priority": 1,
-          "RenderExcludeTags": "",
-          "RenderTags": "",
-          "TargetEye": "None",
-          "Viewport": "0,0,1,1",
-          "ZFar": 57172,
-          "ZNear": 10
-        }
-      ]
-    },
-    {
       "__guid": "1b6a0823-1730-4b47-9bc2-f608ab1e8098",
       "Flags": 0,
       "Name": "Map",
@@ -5667,8 +5639,7 @@
           "EnableCollision": true,
           "MapName": "maps/hollywood.vmap",
           "NoOrigin": false,
-          "OnMapUnloaded": null,
-          "UseMapFromLaunch": true
+          "UseMapFromLaunch": false
         }
       ],
       "Children": []
@@ -5727,7 +5698,6 @@
           "BodyGroups": 18446744073709551615,
           "Health": 0,
           "IsStatic": true,
-          "MaterialGroup": "default",
           "Model": "models/industrial_lights01/industrial_light01.vmdl",
           "StartAsleep": false,
           "Tint": "1,1,1,1"
@@ -5805,17 +5775,17 @@
             "TextureScale": [
               "3.815492,4",
               "3.815492,4",
-              "4,4",
-              "4,4",
+              "4.000001,4",
+              "4.000001,4",
               "3.815492,4",
               "0.25,0.25"
             ],
             "TextureOffset": [
-              "3.132401,6.103012",
-              "3.132401,6.103012",
-              "6.103012,13.89363",
-              "25.89699,13.89363",
-              "28.8676,13.89363",
+              "3.132371,6.103027",
+              "3.132371,6.103027",
+              "6.103043,13.89362",
+              "25.89696,13.89362",
+              "28.86763,13.89362",
               "387.7461,222.298"
             ],
             "MaterialIndex": [
@@ -5858,7 +5828,7 @@
             ]
           },
           "SmoothingAngle": 40,
-          "Static": false,
+          "Static": true,
           "SurfaceVelocity": "0,0,0"
         }
       ],
@@ -6114,7 +6084,7 @@
       "__guid": "99813407-a3ab-40c7-b41b-0c154f737d63",
       "Flags": 0,
       "Name": "Player Controller",
-      "Position": "2161.979,-2493.904,5.082718",
+      "Position": "2161.979,-2493.904,1.504907",
       "Rotation": "0,0,0.7071067,0.7071068",
       "Enabled": true,
       "Components": [
@@ -6300,8 +6270,8 @@
               "Radius": 10
             },
             "Box": {
-              "Mins": "-586.2655,-284.4396,-116.8712",
-              "Maxs": "925.1962,1714.249,538.7564"
+              "Mins": "-630.2544,-327.1065,-116.8712",
+              "Maxs": "948.351,1714.249,538.7564"
             }
           },
           "TargetMixer": {
@@ -6312,43 +6282,10 @@
       ]
     },
     {
-      "__guid": "7da9d3fb-587d-42bb-baa4-69dc70e375f4",
-      "Flags": 0,
-      "Name": "Auto DSP",
-      "Position": "-553.0194,-1517.176,121.6563",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "Scenebox.AutoDspFilter",
-          "__guid": "8cba8feb-11c3-4d78-a856-3f9055e6bfe7",
-          "ConcreteMix": 1,
-          "ConcretePresets": [
-            "concrete.medium"
-          ],
-          "MetalMix": 1,
-          "MetalPresets": [
-            "metallic.medium"
-          ],
-          "OutsideMix": 1,
-          "OutsidePresets": [
-            "outside.large"
-          ],
-          "PlasterMix": 1,
-          "PlasterPresets": [
-            "room.diffuse.small"
-          ],
-          "WoodMix": 1,
-          "WoodPresets": [
-            "water.medium"
-          ]
-        }
-      ]
-    },
-    {
       "__guid": "49789092-a5f5-45f7-89e5-e531b3902f56",
       "Flags": 0,
       "Name": "DancePool",
-      "Position": "1483.98,-4191.597,14.08918",
+      "Position": "1641.564,-4191.597,14.08918",
       "Enabled": true,
       "Components": [
         {
@@ -6414,13 +6351,13 @@
             ],
             "TextureUAxis": [
               "1,0,0",
-              "1,0,-0",
+              "1,-0,0",
               "0,-1,0",
               "0,1,0",
               "-1,0,0",
               "1,-0,0",
-              "-1,0,0",
-              "-1,0,0"
+              "-0.8051326,-0.5930948,0",
+              "-0.6053191,0.7959829,0"
             ],
             "TextureVAxis": [
               "0,-1,0",
@@ -6433,24 +6370,24 @@
               "0,0,-1"
             ],
             "TextureScale": [
-              "1.668642,0.25",
-              "1.668642,0.25",
-              "0.25,0.09966887",
-              "0.25,0.09966887",
-              "1.668643,0.09966887",
-              "1.668643,0.09966887",
-              "1.668643,0.09966887",
-              "1.668643,0.09966887"
+              "1.668641,0.2499993",
+              "1.668641,0.2499993",
+              "0.2499993,0.09966887",
+              "0.2499992,0.09966886",
+              "1.668644,0.09966889",
+              "1.668641,0.09966888",
+              "2.0725,0.09966887",
+              "2.756593,0.09966888"
             ],
             "TextureOffset": [
-              "6.666016,1.611328",
-              "6.666016,1.611328",
-              "1.613281,13.35985",
-              "30.38672,13.35985",
-              "25.33386,13.35985",
-              "6.666138,13.35985",
-              "25.33386,13.35985",
-              "25.33386,13.35985"
+              "8.227173,1.5625",
+              "8.227173,1.5625",
+              "1.5625,13.35987",
+              "30.43945,13.35989",
+              "23.77136,13.35987",
+              "8.227295,13.35983",
+              "17.38562,13.35987",
+              "28.77856,13.35986"
             ],
             "MaterialIndex": [
               0,
@@ -6505,7 +6442,7 @@
             ]
           },
           "SmoothingAngle": 40,
-          "Static": false,
+          "Static": true,
           "SurfaceVelocity": "0,0,0"
         }
       ],
@@ -6513,8 +6450,9 @@
         {
           "__guid": "cdc78b07-c29a-478f-a2dc-f2a05a9823cc",
           "Flags": 0,
-          "Name": "s90",
-          "Position": "139.1285,-17.23193,12.61106",
+          "Name": "Speaker s90 Right Front",
+          "Position": "161.4664,54.72266,12.61116",
+          "Rotation": "0,0,-0.258819,0.9659258",
           "Scale": "1.5,1.5,1.5",
           "Enabled": true,
           "Components": [
@@ -6533,7 +6471,7 @@
             {
               "__guid": "98dc3c3a-906e-44f9-b704-8b86ec162cef",
               "Flags": 0,
-              "Name": "Sound Point",
+              "Name": "Sound Point Right",
               "Position": "12.88633,19.55317,18.52769",
               "Rotation": "0,0,0.5,0.8660254",
               "Enabled": true,
@@ -6587,8 +6525,9 @@
         {
           "__guid": "5a39f0e3-c196-4671-929a-e1229000a24f",
           "Flags": 0,
-          "Name": "s90 (1)",
-          "Position": "-174.4089,-17.23193,12.61106",
+          "Name": "Speaker s90 Left Front",
+          "Position": "-194.4723,41.09766,12.6111",
+          "Rotation": "0,0,0.258819,0.9659258",
           "Scale": "1.5,1.5,1.5",
           "Enabled": true,
           "Components": [
@@ -6607,7 +6546,7 @@
             {
               "__guid": "3489368b-0839-4426-bc07-9a7081b1ef05",
               "Flags": 0,
-              "Name": "Sound Point",
+              "Name": "Sound Point Left",
               "Position": "12.88633,19.55317,18.52769",
               "Rotation": "0,0,0.5,0.8660254",
               "Enabled": true,
@@ -6657,6 +6596,184 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "__guid": "6547ada8-47c3-4489-a69e-134fb5fe5328",
+      "Flags": 0,
+      "Name": "Speaker s90 Left Back",
+      "Position": "2378.3,-3006.95,250.2802",
+      "Rotation": "0,0,0.9238795,0.3826836",
+      "Scale": "1.5,1.5,1.5",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.Prop",
+          "__guid": "2ffd2e2a-ca8f-4509-8e8b-75acc879816a",
+          "BodyGroups": 18446744073709551615,
+          "Health": 0,
+          "IsStatic": true,
+          "Model": "models/speakers90/s90.vmdl",
+          "StartAsleep": false,
+          "Tint": "1,1,1,1"
+        }
+      ],
+      "Children": [
+        {
+          "__guid": "0c9a598f-0703-4ade-b869-ffbcf8783f2c",
+          "Flags": 0,
+          "Name": "Sound Point Left",
+          "Position": "12.88633,19.55317,18.52769",
+          "Rotation": "0,0,0.5,0.8660254",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.SoundPointComponent",
+              "__guid": "f4d678c3-2586-4089-831a-53bf8dd0cbc6",
+              "Distance": 1000,
+              "DistanceAttenuation": true,
+              "DistanceAttenuationOverride": true,
+              "Falloff": [
+                {
+                  "x": 0,
+                  "y": 1,
+                  "in": 3.1415927,
+                  "out": -3.1415927,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "Force2d": false,
+              "MaxRepeatTime": 1,
+              "MinRepeatTime": 1,
+              "Occlusion": false,
+              "OcclusionOverride": false,
+              "OcclusionRadius": 32,
+              "Pitch": 1,
+              "PlayOnStart": true,
+              "ReflectionOverride": false,
+              "Reflections": false,
+              "Repeat": false,
+              "SoundEvent": "sounds/music/mr-oizo-secam.sound",
+              "SoundOverride": false,
+              "StopOnNew": false,
+              "TargetMixer": {
+                "Name": "unknown",
+                "Id": "00000000-0000-0000-0000-000000000000"
+              },
+              "Volume": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "__guid": "44c7aab0-e994-4bab-8747-042cd32cb109",
+      "Flags": 0,
+      "Name": "Speaker s90 Right Back",
+      "Position": "892.683,-3006.95,292.976",
+      "Rotation": "0,0,0.9238796,-0.3826832",
+      "Scale": "1.5,1.5,1.5",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.Prop",
+          "__guid": "ab407ee3-debe-4589-a1a7-5aad03a1e34a",
+          "BodyGroups": 18446744073709551615,
+          "Health": 0,
+          "IsStatic": true,
+          "Model": "models/speakers90/s90.vmdl",
+          "StartAsleep": false,
+          "Tint": "1,1,1,1"
+        }
+      ],
+      "Children": [
+        {
+          "__guid": "ecd4f382-f409-41e9-bf9a-1f6172e738d6",
+          "Flags": 0,
+          "Name": "Sound Point Right",
+          "Position": "12.88633,19.55317,18.52769",
+          "Rotation": "0,0,0.5,0.8660254",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.SoundPointComponent",
+              "__guid": "280d6858-0524-48c7-9fc4-297db322256e",
+              "Distance": 1000,
+              "DistanceAttenuation": true,
+              "DistanceAttenuationOverride": true,
+              "Falloff": [
+                {
+                  "x": 0,
+                  "y": 1,
+                  "in": 3.1415927,
+                  "out": -3.1415927,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "Force2d": false,
+              "MaxRepeatTime": 1,
+              "MinRepeatTime": 1,
+              "Occlusion": false,
+              "OcclusionOverride": false,
+              "OcclusionRadius": 32,
+              "Pitch": 1,
+              "PlayOnStart": true,
+              "ReflectionOverride": false,
+              "Reflections": false,
+              "Repeat": false,
+              "SoundEvent": "sounds/music/mr-oizo-secam.sound",
+              "SoundOverride": false,
+              "StopOnNew": false,
+              "TargetMixer": {
+                "Name": "unknown",
+                "Id": "00000000-0000-0000-0000-000000000000"
+              },
+              "Volume": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "__guid": "b589fdeb-6267-41b6-8531-79959422d9c1",
+      "Flags": 0,
+      "Name": "Camera",
+      "Position": "3192.342,-1230.829,1367.871",
+      "Rotation": "-0.1760729,-0.09679781,0.8584337,-0.4719324",
+      "Tags": "maincamera",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.CameraComponent",
+          "__guid": "7fe053f3-8365-497b-abe0-befdbc7f4ddc",
+          "BackgroundColor": "0.33333,0.46275,0.52157,1",
+          "ClearFlags": "All",
+          "FieldOfView": 60,
+          "IsMainCamera": true,
+          "Orthographic": false,
+          "OrthographicHeight": 1204,
+          "Priority": 1,
+          "RenderExcludeTags": "",
+          "RenderTags": "",
+          "TargetEye": "None",
+          "Viewport": "0,0,1,1",
+          "ZFar": 100000,
+          "ZNear": 10
         }
       ]
     }
