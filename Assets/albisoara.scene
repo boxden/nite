@@ -6414,7 +6414,7 @@
                   "2.502962,0.3749989",
                   "2.502962,0.3749989",
                   "0.3749989,0.1495033",
-                  "0.3749992,0.1495033",
+                  "0.3749993,0.1495033",
                   "2.502966,0.1495033",
                   "2.502962,0.1495033",
                   "3.108744,0.1495033",
@@ -6423,12 +6423,12 @@
                 "TextureOffset": [
                   "16.15137,22.37598",
                   "16.15137,22.37598",
-                  "22.37598,30.2399",
-                  "9.614258,30.23988",
-                  "15.84753,30.2399",
-                  "16.15137,30.23987",
-                  "12.65112,30.2399",
-                  "17.17737,30.2399"
+                  "22.375,30.23991",
+                  "9.613281,30.2399",
+                  "15.84747,30.23992",
+                  "16.15137,30.23988",
+                  "12.65112,30.23991",
+                  "17.17737,30.23991"
                 ],
                 "MaterialIndex": [
                   0,
@@ -6491,9 +6491,9 @@
             {
               "__guid": "0eaff5e4-deeb-4f7c-ba75-1fd6055a598c",
               "Flags": 0,
-              "Name": "table_01",
+              "Name": "Table",
               "Position": "-3.563962,91.59717,19.71003",
-              "Rotation": "0.0002623033,0.00007938725,-0.01338473,0.9999105",
+              "Rotation": "0.0001293412,0.0002416117,0.697579,0.716508",
               "Enabled": true,
               "Components": [
                 {
@@ -6502,7 +6502,7 @@
                   "BodyGroups": 18446744073709551615,
                   "Health": 0,
                   "IsStatic": false,
-                  "Model": "models/props/furniture/table_01.vmdl",
+                  "Model": "models/scare_table.vmdl",
                   "StartAsleep": false,
                   "Tint": "1,1,1,1"
                 }
@@ -7212,6 +7212,46 @@
           ]
         }
       ]
+    },
+    {
+      "__guid": "337e3238-41fa-4931-af54-4d01dfc6a118",
+      "Flags": 0,
+      "Name": "playerstart",
+      "Position": "1632,-4159.999,33.8385",
+      "Rotation": "0,0,0.7071067,0.7071068",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.Prop",
+          "__guid": "3999d4d5-7044-45ca-8fdf-05f6ce9f77a4",
+          "BodyGroups": 18446744073709551615,
+          "Health": 0,
+          "IsStatic": false,
+          "Model": "models/editor/playerstart.vmdl",
+          "StartAsleep": false,
+          "Tint": "1,1,1,1"
+        }
+      ]
+    },
+    {
+      "__guid": "d3fb2aca-e278-4308-b85a-df6cbde69551",
+      "Flags": 0,
+      "Name": "2cdjs",
+      "Position": "1639.453,-4106.73,66.66298",
+      "Rotation": "-0.004128423,0.005746177,0.6888342,0.7248844",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.Prop",
+          "__guid": "95094fe9-ab86-4105-8a50-663d46e425b8",
+          "BodyGroups": 18446744073709551615,
+          "Health": 0,
+          "IsStatic": false,
+          "Model": "models/cdj 2000 nxs/2cdjs.vmdl",
+          "StartAsleep": false,
+          "Tint": "1,1,1,1"
+        }
+      ]
     }
   ],
   "SceneProperties": {
@@ -7248,7 +7288,7 @@
     "facepunch.leaves_pile_a5#56180",
     "facepunch.old_bench#33586",
     "facepunch.park_bin#33623",
-    "fpopium.table_01#54913",
+    "randkassets.spooky_table#21174",
     "saandy.industrial_light01#27009",
     "wujekfoliarz.skyboxnowy#40943"
   ],
