@@ -11,9 +11,15 @@
 				[
 					{
 						_class = "DefaultMaterialGroup"
-						remaps = [  ]
+						remaps = 
+						[
+							{
+								from = "material.vmat"
+								to = "materials/dev/reflectivity_60.vmat"
+							},
+						]
 						use_global_default = true
-						global_default_material = "materials/default.vmat"
+						global_default_material = "materials/dev/reflectivity_90b.vmat"
 					},
 				]
 			},
@@ -26,7 +32,7 @@
 						filename = "models/cdj 2000 nxs/2cdjs.obj"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
-						import_scale = 1.0
+						import_scale = 6.0
 						align_origin_x_type = "None"
 						align_origin_y_type = "None"
 						align_origin_z_type = "None"
@@ -41,7 +47,6 @@
 								"Plane_Plane_003",
 								"Plane_Plane_004",
 								"Plane_Plane_005",
-								"Plane_Plane_006",
 								"Plane_Plane_007",
 								"Plane_Plane_008",
 								"Plane_Plane_009",
@@ -264,19 +269,49 @@
 								"Circle_0059",
 								"Circle_0060",
 								"Circle_0061",
-								"Circle_0062",
 								"Circle_0063",
 								"Circle_0064",
 								"Circle_0065",
 								"Circle_0066",
+								"Plane_Plane_006",
+								"Circle_0062",
 							]
 						}
 					},
 				]
 			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							bakelighting = false
+							health = 0.0
+						}
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFromRender"
+						parent_bone = ""
+						surface_prop = "plastic"
+						collision_tags = "solid"
+						faceMergeAngle = 45.0
+						maxHullVertices = 8
+					},
+				]
+			},
 		]
-		model_archetype = ""
-		primary_associated_entity = ""
+		model_archetype = "physics_prop_model"
+		primary_associated_entity = "prop_physics"
 		anim_graph_name = ""
 		base_model_name = ""
 	}
