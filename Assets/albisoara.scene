@@ -6265,7 +6265,7 @@
           "__guid": "7fe053f3-8365-497b-abe0-befdbc7f4ddc",
           "BackgroundColor": "0.33333,0.46275,0.52157,1",
           "ClearFlags": "All",
-          "FieldOfView": 60,
+          "FieldOfView": 75,
           "IsMainCamera": true,
           "Orthographic": false,
           "OrthographicHeight": 1204,
@@ -6526,7 +6526,7 @@
               "OnEnabledAction": {
                 "__version": 8,
                 "__guid": "9275637d-7c27-43aa-b7a2-8802d97de0bf",
-                "__changeId": 74,
+                "__changeId": 75,
                 "UserData": {
                   "Title": "1 File to 4 Sound Point System",
                   "ReferencedComponentTypes": [],
@@ -6538,13 +6538,16 @@
                 "Nodes": [
                   {
                     "Id": 0,
-                    "Type": "input"
+                    "Type": "input",
+                    "UserData": {
+                      "Position": "-120,456"
+                    }
                   },
                   {
                     "Id": 4,
                     "Type": "scene.ref",
                     "UserData": {
-                      "Position": "600,-156"
+                      "Position": "588,144"
                     }
                   },
                   {
@@ -6556,7 +6559,7 @@
                       "_type": "Sandbox.SoundPointComponent"
                     },
                     "UserData": {
-                      "Position": "768,-0"
+                      "Position": "720,36"
                     }
                   },
                   {
@@ -6567,7 +6570,7 @@
                       "_type": "Sandbox.SoundPointComponent"
                     },
                     "UserData": {
-                      "Position": "456,0"
+                      "Position": "432,36"
                     }
                   },
                   {
@@ -6583,7 +6586,7 @@
                       "value": "sounds/music/mr-oizo-secam.sound"
                     },
                     "UserData": {
-                      "Position": "156,492"
+                      "Position": "0,504"
                     }
                   },
                   {
@@ -6594,7 +6597,7 @@
                       "_type": "Sandbox.SoundPointComponent"
                     },
                     "UserData": {
-                      "Position": "456,396"
+                      "Position": "432,324"
                     }
                   },
                   {
@@ -6606,17 +6609,18 @@
                     "Id": 21,
                     "Type": "comment",
                     "UserData": {
-                      "Position": "420,-228",
-                      "Size": "592,368",
+                      "Position": "420,-12",
+                      "Size": "540,264",
                       "Title": "1 Speaker",
-                      "Layer": 4
+                      "Layer": 4,
+                      "Color": 3
                     }
                   },
                   {
                     "Id": 23,
                     "Type": "scene.ref",
                     "UserData": {
-                      "Position": "588,228"
+                      "Position": "588,432"
                     }
                   },
                   {
@@ -6628,17 +6632,18 @@
                       "_type": "Sandbox.SoundPointComponent"
                     },
                     "UserData": {
-                      "Position": "780,396"
+                      "Position": "720,324"
                     }
                   },
                   {
                     "Id": 25,
                     "Type": "comment",
                     "UserData": {
-                      "Position": "420,156",
-                      "Size": "600,380",
+                      "Position": "420,276",
+                      "Size": "540,264",
                       "Title": "2 Speaker",
-                      "Layer": 3
+                      "Layer": 3,
+                      "Color": 4
                     }
                   },
                   {
@@ -6649,7 +6654,7 @@
                       "_type": "Sandbox.SoundPointComponent"
                     },
                     "UserData": {
-                      "Position": "468,804"
+                      "Position": "432,612"
                     }
                   },
                   {
@@ -6661,7 +6666,7 @@
                     "Id": 31,
                     "Type": "scene.ref",
                     "UserData": {
-                      "Position": "612,660"
+                      "Position": "588,720"
                     }
                   },
                   {
@@ -6673,17 +6678,18 @@
                       "_type": "Sandbox.SoundPointComponent"
                     },
                     "UserData": {
-                      "Position": "780,804"
+                      "Position": "720,612"
                     }
                   },
                   {
                     "Id": 33,
                     "Type": "comment",
                     "UserData": {
-                      "Position": "432,564",
-                      "Size": "588,380",
+                      "Position": "420,564",
+                      "Size": "540,264",
                       "Title": "3 Speaker",
-                      "Layer": 2
+                      "Layer": 2,
+                      "Color": 5
                     }
                   },
                   {
@@ -6694,7 +6700,7 @@
                       "_type": "Sandbox.SoundPointComponent"
                     },
                     "UserData": {
-                      "Position": "468,1224"
+                      "Position": "432,900"
                     }
                   },
                   {
@@ -6706,7 +6712,7 @@
                     "Id": 39,
                     "Type": "scene.ref",
                     "UserData": {
-                      "Position": "564,1056"
+                      "Position": "588,1008"
                     }
                   },
                   {
@@ -6718,17 +6724,18 @@
                       "_type": "Sandbox.SoundPointComponent"
                     },
                     "UserData": {
-                      "Position": "816,1140"
+                      "Position": "720,900"
                     }
                   },
                   {
                     "Id": 41,
                     "Type": "comment",
                     "UserData": {
-                      "Position": "432,984",
-                      "Size": "640,380",
+                      "Position": "420,852",
+                      "Size": "540,264",
                       "Title": "4 Speaker",
-                      "Layer": 1
+                      "Layer": 1,
+                      "Color": 6
                     }
                   }
                 ],
