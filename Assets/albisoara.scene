@@ -6155,7 +6155,7 @@
             "Yaw": true,
             "Roll": true
           },
-          "MassCenterOverride": "0,0,0",
+          "MassCenterOverride": "0,0,36",
           "MassOverride": 500,
           "MotionEnabled": true,
           "OverrideMassCenter": true,
@@ -6241,7 +6241,7 @@
               "__type": "Sandbox.BoxCollider",
               "__guid": "b0991a37-aa55-470a-be69-4dbeef8f3632",
               "Center": "0,0,18",
-              "Friction": 10,
+              "Friction": 0,
               "IsTrigger": false,
               "Scale": "16,16,36",
               "Static": false,
@@ -6514,7 +6514,7 @@
           "__guid": "b00931c8-5345-4b6d-8bed-e34477e98480",
           "Flags": 0,
           "Name": "Trigger Autoplay Sound",
-          "Position": "-88.1077,-59.43303,-0.4668935",
+          "Position": "-92.35833,-61.88713,0.3317503",
           "Rotation": "0,0,0.258819,0.9659259",
           "Scale": "0.6666667,0.6666667,0.6666667",
           "Tags": "sound,trigger",
@@ -6526,7 +6526,7 @@
               "OnEnabledAction": {
                 "__version": 8,
                 "__guid": "9275637d-7c27-43aa-b7a2-8802d97de0bf",
-                "__changeId": 75,
+                "__changeId": 491,
                 "UserData": {
                   "Title": "1 File to 4 Sound Point System",
                   "ReferencedComponentTypes": [],
@@ -6547,7 +6547,7 @@
                     "Id": 4,
                     "Type": "scene.ref",
                     "UserData": {
-                      "Position": "588,144"
+                      "Position": "912,264"
                     }
                   },
                   {
@@ -6559,7 +6559,7 @@
                       "_type": "Sandbox.SoundPointComponent"
                     },
                     "UserData": {
-                      "Position": "720,36"
+                      "Position": "1044,156"
                     }
                   },
                   {
@@ -6570,7 +6570,7 @@
                       "_type": "Sandbox.SoundPointComponent"
                     },
                     "UserData": {
-                      "Position": "432,36"
+                      "Position": "756,156"
                     }
                   },
                   {
@@ -6586,7 +6586,7 @@
                       "value": "sounds/music/mr-oizo-secam.sound"
                     },
                     "UserData": {
-                      "Position": "0,504"
+                      "Position": "456,588"
                     }
                   },
                   {
@@ -6597,7 +6597,7 @@
                       "_type": "Sandbox.SoundPointComponent"
                     },
                     "UserData": {
-                      "Position": "432,324"
+                      "Position": "756,444"
                     }
                   },
                   {
@@ -6609,10 +6609,10 @@
                     "Id": 21,
                     "Type": "comment",
                     "UserData": {
-                      "Position": "420,-12",
+                      "Position": "744,108",
                       "Size": "540,264",
                       "Title": "1 Speaker",
-                      "Layer": 4,
+                      "Layer": 1,
                       "Color": 3
                     }
                   },
@@ -6620,7 +6620,7 @@
                     "Id": 23,
                     "Type": "scene.ref",
                     "UserData": {
-                      "Position": "588,432"
+                      "Position": "912,552"
                     }
                   },
                   {
@@ -6632,17 +6632,17 @@
                       "_type": "Sandbox.SoundPointComponent"
                     },
                     "UserData": {
-                      "Position": "720,324"
+                      "Position": "1044,444"
                     }
                   },
                   {
                     "Id": 25,
                     "Type": "comment",
                     "UserData": {
-                      "Position": "420,276",
+                      "Position": "744,396",
                       "Size": "540,264",
                       "Title": "2 Speaker",
-                      "Layer": 3,
+                      "Layer": 1,
                       "Color": 4
                     }
                   },
@@ -6654,7 +6654,7 @@
                       "_type": "Sandbox.SoundPointComponent"
                     },
                     "UserData": {
-                      "Position": "432,612"
+                      "Position": "756,732"
                     }
                   },
                   {
@@ -6666,7 +6666,7 @@
                     "Id": 31,
                     "Type": "scene.ref",
                     "UserData": {
-                      "Position": "588,720"
+                      "Position": "912,840"
                     }
                   },
                   {
@@ -6678,17 +6678,17 @@
                       "_type": "Sandbox.SoundPointComponent"
                     },
                     "UserData": {
-                      "Position": "720,612"
+                      "Position": "1044,732"
                     }
                   },
                   {
                     "Id": 33,
                     "Type": "comment",
                     "UserData": {
-                      "Position": "420,564",
+                      "Position": "744,684",
                       "Size": "540,264",
                       "Title": "3 Speaker",
-                      "Layer": 2,
+                      "Layer": 1,
                       "Color": 5
                     }
                   },
@@ -6700,7 +6700,7 @@
                       "_type": "Sandbox.SoundPointComponent"
                     },
                     "UserData": {
-                      "Position": "432,900"
+                      "Position": "756,1020"
                     }
                   },
                   {
@@ -6712,7 +6712,7 @@
                     "Id": 39,
                     "Type": "scene.ref",
                     "UserData": {
-                      "Position": "588,1008"
+                      "Position": "912,1128"
                     }
                   },
                   {
@@ -6724,18 +6724,89 @@
                       "_type": "Sandbox.SoundPointComponent"
                     },
                     "UserData": {
-                      "Position": "720,900"
+                      "Position": "1044,1020"
                     }
                   },
                   {
                     "Id": 41,
                     "Type": "comment",
                     "UserData": {
-                      "Position": "420,852",
+                      "Position": "744,972",
                       "Size": "540,264",
                       "Title": "4 Speaker",
                       "Layer": 1,
                       "Color": 6
+                    }
+                  },
+                  {
+                    "Id": 133,
+                    "Type": "nop",
+                    "UserData": {
+                      "Position": "624,636"
+                    }
+                  },
+                  {
+                    "Id": 134,
+                    "Type": "nop",
+                    "UserData": {
+                      "Position": "648,468"
+                    }
+                  },
+                  {
+                    "Id": 136,
+                    "Type": "comment",
+                    "UserData": {
+                      "Position": "420,36",
+                      "Size": "892,1232",
+                      "Title": "Play Speakers",
+                      "Layer": 2
+                    }
+                  },
+                  {
+                    "Id": 196,
+                    "Type": "property",
+                    "Properties": {
+                      "_name": "Pitch",
+                      "_type": "Sandbox.BaseSoundComponent"
+                    },
+                    "UserData": {
+                      "Position": "1128,-216"
+                    }
+                  },
+                  {
+                    "Id": 198,
+                    "Type": "time.delay",
+                    "UserData": {
+                      "Position": "468,-240"
+                    }
+                  },
+                  {
+                    "Id": 339,
+                    "Type": "property",
+                    "Properties": {
+                      "_name": "SoundOverride",
+                      "_type": "Sandbox.BaseSoundComponent"
+                    },
+                    "UserData": {
+                      "Position": "660,-240"
+                    }
+                  },
+                  {
+                    "Id": 379,
+                    "Type": "property",
+                    "Properties": {
+                      "_name": "Volume",
+                      "_type": "Sandbox.BaseSoundComponent"
+                    },
+                    "UserData": {
+                      "Position": "1476,-132"
+                    }
+                  },
+                  {
+                    "Id": 419,
+                    "Type": "scene.ref",
+                    "UserData": {
+                      "Position": "456,-108"
                     }
                   }
                 ],
@@ -6753,8 +6824,8 @@
                     "DstName": "_target"
                   },
                   {
-                    "SrcId": 0,
-                    "SrcName": "_signal",
+                    "SrcId": 134,
+                    "SrcName": "out",
                     "DstId": 13,
                     "DstName": "_signal"
                   },
@@ -6765,14 +6836,14 @@
                     "DstName": "_target"
                   },
                   {
-                    "SrcId": 16,
-                    "SrcName": "_result",
+                    "SrcId": 133,
+                    "SrcName": "out",
                     "DstId": 13,
                     "DstName": "_value"
                   },
                   {
-                    "SrcId": 0,
-                    "SrcName": "_signal",
+                    "SrcId": 134,
+                    "SrcName": "out",
                     "DstId": 19,
                     "DstName": "_signal"
                   },
@@ -6783,8 +6854,8 @@
                     "DstName": "_target"
                   },
                   {
-                    "SrcId": 16,
-                    "SrcName": "_result",
+                    "SrcId": 133,
+                    "SrcName": "out",
                     "DstId": 19,
                     "DstName": "_value"
                   },
@@ -6801,8 +6872,8 @@
                     "DstName": "_target"
                   },
                   {
-                    "SrcId": 0,
-                    "SrcName": "_signal",
+                    "SrcId": 134,
+                    "SrcName": "out",
                     "DstId": 28,
                     "DstName": "_signal"
                   },
@@ -6813,8 +6884,8 @@
                     "DstName": "_target"
                   },
                   {
-                    "SrcId": 16,
-                    "SrcName": "_result",
+                    "SrcId": 133,
+                    "SrcName": "out",
                     "DstId": 28,
                     "DstName": "_value"
                   },
@@ -6831,8 +6902,8 @@
                     "DstName": "_target"
                   },
                   {
-                    "SrcId": 0,
-                    "SrcName": "_signal",
+                    "SrcId": 134,
+                    "SrcName": "out",
                     "DstId": 36,
                     "DstName": "_signal"
                   },
@@ -6843,8 +6914,8 @@
                     "DstName": "_target"
                   },
                   {
-                    "SrcId": 16,
-                    "SrcName": "_result",
+                    "SrcId": 133,
+                    "SrcName": "out",
                     "DstId": 36,
                     "DstName": "_value"
                   },
@@ -6859,6 +6930,84 @@
                     "SrcName": "_result",
                     "DstId": 40,
                     "DstName": "_target"
+                  },
+                  {
+                    "SrcId": 16,
+                    "SrcName": "_result",
+                    "DstId": 133,
+                    "DstName": "in"
+                  },
+                  {
+                    "SrcId": 0,
+                    "SrcName": "_signal",
+                    "DstId": 134,
+                    "DstName": "in"
+                  },
+                  {
+                    "SrcId": 339,
+                    "SrcName": "_signal",
+                    "DstId": 196,
+                    "DstName": "_signal"
+                  },
+                  {
+                    "SrcId": 419,
+                    "SrcName": "_result",
+                    "DstId": 196,
+                    "DstName": "_target"
+                  },
+                  {
+                    "Id": 420,
+                    "Value": -2.8,
+                    "DstId": 196,
+                    "DstName": "_value"
+                  },
+                  {
+                    "SrcId": 0,
+                    "SrcName": "_signal",
+                    "DstId": 198,
+                    "DstName": "_signal"
+                  },
+                  {
+                    "Id": 421,
+                    "Value": 5,
+                    "DstId": 198,
+                    "DstName": "seconds"
+                  },
+                  {
+                    "SrcId": 198,
+                    "SrcName": "_signal",
+                    "DstId": 339,
+                    "DstName": "_signal"
+                  },
+                  {
+                    "SrcId": 419,
+                    "SrcName": "_result",
+                    "DstId": 339,
+                    "DstName": "_target"
+                  },
+                  {
+                    "Id": 422,
+                    "Value": true,
+                    "DstId": 339,
+                    "DstName": "_value"
+                  },
+                  {
+                    "SrcId": 196,
+                    "SrcName": "_signal",
+                    "DstId": 379,
+                    "DstName": "_signal"
+                  },
+                  {
+                    "SrcId": 419,
+                    "SrcName": "_result",
+                    "DstId": 379,
+                    "DstName": "_target"
+                  },
+                  {
+                    "Id": 423,
+                    "Value": -0.8,
+                    "DstId": 379,
+                    "DstName": "_value"
                   }
                 ],
                 "Defaults": {
@@ -6908,6 +7057,12 @@
                     "_type": "component",
                     "component_id": "179adfa8-68e6-4daf-aaea-ae3482d7980a",
                     "go": "3489368b-0839-4426-bc07-9a7081b1ef05",
+                    "component_type": "SoundPointComponent"
+                  },
+                  "$419.component": {
+                    "_type": "component",
+                    "component_id": "280d6858-0524-48c7-9fc4-297db322256e",
+                    "go": "ecd4f382-f409-41e9-bf9a-1f6172e738d6",
                     "component_type": "SoundPointComponent"
                   }
                 }
