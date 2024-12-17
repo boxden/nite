@@ -6084,7 +6084,7 @@
       "__guid": "99813407-a3ab-40c7-b41b-0c154f737d63",
       "Flags": 0,
       "Name": "Player Controller",
-      "Position": "2161.979,-2493.904,1.126769",
+      "Position": "-793.6445,-1768.307,1.127063",
       "Rotation": "0,0,0.7071067,0.7071068",
       "Enabled": true,
       "Components": [
@@ -6956,7 +6956,7 @@
                     "DstName": "_target"
                   },
                   {
-                    "Id": 420,
+                    "Id": 440,
                     "Value": -2.8,
                     "DstId": 196,
                     "DstName": "_value"
@@ -6968,7 +6968,7 @@
                     "DstName": "_signal"
                   },
                   {
-                    "Id": 421,
+                    "Id": 441,
                     "Value": 5,
                     "DstId": 198,
                     "DstName": "seconds"
@@ -6986,7 +6986,7 @@
                     "DstName": "_target"
                   },
                   {
-                    "Id": 422,
+                    "Id": 442,
                     "Value": true,
                     "DstId": 339,
                     "DstName": "_value"
@@ -7004,7 +7004,7 @@
                     "DstName": "_target"
                   },
                   {
-                    "Id": 423,
+                    "Id": 443,
                     "Value": -0.8,
                     "DstId": 379,
                     "DstName": "_value"
@@ -7135,8 +7135,8 @@
                   "SoundOverride": false,
                   "StopOnNew": false,
                   "TargetMixer": {
-                    "Name": "unknown",
-                    "Id": "00000000-0000-0000-0000-000000000000"
+                    "Name": "game",
+                    "Id": "4b044426-20a6-4c3f-bea7-6cd57bed0943"
                   },
                   "Volume": 1
                 }
@@ -7209,8 +7209,8 @@
                   "SoundOverride": false,
                   "StopOnNew": false,
                   "TargetMixer": {
-                    "Name": "unknown",
-                    "Id": "00000000-0000-0000-0000-000000000000"
+                    "Name": "game",
+                    "Id": "4b044426-20a6-4c3f-bea7-6cd57bed0943"
                   },
                   "Volume": 1
                 }
@@ -7283,8 +7283,8 @@
                   "SoundOverride": false,
                   "StopOnNew": false,
                   "TargetMixer": {
-                    "Name": "unknown",
-                    "Id": "00000000-0000-0000-0000-000000000000"
+                    "Name": "game",
+                    "Id": "4b044426-20a6-4c3f-bea7-6cd57bed0943"
                   },
                   "Volume": 1
                 }
@@ -7357,8 +7357,8 @@
                   "SoundOverride": false,
                   "StopOnNew": false,
                   "TargetMixer": {
-                    "Name": "unknown",
-                    "Id": "00000000-0000-0000-0000-000000000000"
+                    "Name": "game",
+                    "Id": "4b044426-20a6-4c3f-bea7-6cd57bed0943"
                   },
                   "Volume": 1
                 }
@@ -7407,6 +7407,231 @@
           "Tint": "1,1,1,1"
         }
       ]
+    },
+    {
+      "__guid": "7f9ccc6b-628f-4361-ae7f-a241dffafccb",
+      "Flags": 0,
+      "Name": "test",
+      "Position": "1740.805,-4175.712,120.972",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ActionGraphs.ActionsInvoker",
+          "__guid": "c3d18d60-2435-4867-97f8-8820fe86c634",
+          "OnEnabledAction": {
+            "__version": 8,
+            "__guid": "bf162882-63c0-4f3f-9200-1e8ec9d3cee2",
+            "__changeId": 10,
+            "UserData": {
+              "Title": "On Enabled Action",
+              "ReferencedComponentTypes": []
+            },
+            "Variables": [],
+            "Nodes": [
+              {
+                "Id": 0,
+                "Type": "input"
+              },
+              {
+                "Id": 2,
+                "Type": "scene.ref",
+                "UserData": {
+                  "Position": "108,108"
+                }
+              },
+              {
+                "Id": 3,
+                "Type": "call",
+                "Properties": {
+                  "_isStatic": false,
+                  "_name": "Destroy",
+                  "_type": "Sandbox.GameObject"
+                },
+                "UserData": {
+                  "Position": "384,60"
+                }
+              }
+            ],
+            "Links": [
+              {
+                "SrcId": 0,
+                "SrcName": "_signal",
+                "DstId": 3,
+                "DstName": "_signal"
+              },
+              {
+                "SrcId": 2,
+                "SrcName": "_result",
+                "DstId": 3,
+                "DstName": "_target"
+              }
+            ],
+            "Defaults": {
+              "$2.gameobject": {
+                "_type": "gameobject",
+                "go": "337e3238-41fa-4931-af54-4d01dfc6a118"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "__guid": "ad93085e-979a-487e-93a8-e43266d71fe6",
+      "Flags": 0,
+      "Name": "radio",
+      "Position": "-1506.93,-1660.892,1039.596",
+      "Rotation": "0.001433026,0.007565243,-0.9627169,0.2704014",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.Prop",
+          "__guid": "ecb3f9ae-a2ef-4bc4-a53a-35c46e4b43d0",
+          "BodyGroups": 18446744073709551615,
+          "Health": 0,
+          "IsStatic": false,
+          "Model": "content/models/radio/radio.vmdl",
+          "StartAsleep": true,
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "Sandbox.ActionGraphs.ActionsInvoker",
+          "__guid": "ce4ff6bf-b2db-4e97-928c-056c8757c081",
+          "OnEnabledAction": {
+            "__version": 8,
+            "__guid": "84f77f89-33bc-44a6-a4bc-5351fc92660b",
+            "__changeId": 153,
+            "UserData": {
+              "Title": "On Enabled Action",
+              "ReferencedComponentTypes": []
+            },
+            "Variables": [],
+            "Nodes": [
+              {
+                "Id": 0,
+                "Type": "input"
+              },
+              {
+                "Id": 8,
+                "Type": "time.delay",
+                "UserData": {
+                  "Position": "240,204"
+                }
+              },
+              {
+                "Id": 101,
+                "Type": "scene.ref",
+                "UserData": {
+                  "Position": "348,420"
+                }
+              },
+              {
+                "Id": 102,
+                "Type": "property",
+                "Properties": {
+                  "_kind": "Add",
+                  "_name": "WorldPosition",
+                  "_type": "Sandbox.GameObject"
+                },
+                "UserData": {
+                  "Position": "552,300"
+                }
+              }
+            ],
+            "Links": [
+              {
+                "SrcId": 0,
+                "SrcName": "_signal",
+                "DstId": 8,
+                "DstName": "_signal"
+              },
+              {
+                "Id": 113,
+                "Value": 8,
+                "DstId": 8,
+                "DstName": "seconds"
+              },
+              {
+                "SrcId": 8,
+                "SrcName": "_signal",
+                "DstId": 102,
+                "DstName": "_signal"
+              },
+              {
+                "SrcId": 101,
+                "SrcName": "_result",
+                "DstId": 102,
+                "DstName": "_target"
+              },
+              {
+                "Id": 114,
+                "Value": "0,0,0.01",
+                "DstId": 102,
+                "DstName": "_value"
+              }
+            ],
+            "Defaults": {
+              "$101.gameobject": {
+                "_type": "gameobject",
+                "go": "ad93085e-979a-487e-93a8-e43266d71fe6"
+              }
+            }
+          }
+        }
+      ],
+      "Children": [
+        {
+          "__guid": "871bba24-e056-43d3-9343-bb386501f79f",
+          "Flags": 0,
+          "Name": "eydiab",
+          "Position": "4.619263,3.013458,0",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.SoundPointComponent",
+              "__guid": "3ac216f2-aef1-4125-9e4e-2d78ea97cf29",
+              "Distance": 512,
+              "DistanceAttenuation": false,
+              "DistanceAttenuationOverride": false,
+              "Falloff": [
+                {
+                  "x": 0,
+                  "y": 1,
+                  "in": 3.1415927,
+                  "out": -3.1415927,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "Force2d": false,
+              "MaxRepeatTime": 1,
+              "MinRepeatTime": 1,
+              "Occlusion": false,
+              "OcclusionOverride": false,
+              "OcclusionRadius": 32,
+              "Pitch": 1,
+              "PlayOnStart": true,
+              "ReflectionOverride": false,
+              "Reflections": false,
+              "Repeat": false,
+              "SoundEvent": "sounds/music/eydiab.sound",
+              "SoundOverride": false,
+              "StopOnNew": false,
+              "TargetMixer": {
+                "Name": "master",
+                "Id": "b771baf6-46ad-4971-9d10-6552e29039b6"
+              },
+              "Volume": 1
+            }
+          ]
+        }
+      ]
     }
   ],
   "SceneProperties": {
@@ -7437,6 +7662,7 @@
   "Description": null,
   "__references": [
     "blmndy.rrr_s90#26985",
+    "evilinc.radio#48192",
     "facepunch.couch#33708",
     "facepunch.leaves_pile_a1#56176",
     "facepunch.leaves_pile_a2#56177",
