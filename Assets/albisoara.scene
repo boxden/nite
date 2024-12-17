@@ -6526,7 +6526,7 @@
               "OnEnabledAction": {
                 "__version": 8,
                 "__guid": "9275637d-7c27-43aa-b7a2-8802d97de0bf",
-                "__changeId": 491,
+                "__changeId": 492,
                 "UserData": {
                   "Title": "1 File to 4 Sound Point System",
                   "ReferencedComponentTypes": [],
@@ -6757,7 +6757,7 @@
                     "Type": "comment",
                     "UserData": {
                       "Position": "420,36",
-                      "Size": "892,1232",
+                      "Size": "900,1232",
                       "Title": "Play Speakers",
                       "Layer": 2
                     }
