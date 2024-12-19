@@ -13,11 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "actiongraph", "C:\Program F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hammer", "C:\Program Files (x86)\Steam\steamapps\common\sbox\editor\Hammer\Code\hammer.csproj", "{FF37D677-2789-827B-9FEC-126106445C54}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "inchconverter", "Libraries\thelab.inchconverter\Code\inchconverter.csproj", "{CAB8299F-9E8E-5FFF-FD37-7A16F25DA115}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "inchconverter.editor", "Libraries\thelab.inchconverter\Editor\inchconverter.editor.csproj", "{386847EA-D1D1-0476-E4D3-328C0EE47F85}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "inchconverter.unittest", "Libraries\thelab.inchconverter\UnitTests\inchconverter.unittest.csproj", "{E2ECB445-A798-B852-BD64-1820AA60D9BC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Addons", "Addons", "{7E84B5F6-56F9-A3B2-F215-7A71616B85A2}"
 EndProject
@@ -52,18 +48,6 @@ Global
 		{FF37D677-2789-827B-9FEC-126106445C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF37D677-2789-827B-9FEC-126106445C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF37D677-2789-827B-9FEC-126106445C54}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CAB8299F-9E8E-5FFF-FD37-7A16F25DA115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CAB8299F-9E8E-5FFF-FD37-7A16F25DA115}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CAB8299F-9E8E-5FFF-FD37-7A16F25DA115}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CAB8299F-9E8E-5FFF-FD37-7A16F25DA115}.Release|Any CPU.Build.0 = Release|Any CPU
-		{386847EA-D1D1-0476-E4D3-328C0EE47F85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{386847EA-D1D1-0476-E4D3-328C0EE47F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{386847EA-D1D1-0476-E4D3-328C0EE47F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{386847EA-D1D1-0476-E4D3-328C0EE47F85}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E2ECB445-A798-B852-BD64-1820AA60D9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E2ECB445-A798-B852-BD64-1820AA60D9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E2ECB445-A798-B852-BD64-1820AA60D9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E2ECB445-A798-B852-BD64-1820AA60D9BC}.Release|Any CPU.Build.0 = Release|Any CPU
 
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
@@ -75,9 +59,6 @@ Global
 		{E1F3841D-E6E7-98DF-B512-B4A0EDA94B43} = {91C47821-78DC-6EB2-D97E-14E2D5EF1C9F}
 		{D99A7B07-1DA2-FEA1-BA4C-344E12BE35C4} = {91C47821-78DC-6EB2-D97E-14E2D5EF1C9F}
 		{FF37D677-2789-827B-9FEC-126106445C54} = {91C47821-78DC-6EB2-D97E-14E2D5EF1C9F}
-		{CAB8299F-9E8E-5FFF-FD37-7A16F25DA115} = {A4043C4D-9AC0-3AB1-C0E6-AD534972B49C}
-		{386847EA-D1D1-0476-E4D3-328C0EE47F85} = {A4043C4D-9AC0-3AB1-C0E6-AD534972B49C}
-		{E2ECB445-A798-B852-BD64-1820AA60D9BC} = {A4043C4D-9AC0-3AB1-C0E6-AD534972B49C}
 
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
