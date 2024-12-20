@@ -41,95 +41,6 @@
           "EnableCollision": true,
           "MapName": "maps/school85.vmap",
           "NoOrigin": false,
-          "OnMapLoaded": {
-            "__version": 8,
-            "__guid": "b38a3ab7-e8b7-4173-9255-2200fdbe4f09",
-            "__changeId": 285,
-            "UserData": {
-              "Title": "On Map Loaded",
-              "ReferencedComponentTypes": []
-            },
-            "Variables": [],
-            "Nodes": [
-              {
-                "Id": 0,
-                "Type": "input"
-              },
-              {
-                "Id": 10,
-                "Type": "resource.ref",
-                "Properties": {
-                  "T": "Sandbox.SoundEvent",
-                  "value": "sounds/1071160110.sound"
-                },
-                "UserData": {
-                  "Position": "288,252"
-                }
-              },
-              {
-                "Id": 15,
-                "Type": "scene.ref",
-                "Properties": {
-                  "gameobject": null
-                },
-                "UserData": {
-                  "Position": "276,108"
-                }
-              },
-              {
-                "Id": 18,
-                "Type": "sound.play",
-                "UserData": {
-                  "Position": "480,264"
-                }
-              },
-              {
-                "Id": 19,
-                "Type": "time.delayobj",
-                "UserData": {
-                  "Position": "204,0"
-                }
-              }
-            ],
-            "Links": [
-              {
-                "SrcId": 19,
-                "SrcName": "_signal",
-                "DstId": 18,
-                "DstName": "_signal"
-              },
-              {
-                "SrcId": 15,
-                "SrcName": "_result",
-                "DstId": 18,
-                "DstName": "_this"
-              },
-              {
-                "SrcId": 10,
-                "SrcName": "_result",
-                "DstId": 18,
-                "DstName": "soundEvent"
-              },
-              {
-                "SrcId": 0,
-                "SrcName": "_signal",
-                "DstId": 19,
-                "DstName": "_signal"
-              },
-              {
-                "Id": 45,
-                "Value": 0.49999994,
-                "DstId": 19,
-                "DstName": "seconds"
-              },
-              {
-                "SrcId": 0,
-                "SrcName": "_target",
-                "DstId": 19,
-                "DstName": "target"
-              }
-            ]
-          },
           "UseMapFromLaunch": false
         }
       ],
@@ -173,112 +84,6 @@
       ]
     },
     {
-      "__guid": "8ac03f5e-e1de-47df-b02d-dbdb077b2e6e",
-      "Flags": 0,
-      "Name": "Line",
-      "Position": "98,-1916,4",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "Sandbox.LineRenderer",
-          "__guid": "16070d0a-c9b3-460f-9ca5-d65a7d0e4b4b",
-          "CastShadows": false,
-          "Color": {
-            "blend": "Linear",
-            "color": [
-              {
-                "t": 0.5,
-                "c": "1,1,1,1"
-              }
-            ],
-            "alpha": []
-          },
-          "EndCap": "Rounded",
-          "Face": "Camera",
-          "Opaque": false,
-          "Points": [
-            {
-              "_type": "gameobject",
-              "go": "25ef53d5-10e7-414f-95c3-3ceb2f59949e"
-            },
-            {
-              "_type": "gameobject",
-              "go": "285ddad0-aaba-4427-80ed-9550f4dead72"
-            },
-            {
-              "_type": "gameobject",
-              "go": "0267d6b9-7153-4559-8558-954956f8f04a"
-            },
-            {
-              "_type": "gameobject",
-              "go": "0666ec76-ad32-4309-9f80-2780a2103826"
-            }
-          ],
-          "RenderOptions": {
-            "GameLayer": true,
-            "OverlayLayer": false,
-            "BloomLayer": false,
-            "AfterUILayer": false
-          },
-          "SplineBias": 0,
-          "SplineContinuity": 0,
-          "SplineInterpolation": 128,
-          "SplineTension": 0,
-          "StartCap": "Rounded",
-          "Texturing": {
-            "Texture": null,
-            "WorldSpace": false,
-            "UnitsPerTexture": 0,
-            "Scale": 0,
-            "Offset": 0,
-            "Scroll": 0
-          },
-          "UseVectorPoints": false,
-          "VectorPoints": [],
-          "Width": [
-            {
-              "x": 0,
-              "y": 1,
-              "in": 0,
-              "out": 0,
-              "mode": "Mirrored"
-            }
-          ],
-          "Wireframe": false
-        }
-      ],
-      "Children": [
-        {
-          "__guid": "25ef53d5-10e7-414f-95c3-3ceb2f59949e",
-          "Flags": 0,
-          "Name": "Point 1",
-          "Position": "-19,0,-41",
-          "Enabled": true
-        },
-        {
-          "__guid": "285ddad0-aaba-4427-80ed-9550f4dead72",
-          "Flags": 0,
-          "Name": "Point 2",
-          "Position": "-2449,974,0",
-          "Enabled": true
-        },
-        {
-          "__guid": "0267d6b9-7153-4559-8558-954956f8f04a",
-          "Flags": 0,
-          "Name": "Point 3",
-          "Position": "-2836,1992,47.99999",
-          "Enabled": true
-        },
-        {
-          "__guid": "0666ec76-ad32-4309-9f80-2780a2103826",
-          "Flags": 0,
-          "Name": "Point 4",
-          "Position": "-2198,2276,48.00005",
-          "Enabled": true
-        }
-      ]
-    },
-    {
       "__guid": "7626e817-f016-4728-a655-fc74fa9e4507",
       "Flags": 0,
       "Name": "DSP",
@@ -297,8 +102,8 @@
               "Radius": 10
             },
             "Box": {
-              "Mins": "-1274.672,-830.3563,-107.9574",
-              "Maxs": "762.5874,2479.899,366.4437"
+              "Mins": "-1309.754,1091.971,-107.9574",
+              "Maxs": "853.0659,2619.953,546.2761"
             }
           },
           "TargetMixer": {
@@ -643,7 +448,27 @@
         {
           "__type": "Sandbox.PointLight",
           "__guid": "18de31fd-7154-4248-bc87-75dfc1a4bb08",
-          "Attenuation": 8.920003,
+          "Attenuation": 2.84,
+          "FogMode": "Disabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "Radius": 1000,
+          "Shadows": true
+        }
+      ]
+    },
+    {
+      "__guid": "a286cb53-4031-4252-96ee-225d03924241",
+      "Flags": 0,
+      "Name": "Point Light (4)",
+      "Position": "-1761.312,-354.6906,93.99998",
+      "Tags": "light_point,light",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.PointLight",
+          "__guid": "44f2369f-c32c-4b1f-9291-85db01a8ac64",
+          "Attenuation": 2.84,
           "FogMode": "Disabled",
           "FogStrength": 1,
           "LightColor": "0.91373,0.98039,1,1",
@@ -663,7 +488,7 @@
         {
           "__type": "Sandbox.PointLight",
           "__guid": "5dc9d2fe-5f41-4b8f-be4b-b72b7037403b",
-          "Attenuation": 8.920003,
+          "Attenuation": 4.22,
           "FogMode": "Disabled",
           "FogStrength": 1,
           "LightColor": "0.91373,0.98039,1,1",
@@ -683,11 +508,11 @@
         {
           "__type": "Sandbox.PointLight",
           "__guid": "67229eac-3c27-486f-be4e-1e903dcaa5f7",
-          "Attenuation": 8.920003,
+          "Attenuation": 3.31,
           "FogMode": "Disabled",
           "FogStrength": 1,
           "LightColor": "0.91373,0.98039,1,1",
-          "Radius": 1000,
+          "Radius": 961.60004,
           "Shadows": true
         }
       ]
@@ -731,35 +556,6 @@
       ]
     },
     {
-      "__guid": "aa14fb5f-5ab0-4eb4-8c01-80b902594052",
-      "Flags": 0,
-      "Name": "Trigger",
-      "Position": "96.76982,-1872.626,3.900948",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "Sandbox.ActionGraphs.ActionsInvoker",
-          "__guid": "55c591c5-862d-498b-9f7d-2b9437240aff",
-          "OnEnabledAction": {
-            "__version": 8,
-            "__guid": "466cde30-da92-491d-9ac0-f50d92895573",
-            "__changeId": 2,
-            "UserData": {
-              "Title": "On Enabled Action"
-            },
-            "Variables": [],
-            "Nodes": [
-              {
-                "Id": 0,
-                "Type": "input"
-              }
-            ],
-            "Links": []
-          }
-        }
-      ]
-    },
-    {
       "__guid": "c112a03f-9a1e-4936-aed6-ccd4f55ab37f",
       "Flags": 0,
       "Name": "aph3x-tw1n",
@@ -796,7 +592,7 @@
           "OcclusionOverride": false,
           "OcclusionRadius": 32,
           "Pitch": 1,
-          "PlayOnStart": true,
+          "PlayOnStart": false,
           "ReflectionOverride": false,
           "Reflections": true,
           "Repeat": false,
@@ -812,22 +608,107 @@
       ]
     },
     {
-      "__guid": "8d457b7e-ba7a-4c13-9eea-61212cfc0385",
+      "__guid": "639f1435-f454-45e3-be93-69fc37314469",
+      "Flags": 0,
+      "Name": "Ladder",
+      "Position": "-1314,-444,504",
+      "Enabled": true,
+      "Children": [
+        {
+          "__guid": "0b5e44a2-f688-4f94-a2ee-e0c0940df7b1",
+          "Flags": 0,
+          "Name": "ladder_300_top",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.Prop",
+              "__guid": "e8e3c53a-3b6d-4348-9f19-d6cdb9007656",
+              "BodyGroups": 18446744073709551615,
+              "Health": 0,
+              "IsStatic": true,
+              "Model": "models/rust_props/ladder_set/ladder_300_top.vmdl",
+              "StartAsleep": false,
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
+        {
+          "__guid": "d5a15f8e-a367-448d-b39b-d9c5a016d2ed",
+          "Flags": 0,
+          "Name": "ladder_600 (2)",
+          "Position": "0,0,-240",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.Prop",
+              "__guid": "b8628603-cb76-4b51-8582-9ebadcce680b",
+              "BodyGroups": 18446744073709551615,
+              "Health": 0,
+              "IsStatic": true,
+              "Model": "models/rust_props/ladder_set/ladder_600.vmdl",
+              "StartAsleep": false,
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
+        {
+          "__guid": "7d8a8c59-6e6b-447c-97e9-ebdb728b281e",
+          "Flags": 0,
+          "Name": "ladder_600 (1)",
+          "Position": "0,0,-480",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.Prop",
+              "__guid": "ca805dad-97ca-43c6-b91f-fe2540ea6240",
+              "BodyGroups": 18446744073709551615,
+              "Health": 0,
+              "IsStatic": true,
+              "Model": "models/rust_props/ladder_set/ladder_600.vmdl",
+              "StartAsleep": false,
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
+        {
+          "__guid": "f1d350d3-ee1e-4d14-8878-8f213824cd2a",
+          "Flags": 0,
+          "Name": "ladder collider",
+          "Position": "9.007812,-0.08041382,-174",
+          "Tags": "ladder",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.BoxCollider",
+              "__guid": "0b1e45ab-2ed4-4fe2-a67e-cafd648a6589",
+              "Center": "0,0,0",
+              "IsTrigger": true,
+              "Scale": "2,18,620",
+              "Static": false,
+              "SurfaceVelocity": "0,0,0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "__guid": "bde3cd0c-d2fe-4a21-913e-e318f9d4bf75",
       "Flags": 0,
       "Name": "Player Controller",
-      "Position": "-1783.014,607.7564,416.5343",
+      "Position": "7.9823,-218.687,-36.45649",
+      "Rotation": "0,0,1,0.0000001947072",
       "Enabled": true,
       "Components": [
         {
           "__type": "Sandbox.PlayerController",
-          "__guid": "7bea1008-0fa7-482a-a12f-fd8ec3cb75f4",
+          "__guid": "047667a0-e36d-43ad-a9b0-21bd93b9089a",
           "AimStrengthBody": 1,
           "AimStrengthEyes": 1,
           "AimStrengthHead": 1,
           "Body": {
             "_type": "component",
-            "component_id": "7151cfe6-21a4-47d4-9c3c-8bd7c1a93890",
-            "go": "8d457b7e-ba7a-4c13-9eea-61212cfc0385",
+            "component_id": "26e7ce98-13ee-4f3a-82dc-45d94fd28f5f",
+            "go": "bde3cd0c-d2fe-4a21-913e-e318f9d4bf75",
             "component_type": "Rigidbody"
           },
           "BodyHeight": 72,
@@ -836,7 +717,7 @@
           "CameraOffset": "256,0,12",
           "ColliderObject": {
             "_type": "gameobject",
-            "go": "5a72f740-0958-45e8-a74c-5243ae1e362a"
+            "go": "a44488e1-ad0d-4def-b211-05d8332f9754"
           },
           "DuckedHeight": 36,
           "DuckedSpeed": 70,
@@ -853,8 +734,8 @@
           "ReachLength": 130,
           "Renderer": {
             "_type": "component",
-            "component_id": "984671b1-6c76-4fd0-b2f7-b508951e1930",
-            "go": "07756cfc-ca6f-4c21-b01c-42098aa2c5af",
+            "component_id": "70bef4d9-2091-4b2e-8bc6-2d20847eb536",
+            "go": "2e4561de-d721-4f59-aea5-7e89ce43c0ea",
             "component_type": "SkinnedModelRenderer"
           },
           "RotateWithGround": true,
@@ -873,7 +754,7 @@
         },
         {
           "__type": "Sandbox.Rigidbody",
-          "__guid": "7151cfe6-21a4-47d4-9c3c-8bd7c1a93890",
+          "__guid": "26e7ce98-13ee-4f3a-82dc-45d94fd28f5f",
           "AngularDamping": 1,
           "Gravity": true,
           "LinearDamping": 0.1,
@@ -894,7 +775,7 @@
         },
         {
           "__type": "Sandbox.Movement.MoveModeWalk",
-          "__guid": "db9f30ee-6d3c-414d-8cdb-fff08701694a",
+          "__guid": "f56a6eb9-85a5-447e-852f-e3016221799c",
           "GroundAngle": 45,
           "Priority": 0,
           "StepDownHeight": 18,
@@ -902,27 +783,27 @@
         },
         {
           "__type": "Sandbox.Movement.MoveModeSwim",
-          "__guid": "5c1bc781-6854-4e16-bfc7-e819e5e87b36",
+          "__guid": "64099898-ea71-4bb7-879e-a4d7b6b555e0",
           "Priority": 10,
           "SwimLevel": 0.7
         },
         {
           "__type": "Sandbox.Movement.MoveModeLadder",
-          "__guid": "ad0b2704-22f9-464f-83f7-cf0f90fcfb0e",
+          "__guid": "134046dd-20e3-48ca-9086-52819f2f47ed",
           "ClimbableTags": "ladder",
           "Priority": 5
         }
       ],
       "Children": [
         {
-          "__guid": "07756cfc-ca6f-4c21-b01c-42098aa2c5af",
+          "__guid": "2e4561de-d721-4f59-aea5-7e89ce43c0ea",
           "Flags": 0,
           "Name": "Body",
           "Enabled": true,
           "Components": [
             {
               "__type": "Sandbox.SkinnedModelRenderer",
-              "__guid": "984671b1-6c76-4fd0-b2f7-b508951e1930",
+              "__guid": "70bef4d9-2091-4b2e-8bc6-2d20847eb536",
               "BodyGroups": 341,
               "CreateAttachments": false,
               "CreateBoneObjects": false,
@@ -951,14 +832,14 @@
           ]
         },
         {
-          "__guid": "5a72f740-0958-45e8-a74c-5243ae1e362a",
+          "__guid": "a44488e1-ad0d-4def-b211-05d8332f9754",
           "Flags": 1,
           "Name": "Colliders",
           "Enabled": true,
           "Components": [
             {
               "__type": "Sandbox.CapsuleCollider",
-              "__guid": "5d72a406-d778-44da-9cbb-56e1defe4ff3",
+              "__guid": "7b4c00ef-0c42-484f-9637-c93cb1f0b25a",
               "End": "0,0,45.05097",
               "Friction": 0,
               "IsTrigger": false,
@@ -969,7 +850,7 @@
             },
             {
               "__type": "Sandbox.BoxCollider",
-              "__guid": "79612dca-0bc1-4b7e-9b49-ae9ad816d9c6",
+              "__guid": "bdde99b3-2d5d-4564-a8f8-292d18ac94dc",
               "Center": "0,0,18",
               "Friction": 0,
               "IsTrigger": false,
@@ -978,6 +859,96 @@
               "SurfaceVelocity": "0,0,0"
             }
           ]
+        }
+      ]
+    },
+    {
+      "__guid": "d68b8510-f254-4727-bc21-a346247c2b1f",
+      "Flags": 0,
+      "Name": "Autoplay Music Aphex Twin",
+      "Position": "137.5952,-331.6788,351.2205",
+      "Tags": "trigger",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ActionGraphs.ActionsInvoker",
+          "__guid": "352541ef-d4b8-4b55-990c-f05e7bdb5c19",
+          "OnEnabledAction": {
+            "__version": 8,
+            "__guid": "bcdd59b2-1155-4b9f-a561-1da268063ccb",
+            "__changeId": 25,
+            "UserData": {
+              "Title": "On Enabled Action",
+              "ReferencedComponentTypes": []
+            },
+            "Variables": [],
+            "Nodes": [
+              {
+                "Id": 0,
+                "Type": "input"
+              },
+              {
+                "Id": 4,
+                "Type": "scene.ref",
+                "UserData": {
+                  "Position": "372,72"
+                }
+              },
+              {
+                "Id": 5,
+                "Type": "call",
+                "Properties": {
+                  "_isStatic": false,
+                  "_name": "StartSound",
+                  "_type": "Sandbox.SoundPointComponent"
+                },
+                "UserData": {
+                  "Position": "504,0"
+                }
+              },
+              {
+                "Id": 6,
+                "Type": "time.delay",
+                "UserData": {
+                  "Position": "240,-0"
+                }
+              }
+            ],
+            "Links": [
+              {
+                "SrcId": 6,
+                "SrcName": "_signal",
+                "DstId": 5,
+                "DstName": "_signal"
+              },
+              {
+                "SrcId": 4,
+                "SrcName": "_result",
+                "DstId": 5,
+                "DstName": "_target"
+              },
+              {
+                "SrcId": 0,
+                "SrcName": "_signal",
+                "DstId": 6,
+                "DstName": "_signal"
+              },
+              {
+                "Id": 11,
+                "Value": 10,
+                "DstId": 6,
+                "DstName": "seconds"
+              }
+            ],
+            "Defaults": {
+              "$4.component": {
+                "_type": "component",
+                "component_id": "337c2bbe-d3a0-44fa-b2a3-c89d99383727",
+                "go": "c112a03f-9a1e-4936-aed6-ccd4f55ab37f",
+                "component_type": "SoundPointComponent"
+              }
+            }
+          }
         }
       ]
     }
@@ -1008,6 +979,9 @@
   "ResourceVersion": 2,
   "Title": null,
   "Description": null,
-  "__references": [],
+  "__references": [
+    "rust.ladder_300_top#25203",
+    "rust.ladder_600#25206"
+  ],
   "__version": 2
 }
