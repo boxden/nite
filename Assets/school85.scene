@@ -4,7 +4,7 @@
     {
       "__guid": "cf5cf0ae-9a4b-498a-8e39-e1f9932d23c7",
       "Flags": 0,
-      "Name": "Main Camera",
+      "Name": "Camera",
       "Position": "-532,-1064,208",
       "Rotation": "-0.05136089,0.01851107,0.9393608,0.3385568",
       "Enabled": true,
@@ -25,63 +25,6 @@
           "Viewport": "0,0,1,1",
           "ZFar": 100000,
           "ZNear": 0.01
-        }
-      ]
-    },
-    {
-      "__guid": "cb7e9d31-b754-4778-980f-11bb8c8ef4f8",
-      "Flags": 0,
-      "Name": "Map",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "Sandbox.MapInstance",
-          "__guid": "dd29f34e-41f7-4908-a9db-42bba61a0fbe",
-          "__version": 1,
-          "EnableCollision": true,
-          "MapName": "maps/school85.vmap",
-          "NoOrigin": false,
-          "OnMapLoaded": null,
-          "OnMapUnloaded": null,
-          "UseMapFromLaunch": false
-        }
-      ],
-      "Children": []
-    },
-    {
-      "__guid": "1ca16c1b-6d4a-4b6a-bef7-60193468f508",
-      "Flags": 0,
-      "Name": "Sun",
-      "Position": "-500,-1400,0",
-      "Rotation": "0.1397651,0.6931564,0.4831477,0.5163023",
-      "Tags": "light,light_directional",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "Sandbox.DirectionalLight",
-          "__guid": "f9d8ac8b-4398-47b4-b61e-091dbae13d44",
-          "FogMode": "Enabled",
-          "FogStrength": 1,
-          "LightColor": "0.91373,0.98039,1,1",
-          "Shadows": true,
-          "SkyColor": "0,0,0,0"
-        }
-      ]
-    },
-    {
-      "__guid": "7f0bf7b1-e772-4fbe-9b2f-cbd186857d4b",
-      "Flags": 0,
-      "Name": "2D Skybox",
-      "Position": "-490,-1400,0",
-      "Tags": "skybox",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "Sandbox.SkyBox2D",
-          "__guid": "df4818da-702a-409e-b462-6f19ef272df1",
-          "SkyIndirectLighting": false,
-          "SkyMaterial": "materials/skybox/skybox_overcast_01.vmat",
-          "Tint": "1,1,1,1"
         }
       ]
     },
@@ -339,6 +282,26 @@
           ]
         }
       ]
+    },
+    {
+      "__guid": "cb2c46bc-4c79-41cb-9468-e76d9fac463b",
+      "Flags": 0,
+      "Name": "Map",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.MapInstance",
+          "__guid": "e5428002-1c14-488f-ab88-fe0038978d2d",
+          "__version": 1,
+          "EnableCollision": true,
+          "MapName": "maps/school85.vmap",
+          "NoOrigin": false,
+          "OnMapLoaded": null,
+          "OnMapUnloaded": null,
+          "UseMapFromLaunch": false
+        }
+      ],
+      "Children": []
     }
   ],
   "SceneProperties": {
