@@ -302,6 +302,26 @@
         }
       ],
       "Children": []
+    },
+    {
+      "__guid": "56f516e7-9fff-4afd-892b-704a5a290e0e",
+      "Flags": 0,
+      "Name": "Sun",
+      "Position": "-595.924,-1400.201,124.4596",
+      "Rotation": "0.466783,0.7768574,-0.2176645,0.3622545",
+      "Tags": "light_directional,light",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.DirectionalLight",
+          "__guid": "35e4fc47-cd11-43aa-9b25-fc53a19dbd00",
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "Shadows": true,
+          "SkyColor": "0,0,0,0"
+        }
+      ]
     }
   ],
   "SceneProperties": {
