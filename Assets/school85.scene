@@ -52,7 +52,7 @@
       "__guid": "1ca16c1b-6d4a-4b6a-bef7-60193468f508",
       "Flags": 0,
       "Name": "Sun",
-      "Position": "42,-1969,20",
+      "Position": "-500,-1432,20",
       "Rotation": "0.1397651,0.6931564,0.4831477,0.5163023",
       "Tags": "light,light_directional",
       "Enabled": true,
@@ -82,36 +82,6 @@
           "SkyIndirectLighting": false,
           "SkyMaterial": "materials/skybox/skybox_overcast_01.vmat",
           "Tint": "1,1,1,1"
-        }
-      ]
-    },
-    {
-      "__guid": "7626e817-f016-4728-a655-fc74fa9e4507",
-      "Flags": 0,
-      "Name": "DSP",
-      "Position": "6,-1920,80.55099",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "Sandbox.DspVolume",
-          "__guid": "a82e15d5-aeb3-4b83-a15a-2209b3c028af",
-          "Dsp": "concrete.large",
-          "Priority": 0,
-          "SceneVolume": {
-            "Type": "Box",
-            "Sphere": {
-              "Center": "0,0,0",
-              "Radius": 10
-            },
-            "Box": {
-              "Mins": "-1309.754,1091.971,-107.9574",
-              "Maxs": "853.0659,2619.953,546.2761"
-            }
-          },
-          "TargetMixer": {
-            "Name": "game",
-            "Id": "43a29896-663c-47c1-a494-4655643e9b98"
-          }
         }
       ]
     },
@@ -165,25 +135,6 @@
             "Id": "00000000-0000-0000-0000-000000000000"
           },
           "Volume": 1
-        }
-      ]
-    },
-    {
-      "__guid": "50f0e2f7-6836-43d8-a7a8-124ae51b96ea",
-      "Flags": 0,
-      "Name": "Volumetric Fog",
-      "Position": "252.6276,-1903.065,174.1646",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "Sandbox.VolumetricFogVolume",
-          "__guid": "79740191-f110-49c4-9733-025112fd6ed5",
-          "Bounds": {
-            "Mins": "-1500,-1500,-1500",
-            "Maxs": "1500,1500,1500"
-          },
-          "FalloffExponent": 1,
-          "Strength": 0.26
         }
       ]
     },
@@ -661,25 +612,6 @@
       ]
     },
     {
-      "__guid": "3b6975c4-9e2c-436b-8cad-88f1b465d7dd",
-      "Flags": 0,
-      "Name": "Volumetric Fog",
-      "Position": "144.6519,893.6016,87.75006",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "Sandbox.VolumetricFogVolume",
-          "__guid": "d9889ed6-427a-43ba-ac9a-48a5209e0819",
-          "Bounds": {
-            "Mins": "-1809.201,-170.9,-87.39998",
-            "Maxs": "753.8998,34.20001,87.60002"
-          },
-          "FalloffExponent": 1,
-          "Strength": 10
-        }
-      ]
-    },
-    {
       "__guid": "639f1435-f454-45e3-be93-69fc37314469",
       "Flags": 0,
       "Name": "Ladder",
@@ -1033,7 +965,7 @@
                     "DstName": "_signal"
                   },
                   {
-                    "Id": 13,
+                    "Id": 20,
                     "Value": 0.5,
                     "DstId": 1,
                     "DstName": "seconds"
@@ -1639,114 +1571,6 @@
       ]
     },
     {
-      "__guid": "ee5d83db-fe87-4c10-bdc7-ed979c6fe071",
-      "Flags": 0,
-      "Name": "Text",
-      "Position": "-1760.859,-799.5,70",
-      "Rotation": "0,0,-0.7071067,0.7071068",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "Sandbox.TextRenderer",
-          "__guid": "c0f46fcb-0a32-45c0-8e90-6741b6f974e2",
-          "__version": 1,
-          "BlendMode": "Normal",
-          "RenderOptions": {
-            "GameLayer": true,
-            "OverlayLayer": false,
-            "BloomLayer": false,
-            "AfterUILayer": false
-          },
-          "Scale": 0.13,
-          "TextAlignment": "Center",
-          "TextScope": {
-            "Text": "Door - Emergency exit",
-            "TextColor": "1,1,1,1",
-            "FontName": "Poppins",
-            "FontSize": 85,
-            "FontWeight": 400,
-            "FontItalic": false,
-            "LineHeight": 1,
-            "LetterSpacing": 0,
-            "WordSpacing": 0,
-            "Outline": {
-              "Enabled": false,
-              "Size": 4,
-              "Color": "0,0,1,1"
-            },
-            "Shadow": {
-              "Enabled": false,
-              "Size": 4,
-              "Color": "0,0,0,1",
-              "Offset": "4,4"
-            },
-            "OutlineUnder": {
-              "Enabled": false,
-              "Size": 4,
-              "Color": "0,1,0,1"
-            },
-            "ShadowUnder": {
-              "Enabled": false,
-              "Size": 4,
-              "Color": "0,0,0,1",
-              "Offset": "4,4"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "__guid": "9d7e5ce1-49e6-4e9d-8dc4-5e55af56dc4b",
-      "Flags": 0,
-      "Name": "Envmap Probe",
-      "Position": "-1717.296,-590,0",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "Sandbox.EnvmapProbe",
-          "__guid": "dd5cc89c-e0b1-4776-bc4b-e805a0ac3429",
-          "Bounds": {
-            "Mins": "-3584.981,-6086.004,-515.3288",
-            "Maxs": "3555.918,2734.377,1980.688"
-          },
-          "DelayBetweenUpdates": 0.1,
-          "Feathering": 8,
-          "FrameInterval": 5,
-          "MaxDistance": 512,
-          "MultiBounce": true,
-          "Projection": "Box",
-          "RenderDynamically": true,
-          "TintColor": "1,1,1,1",
-          "UpdateStrategy": "OnEnabled",
-          "ZFar": 4096,
-          "ZNear": 16
-        }
-      ]
-    },
-    {
-      "__guid": "abd1bb8e-1fb5-4f6c-8a8d-9e2af64c7531",
-      "Flags": 0,
-      "Name": "Cookie Spot Light E-Girls",
-      "Position": "-2391.5,436.3,17",
-      "Tags": "light_spot,light",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "Sandbox.SpotLight",
-          "__guid": "541d33fa-1d3a-42f8-9869-0705b1ccc3cb",
-          "Attenuation": 0,
-          "ConeInner": 0,
-          "ConeOuter": 40.32,
-          "Cookie": "photo/16a2b6257b066b78bd9563d751aac2bc.vtex",
-          "FogMode": "Enabled",
-          "FogStrength": 1,
-          "LightColor": "0.91373,0.98039,1,1",
-          "Radius": 490.3,
-          "Shadows": true
-        }
-      ]
-    },
-    {
       "__guid": "7d12b60c-c1df-4946-95ea-992e4e79965f",
       "Flags": 0,
       "Name": "Bug Text Arrow Spot Light",
@@ -2145,7 +1969,7 @@
             ],
             "TextureUAxis": [
               "1,0,0",
-              "1,0,0",
+              "1,0,-0",
               "0,-1,0",
               "0,1,0",
               "-1,0,0",
@@ -2214,7 +2038,7 @@
             ]
           },
           "SmoothingAngle": 40,
-          "Static": false,
+          "Static": true,
           "SurfaceVelocity": "0,0,0"
         }
       ]
