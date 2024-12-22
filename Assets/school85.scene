@@ -5,8 +5,8 @@
       "__guid": "cf5cf0ae-9a4b-498a-8e39-e1f9932d23c7",
       "Flags": 0,
       "Name": "Main Camera",
-      "Position": "-661,-1950,398",
-      "Rotation": "0,0,0.6567645,0.7540958",
+      "Position": "-532,-1064,208",
+      "Rotation": "-0.05136089,0.01851107,0.9393608,0.3385568",
       "Enabled": true,
       "Components": [
         {
@@ -24,7 +24,7 @@
           "TargetEye": "None",
           "Viewport": "0,0,1,1",
           "ZFar": 100000,
-          "ZNear": 10
+          "ZNear": 0.01
         }
       ]
     },
@@ -41,6 +41,8 @@
           "EnableCollision": true,
           "MapName": "maps/school85.vmap",
           "NoOrigin": false,
+          "OnMapLoaded": null,
+          "OnMapUnloaded": null,
           "UseMapFromLaunch": false
         }
       ],
@@ -78,7 +80,7 @@
           "__type": "Sandbox.SkyBox2D",
           "__guid": "df4818da-702a-409e-b462-6f19ef272df1",
           "SkyIndirectLighting": false,
-          "SkyMaterial": "materials/skybox/skybox_day_01.vmat",
+          "SkyMaterial": "materials/skybox/skybox_overcast_01.vmat",
           "Tint": "1,1,1,1"
         }
       ]
@@ -110,56 +112,6 @@
             "Name": "game",
             "Id": "43a29896-663c-47c1-a494-4655643e9b98"
           }
-        }
-      ]
-    },
-    {
-      "__guid": "05427932-40e6-4295-8140-58722770310a",
-      "Flags": 0,
-      "Name": "Sound Point",
-      "Position": "102,-1741,80.5509",
-      "Components": [
-        {
-          "__type": "Sandbox.SoundPointComponent",
-          "__guid": "b1940dc2-5c54-4f8f-855d-173011ac7748",
-          "Distance": 1000,
-          "DistanceAttenuation": true,
-          "DistanceAttenuationOverride": true,
-          "Falloff": [
-            {
-              "x": 0,
-              "y": 1,
-              "in": 3.1415927,
-              "out": -3.1415927,
-              "mode": "Mirrored"
-            },
-            {
-              "x": 1,
-              "y": 0,
-              "in": 0,
-              "out": 0,
-              "mode": "Mirrored"
-            }
-          ],
-          "Force2d": false,
-          "MaxRepeatTime": 1,
-          "MinRepeatTime": 1,
-          "Occlusion": false,
-          "OcclusionOverride": false,
-          "OcclusionRadius": 32,
-          "Pitch": 1,
-          "PlayOnStart": true,
-          "ReflectionOverride": false,
-          "Reflections": false,
-          "Repeat": false,
-          "SoundEvent": "sounds/1071160110.sound",
-          "SoundOverride": false,
-          "StopOnNew": false,
-          "TargetMixer": {
-            "Name": "unknown",
-            "Id": "00000000-0000-0000-0000-000000000000"
-          },
-          "Volume": 1
         }
       ]
     },
@@ -217,29 +169,6 @@
       ]
     },
     {
-      "__guid": "89735cd2-0476-43ff-9273-a9bed5a17ad2",
-      "Flags": 0,
-      "Name": "Spot Light",
-      "Position": "-2897,379.2294,402",
-      "Rotation": "0,0.258819,0,0.9659258",
-      "Tags": "light_spot,light",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "Sandbox.SpotLight",
-          "__guid": "ac683de1-cb6b-407d-9102-f1c8efdc51c8",
-          "Attenuation": 0.24,
-          "ConeInner": 35.76,
-          "ConeOuter": 37.22,
-          "FogMode": "Enabled",
-          "FogStrength": 1,
-          "LightColor": "0.91373,0.98039,1,1",
-          "Radius": 1000,
-          "Shadows": true
-        }
-      ]
-    },
-    {
       "__guid": "50f0e2f7-6836-43d8-a7a8-124ae51b96ea",
       "Flags": 0,
       "Name": "Volumetric Fog",
@@ -261,7 +190,7 @@
     {
       "__guid": "6073671c-3e49-48dc-801f-fcaf4e82a9a7",
       "Flags": 0,
-      "Name": "DSP Vol",
+      "Name": "DSP Volume",
       "Position": "-1988.963,420.4692,206.6734",
       "Enabled": true,
       "Components": [
@@ -291,8 +220,8 @@
     {
       "__guid": "3f10be4b-d7ed-4016-bf9e-1b272fd3976f",
       "Flags": 0,
-      "Name": "Box",
-      "Position": "-2050,365,240.0002",
+      "Name": "Floor",
+      "Position": "-2032,464,176.0002",
       "Enabled": true,
       "Components": [
         {
@@ -309,10 +238,10 @@
               "105,-154,64",
               "105,154,64",
               "-105,154,64",
-              "-126,339,-64",
-              "162,339,-64",
-              "162,-141,-64",
-              "-126,-141,-64"
+              "-144,240,0",
+              "144,240,0",
+              "144,-240,0",
+              "-144,-240,0"
             ],
             "TextureCoord": [
               "0.8203125,1.203125",
@@ -418,102 +347,297 @@
       ]
     },
     {
-      "__guid": "61ac914f-0c5e-4f49-b137-bdc37f85515d",
+      "__guid": "0e23c532-1e6b-4460-9a5f-2e8ee246b34a",
       "Flags": 0,
-      "Name": "Point Light",
+      "Name": "Floor (1)",
+      "Position": "-2032,464,207.1032",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.MeshComponent",
+          "__guid": "8e44b7de-acbf-4caf-985f-ff6e52f325d4",
+          "Collision": "Mesh",
+          "Color": "1,1,1,1",
+          "HideInGame": false,
+          "IsTrigger": false,
+          "Mesh": {
+            "Topology": "H4sIAAAAAAAACs2SRw7CQBAE64DBSzpjk3P4//9AJTWShXwFMTe7q2cnzYEHUIDnR9TAsvO/BRbADtgAF\u002BDU4/t1VKn/AIyAAWDtK2D4B/V9O\u002By1Adr0W7KndXqvsscSvQ7bRC9h9ag7P2e3jz4Gttm7851k/9fo8rLmVZeX1aMuf4xH3Xrc1S2eKXDOPfk9y13dO37fMsebl9WjLi\u002BrR9385u7ebl/Y47uOF8TfBrkIAwAA",
+            "Positions": [
+              "-105,-154,64",
+              "105,-154,64",
+              "105,154,64",
+              "-105,154,64",
+              "-144,496,0.8968353",
+              "176,496,0.8968353",
+              "176,272,-31.10316",
+              "-144,272,-31.10316",
+              "176,-1264,0.8968353",
+              "-144,-1264,0.8968353",
+              "-144,784,0.8968353",
+              "176,784,0.8968353",
+              "176,784,-31.10316",
+              "176,496,-31.10316"
+            ],
+            "TextureCoord": [
+              "0.8203125,1.203125",
+              "-0.8203125,-0.5",
+              "0.8203125,-1.203125",
+              "-1.203125,-0.5",
+              "-0.8203125,-1.203125",
+              "-0.8203125,-0.5",
+              "-0.8203125,1.203125",
+              "-1.203125,-0.5",
+              "-58,-30",
+              "-68,-30",
+              "-58,-23",
+              "1.203125,0.5",
+              "-68,-23",
+              "0.8203125,0.5",
+              "-68,-23",
+              "1.203125,0.5",
+              "1.203125,-0.5",
+              "-0.8203125,0.5",
+              "-1.203125,0.5",
+              "0.8203125,-0.5",
+              "-1.203125,0.5",
+              "0.8203125,-0.5",
+              "1.203125,-0.5",
+              "-0.8203125,0.5",
+              "-58,25",
+              "0,0",
+              "-58,-30",
+              "0,0",
+              "-68,25",
+              "0,0",
+              "-68,-39",
+              "0,0",
+              "-68,-30",
+              "0,0",
+              "-58,-39",
+              "30,-6.5",
+              "39,-5.5",
+              "0,0",
+              "39,-6.5",
+              "0,0",
+              "30,-5.5",
+              "0,0"
+            ],
+            "TextureUAxis": [
+              "1,0,0",
+              "1,0,-0",
+              "0,-1,0",
+              "0,1,0",
+              "-1,0,0",
+              "1,-0,0",
+              "1,0,0",
+              "1,0,0",
+              "0,1,0"
+            ],
+            "TextureVAxis": [
+              "0,-1,0",
+              "0,-1,0",
+              "0,0,-1",
+              "-0,0,-1",
+              "0,0,-1",
+              "-0,0,-1",
+              "0,-1,0",
+              "0,-1,-0",
+              "0,0,-1"
+            ],
+            "TextureScale": [
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25"
+            ],
+            "TextureOffset": [
+              "8,436",
+              "0,0",
+              "436,448.001",
+              "76,448.001",
+              "504,448.001",
+              "8,448.001",
+              "0,0",
+              "0,0",
+              "0,0.0001220703"
+            ],
+            "MaterialIndex": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ],
+            "EdgeFlags": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "Materials": [
+              "materials/dev/reflectivity_30.vmat",
+              "materials/dev/dev_measuregeneric01b.vmat"
+            ]
+          },
+          "SmoothingAngle": 40,
+          "Static": true,
+          "SurfaceVelocity": "0,0,0"
+        }
+      ]
+    },
+    {
+      "__guid": "111811b3-5c43-45e7-955e-8e2a88e24a7c",
+      "Flags": 0,
+      "Name": "Light Group",
       "Position": "-1985.03,446,94",
-      "Tags": "light_point,light",
+      "Tags": "light",
       "Enabled": true,
-      "Components": [
+      "Children": [
         {
-          "__type": "Sandbox.PointLight",
-          "__guid": "2e1a35e5-ce68-4e62-852d-5e2bdcabac6d",
-          "Attenuation": 1,
-          "FogMode": "Disabled",
-          "FogStrength": 1,
-          "LightColor": "0.91373,0.98039,1,1",
-          "Radius": 400,
-          "Shadows": true
-        }
-      ]
-    },
-    {
-      "__guid": "049f7dd2-fde3-41a0-af64-a911295d9473",
-      "Flags": 0,
-      "Name": "Point Light (1)",
-      "Position": "-1693,807,94.00002",
-      "Tags": "light_point,light",
-      "Enabled": true,
-      "Components": [
+          "__guid": "61ac914f-0c5e-4f49-b137-bdc37f85515d",
+          "Flags": 0,
+          "Name": "Point Light",
+          "Tags": "light_point",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.PointLight",
+              "__guid": "2e1a35e5-ce68-4e62-852d-5e2bdcabac6d",
+              "Attenuation": 1,
+              "FogMode": "Disabled",
+              "FogStrength": 1,
+              "LightColor": "0.91373,0.98039,1,1",
+              "Radius": 400,
+              "Shadows": true
+            }
+          ]
+        },
         {
-          "__type": "Sandbox.PointLight",
-          "__guid": "18de31fd-7154-4248-bc87-75dfc1a4bb08",
-          "Attenuation": 2.84,
-          "FogMode": "Disabled",
-          "FogStrength": 1,
-          "LightColor": "0.91373,0.98039,1,1",
-          "Radius": 1000,
-          "Shadows": true
-        }
-      ]
-    },
-    {
-      "__guid": "a286cb53-4031-4252-96ee-225d03924241",
-      "Flags": 0,
-      "Name": "Point Light (4)",
-      "Position": "-1761.312,-354.6906,93.99998",
-      "Tags": "light_point,light",
-      "Enabled": true,
-      "Components": [
+          "__guid": "049f7dd2-fde3-41a0-af64-a911295d9473",
+          "Flags": 0,
+          "Name": "Point Light (1)",
+          "Position": "292.03,361,0.00002288818",
+          "Tags": "light_point",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.PointLight",
+              "__guid": "18de31fd-7154-4248-bc87-75dfc1a4bb08",
+              "Attenuation": 2.84,
+              "FogMode": "Disabled",
+              "FogStrength": 1,
+              "LightColor": "0.91373,0.98039,1,1",
+              "Radius": 1000,
+              "Shadows": true
+            }
+          ]
+        },
         {
-          "__type": "Sandbox.PointLight",
-          "__guid": "44f2369f-c32c-4b1f-9291-85db01a8ac64",
-          "Attenuation": 2.84,
-          "FogMode": "Disabled",
-          "FogStrength": 1,
-          "LightColor": "0.91373,0.98039,1,1",
-          "Radius": 1000,
-          "Shadows": true
-        }
-      ]
-    },
-    {
-      "__guid": "621062c5-319c-4642-a498-8abf22b32563",
-      "Flags": 0,
-      "Name": "Point Light (2)",
-      "Position": "-1031,828,94.00002",
-      "Tags": "light_point,light",
-      "Enabled": true,
-      "Components": [
+          "__guid": "a286cb53-4031-4252-96ee-225d03924241",
+          "Flags": 0,
+          "Name": "Point Light (4)",
+          "Position": "223.718,-800.6906,-0.00002288818",
+          "Tags": "light_point",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.PointLight",
+              "__guid": "44f2369f-c32c-4b1f-9291-85db01a8ac64",
+              "Attenuation": 2.84,
+              "FogMode": "Disabled",
+              "FogStrength": 1,
+              "LightColor": "0.91373,0.98039,1,1",
+              "Radius": 1000,
+              "Shadows": true
+            }
+          ]
+        },
         {
-          "__type": "Sandbox.PointLight",
-          "__guid": "5dc9d2fe-5f41-4b8f-be4b-b72b7037403b",
-          "Attenuation": 4.22,
-          "FogMode": "Disabled",
-          "FogStrength": 1,
-          "LightColor": "0.91373,0.98039,1,1",
-          "Radius": 1000,
-          "Shadows": true
-        }
-      ]
-    },
-    {
-      "__guid": "21bf1a0f-6fab-4103-9f9e-f3c59eb2fc8a",
-      "Flags": 0,
-      "Name": "Point Light (3)",
-      "Position": "66,828,94.00002",
-      "Tags": "light_point,light",
-      "Enabled": true,
-      "Components": [
+          "__guid": "621062c5-319c-4642-a498-8abf22b32563",
+          "Flags": 0,
+          "Name": "Point Light (2)",
+          "Position": "954.03,382,0.00002288818",
+          "Tags": "light_point",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.PointLight",
+              "__guid": "5dc9d2fe-5f41-4b8f-be4b-b72b7037403b",
+              "Attenuation": 4.22,
+              "FogMode": "Disabled",
+              "FogStrength": 1,
+              "LightColor": "0.91373,0.98039,1,1",
+              "Radius": 1000,
+              "Shadows": true
+            }
+          ]
+        },
         {
-          "__type": "Sandbox.PointLight",
-          "__guid": "67229eac-3c27-486f-be4e-1e903dcaa5f7",
-          "Attenuation": 3.31,
-          "FogMode": "Disabled",
-          "FogStrength": 1,
-          "LightColor": "0.91373,0.98039,1,1",
-          "Radius": 961.60004,
-          "Shadows": true
+          "__guid": "21bf1a0f-6fab-4103-9f9e-f3c59eb2fc8a",
+          "Flags": 0,
+          "Name": "Point Light (3)",
+          "Position": "2051.03,382,0.00002288818",
+          "Tags": "light_point",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.PointLight",
+              "__guid": "67229eac-3c27-486f-be4e-1e903dcaa5f7",
+              "Attenuation": 3.31,
+              "FogMode": "Disabled",
+              "FogStrength": 1,
+              "LightColor": "0.91373,0.98039,1,1",
+              "Radius": 961.60004,
+              "Shadows": true
+            }
+          ]
         }
       ]
     },
@@ -552,58 +676,6 @@
           },
           "FalloffExponent": 1,
           "Strength": 10
-        }
-      ]
-    },
-    {
-      "__guid": "c112a03f-9a1e-4936-aed6-ccd4f55ab37f",
-      "Flags": 0,
-      "Name": "aph3x-tw1n",
-      "Position": "-1560.622,806.4554,441.3529",
-      "Tags": "sound",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "Sandbox.SoundPointComponent",
-          "__guid": "337c2bbe-d3a0-44fa-b2a3-c89d99383727",
-          "Distance": 50176,
-          "DistanceAttenuation": false,
-          "DistanceAttenuationOverride": false,
-          "Falloff": [
-            {
-              "x": 0,
-              "y": 1,
-              "in": 0,
-              "out": 0,
-              "mode": "Mirrored"
-            },
-            {
-              "x": 1,
-              "y": 0,
-              "in": 0,
-              "out": 0,
-              "mode": "Mirrored"
-            }
-          ],
-          "Force2d": false,
-          "MaxRepeatTime": 1,
-          "MinRepeatTime": 1,
-          "Occlusion": true,
-          "OcclusionOverride": false,
-          "OcclusionRadius": 32,
-          "Pitch": 1,
-          "PlayOnStart": false,
-          "ReflectionOverride": false,
-          "Reflections": true,
-          "Repeat": false,
-          "SoundEvent": "sounds/music/aph3x-tw1n.sound",
-          "SoundOverride": false,
-          "StopOnNew": false,
-          "TargetMixer": {
-            "Name": "game",
-            "Id": "ba330d4f-eeb2-483e-beba-5a3512209091"
-          },
-          "Volume": 1
         }
       ]
     },
@@ -695,7 +767,7 @@
       "__guid": "bde3cd0c-d2fe-4a21-913e-e318f9d4bf75",
       "Flags": 0,
       "Name": "Player Controller",
-      "Position": "7.9823,-218.687,-36.45649",
+      "Position": "-1108.687,-534.0085,-47.87375",
       "Rotation": "0,0,1,0.0000001947072",
       "Enabled": true,
       "Components": [
@@ -744,7 +816,7 @@
           "RunSpeed": 320,
           "ShowColliderComponents": false,
           "ShowRigidbodyComponent": false,
-          "ThirdPerson": true,
+          "ThirdPerson": false,
           "ToggleCameraModeButton": "view",
           "UseAnimatorControls": true,
           "UseButton": "use",
@@ -859,26 +931,1074 @@
               "SurfaceVelocity": "0,0,0"
             }
           ]
+        },
+        {
+          "__guid": "05427932-40e6-4295-8140-58722770310a",
+          "Flags": 0,
+          "Name": "Welcome Sound",
+          "Position": "0,0,77",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.SoundPointComponent",
+              "__guid": "b1940dc2-5c54-4f8f-855d-173011ac7748",
+              "Distance": 1000,
+              "DistanceAttenuation": true,
+              "DistanceAttenuationOverride": true,
+              "Falloff": [
+                {
+                  "x": 0,
+                  "y": 1,
+                  "in": 3.1415927,
+                  "out": -3.1415927,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "Force2d": false,
+              "MaxRepeatTime": 1,
+              "MinRepeatTime": 1,
+              "Occlusion": false,
+              "OcclusionOverride": false,
+              "OcclusionRadius": 32,
+              "Pitch": 1,
+              "PlayOnStart": false,
+              "ReflectionOverride": false,
+              "Reflections": false,
+              "Repeat": false,
+              "SoundEvent": "sounds/1071160110.sound",
+              "SoundOverride": true,
+              "StopOnNew": true,
+              "TargetMixer": {
+                "Name": "ui",
+                "Id": "bbc730eb-3c3f-4190-ac41-9449bc1fe3a6"
+              },
+              "Volume": 1
+            },
+            {
+              "__type": "Sandbox.ActionGraphs.ActionsInvoker",
+              "__guid": "c321d0e6-3832-4416-aa25-3af564095dbb",
+              "OnEnabledAction": {
+                "__version": 8,
+                "__guid": "cc2ea8f2-13a4-4551-9676-1ecb9cd82495",
+                "__changeId": 15,
+                "UserData": {
+                  "Title": "On Enabled Action",
+                  "ReferencedComponentTypes": []
+                },
+                "Variables": [],
+                "Nodes": [
+                  {
+                    "Id": 0,
+                    "Type": "input"
+                  },
+                  {
+                    "Id": 1,
+                    "Type": "time.delay",
+                    "UserData": {
+                      "Position": "300,36"
+                    }
+                  },
+                  {
+                    "Id": 7,
+                    "Type": "scene.ref",
+                    "UserData": {
+                      "Position": "372,180"
+                    }
+                  },
+                  {
+                    "Id": 8,
+                    "Type": "call",
+                    "Properties": {
+                      "_isStatic": false,
+                      "_name": "StartSound",
+                      "_type": "Sandbox.SoundPointComponent"
+                    },
+                    "UserData": {
+                      "Position": "528,156"
+                    }
+                  }
+                ],
+                "Links": [
+                  {
+                    "SrcId": 0,
+                    "SrcName": "_signal",
+                    "DstId": 1,
+                    "DstName": "_signal"
+                  },
+                  {
+                    "Id": 13,
+                    "Value": 0.5,
+                    "DstId": 1,
+                    "DstName": "seconds"
+                  },
+                  {
+                    "SrcId": 1,
+                    "SrcName": "_signal",
+                    "DstId": 8,
+                    "DstName": "_signal"
+                  },
+                  {
+                    "SrcId": 7,
+                    "SrcName": "_result",
+                    "DstId": 8,
+                    "DstName": "_target"
+                  }
+                ],
+                "Defaults": {
+                  "$7.component": {
+                    "_type": "component",
+                    "component_id": "b1940dc2-5c54-4f8f-855d-173011ac7748",
+                    "go": "05427932-40e6-4295-8140-58722770310a",
+                    "component_type": "SoundPointComponent"
+                  }
+                }
+              }
+            }
+          ]
         }
       ]
     },
     {
-      "__guid": "d68b8510-f254-4727-bc21-a346247c2b1f",
+      "__guid": "84d5c39c-54ad-4cd5-9701-c2d31104814c",
       "Flags": 0,
-      "Name": "Autoplay Music Aphex Twin",
-      "Position": "137.5952,-331.6788,351.2205",
+      "Name": "Tutorial How to ",
+      "Position": "-1311.867,-540.4227,72.94621",
+      "Rotation": "0,0,1,-0.00000004371139",
+      "Enabled": true,
+      "Children": [
+        {
+          "__guid": "6dc1f29a-71f6-425b-9cd2-b9b45bc84414",
+          "Flags": 0,
+          "Name": "How to re-create functionally ladder?",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.TextRenderer",
+              "__guid": "bb98401a-01c7-4b9f-a19b-51dab1b52b35",
+              "__version": 1,
+              "BlendMode": "Normal",
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "Scale": 0.13,
+              "TextAlignment": "Center",
+              "TextScope": {
+                "Text": "How to re-create functionally ladder?",
+                "TextColor": "1,1,1,1",
+                "FontName": "Poppins",
+                "FontSize": 70,
+                "FontWeight": 400,
+                "FontItalic": false,
+                "LineHeight": 1,
+                "LetterSpacing": 0,
+                "WordSpacing": 0,
+                "Outline": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,1,1"
+                },
+                "Shadow": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                },
+                "OutlineUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,1,0,1"
+                },
+                "ShadowUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "__guid": "15a7ead1-f22f-455b-9862-757a65825178",
+          "Flags": 0,
+          "Name": "1. Create Collider Box",
+          "Position": "0.000006030315,70,-15",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.TextRenderer",
+              "__guid": "726d155b-6bb6-4974-a353-3e776870f0e8",
+              "__version": 1,
+              "BlendMode": "Normal",
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "Scale": 0.13,
+              "TextAlignment": "Left",
+              "TextScope": {
+                "Text": "1. Create Collider Box",
+                "TextColor": "1,1,1,1",
+                "FontName": "Poppins",
+                "FontSize": 70,
+                "FontWeight": 400,
+                "FontItalic": false,
+                "LineHeight": 1,
+                "LetterSpacing": 0,
+                "WordSpacing": 0,
+                "Outline": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,1,1"
+                },
+                "Shadow": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                },
+                "OutlineUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,1,0,1"
+                },
+                "ShadowUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "__guid": "ecc59c26-3e54-4ce0-8326-91260a3eadbf",
+          "Flags": 0,
+          "Name": "2. Add Tag \u0022ladder\u0022 to Collider Box",
+          "Position": "0.000006030315,70,-30",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.TextRenderer",
+              "__guid": "282c5e28-9870-418f-8e55-aefd758b4da7",
+              "__version": 1,
+              "BlendMode": "Normal",
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "Scale": 0.13,
+              "TextAlignment": "Left",
+              "TextScope": {
+                "Text": "2. Add Tag \u0022ladder\u0022 to Collider Box",
+                "TextColor": "1,1,1,1",
+                "FontName": "Poppins",
+                "FontSize": 70,
+                "FontWeight": 400,
+                "FontItalic": false,
+                "LineHeight": 1,
+                "LetterSpacing": 0,
+                "WordSpacing": 0,
+                "Outline": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,1,1"
+                },
+                "Shadow": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                },
+                "OutlineUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,1,0,1"
+                },
+                "ShadowUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "__guid": "94df3753-7612-42b3-b869-ab0ec3ce4191",
+          "Flags": 0,
+          "Name": "3. Change Scale to Collider Box",
+          "Position": "0.000006030315,70,-45",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.TextRenderer",
+              "__guid": "ca3c0163-6606-4907-be0e-f39d73c88a82",
+              "__version": 1,
+              "BlendMode": "Normal",
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "Scale": 0.13,
+              "TextAlignment": "Left",
+              "TextScope": {
+                "Text": "3. Change Scale to Collider Box",
+                "TextColor": "1,1,1,1",
+                "FontName": "Poppins",
+                "FontSize": 70,
+                "FontWeight": 400,
+                "FontItalic": false,
+                "LineHeight": 1,
+                "LetterSpacing": 0,
+                "WordSpacing": 0,
+                "Outline": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,1,1"
+                },
+                "Shadow": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                },
+                "OutlineUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,1,0,1"
+                },
+                "ShadowUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "__guid": "a5670590-da34-4e8f-8921-4b1e8b3e28eb",
+          "Flags": 0,
+          "Name": "4. Check to Collider Box as Trigger",
+          "Position": "0.000006119594,70,-60",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.TextRenderer",
+              "__guid": "9a5f905e-9fc3-4375-a460-8a390314a2c5",
+              "__version": 1,
+              "BlendMode": "Normal",
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "Scale": 0.13,
+              "TextAlignment": "Left",
+              "TextScope": {
+                "Text": "4. Check to Collider Box as Trigger",
+                "TextColor": "1,1,1,1",
+                "FontName": "Poppins",
+                "FontSize": 70,
+                "FontWeight": 400,
+                "FontItalic": false,
+                "LineHeight": 1,
+                "LetterSpacing": 0,
+                "WordSpacing": 0,
+                "Outline": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,1,1"
+                },
+                "Shadow": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                },
+                "OutlineUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,1,0,1"
+                },
+                "ShadowUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "__guid": "8a53e579-fcef-44c1-bc86-a34ab3ea0188",
+          "Flags": 0,
+          "Name": "No Anim",
+          "Position": "0.000003193156,36.52545,-76",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.TextRenderer",
+              "__guid": "74c1e6f4-c49f-4614-b52d-f537686f81ad",
+              "__version": 1,
+              "BlendMode": "Normal",
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "Scale": 0.08,
+              "TextAlignment": "Left",
+              "TextScope": {
+                "Text": "* no animation because it is not ready yet",
+                "TextColor": "1,1,1,1",
+                "FontName": "Poppins",
+                "FontSize": 70,
+                "FontWeight": 400,
+                "FontItalic": false,
+                "LineHeight": 1,
+                "LetterSpacing": 0,
+                "WordSpacing": 0,
+                "Outline": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,1,1"
+                },
+                "Shadow": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                },
+                "OutlineUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,1,0,1"
+                },
+                "ShadowUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "__guid": "06b82c0f-ac17-4e77-ad05-31782d92b095",
+          "Flags": 0,
+          "Name": "We waiting",
+          "Position": "-0.000003190947,-36.50018,-82.11866",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.TextRenderer",
+              "__guid": "7b7df322-604b-4e5a-b2de-9f80f232eca9",
+              "__version": 1,
+              "BlendMode": "Normal",
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "Scale": 0.050000016,
+              "TextAlignment": "Left",
+              "TextScope": {
+                "Text": "Max Lebled we waiting \u2764\uFE0F",
+                "TextColor": "1,1,1,1",
+                "FontName": "Poppins",
+                "FontSize": 70,
+                "FontWeight": 400,
+                "FontItalic": false,
+                "LineHeight": 1,
+                "LetterSpacing": 0,
+                "WordSpacing": 0,
+                "Outline": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,1,1"
+                },
+                "Shadow": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                },
+                "OutlineUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,1,0,1"
+                },
+                "ShadowUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "__guid": "08b9f3fc-6f45-4078-a4dc-fa3035a81ecc",
+      "Flags": 0,
+      "Name": "Water",
+      "Position": "-1480.228,-564.4973,658.3092",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "35f4e53a-1b7b-4562-b883-a9a907d86d88",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "32,32,32",
+          "Static": false,
+          "SurfaceVelocity": "0,0,0"
+        }
+      ]
+    },
+    {
+      "__guid": "7f5b6528-efb3-4294-9018-5044c46c65bb",
+      "Flags": 0,
+      "Name": "enhanced_speaker",
+      "Position": "-1570.508,820.7202,416.3516",
+      "Rotation": "0.0001808947,0.00001450336,0.05829537,0.9982995",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.Prop",
+          "__guid": "7d424fbb-79fa-425e-9ba5-ff6d57fafc7e",
+          "BodyGroups": 18446744073709551615,
+          "Health": 0,
+          "IsStatic": false,
+          "Model": "models/deluxe_speaker.vmdl",
+          "StartAsleep": false,
+          "Tint": "1,1,1,1"
+        }
+      ],
+      "Children": [
+        {
+          "__guid": "c112a03f-9a1e-4936-aed6-ccd4f55ab37f",
+          "Flags": 0,
+          "Name": "aph3x-tw1n",
+          "Position": "7.50755,0.004402786,10.58621",
+          "Tags": "sound",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.SoundPointComponent",
+              "__guid": "337c2bbe-d3a0-44fa-b2a3-c89d99383727",
+              "Distance": 50176,
+              "DistanceAttenuation": false,
+              "DistanceAttenuationOverride": false,
+              "Falloff": [
+                {
+                  "x": 0,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "Force2d": false,
+              "MaxRepeatTime": 1,
+              "MinRepeatTime": 1,
+              "Occlusion": true,
+              "OcclusionOverride": true,
+              "OcclusionRadius": 32,
+              "Pitch": 1,
+              "PlayOnStart": false,
+              "ReflectionOverride": true,
+              "Reflections": true,
+              "Repeat": false,
+              "SoundEvent": "sounds/music/aph3x-tw1n.sound",
+              "SoundOverride": true,
+              "StopOnNew": false,
+              "TargetMixer": {
+                "Name": "game",
+                "Id": "699e2824-a40a-4575-b16a-6f712d12d1c7"
+              },
+              "Volume": 0.75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "__guid": "b6892c22-ee28-4f02-bb43-af29f58f03d8",
+      "Flags": 0,
+      "Name": "Point Light",
+      "Position": "-1701.347,1172.805,420.8665",
+      "Tags": "light,light_point",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.PointLight",
+          "__guid": "b44de44a-6db4-4297-b907-41b48158c856",
+          "Attenuation": 0.32,
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "Radius": 5000,
+          "Shadows": true
+        }
+      ]
+    },
+    {
+      "__guid": "497b88e6-4f33-4ae4-afb8-9a13471f7da6",
+      "Flags": 0,
+      "Name": "Point Light (1)",
+      "Position": "-1701.347,855.5865,312.7045",
+      "Tags": "light,light_point",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.PointLight",
+          "__guid": "f0146229-a8b7-46ec-9410-41255b0381c7",
+          "Attenuation": 0.32,
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "Radius": 5000,
+          "Shadows": true
+        }
+      ]
+    },
+    {
+      "__guid": "00f7f640-0c8e-406c-9671-05931a61b7e0",
+      "Flags": 0,
+      "Name": "Point Light (2)",
+      "Position": "-1701.347,-51.67798,318.4077",
+      "Tags": "light,light_point",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.PointLight",
+          "__guid": "811b0adc-b803-46d0-860e-fdc7619a00bd",
+          "Attenuation": 0.32,
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "Radius": 5000,
+          "Shadows": true
+        }
+      ]
+    },
+    {
+      "__guid": "3264dc45-2345-4a5c-b6b7-06c00a5e0e09",
+      "Flags": 0,
+      "Name": "Point Light (3)",
+      "Position": "-1701.347,-568.5583,318.4077",
+      "Tags": "light,light_point",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.PointLight",
+          "__guid": "bba25472-46b4-4b45-a882-e56cdefffc57",
+          "Attenuation": 0.32,
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "Radius": 5000,
+          "Shadows": true
+        }
+      ]
+    },
+    {
+      "__guid": "ee5d83db-fe87-4c10-bdc7-ed979c6fe071",
+      "Flags": 0,
+      "Name": "Text",
+      "Position": "-1760.859,-799.5,70",
+      "Rotation": "0,0,-0.7071067,0.7071068",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.TextRenderer",
+          "__guid": "c0f46fcb-0a32-45c0-8e90-6741b6f974e2",
+          "__version": 1,
+          "BlendMode": "Normal",
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "Scale": 0.13,
+          "TextAlignment": "Center",
+          "TextScope": {
+            "Text": "Door - Emergency exit",
+            "TextColor": "1,1,1,1",
+            "FontName": "Poppins",
+            "FontSize": 85,
+            "FontWeight": 400,
+            "FontItalic": false,
+            "LineHeight": 1,
+            "LetterSpacing": 0,
+            "WordSpacing": 0,
+            "Outline": {
+              "Enabled": false,
+              "Size": 4,
+              "Color": "0,0,1,1"
+            },
+            "Shadow": {
+              "Enabled": false,
+              "Size": 4,
+              "Color": "0,0,0,1",
+              "Offset": "4,4"
+            },
+            "OutlineUnder": {
+              "Enabled": false,
+              "Size": 4,
+              "Color": "0,1,0,1"
+            },
+            "ShadowUnder": {
+              "Enabled": false,
+              "Size": 4,
+              "Color": "0,0,0,1",
+              "Offset": "4,4"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "__guid": "9d7e5ce1-49e6-4e9d-8dc4-5e55af56dc4b",
+      "Flags": 0,
+      "Name": "Envmap Probe",
+      "Position": "-1717.296,-590,0",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.EnvmapProbe",
+          "__guid": "dd5cc89c-e0b1-4776-bc4b-e805a0ac3429",
+          "Bounds": {
+            "Mins": "-3584.981,-6086.004,-515.3288",
+            "Maxs": "3555.918,2734.377,1980.688"
+          },
+          "DelayBetweenUpdates": 0.1,
+          "Feathering": 8,
+          "FrameInterval": 5,
+          "MaxDistance": 512,
+          "MultiBounce": true,
+          "Projection": "Box",
+          "RenderDynamically": true,
+          "TintColor": "1,1,1,1",
+          "UpdateStrategy": "OnEnabled",
+          "ZFar": 4096,
+          "ZNear": 16
+        }
+      ]
+    },
+    {
+      "__guid": "abd1bb8e-1fb5-4f6c-8a8d-9e2af64c7531",
+      "Flags": 0,
+      "Name": "Cookie Spot Light E-Girls",
+      "Position": "-2391.5,436.3,17",
+      "Tags": "light_spot,light",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.SpotLight",
+          "__guid": "541d33fa-1d3a-42f8-9869-0705b1ccc3cb",
+          "Attenuation": 0,
+          "ConeInner": 0,
+          "ConeOuter": 40.32,
+          "Cookie": "photo/16a2b6257b066b78bd9563d751aac2bc.vtex",
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "Radius": 490.3,
+          "Shadows": true
+        }
+      ]
+    },
+    {
+      "__guid": "7d12b60c-c1df-4946-95ea-992e4e79965f",
+      "Flags": 0,
+      "Name": "Bug Text Arrow Spot Light",
+      "Position": "-2072,703.5,44",
+      "Rotation": "0,0,0.7071067,0.7071068",
+      "Enabled": true,
+      "Children": [
+        {
+          "__guid": "f1bc3079-91d5-458a-a391-4d4fd701224b",
+          "Flags": 0,
+          "Name": "Text",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.TextRenderer",
+              "__guid": "45249535-06e4-4949-8ad0-2452fe4dcb2d",
+              "__version": 1,
+              "BlendMode": "Normal",
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "Scale": 0.13,
+              "TextAlignment": "Center",
+              "TextScope": {
+                "Text": "Bug Spot Light",
+                "TextColor": "0.45103,0.47149,0.5297,1",
+                "FontName": "Poppins",
+                "FontSize": 64,
+                "FontWeight": 800,
+                "FontItalic": false,
+                "LineHeight": 1,
+                "LetterSpacing": 0,
+                "WordSpacing": 0,
+                "Outline": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,1,1"
+                },
+                "Shadow": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                },
+                "OutlineUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,1,0,1"
+                },
+                "ShadowUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "__guid": "bd7c0999-ffd2-42e7-a34d-84c106b15f4c",
+          "Flags": 0,
+          "Name": "Text (1)",
+          "Position": "-0.00001144409,68,0",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.TextRenderer",
+              "__guid": "5f6fc91b-da12-4169-9a0c-803e2a3c1096",
+              "__version": 1,
+              "BlendMode": "Normal",
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "Scale": 0.13,
+              "TextAlignment": "Center",
+              "TextScope": {
+                "Text": "---------------",
+                "TextColor": "0.45103,0.47149,0.5297,1",
+                "FontName": "Poppins",
+                "FontSize": 64,
+                "FontWeight": 800,
+                "FontItalic": false,
+                "LineHeight": 1,
+                "LetterSpacing": 0,
+                "WordSpacing": 0,
+                "Outline": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,1,1"
+                },
+                "Shadow": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                },
+                "OutlineUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,1,0,1"
+                },
+                "ShadowUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "__guid": "5b8a56db-a01d-4682-a536-45740314c7d8",
+          "Flags": 0,
+          "Name": "Text (3)",
+          "Position": "-336,119.4999,0",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.TextRenderer",
+              "__guid": "edf0490c-aef6-4159-b011-203e3ff96256",
+              "__version": 1,
+              "BlendMode": "Normal",
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "Scale": 0.13,
+              "TextAlignment": "Center",
+              "TextScope": {
+                "Text": "-------",
+                "TextColor": "0.45103,0.47149,0.5297,1",
+                "FontName": "Poppins",
+                "FontSize": 64,
+                "FontWeight": 800,
+                "FontItalic": false,
+                "LineHeight": 1,
+                "LetterSpacing": 0,
+                "WordSpacing": 0,
+                "Outline": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,1,1"
+                },
+                "Shadow": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                },
+                "OutlineUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,1,0,1"
+                },
+                "ShadowUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "__guid": "d5a1cdbc-b918-47f7-a180-0dc3a834120e",
+          "Flags": 0,
+          "Name": "Text (2)",
+          "Position": "-167,103.5,0.00002673268",
+          "Rotation": "0,0,0.7071066,0.7071068",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.TextRenderer",
+              "__guid": "a7583477-3df3-4ebb-83cb-1968faf73fca",
+              "__version": 1,
+              "BlendMode": "Normal",
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "Scale": 0.13,
+              "TextAlignment": "Center",
+              "TextScope": {
+                "Text": "------------------------------------------------------------------------",
+                "TextColor": "0.45103,0.47149,0.5297,1",
+                "FontName": "Poppins",
+                "FontSize": 64,
+                "FontWeight": 800,
+                "FontItalic": false,
+                "LineHeight": 1,
+                "LetterSpacing": 0,
+                "WordSpacing": 0,
+                "Outline": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,1,1"
+                },
+                "Shadow": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                },
+                "OutlineUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,1,0,1"
+                },
+                "ShadowUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "__guid": "6c2529a9-c6e3-4e76-8397-3b00e5a45f8f",
+      "Flags": 0,
+      "Name": "Trigger Once",
+      "Position": "-1064.45,-486.2528,-43.49927",
       "Tags": "trigger",
       "Enabled": true,
       "Components": [
         {
-          "__type": "Sandbox.ActionGraphs.ActionsInvoker",
-          "__guid": "352541ef-d4b8-4b55-990c-f05e7bdb5c19",
-          "OnEnabledAction": {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "4197d7fb-3363-4cc1-9f49-15fd9078a7ba",
+          "Center": "0,0,0",
+          "IsTrigger": true,
+          "OnTriggerExit": {
             "__version": 8,
-            "__guid": "bcdd59b2-1155-4b9f-a561-1da268063ccb",
-            "__changeId": 25,
+            "__guid": "6795c2e8-05dd-4d29-b12e-b92abcea80f3",
+            "__changeId": 16,
             "UserData": {
-              "Title": "On Enabled Action",
+              "Title": "On Collider Exit",
               "ReferencedComponentTypes": []
             },
             "Variables": [],
@@ -888,14 +2008,14 @@
                 "Type": "input"
               },
               {
-                "Id": 4,
+                "Id": 2,
                 "Type": "scene.ref",
                 "UserData": {
-                  "Position": "372,72"
+                  "Position": "156,60"
                 }
               },
               {
-                "Id": 5,
+                "Id": 3,
                 "Type": "call",
                 "Properties": {
                   "_isStatic": false,
@@ -903,52 +2023,199 @@
                   "_type": "Sandbox.SoundPointComponent"
                 },
                 "UserData": {
-                  "Position": "504,0"
+                  "Position": "312,0"
+                }
+              },
+              {
+                "Id": 5,
+                "Type": "scene.ref",
+                "UserData": {
+                  "Position": "516,60"
                 }
               },
               {
                 "Id": 6,
-                "Type": "time.delay",
+                "Type": "call",
+                "Properties": {
+                  "_isStatic": false,
+                  "_name": "Destroy",
+                  "_type": "Sandbox.GameObject"
+                },
                 "UserData": {
-                  "Position": "240,-0"
+                  "Position": "672,0"
                 }
               }
             ],
             "Links": [
               {
-                "SrcId": 6,
+                "SrcId": 0,
                 "SrcName": "_signal",
-                "DstId": 5,
+                "DstId": 3,
                 "DstName": "_signal"
               },
               {
-                "SrcId": 4,
+                "SrcId": 2,
                 "SrcName": "_result",
-                "DstId": 5,
+                "DstId": 3,
                 "DstName": "_target"
               },
               {
-                "SrcId": 0,
+                "SrcId": 3,
                 "SrcName": "_signal",
                 "DstId": 6,
                 "DstName": "_signal"
               },
               {
-                "Id": 11,
-                "Value": 10,
+                "SrcId": 5,
+                "SrcName": "_result",
                 "DstId": 6,
-                "DstName": "seconds"
+                "DstName": "_target"
               }
             ],
             "Defaults": {
-              "$4.component": {
+              "$2.component": {
                 "_type": "component",
                 "component_id": "337c2bbe-d3a0-44fa-b2a3-c89d99383727",
                 "go": "c112a03f-9a1e-4936-aed6-ccd4f55ab37f",
                 "component_type": "SoundPointComponent"
+              },
+              "$5.gameobject": {
+                "_type": "gameobject",
+                "go": "6c2529a9-c6e3-4e76-8397-3b00e5a45f8f"
               }
             }
-          }
+          },
+          "Scale": "750,750,750",
+          "Static": false,
+          "SurfaceVelocity": "0,0,0"
+        }
+      ]
+    },
+    {
+      "__guid": "5f38dd28-38fc-472c-9ad0-9f6beb5a2a5b",
+      "Flags": 0,
+      "Name": "Box",
+      "Position": "-1504,-32,192",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.MeshComponent",
+          "__guid": "9edb6e4d-cd2c-4cac-ae97-ade5dfd14c51",
+          "Collision": "Mesh",
+          "Color": "1,1,1,1",
+          "HideInGame": false,
+          "IsTrigger": false,
+          "Mesh": {
+            "Topology": "H4sIAAAAAAAACsWPSw6DMBTEDCHl18KW\u002B180yNJkARfok7KJPZOXBbiADzADA1CACpzACuzAL8wz8hxzrbU2JjvlvrtDeO/1LcJ0S3jv6lPi1vCafbZ0ml2yp1zXXb/h\u002Brpm5Hb7jyNcX9eM3D677JTr65qR/3vc133e9zdpWsu1xAEAAA==",
+            "Positions": [
+              "-160,-768,16",
+              "160,-768,16",
+              "160,768,16",
+              "-160,768,16",
+              "-128,736,-16",
+              "160,736,-16",
+              "160,-768,-16",
+              "-128,-768,-16"
+            ],
+            "TextureCoord": [
+              "-42,25",
+              "-52,-6.5",
+              "-42,-23",
+              "-25,-6.5",
+              "-52,-23",
+              "42,-6.5",
+              "-52,25",
+              "-23,-6.5",
+              "-42,-22",
+              "52,-5.5",
+              "-42,25",
+              "23,-5.5",
+              "-51,25",
+              "-42,-5.5",
+              "-51,-22",
+              "25,-5.5",
+              "25,-6.5",
+              "-52,-5.5",
+              "-23,-5.5",
+              "52,-6.5",
+              "-25,-5.5",
+              "-42,-6.5",
+              "23,-6.5",
+              "42,-5.5"
+            ],
+            "TextureUAxis": [
+              "1,0,0",
+              "1,0,0",
+              "0,-1,0",
+              "0,1,0",
+              "-1,0,0",
+              "1,0,0"
+            ],
+            "TextureVAxis": [
+              "0,-1,0",
+              "0,-1,0",
+              "0,0,-1",
+              "0,0,-1",
+              "0,0,-1",
+              "0,0,-1"
+            ],
+            "TextureScale": [
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25"
+            ],
+            "TextureOffset": [
+              "0,0",
+              "0,0",
+              "0,0",
+              "0,0",
+              "0,0",
+              "0,0"
+            ],
+            "MaterialIndex": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "EdgeFlags": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "Materials": [
+              "materials/dev/dev_measuregeneric01b.vmat"
+            ]
+          },
+          "SmoothingAngle": 40,
+          "Static": false,
+          "SurfaceVelocity": "0,0,0"
         }
       ]
     }
@@ -980,6 +2247,7 @@
   "Title": null,
   "Description": null,
   "__references": [
+    "jodiscontent.deluxe_speaker#24256",
     "rust.ladder_300_top#25203",
     "rust.ladder_600#25206"
   ],
