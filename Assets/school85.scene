@@ -52,7 +52,7 @@
       "__guid": "1ca16c1b-6d4a-4b6a-bef7-60193468f508",
       "Flags": 0,
       "Name": "Sun",
-      "Position": "-500,-1432,20",
+      "Position": "-500,-1400,0",
       "Rotation": "0.1397651,0.6931564,0.4831477,0.5163023",
       "Tags": "light,light_directional",
       "Enabled": true,
@@ -72,7 +72,7 @@
       "__guid": "7f0bf7b1-e772-4fbe-9b2f-cbd186857d4b",
       "Flags": 0,
       "Name": "2D Skybox",
-      "Position": "-538.2614,-1659.224,82.80329",
+      "Position": "-490,-1400,0",
       "Tags": "skybox",
       "Enabled": true,
       "Components": [
@@ -173,8 +173,8 @@
       "__guid": "bde3cd0c-d2fe-4a21-913e-e318f9d4bf75",
       "Flags": 0,
       "Name": "Player Controller",
-      "Position": "-1108.687,-534.0085,-47.87375",
-      "Rotation": "0,0,1,0.0000001947072",
+      "Position": "-460,-1400,-40",
+      "Rotation": "0,0,0.7071067,0.7071068",
       "Enabled": true,
       "Components": [
         {
