@@ -632,6 +632,34 @@
           ]
         }
       ]
+    },
+    {
+      "__guid": "46e6aa66-0ff3-4782-b0dc-765be6618c65",
+      "Flags": 0,
+      "Name": "ENV Probe",
+      "Position": "2918.524,-1339.797,1311.748",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.EnvmapProbe",
+          "__guid": "a1a3da95-73fd-425e-a7e8-5d9e6e4d8d9e",
+          "Bounds": {
+            "Mins": "-11245.01,-5461.043,-1412.932",
+            "Maxs": "5342.535,7740.999,30858.34"
+          },
+          "DelayBetweenUpdates": 0.1,
+          "Feathering": 8,
+          "FrameInterval": 5,
+          "MaxDistance": 512,
+          "MultiBounce": false,
+          "Projection": "Box",
+          "RenderDynamically": true,
+          "TintColor": "1,1,1,1",
+          "UpdateStrategy": "OnEnabled",
+          "ZFar": 4096,
+          "ZNear": 16
+        }
+      ]
     }
   ],
   "SceneProperties": {
