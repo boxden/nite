@@ -660,6 +660,13 @@
           "ZNear": 16
         }
       ]
+    },
+    {
+      "__guid": "07e31bf3-b5af-4c4f-a7bc-44f8049dc723",
+      "Flags": 0,
+      "Name": "2D",
+      "Position": "-1011.037,-1895.125,-84.0374",
+      "Enabled": true
     }
   ],
   "SceneProperties": {
