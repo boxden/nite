@@ -17,7 +17,9 @@
           "HideInGame": false,
           "IsTrigger": false,
           "Mesh": {
-            "Topology": "H4sIAAAAAAAACuWS6UpDMRQGx9ZqF7efbdXWfd/e/\u002BUqA1Oogk9g4BLIzElyT74z4AuYAofAHjAERsDm11gCc\u002BAKWAEPwB3wBrxU6zfg5/gAJq27937rW/cJGO\u002BcexAf5N50N3Zm8nUvmjf/fNjDBbCsH5Pe67Le2LPzeigf5y7ik9x5fFhvr\u002BNmZN37u8esHNzGh7mj\u002BDR3HZ/lruK\u002Br2/7GD8C7suVdzsuX89xfV3PkevrWiPX17VGbr7M1nv8BHgtr/7rabn9jOvrOsv1da2R6\u002BtaI99m257K/8qgPfQ/vYv\u002BN/3DYlN0AwAA",
+            "Topology": "H4sIAAAAAAAACuWS6UpDMRQGx9ZqF7efbdXWfd/e/+UqA1Oogk9g4BLIzElyT74z4AuYAofAHjAERsDm11gCc+AKWAEPwB3wBrxU6zfg5/gAJq27937rW/cJGO+cexAf5N50N3Zm8nUvmjf/fNjDBbCsH5Pe67Le2LPzeigf5y7ik9x5fFhvr+NmZN37u8esHNzGh7mj+DR3HZ/lruK+r2/7GD8C7suVdzsuX89xfV3PkevrWiPX17VGbr7M1nv8BHgtr/7rabn9jOvrOsv1da2R6+taI99m257K/8qgPfQ/vYv+N/3DYlN0AwAA",
+            "Position": "-5634.491,5492.513,14",
+            "Rotation": "0,0,0,1",
             "Positions": [
               "-1968.5,-96.36218,0",
               "1968.5,-96.36218,0",
@@ -362,7 +364,9 @@
           "HideInGame": false,
           "IsTrigger": false,
           "Mesh": {
-            "Topology": "H4sIAAAAAAAACk2OAQoAIQzD4qmn/3\u002BxBFcwMAZtVzaADXxc3AP4gVYTL6xH75WXaLnTm9X1dqvrpyuom/VGPz8c9Bd8FaQAAAA=",
+            "Topology": "H4sIAAAAAAAACk2OAQoAIQzD4qmn/3+xBFcwMAZtVzaADXxc3AP4gVYTL6xH75WXaLnTm9X1dqvrpyuom/VGPz8c9Bd8FaQAAAA=",
+            "Position": "520.1865,-568.8708,0",
+            "Rotation": "0,0,0,1",
             "Positions": [
               "-3630.514,-6058.922,0",
               "7543.728,-6058.922,0",
@@ -692,6 +696,7 @@
                 "vectors": {},
                 "rotations": {}
               },
+              "PlaybackRate": 1,
               "RenderOptions": {
                 "GameLayer": true,
                 "OverlayLayer": false,
@@ -800,6 +805,13 @@
       "Flags": 0,
       "Name": "2D",
       "Position": "-1011.037,-1895.125,-84.0374",
+      "Enabled": true
+    },
+    {
+      "__guid": "55595ac7-5c68-4e17-a9aa-1c91697eb9b3",
+      "Flags": 0,
+      "Name": "test",
+      "Position": "-544.6279,-1679.181,65.91783",
       "Enabled": true
     }
   ],
