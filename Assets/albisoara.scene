@@ -526,7 +526,7 @@
       "__guid": "0c3a7bf4-a409-47c9-8d04-2a615a45fe3b",
       "Flags": 0,
       "Name": "Player Controller",
-      "Position": "-539.7059,-1803.935,0.25",
+      "Position": "-576,-1792,0.25",
       "Enabled": true,
       "Components": [
         {
