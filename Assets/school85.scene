@@ -239,7 +239,7 @@
           "__type": "Sandbox.Rigidbody",
           "__guid": "26e7ce98-13ee-4f3a-82dc-45d94fd28f5f",
           "AngularDamping": 1,
-          "Gravity": true,
+          "Gravity": false,
           "LinearDamping": 0.1,
           "Locking": {
             "X": false,
@@ -249,7 +249,7 @@
             "Yaw": true,
             "Roll": true
           },
-          "MassCenterOverride": "0,0,36",
+          "MassCenterOverride": "0,0,0",
           "MassOverride": 500,
           "MotionEnabled": true,
           "OnComponentDestroy": null,
@@ -382,7 +382,7 @@
               "__type": "Sandbox.BoxCollider",
               "__guid": "bdde99b3-2d5d-4564-a8f8-292d18ac94dc",
               "Center": "0,0,18",
-              "Friction": 0,
+              "Friction": 81,
               "IsTrigger": false,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
@@ -454,6 +454,692 @@
           "SkyColor": "0,0,0,0"
         }
       ]
+    },
+    {
+      "__guid": "0fede73d-c650-48c5-ad7c-cc97162514df",
+      "Flags": 0,
+      "Name": "Nature",
+      "Position": "-2480,-744,-43.47613",
+      "Rotation": "0,0,-0.2492267,0.9684452",
+      "Scale": "0.9659827,0.9659827,1.089351",
+      "Enabled": true,
+      "Children": [
+        {
+          "__guid": "b0ea7c38-91c6-4020-b797-2c2001f9eaff",
+          "Flags": 0,
+          "Name": "shitty_pine_tree2",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "05140255-8f64-4cd1-815a-203fa33f8ecb",
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
+              "Model": "models/trees/shitty_pine_tree2.vmdl",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
+        {
+          "__guid": "6582135e-71aa-4866-84a4-75d168a7e3a8",
+          "Flags": 0,
+          "Name": "shitty_pine_tree2 (4)",
+          "Position": "-947.4645,1745.681,-1.669374",
+          "Rotation": "0,0,1,0.0000001788139",
+          "Scale": "1,1,1.122072",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "2a8f58a1-6722-4d3a-9a2d-cdec1b4eb431",
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
+              "Model": "models/trees/shitty_pine_tree2.vmdl",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
+        {
+          "__guid": "e4c44248-6049-4316-a091-b0c113193ae6",
+          "Flags": 0,
+          "Name": "shitty_pine_tree2 (1)",
+          "Position": "-64.92691,164.5832,0.0002031047",
+          "Rotation": "0,0,-0.7308193,0.6825711",
+          "Scale": "1,1,1.017625",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "05251181-cae0-4889-8ead-1e0a1dcadd0e",
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
+              "Model": "models/trees/shitty_pine_tree2.vmdl",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
+        {
+          "__guid": "c24adab8-b080-4820-bc1b-c4dc04462b2f",
+          "Flags": 0,
+          "Name": "shitty_pine_tree2 (5)",
+          "Position": "-874.0719,1585.764,-1.669171",
+          "Rotation": "0,0,0.682571,0.7308195",
+          "Scale": "1,1,1.068426",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "e3bd95f5-2f4e-4d91-ade5-003809a7894b",
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
+              "Model": "models/trees/shitty_pine_tree2.vmdl",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
+        {
+          "__guid": "cbb1981b-aa88-4f44-80c7-7491ed0dbfcd",
+          "Flags": 0,
+          "Name": "shitty_pine_tree2 (2)",
+          "Position": "-162.627,310.7853,0.0005427799",
+          "Rotation": "0,0,-0.7643905,-0.6447538",
+          "Scale": "1,1,0.9043089",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "f5831403-2561-45b4-a95f-7ca00434e0be",
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
+              "Model": "models/trees/shitty_pine_tree2.vmdl",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
+        {
+          "__guid": "af541692-2b04-4754-8fd8-fe31805ec1a5",
+          "Flags": 0,
+          "Name": "shitty_pine_tree2 (6)",
+          "Position": "-783.4748,1428.242,-1.668845",
+          "Rotation": "0,0,-0.6447539,0.7643903",
+          "Scale": "1,1,1.172066",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "b01b13c5-6770-4ede-b748-ae371b44f17d",
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
+              "Model": "models/trees/shitty_pine_tree2.vmdl",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
+        {
+          "__guid": "e369395f-149c-4567-8e51-4b71ae0d5881",
+          "Flags": 0,
+          "Name": "shitty_pine_tree2 (3)",
+          "Position": "-285.0731,518.5421,0.0005427799",
+          "Rotation": "0,0,-0.7643905,-0.6447537",
+          "Scale": "1,1,0.9907159",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "76569596-d616-4a2b-acf8-bdd5c843fb39",
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
+              "Model": "models/trees/shitty_pine_tree2.vmdl",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
+        {
+          "__guid": "1cbfba1e-83ae-4ee9-afa8-da9efe4c4736",
+          "Flags": 0,
+          "Name": "shitty_pine_tree2 (7)",
+          "Position": "-663.2365,1217.823,-1.668831",
+          "Rotation": "0,0,-0.6447539,0.7643903",
+          "Scale": "1,1,1.041516",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "0f5388f3-e81a-4971-9fca-0a6e14a7895e",
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
+              "Model": "models/trees/shitty_pine_tree2.vmdl",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
+        {
+          "__guid": "9d5e9fb9-14eb-4519-aca5-f73b101346ad",
+          "Flags": 0,
+          "Name": "beech_bush_medium",
+          "Position": "-586.2651,-364.8307,0.04096061",
+          "Rotation": "0,0,0.2492267,0.9684452",
+          "Scale": "1.035215,1.035215,0.9179774",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "d5c4c637-81e9-4880-8af9-61f767ffca8b",
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "MaterialGroup": "default",
+              "MaterialOverride": null,
+              "Model": "models/sbox_props/shrubs/beech/beech_bush_medium.vmdl",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
+        {
+          "__guid": "7b9cc6c6-dbb4-470a-9897-1c6a3342afb1",
+          "Flags": 0,
+          "Name": "beech_bush_medium (2)",
+          "Position": "-666.7446,-314.5346,0.04096413",
+          "Rotation": "0,0,-0.4324011,0.9016813",
+          "Scale": "1.035215,1.035215,1.202241",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "cd32bdbd-0601-440d-a8c5-8120db285f63",
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
+              "Model": "models/sbox_props/shrubs/beech/beech_bush_medium.vmdl",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
+        {
+          "__guid": "05c5eba8-361b-47b9-b349-9ccd93c5e1d1",
+          "Flags": 0,
+          "Name": "beech_bush_medium (1)",
+          "Position": "-854.2869,-172.2797,1.399227",
+          "Rotation": "0,0,-0.3538836,0.9352895",
+          "Scale": "0.8621425,0.8621425,0.7645051",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "3c41bd7e-38d0-48a3-90a0-96f37dc19e0c",
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
+              "Model": "models/sbox_props/shrubs/beech/beech_bush_medium.vmdl",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
+        {
+          "__guid": "efec9230-f118-4d0a-95e6-0114e32aca2a",
+          "Flags": 0,
+          "Name": "ivy_fresh_02a",
+          "Position": "-1139.506,-439.9713,28.86056",
+          "Rotation": "0,0,0.2492267,0.9684452",
+          "Scale": "1.449699,1.672103,1.43181",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "c1edfb44-9b86-4a58-9d2c-d56055e1f4e7",
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
+              "Model": "models/nature/ivy_fresh/ivy_fresh_02/ivy_fresh_02a.vmdl",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
+        {
+          "__guid": "a9c8e119-a1d7-4139-bab7-b0c15e19c3e7",
+          "Flags": 0,
+          "Name": "beech_bush_medium_wall_corner",
+          "Position": "-751.9726,-148.211,2.622012",
+          "Rotation": "0,0,0.2492267,0.9684452",
+          "Scale": "1.035215,1.035215,0.9179774",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "e4c8b0a8-de29-44f5-b679-41b2e01389e2",
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
+              "Model": "models/sbox_props/shrubs/beech/beech_bush_medium_wall_corner.vmdl",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
+        {
+          "__guid": "ae2e275e-1a6f-49cb-89ce-db8e0b8ddf91",
+          "Flags": 0,
+          "Name": "beech_bush_medium_wall_corner (1)",
+          "Position": "-930.5568,175.781,2.798265",
+          "Rotation": "0,0,-0.727417,0.6861957",
+          "Scale": "0.87858,0.87858,0.779081",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "4a2b8168-657b-47e2-9068-d47e8e8d7a4a",
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
+              "Model": "models/sbox_props/shrubs/beech/beech_bush_medium_wall_corner.vmdl",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
+        {
+          "__guid": "227a43dd-901d-4dd9-96e7-b1886228bcc5",
+          "Flags": 0,
+          "Name": "beech_bush_regular_medium_a",
+          "Position": "-695.1736,-47.67599,2.212231",
+          "Rotation": "0,0,0.2492267,0.9684452",
+          "Scale": "1.035215,1.035215,0.9179774",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "cecb3cbd-8aeb-4a86-835d-e7ad12527772",
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
+              "Model": "models/sbox_props/shrubs/beech/beech_bush_regular_medium_a.vmdl",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
+        {
+          "__guid": "31358558-1631-4d54-b126-42f0f860e633",
+          "Flags": 0,
+          "Name": "beech_shrub_wide_large",
+          "Position": "-903.6628,415.6353,3.079625",
+          "Rotation": "0,0,0.2492267,0.9684452",
+          "Scale": "1.035215,1.035215,0.9179774",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "40f17849-587e-4208-8ee7-67039c6068fa",
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
+              "Model": "models/sbox_props/shrubs/beech/beech_shrub_wide_large.vmdl",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
+        {
+          "__guid": "7ff68ebd-ae2d-4e93-ac36-401b02c4968a",
+          "Flags": 0,
+          "Name": "beech_shrub_wide_large (1)",
+          "Position": "-974.6241,-55.16941,3.079723",
+          "Rotation": "0,0,-0.9540242,-0.2997298",
+          "Scale": "1.035215,1.035215,0.9179774",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "86520e0f-7264-428a-b5e9-7fe973df14a6",
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
+              "Model": "models/sbox_props/shrubs/beech/beech_shrub_wide_large.vmdl",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
+        {
+          "__guid": "e5811a06-93a0-4ff5-918e-8bf8154961ae",
+          "Flags": 0,
+          "Name": "beech_shrub_wide_large (2)",
+          "Position": "-484.2506,-600.6501,3.079747",
+          "Rotation": "0,0,-0.5001789,-0.865922",
+          "Scale": "0.8809656,0.8809656,0.7811965",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "d681fd4f-a1c1-4ade-bbc7-b469b29d611a",
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
+              "Model": "models/sbox_props/shrubs/beech/beech_shrub_wide_large.vmdl",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
+        {
+          "__guid": "285621bc-70b0-4037-adba-b04e285cab48",
+          "Flags": 0,
+          "Name": "tree_oak_big_b",
+          "Position": "2600.664,712.5458,-5.2785",
+          "Rotation": "0,0,0.2492267,0.9684452",
+          "Scale": "0.7246507,0.7246507,0.9179774",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.Prop",
+              "__guid": "dce17ca0-387e-4345-95f9-c118edfb47e5",
+              "BodyGroups": 18446744073709551615,
+              "Health": 0,
+              "IsStatic": true,
+              "MaterialGroup": null,
+              "Model": "models/sbox_props/trees/oak/tree_oak_big_b.vmdl",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "OnPropBreak": null,
+              "OnPropTakeDamage": null,
+              "StartAsleep": false,
+              "Tint": "1,1,1,1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "__guid": "b93f26fe-fe8e-42e6-bc2d-22aae3f3a5ae",
+      "Flags": 0,
+      "Name": "ENV Probe",
+      "Position": "-1261.944,-699.588,18.18147",
+      "Scale": "2.174645,1,1.976722",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.EnvmapProbe",
+          "__guid": "2e08f7ae-4436-4014-a9d1-0ebf14533e41",
+          "Bounds": {
+            "Mins": "-1346.045,-5530.664,-106.0536",
+            "Maxs": "1477.655,2891.925,844.2577"
+          },
+          "DelayBetweenUpdates": 0.1,
+          "Feathering": 8,
+          "FrameInterval": 5,
+          "MaxDistance": 512,
+          "MultiBounce": false,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Projection": "Box",
+          "RenderDynamically": true,
+          "Texture": null,
+          "TintColor": "1,1,1,1",
+          "UpdateStrategy": "OnEnabled",
+          "ZFar": 4096,
+          "ZNear": 16
+        }
+      ]
     }
   ],
   "SceneProperties": {
@@ -483,6 +1169,13 @@
   "Title": null,
   "Description": null,
   "__references": [
+    "facepunch.beech_bush_medium_wall_corner#60668",
+    "facepunch.beech_bush_medium#60671",
+    "facepunch.beech_bush_regular_medium_a#60670",
+    "facepunch.beech_shrub_wide_large#29102",
+    "facepunch.ivy_fresh_02a#47130",
+    "facepunch.tree_oak_big_b#33691",
+    "fish.gt_shitty_pine_tree2#89754",
     "rust.ladder_300_top#25203",
     "rust.ladder_600#25206"
   ],
