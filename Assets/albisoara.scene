@@ -13,10 +13,13 @@
           "__guid": "9a2d78d7-3a15-4e7f-adce-8c2bf9cdc453",
           "Collision": "Mesh",
           "Color": "1,1,1,1",
+          "Friction": null,
           "HideInGame": false,
           "IsTrigger": false,
           "Mesh": {
-            "Topology": "H4sIAAAAAAAACuWS6UpDMRQGx9ZqF7efbdXWfd/e/\u002BUqA1Oogk9g4BLIzElyT74z4AuYAofAHjAERsDm11gCc\u002BAKWAEPwB3wBrxU6zfg5/gAJq27937rW/cJGO\u002BcexAf5N50N3Zm8nUvmjf/fNjDBbCsH5Pe67Le2LPzeigf5y7ik9x5fFhvr\u002BNmZN37u8esHNzGh7mj\u002BDR3HZ/lruK\u002Br2/7GD8C7suVdzsuX89xfV3PkevrWiPX17VGbr7M1nv8BHgtr/7rabn9jOvrOsv1da2R6\u002BtaI99m257K/8qgPfQ/vYv\u002BN/3DYlN0AwAA",
+            "Topology": "H4sIAAAAAAAACuWS6UpDMRQGx9ZqF7efbdXWfd/e/+UqA1Oogk9g4BLIzElyT74z4AuYAofAHjAERsDm11gCc+AKWAEPwB3wBrxU6zfg5/gAJq27937rW/cJGO+cexAf5N50N3Zm8nUvmjf/fNjDBbCsH5Pe67Le2LPzeigf5y7ik9x5fFhvr+NmZN37u8esHNzGh7mj+DR3HZ/lruK+r2/7GD8C7suVdzsuX89xfV3PkevrWiPX17VGbr7M1nv8BHgtr/7rabn9jOvrOsv1da2R6+taI99m257K/8qgPfQ/vYv+N/3DYlN0AwAA",
+            "Position": "-5634.491,5492.513,14",
+            "Rotation": "0,0,0,1",
             "Positions": [
               "-1968.5,-96.36218,0",
               "1968.5,-96.36218,0",
@@ -199,8 +202,19 @@
               "materials/dev/reflectivity_30.vmat"
             ]
           },
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
           "SmoothingAngle": 40,
           "Static": true,
+          "Surface": null,
           "SurfaceVelocity": "0,0,0"
         }
       ],
@@ -218,6 +232,12 @@
               "__guid": "01417cf1-5c81-4ec2-a753-bdf9c4c25b2e",
               "__version": 1,
               "BlendMode": "Normal",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
               "RenderOptions": {
                 "GameLayer": true,
                 "OverlayLayer": false,
@@ -274,6 +294,12 @@
                   "__guid": "55237a43-6ce4-40c4-8945-97d978be1878",
                   "__version": 1,
                   "BlendMode": "Normal",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
                   "RenderOptions": {
                     "GameLayer": true,
                     "OverlayLayer": false,
@@ -334,10 +360,13 @@
           "__guid": "7f379c20-de97-4d1a-9c42-43de0e85778c",
           "Collision": "Mesh",
           "Color": "1,1,1,1",
+          "Friction": null,
           "HideInGame": false,
           "IsTrigger": false,
           "Mesh": {
-            "Topology": "H4sIAAAAAAAACk2OAQoAIQzD4qmn/3\u002BxBFcwMAZtVzaADXxc3AP4gVYTL6xH75WXaLnTm9X1dqvrpyuom/VGPz8c9Bd8FaQAAAA=",
+            "Topology": "H4sIAAAAAAAACk2OAQoAIQzD4qmn/3+xBFcwMAZtVzaADXxc3AP4gVYTL6xH75WXaLnTm9X1dqvrpyuom/VGPz8c9Bd8FaQAAAA=",
+            "Position": "520.1865,-568.8708,0",
+            "Rotation": "0,0,0,1",
             "Positions": [
               "-3630.514,-6058.922,0",
               "7543.728,-6058.922,0",
@@ -389,8 +418,19 @@
               "materials/dev/reflectivity_90b.vmat"
             ]
           },
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
           "SmoothingAngle": 40,
           "Static": true,
+          "Surface": null,
           "SurfaceVelocity": "0,0,0"
         }
       ]
@@ -408,6 +448,12 @@
           "EnableCollision": true,
           "MapName": "maps/hollywood.vmap",
           "NoOrigin": false,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
           "OnMapLoaded": null,
           "OnMapUnloaded": null,
           "UseMapFromLaunch": false
@@ -430,7 +476,14 @@
           "BackgroundColor": "0.33333,0.46275,0.52157,1",
           "ClearFlags": "All",
           "FieldOfView": 75,
+          "FovAxis": "Horizontal",
           "IsMainCamera": true,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
           "Orthographic": false,
           "OrthographicHeight": 1204,
           "Priority": 1,
@@ -458,6 +511,12 @@
           "FogMode": "Enabled",
           "FogStrength": 1,
           "LightColor": "0.91373,0.98039,1,1",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
           "Shadows": true,
           "SkyColor": "0,0,0,0"
         }
@@ -467,29 +526,34 @@
       "__guid": "0c3a7bf4-a409-47c9-8d04-2a615a45fe3b",
       "Flags": 0,
       "Name": "Player Controller",
-      "Position": "-539.7059,-1803.935,0.25",
+      "Position": "-576,-1792,0.25",
       "Enabled": true,
       "Components": [
         {
           "__type": "Sandbox.PlayerController",
           "__guid": "e39e8272-51d8-4304-8cba-55bcc8d4d4cc",
+          "AccelerationTime": 0,
           "AimStrengthBody": 1,
           "AimStrengthEyes": 1,
           "AimStrengthHead": 1,
+          "AltMoveButton": "run",
           "Body": {
             "_type": "component",
             "component_id": "60975d30-debd-4cf2-94a6-cac630ef734d",
             "go": "0c3a7bf4-a409-47c9-8d04-2a615a45fe3b",
             "component_type": "Rigidbody"
           },
+          "BodyCollisionTags": null,
           "BodyHeight": 72,
           "BodyMass": 500,
           "BodyRadius": 16,
+          "BrakePower": 1,
           "CameraOffset": "256,0,12",
           "ColliderObject": {
             "_type": "gameobject",
             "go": "56fe965a-3471-494c-91cb-e536cf36812d"
           },
+          "DeaccelerationTime": 0,
           "DuckedHeight": 36,
           "DuckedSpeed": 70,
           "EnableFootstepSounds": true,
@@ -502,6 +566,14 @@
           "FootstepVolume": 1,
           "HideBodyInFirstPerson": true,
           "JumpSpeed": 300,
+          "LookSensitivity": 1,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "PitchClamp": 90,
           "ReachLength": 130,
           "Renderer": {
             "_type": "component",
@@ -512,6 +584,7 @@
           "RotateWithGround": true,
           "RotationAngleLimit": 45,
           "RotationSpeed": 1,
+          "RunByDefault": false,
           "RunSpeed": 320,
           "ShowColliderComponents": false,
           "ShowRigidbodyComponent": false,
@@ -520,7 +593,9 @@
           "UseAnimatorControls": true,
           "UseButton": "use",
           "UseCameraControls": true,
+          "UseFovFromPreferences": true,
           "UseInputControls": true,
+          "UseLookControls": true,
           "WalkSpeed": 110
         },
         {
@@ -540,6 +615,12 @@
           "MassCenterOverride": "0,0,36",
           "MassOverride": 500,
           "MotionEnabled": true,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
           "OverrideMassCenter": true,
           "RigidbodyFlags": "DisableCollisionSounds",
           "StartAsleep": false
@@ -548,6 +629,12 @@
           "__type": "Sandbox.Movement.MoveModeWalk",
           "__guid": "da8bc9e7-7f90-4e3a-a1ff-3498aada322d",
           "GroundAngle": 45,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
           "Priority": 0,
           "StepDownHeight": 18,
           "StepUpHeight": 18
@@ -555,6 +642,12 @@
         {
           "__type": "Sandbox.Movement.MoveModeSwim",
           "__guid": "9f8883c0-9a56-47c3-9cb5-5f6b338fd2d2",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
           "Priority": 10,
           "SwimLevel": 0.7
         },
@@ -562,7 +655,14 @@
           "__type": "Sandbox.Movement.MoveModeLadder",
           "__guid": "287b226a-55bb-4734-940c-54dd99814b4e",
           "ClimbableTags": "ladder",
-          "Priority": 5
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Priority": 5,
+          "Speed": 1
         }
       ],
       "Children": [
@@ -575,11 +675,21 @@
             {
               "__type": "Sandbox.SkinnedModelRenderer",
               "__guid": "8bfb5bb4-ef81-4669-8a93-4b2c8bdad66e",
+              "AnimationGraph": null,
               "BodyGroups": 341,
+              "BoneMergeTarget": null,
               "CreateAttachments": false,
               "CreateBoneObjects": false,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
               "Model": "models/citizen/citizen.vmdl",
               "Morphs": {},
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
               "Parameters": {
                 "bools": {},
                 "ints": {},
@@ -587,6 +697,7 @@
                 "vectors": {},
                 "rotations": {}
               },
+              "PlaybackRate": 1,
               "RenderOptions": {
                 "GameLayer": true,
                 "OverlayLayer": false,
@@ -614,9 +725,20 @@
               "End": "0,0,45.05097",
               "Friction": 0,
               "IsTrigger": false,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "OnObjectTriggerEnter": null,
+              "OnObjectTriggerExit": null,
+              "OnTriggerEnter": null,
+              "OnTriggerExit": null,
               "Radius": 11.313708,
               "Start": "0,0,60.68629",
               "Static": false,
+              "Surface": null,
               "SurfaceVelocity": "0,0,0"
             },
             {
@@ -625,63 +747,22 @@
               "Center": "0,0,18",
               "Friction": 0,
               "IsTrigger": false,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "OnObjectTriggerEnter": null,
+              "OnObjectTriggerExit": null,
+              "OnTriggerEnter": null,
+              "OnTriggerExit": null,
               "Scale": "16,16,36",
               "Static": false,
+              "Surface": null,
               "SurfaceVelocity": "0,0,0"
             }
           ]
-        }
-      ]
-    },
-    {
-      "__guid": "e5b63340-fb8a-4e49-9497-04b875e5cb1e",
-      "Flags": 0,
-      "Name": "envprobe",
-      "Position": "-1764.572,-3393.416,1066.5",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "Sandbox.EnvmapProbe",
-          "__guid": "1bd640ee-a7f7-4985-be0c-b5e1e20474d8",
-          "Bounds": {
-            "Mins": "-1755.254,-3836.133,-1904.863",
-            "Maxs": "14989.26,7421.632,2914.605"
-          },
-          "DelayBetweenUpdates": 0.1,
-          "Feathering": 8,
-          "FrameInterval": 5,
-          "MaxDistance": 512,
-          "MultiBounce": false,
-          "Projection": "Sphere",
-          "RenderDynamically": true,
-          "TintColor": "1,1,1,1",
-          "UpdateStrategy": "OnEnabled",
-          "ZFar": 4096,
-          "ZNear": 16
-        }
-      ]
-    },
-    {
-      "__guid": "183675ac-a84f-453c-b7dc-0671b774c436",
-      "Flags": 0,
-      "Name": "2djwithflippetnormals",
-      "Position": "1258,-1210,1.534666",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "Sandbox.ModelRenderer",
-          "__guid": "22cda0db-5ecc-433f-95c1-2f24fb428d40",
-          "BodyGroups": 18446744073709551615,
-          "CreateAttachments": false,
-          "Model": "models/temp/2djwithflippetnormals.vmdl",
-          "RenderOptions": {
-            "GameLayer": true,
-            "OverlayLayer": false,
-            "BloomLayer": false,
-            "AfterUILayer": false
-          },
-          "RenderType": "On",
-          "Tint": "1,1,1,1"
         }
       ]
     }
