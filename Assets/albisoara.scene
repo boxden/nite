@@ -536,6 +536,7 @@
           "AimStrengthBody": 1,
           "AimStrengthEyes": 1,
           "AimStrengthHead": 1,
+          "AirFriction": 0.1,
           "AltMoveButton": "run",
           "Body": {
             "_type": "component",
