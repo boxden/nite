@@ -632,6 +632,58 @@
           ]
         }
       ]
+    },
+    {
+      "__guid": "e5b63340-fb8a-4e49-9497-04b875e5cb1e",
+      "Flags": 0,
+      "Name": "envprobe",
+      "Position": "-1764.572,-3393.416,1066.5",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.EnvmapProbe",
+          "__guid": "1bd640ee-a7f7-4985-be0c-b5e1e20474d8",
+          "Bounds": {
+            "Mins": "-1755.254,-3836.133,-1904.863",
+            "Maxs": "14989.26,7421.632,2914.605"
+          },
+          "DelayBetweenUpdates": 0.1,
+          "Feathering": 8,
+          "FrameInterval": 5,
+          "MaxDistance": 512,
+          "MultiBounce": false,
+          "Projection": "Sphere",
+          "RenderDynamically": true,
+          "TintColor": "1,1,1,1",
+          "UpdateStrategy": "OnEnabled",
+          "ZFar": 4096,
+          "ZNear": 16
+        }
+      ]
+    },
+    {
+      "__guid": "183675ac-a84f-453c-b7dc-0671b774c436",
+      "Flags": 0,
+      "Name": "2djwithflippetnormals",
+      "Position": "1258,-1210,1.534666",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "22cda0db-5ecc-433f-95c1-2f24fb428d40",
+          "BodyGroups": 18446744073709551615,
+          "CreateAttachments": false,
+          "Model": "models/temp/2djwithflippetnormals.vmdl",
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        }
+      ]
     }
   ],
   "SceneProperties": {
