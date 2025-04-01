@@ -16,7 +16,7 @@
         "facepunch.plastic_glossy_yellow_a_hs#28965",
         "facepunch.rubber_a_hs#28967"
       ],
-      "IsWhitelistDisabled": false,
+      "IsStandaloneOnly": false,
       "Metadata": {
         "SingleAssetSource": "maps/hollywood.vmap",
         "GameSupport": [

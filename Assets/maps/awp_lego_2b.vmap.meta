@@ -13,7 +13,7 @@
       "EditorReferences": [
         "caro.sky_001#27739"
       ],
-      "IsWhitelistDisabled": false,
+      "IsStandaloneOnly": false,
       "Metadata": {
         "SingleAssetSource": "maps/awp_lego_2b.vmap",
         "GameSupport": [
