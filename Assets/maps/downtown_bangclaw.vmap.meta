@@ -13,7 +13,7 @@
       "EditorReferences": [
         "caro.bluecloudysky#27761"
       ],
-      "IsWhitelistDisabled": false,
+      "IsStandaloneOnly": false,
       "Metadata": {
         "SingleAssetSource": "maps/downtown_bangclaw.vmap",
         "ParentPackage": "carsonk.talker"

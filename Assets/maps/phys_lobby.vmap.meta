@@ -14,7 +14,7 @@
         "facepunch.wood_painted_a_hs#28972",
         "rustextended.glass_dirty#43276"
       ],
-      "IsWhitelistDisabled": false,
+      "IsStandaloneOnly": false,
       "Metadata": {
         "SingleAssetSource": "maps/phys_lobby.vmap",
         "GameSupport": [

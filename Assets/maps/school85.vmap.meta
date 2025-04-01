@@ -14,7 +14,7 @@
         "drakefruit.glass_blocks_001#20452",
         "rustextended.glass_dirty#43276"
       ],
-      "IsWhitelistDisabled": false,
+      "IsStandaloneOnly": false,
       "Metadata": {
         "SingleAssetSource": "maps/school85.vmap",
         "GameSupport": [
