@@ -499,32 +499,6 @@
       ]
     },
     {
-      "__guid": "04df38da-bb5d-47ce-b6ca-f54e93445c44",
-      "Flags": 0,
-      "Name": "Sun",
-      "Position": "-553.0626,-2586.826,862.3232",
-      "Rotation": "-0.3043807,0.5272028,0.3966767,0.6870642",
-      "Tags": "light_directional,light",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "Sandbox.DirectionalLight",
-          "__guid": "4567c2a8-d73b-40d3-806f-ee8e71a7250f",
-          "FogMode": "Enabled",
-          "FogStrength": 1,
-          "LightColor": "0.91373,0.98039,1,1",
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "Shadows": true,
-          "SkyColor": "0,0,0,0"
-        }
-      ]
-    },
-    {
       "__guid": "89e9fadc-07d9-4263-ad1b-4cb03753ab37",
       "Flags": 0,
       "Name": "Player Controller",
@@ -766,6 +740,32 @@
               "SurfaceVelocity": "0,0,0"
             }
           ]
+        }
+      ]
+    },
+    {
+      "__guid": "340f9123-c25c-4567-ba63-5bca7a6339cf",
+      "Flags": 0,
+      "Name": "Sun",
+      "Position": "-553.0626,-2586.826,862.3232",
+      "Rotation": "-0.3043807,0.5272028,0.3966767,0.6870642",
+      "Tags": "light_directional,light",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.DirectionalLight",
+          "__guid": "863eebbb-52f8-48cd-b295-7da5edb81c4c",
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Shadows": true,
+          "SkyColor": "0,0,0,0"
         }
       ]
     }
