@@ -343,7 +343,8 @@
                     }
                   }
                 }
-              ]
+              ],
+              "Children": []
             }
           ]
         }
@@ -435,7 +436,8 @@
           "Surface": null,
           "SurfaceVelocity": "0,0,0"
         }
-      ]
+      ],
+      "Children": []
     },
     {
       "__guid": "1b6a0823-1730-4b47-9bc2-f608ab1e8098",
@@ -496,7 +498,8 @@
           "ZFar": 100000,
           "ZNear": 0.1
         }
-      ]
+      ],
+      "Children": []
     },
     {
       "__guid": "89e9fadc-07d9-4263-ad1b-4cb03753ab37",
@@ -688,7 +691,8 @@
               "Tint": "1,1,1,1",
               "UseAnimGraph": true
             }
-          ]
+          ],
+          "Children": []
         },
         {
           "__guid": "f84000e9-f0c6-4a72-aae6-25c3aac71d89",
@@ -739,7 +743,8 @@
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
             }
-          ]
+          ],
+          "Children": []
         }
       ]
     },
@@ -767,18 +772,74 @@
           "Shadows": true,
           "SkyColor": "0,0,0,0"
         }
-      ]
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "02e4941c-da52-4c25-87da-aa92393a52ac",
+      "Flags": 0,
+      "Name": "swing01a",
+      "Position": "80.18863,-1609.368,0.000002662508",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "6a35eb73-b571-44fd-aaa9-2baa637a08f2",
+          "BodyGroups": 18446744073709551615,
+          "CreateAttachments": false,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Model": "models/swing01a.vmdl",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "09936bec-ba73-4ca1-a94b-767c6a837028",
+      "Flags": 0,
+      "Name": "Point Light",
+      "Position": "-852.9611,-811.6553,57.60567",
+      "Tags": "light_point,light",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.PointLight",
+          "__guid": "4014c455-224c-4bc8-951f-134bc18c2550",
+          "Attenuation": 1,
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Radius": 400,
+          "Shadows": true
+        }
+      ],
+      "Children": []
     }
   ],
   "SceneProperties": {
-    "FixedUpdateFrequency": 50,
-    "MaxFixedUpdates": 5,
-    "NetworkFrequency": 30,
     "NetworkInterpolation": true,
-    "PhysicsSubSteps": 1,
-    "ThreadedAnimation": true,
     "TimeScale": 1,
-    "UseFixedUpdate": true,
+    "WantsSystemScene": true,
     "Metadata": {},
     "NavMesh": {
       "Enabled": false,
