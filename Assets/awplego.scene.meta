@@ -1,0 +1,22 @@
+{
+  "publish": {
+    "Enabled": true,
+    "ProjectConfig": {
+      "Title": "AWP Lego",
+      "Type": "map",
+      "Org": "nite",
+      "Ident": "awp_lego_2b",
+      "Schema": 0,
+      "IncludeSourceFiles": false,
+      "Resources": null,
+      "PackageReferences": null,
+      "EditorReferences": null,
+      "Mounts": null,
+      "IsStandaloneOnly": false,
+      "Metadata": {
+        "SingleAssetSource": "awplego.scene",
+        "ParentPackage": "carsonk.talker"
+      }
+    }
+  }
+}
