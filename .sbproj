@@ -17,7 +17,7 @@
     "PhysicsMaxs": "1,1,1",
     "RenderMins": "-1,-1,-1",
     "RenderMaxs": "-1,-1,-1",
-    "ParentPackage": "carsonk.talker",
+    "ParentPackage": "facepunch.walker",
     "Compiler": {
       "RootNamespace": "",
       "DefineConstants": "",
