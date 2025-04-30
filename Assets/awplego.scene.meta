@@ -15,7 +15,7 @@
       "IsStandaloneOnly": false,
       "Metadata": {
         "SingleAssetSource": "awplego.scene",
-        "ParentPackage": "carsonk.talker"
+        "ParentPackage": "facepunch.walker"
       }
     }
   }

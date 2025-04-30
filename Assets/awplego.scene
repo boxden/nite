@@ -1205,17 +1205,17 @@
                   "0.2992611,0.25"
                 ],
                 "TextureOffset": [
-                  "7.978516,0",
+                  "7.978027,0",
+                  "511.9995,0",
                   "0,0",
-                  "0,0",
-                  "0,0",
-                  "0,0",
-                  "0,0",
-                  "0,0",
-                  "0,0",
-                  "0,0",
-                  "0,0",
-                  "384.2634,0"
+                  "0.0009765625,0",
+                  "511.999,0",
+                  "0.0009765625,0",
+                  "511.999,0",
+                  "0.0004882812,0",
+                  "511.999,0",
+                  "0.0004882812,0",
+                  "384.2642,0"
                 ],
                 "MaterialIndex": [
                   0,
@@ -1557,6 +1557,41 @@
           },
           "Size": "25,25",
           "Texture": "particles/fire/flame001_side.vtex"
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "a0fa3451-0df9-4d1c-a36c-6ecef5101c04",
+      "Flags": 0,
+      "Name": "Camera",
+      "Position": "-595.0892,584,328",
+      "Rotation": "-0.02271119,0.1288025,0.1721554,0.9763486",
+      "Tags": "maincamera",
+      "Components": [
+        {
+          "__type": "Sandbox.CameraComponent",
+          "__guid": "b2477c21-f11f-4b1c-a6af-6b1af15cd8ae",
+          "BackgroundColor": "0.33333,0.46275,0.52157,1",
+          "ClearFlags": "All",
+          "FieldOfView": 60,
+          "FovAxis": "Horizontal",
+          "IsMainCamera": true,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Orthographic": false,
+          "OrthographicHeight": 1204,
+          "Priority": 1,
+          "RenderExcludeTags": "",
+          "RenderTags": "",
+          "TargetEye": "None",
+          "Viewport": "0,0,1,1",
+          "ZFar": 10000,
+          "ZNear": 10
         }
       ],
       "Children": []
