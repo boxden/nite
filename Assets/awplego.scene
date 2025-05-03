@@ -696,226 +696,6 @@
           ]
         },
         {
-          "__guid": "952d629c-ffab-48ac-a2c6-644b84ffbd39",
-          "Flags": 0,
-          "Name": "Spawnpoints",
-          "Position": "167.95,343.1762,364.4265",
-          "Rotation": "-0.2549388,-0.493967,0.3812399,0.7386869",
-          "Enabled": true,
-          "Components": [],
-          "Children": [
-            {
-              "__guid": "8eba2185-e14d-4bdf-a266-8fae9e9bc3b5",
-              "Flags": 0,
-              "Name": "Spawn",
-              "Enabled": true,
-              "Components": [
-                {
-                  "__type": "Sandbox.SpawnPoint",
-                  "__guid": "40256ed4-bdf8-4663-a146-ea240b6ffbd1",
-                  "Color": "0.8902,0.31765,0.05098,1",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null
-                }
-              ],
-              "Children": []
-            },
-            {
-              "__guid": "09516f2b-7102-4927-897d-7e621837e2be",
-              "Flags": 0,
-              "Name": "Spawn (1)",
-              "Position": "0.00001907349,-128,0",
-              "Enabled": true,
-              "Components": [
-                {
-                  "__type": "Sandbox.SpawnPoint",
-                  "__guid": "68120b70-8660-4d0e-a70e-6783cff57f2c",
-                  "Color": "0.8902,0.31765,0.05098,1",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null
-                }
-              ],
-              "Children": []
-            },
-            {
-              "__guid": "c6eb4c8b-265b-4d85-9e43-9040ce5959f9",
-              "Flags": 0,
-              "Name": "Spawn (2)",
-              "Position": "0.00003814697,-256,0",
-              "Enabled": true,
-              "Components": [
-                {
-                  "__type": "Sandbox.SpawnPoint",
-                  "__guid": "72dfdc10-0c07-4db6-a925-601a72739983",
-                  "Color": "0.8902,0.31765,0.05098,1",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null
-                }
-              ],
-              "Children": []
-            },
-            {
-              "__guid": "3317a35d-8aed-4b2e-a3e7-5f18555285c1",
-              "Flags": 0,
-              "Name": "Spawn (3)",
-              "Position": "0.00006103516,-384,0",
-              "Enabled": true,
-              "Components": [
-                {
-                  "__type": "Sandbox.SpawnPoint",
-                  "__guid": "78e48635-2a23-4dab-b0a7-648adf0db3e0",
-                  "Color": "0.8902,0.31765,0.05098,1",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null
-                }
-              ],
-              "Children": []
-            },
-            {
-              "__guid": "b595c37f-d294-4829-ba3d-355065d4b1e8",
-              "Flags": 0,
-              "Name": "Spawn (4)",
-              "Position": "0.00007629395,-512,0",
-              "Enabled": true,
-              "Components": [
-                {
-                  "__type": "Sandbox.SpawnPoint",
-                  "__guid": "8e5d17f0-4ceb-4367-b6f2-a6dc525a1c45",
-                  "Color": "0.8902,0.31765,0.05098,1",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null
-                }
-              ],
-              "Children": []
-            },
-            {
-              "__guid": "84e12570-7699-44bf-a3ac-7658775b6ead",
-              "Flags": 0,
-              "Name": "Spawn (5)",
-              "Position": "0.00009155273,-640,0",
-              "Enabled": true,
-              "Components": [
-                {
-                  "__type": "Sandbox.SpawnPoint",
-                  "__guid": "8254188a-6d38-41b3-8dca-3279bfffcb38",
-                  "Color": "0.8902,0.31765,0.05098,1",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null
-                }
-              ],
-              "Children": []
-            },
-            {
-              "__guid": "9e20258f-8aea-4219-a9a3-9da6d06c5389",
-              "Flags": 0,
-              "Name": "Spawn (6)",
-              "Position": "0.0001220703,-768,0",
-              "Enabled": true,
-              "Components": [
-                {
-                  "__type": "Sandbox.SpawnPoint",
-                  "__guid": "4cfbe120-eaf6-4caa-9257-ee22d86ac630",
-                  "Color": "0.8902,0.31765,0.05098,1",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null
-                }
-              ],
-              "Children": []
-            },
-            {
-              "__guid": "85c12110-9284-4643-8c17-06656122ec64",
-              "Flags": 0,
-              "Name": "Spawn (7)",
-              "Position": "0.0001831055,-896,0",
-              "Enabled": true,
-              "Components": [
-                {
-                  "__type": "Sandbox.SpawnPoint",
-                  "__guid": "16b89ef9-32e8-4287-af70-ae8d7648482c",
-                  "Color": "0.8902,0.31765,0.05098,1",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null
-                }
-              ],
-              "Children": []
-            },
-            {
-              "__guid": "5f811128-bc5f-4026-ae50-ddd064e84884",
-              "Flags": 0,
-              "Name": "Spawn (8)",
-              "Position": "0.0001525879,-1024,0",
-              "Enabled": true,
-              "Components": [
-                {
-                  "__type": "Sandbox.SpawnPoint",
-                  "__guid": "42cd34c7-f833-468b-8630-eea4e979c07b",
-                  "Color": "0.8902,0.31765,0.05098,1",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null
-                }
-              ],
-              "Children": []
-            },
-            {
-              "__guid": "cd47f318-1e0d-4c5d-9137-1869d0ce6e22",
-              "Flags": 0,
-              "Name": "Spawn (9)",
-              "Position": "0.0001831055,-1152,0",
-              "Enabled": true,
-              "Components": [
-                {
-                  "__type": "Sandbox.SpawnPoint",
-                  "__guid": "0ddab674-00b9-4bae-84e9-73623bc722e7",
-                  "Color": "0.8902,0.31765,0.05098,1",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null
-                }
-              ],
-              "Children": []
-            }
-          ]
-        },
-        {
           "__guid": "8c134c2c-4f30-4470-97c2-49547e9b6330",
           "Flags": 0,
           "Name": "Scene Information",
@@ -1042,7 +822,7 @@
           "__guid": "c9e9ce72-eec5-4b90-b208-f439f7d0eff9",
           "Flags": 0,
           "Name": "Walls",
-          "Position": "1137.475,-384.3339,67.243",
+          "Position": "590.475,-198.3339,59.243",
           "Enabled": true,
           "Components": [
             {
@@ -1055,37 +835,37 @@
               "IsTrigger": false,
               "Mesh": {
                 "Topology": "H4sIAAAAAAAACrWUa1OSURSFH+UeoAKpUaQpmphlVnSDkspr1v//OzRrfN6Z92MzTWeG4cBa+772GQG/gTawXC6XDeCJ96bfOV2gDzwANoHHwA7wDDgAngMvgJfAGfAW+AB8Ar4A58AP4BK4Be5Kvv/XWQFSz0PuzypQB0ZABUh9LeCVuVT9rwMUtunLkXjL+gclvCsnv6va7nv/1/xbxpoANXPLDFrGK2bxyPpWrHXvL2Mn76GzRH/xdWqfVtVC7jltue/0n1qfqoOK/FFJP+nNrhoJ3pEbm2I+e/YxeFfurvgaMFZfVT/pbaHLdeBQ7QVbkzsWbzi7rvi63EPxDeBY3dbs68Q+BO8BJ2o6+IbcqTk31U5fvCf3s/b5/7X7UNfvqTMLntm+cVeC9+V+M5e2vR6KD+ReaZ9Zv3fPGuY3tabgifPRHSz2INyZuffM9UR8U+5C+y1g7v42tZ8ZM/g28NXdDr4ld16KvzCHJhB+uLEJHq19911Ivak/tadnwVP3hW9G8PDDvS7tYXqRHgYPP9xf2kerN743hbZjm5jBo9OfvkXBww83NkX8+EoOwcMPNzaF/+SQe3QbbWX+mVH6mFqTT2z+AO1139poBQAA",
-                "Position": "1326,1014,96",
+                "Position": "779.0002,1200,88",
                 "Rotation": "0,0,0,1",
                 "Positions": [
                   "38,44,80",
-                  "38,710,80",
-                  "38,710,-96",
+                  "585,524,88",
+                  "585,524,-88",
                   "38,44,-96",
-                  "38,-338,80",
+                  "585,-524,88",
                   "38,10,80",
                   "38,10,-96",
-                  "38,-338,-96",
-                  "38,10,80",
-                  "38,10,-96",
-                  "38,362,80",
-                  "38,362,-96",
-                  "-448,710,-96",
-                  "-448,710,80",
-                  "-448,-338,80",
-                  "-448,-338,-96",
-                  "-1132,10,-96",
-                  "-1132,10,80",
-                  "-1132,362,80",
-                  "-1132,362,-96",
-                  "-1132,-338,-96",
-                  "-1132,-338,80",
-                  "-646,-338,-96",
-                  "-646,-338,80",
-                  "-1132,710,80",
-                  "-1132,710,-96",
-                  "-646,710,80",
-                  "-646,710,-96"
+                  "585,-524,-88",
+                  "585,-176,88",
+                  "585,-176,-88",
+                  "585,176,88",
+                  "585,176,-88",
+                  "99,524,-88",
+                  "99,524,88",
+                  "100,-524,88",
+                  "100,-524,-88",
+                  "-585,-176,-88",
+                  "-585,-176,88",
+                  "-585,176,88",
+                  "-585,176,-88",
+                  "-585,-524,-88",
+                  "-585,-524,88",
+                  "-100.0002,-524,-88",
+                  "-100.0002,-524,88",
+                  "-585,524,88",
+                  "-585,524,-88",
+                  "-99,524,88",
+                  "-99,524,-88"
                 ],
                 "TextureCoord": [
                   "0.296875,-0.53125",
@@ -1097,23 +877,23 @@
                   "13.48438,-1.375",
                   "-10.65625,0",
                   "0.296875,-0.53125",
-                  "5.28125,-1.375",
+                  "6.28125,-1.375",
                   "0.296875,0.53125",
-                  "8,0",
-                  "5.28125,0",
-                  "10.65625,-1.375",
+                  "9,0",
+                  "6.28125,0",
+                  "11.65625,-1.375",
                   "8,-1.375",
                   "-0.296875,0.5",
                   "0,0",
                   "0,0",
                   "-10.65625,0",
-                  "8,-1.375",
+                  "9,-1.375",
                   "10.76562,-1.375",
                   "0,0",
                   "0,0",
                   "0,0",
                   "10.76562,0",
-                  "10.65625,-1.375",
+                  "11.65625,-1.375",
                   "13.48438,0",
                   "0,0",
                   "-6.859375,0",
@@ -1122,11 +902,11 @@
                   "0,0",
                   "-10.65625,-1.375",
                   "0,0",
-                  "6.859375,-1.375",
+                  "7.859375,-1.375",
                   "0,0",
-                  "6.859375,0",
+                  "7.859375,0",
                   "0,0",
-                  "10.65625,0",
+                  "11.65625,0",
                   "0,0",
                   "-1.515625,0",
                   "0,0",
@@ -1134,35 +914,35 @@
                   "-8,0",
                   "-10.65625,-1.375",
                   "0,0",
-                  "1.515625,-1.375",
+                  "2.515625,-1.375",
                   "0,0",
-                  "1.515625,0",
+                  "2.515625,0",
                   "-10.75,-1.375",
-                  "10.65625,0",
+                  "11.65625,0",
                   "0,0",
                   "-5.28125,0",
                   "0,0",
                   "-5.28125,-1.375",
-                  "1.515625,0",
+                  "2.515625,0",
                   "-8,-1.375",
                   "0,0",
-                  "5.3125,0",
+                  "6.289061,0",
                   "0,0",
-                  "5.3125,-1.375",
+                  "6.289061,-1.375",
                   "0,0",
-                  "1.515625,-1.375",
+                  "2.515625,-1.375",
                   "0,0",
                   "-13.46875,-1.375",
                   "0,0",
                   "-13.46875,0",
-                  "-1.515625,-1.375",
+                  "-0.515625,-1.375",
                   "-10.75,0",
                   "0,0",
-                  "-4.6875,-1.375",
+                  "-3.6875,-1.375",
                   "0,0",
-                  "-4.6875,0",
+                  "-3.6875,0",
                   "0,0",
-                  "-1.515625,0",
+                  "-0.515625,0",
                   "0,0"
                 ],
                 "TextureUAxis": [
