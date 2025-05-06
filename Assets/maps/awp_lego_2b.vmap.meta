@@ -32,7 +32,7 @@
             "PostLaunchCommand": ""
           }
         ],
-        "ParentPackage": "carsonk.talker"
+        "ParentPackage": "facepunch.walker"
       }
     }
   }
