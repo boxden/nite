@@ -3,11 +3,18 @@
   "GameObjects": [
     {
       "__guid": "cf5cf0ae-9a4b-498a-8e39-e1f9932d23c7",
+      "__version": 1,
       "Flags": 0,
       "Name": "Camera",
       "Position": "-532,-1064,208",
       "Rotation": "-0.05136089,0.01851107,0.9393608,0.3385568",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "Sandbox.CameraComponent",
@@ -38,17 +45,34 @@
     },
     {
       "__guid": "639f1435-f454-45e3-be93-69fc37314469",
+      "__version": 1,
       "Flags": 0,
       "Name": "Ladder",
       "Position": "-1314,-444,504",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
       "Components": [],
       "Children": [
         {
           "__guid": "0b5e44a2-f688-4f94-a2ee-e0c0940df7b1",
+          "__version": 1,
           "Flags": 0,
           "Name": "ladder_300_top",
+          "Position": "0,0,0",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
           "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.Prop",
@@ -74,10 +98,18 @@
         },
         {
           "__guid": "d5a15f8e-a367-448d-b39b-d9c5a016d2ed",
+          "__version": 1,
           "Flags": 0,
           "Name": "ladder_600 (2)",
           "Position": "0,0,-240",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
           "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.Prop",
@@ -103,10 +135,18 @@
         },
         {
           "__guid": "7d8a8c59-6e6b-447c-97e9-ebdb728b281e",
+          "__version": 1,
           "Flags": 0,
           "Name": "ladder_600 (1)",
           "Position": "0,0,-480",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
           "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.Prop",
@@ -132,11 +172,18 @@
         },
         {
           "__guid": "f1d350d3-ee1e-4d14-8878-8f213824cd2a",
+          "__version": 1,
           "Flags": 0,
           "Name": "ladder collider",
           "Position": "9.007812,-0.08041382,-174",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
           "Tags": "ladder",
           "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.BoxCollider",
@@ -166,11 +213,18 @@
     },
     {
       "__guid": "bde3cd0c-d2fe-4a21-913e-e318f9d4bf75",
+      "__version": 1,
       "Flags": 0,
       "Name": "Player Controller",
       "Position": "-460,-1400,-40",
       "Rotation": "0,0,0.7071067,0.7071068",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "Sandbox.PlayerController",
@@ -312,9 +366,18 @@
       "Children": [
         {
           "__guid": "2e4561de-d721-4f59-aea5-7e89ce43c0ea",
+          "__version": 1,
           "Flags": 0,
           "Name": "Body",
+          "Position": "0,0,0",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
           "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.SkinnedModelRenderer",
@@ -351,7 +414,8 @@
               "RenderType": "On",
               "Sequence": {
                 "Name": null,
-                "Looping": true
+                "Looping": true,
+                "Blending": false
               },
               "Tint": "1,1,1,1",
               "UseAnimGraph": true
@@ -361,9 +425,18 @@
         },
         {
           "__guid": "a44488e1-ad0d-4def-b211-05d8332f9754",
+          "__version": 1,
           "Flags": 1,
           "Name": "Colliders",
+          "Position": "0,0,0",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
           "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.CapsuleCollider",
@@ -415,9 +488,18 @@
     },
     {
       "__guid": "cb2c46bc-4c79-41cb-9468-e76d9fac463b",
+      "__version": 1,
       "Flags": 0,
       "Name": "Map",
+      "Position": "0,0,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "Sandbox.MapInstance",
@@ -441,12 +523,18 @@
     },
     {
       "__guid": "56f516e7-9fff-4afd-892b-704a5a290e0e",
+      "__version": 1,
       "Flags": 0,
       "Name": "Sun",
       "Position": "-595.924,-1400.201,124.4596",
       "Rotation": "0.466783,0.7768574,-0.2176645,0.3622545",
+      "Scale": "1,1,1",
       "Tags": "light_directional,light",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "Sandbox.DirectionalLight",
@@ -468,19 +556,34 @@
     },
     {
       "__guid": "0fede73d-c650-48c5-ad7c-cc97162514df",
+      "__version": 1,
       "Flags": 0,
       "Name": "Nature",
       "Position": "-2480,-744,-43.47613",
       "Rotation": "0,0,-0.2492267,0.9684452",
       "Scale": "0.9659827,0.9659827,1.089351",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
       "Components": [],
       "Children": [
         {
           "__guid": "b0ea7c38-91c6-4020-b797-2c2001f9eaff",
+          "__version": 1,
           "Flags": 0,
           "Name": "shitty_pine_tree2",
+          "Position": "0,0,0",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
           "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.ModelRenderer",
@@ -510,12 +613,18 @@
         },
         {
           "__guid": "6582135e-71aa-4866-84a4-75d168a7e3a8",
+          "__version": 1,
           "Flags": 0,
           "Name": "shitty_pine_tree2 (4)",
           "Position": "-947.4645,1745.681,-1.669374",
           "Rotation": "0,0,1,0.0000001788139",
           "Scale": "1,1,1.122072",
+          "Tags": "",
           "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.ModelRenderer",
@@ -545,12 +654,18 @@
         },
         {
           "__guid": "e4c44248-6049-4316-a091-b0c113193ae6",
+          "__version": 1,
           "Flags": 0,
           "Name": "shitty_pine_tree2 (1)",
           "Position": "-64.92691,164.5832,0.0002031047",
           "Rotation": "0,0,-0.7308193,0.6825711",
           "Scale": "1,1,1.017625",
+          "Tags": "",
           "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.ModelRenderer",
@@ -580,12 +695,18 @@
         },
         {
           "__guid": "c24adab8-b080-4820-bc1b-c4dc04462b2f",
+          "__version": 1,
           "Flags": 0,
           "Name": "shitty_pine_tree2 (5)",
           "Position": "-874.0719,1585.764,-1.669171",
           "Rotation": "0,0,0.682571,0.7308195",
           "Scale": "1,1,1.068426",
+          "Tags": "",
           "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.ModelRenderer",
@@ -615,12 +736,18 @@
         },
         {
           "__guid": "cbb1981b-aa88-4f44-80c7-7491ed0dbfcd",
+          "__version": 1,
           "Flags": 0,
           "Name": "shitty_pine_tree2 (2)",
           "Position": "-162.627,310.7853,0.0005427799",
           "Rotation": "0,0,-0.7643905,-0.6447538",
           "Scale": "1,1,0.9043089",
+          "Tags": "",
           "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.ModelRenderer",
@@ -650,12 +777,18 @@
         },
         {
           "__guid": "af541692-2b04-4754-8fd8-fe31805ec1a5",
+          "__version": 1,
           "Flags": 0,
           "Name": "shitty_pine_tree2 (6)",
           "Position": "-783.4748,1428.242,-1.668845",
           "Rotation": "0,0,-0.6447539,0.7643903",
           "Scale": "1,1,1.172066",
+          "Tags": "",
           "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.ModelRenderer",
@@ -685,12 +818,18 @@
         },
         {
           "__guid": "e369395f-149c-4567-8e51-4b71ae0d5881",
+          "__version": 1,
           "Flags": 0,
           "Name": "shitty_pine_tree2 (3)",
           "Position": "-285.0731,518.5421,0.0005427799",
           "Rotation": "0,0,-0.7643905,-0.6447537",
           "Scale": "1,1,0.9907159",
+          "Tags": "",
           "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.ModelRenderer",
@@ -720,12 +859,18 @@
         },
         {
           "__guid": "1cbfba1e-83ae-4ee9-afa8-da9efe4c4736",
+          "__version": 1,
           "Flags": 0,
           "Name": "shitty_pine_tree2 (7)",
           "Position": "-663.2365,1217.823,-1.668831",
           "Rotation": "0,0,-0.6447539,0.7643903",
           "Scale": "1,1,1.041516",
+          "Tags": "",
           "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.ModelRenderer",
@@ -755,12 +900,18 @@
         },
         {
           "__guid": "9d5e9fb9-14eb-4519-aca5-f73b101346ad",
+          "__version": 1,
           "Flags": 0,
           "Name": "beech_bush_medium",
           "Position": "-586.2651,-364.8307,0.04096061",
           "Rotation": "0,0,0.2492267,0.9684452",
           "Scale": "1.035215,1.035215,0.9179774",
+          "Tags": "",
           "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.ModelRenderer",
@@ -790,12 +941,18 @@
         },
         {
           "__guid": "7b9cc6c6-dbb4-470a-9897-1c6a3342afb1",
+          "__version": 1,
           "Flags": 0,
           "Name": "beech_bush_medium (2)",
           "Position": "-666.7446,-314.5346,0.04096413",
           "Rotation": "0,0,-0.4324011,0.9016813",
           "Scale": "1.035215,1.035215,1.202241",
+          "Tags": "",
           "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.ModelRenderer",
@@ -825,12 +982,18 @@
         },
         {
           "__guid": "05c5eba8-361b-47b9-b349-9ccd93c5e1d1",
+          "__version": 1,
           "Flags": 0,
           "Name": "beech_bush_medium (1)",
           "Position": "-854.2869,-172.2797,1.399227",
           "Rotation": "0,0,-0.3538836,0.9352895",
           "Scale": "0.8621425,0.8621425,0.7645051",
+          "Tags": "",
           "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.ModelRenderer",
@@ -860,12 +1023,18 @@
         },
         {
           "__guid": "efec9230-f118-4d0a-95e6-0114e32aca2a",
+          "__version": 1,
           "Flags": 0,
           "Name": "ivy_fresh_02a",
           "Position": "-1139.506,-439.9713,28.86056",
           "Rotation": "0,0,0.2492267,0.9684452",
           "Scale": "1.449699,1.672103,1.43181",
+          "Tags": "",
           "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.ModelRenderer",
@@ -895,12 +1064,18 @@
         },
         {
           "__guid": "a9c8e119-a1d7-4139-bab7-b0c15e19c3e7",
+          "__version": 1,
           "Flags": 0,
           "Name": "beech_bush_medium_wall_corner",
           "Position": "-751.9726,-148.211,2.622012",
           "Rotation": "0,0,0.2492267,0.9684452",
           "Scale": "1.035215,1.035215,0.9179774",
+          "Tags": "",
           "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.ModelRenderer",
@@ -930,12 +1105,18 @@
         },
         {
           "__guid": "ae2e275e-1a6f-49cb-89ce-db8e0b8ddf91",
+          "__version": 1,
           "Flags": 0,
           "Name": "beech_bush_medium_wall_corner (1)",
           "Position": "-930.5568,175.781,2.798265",
           "Rotation": "0,0,-0.727417,0.6861957",
           "Scale": "0.87858,0.87858,0.779081",
+          "Tags": "",
           "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.ModelRenderer",
@@ -965,12 +1146,18 @@
         },
         {
           "__guid": "227a43dd-901d-4dd9-96e7-b1886228bcc5",
+          "__version": 1,
           "Flags": 0,
           "Name": "beech_bush_regular_medium_a",
           "Position": "-695.1736,-47.67599,2.212231",
           "Rotation": "0,0,0.2492267,0.9684452",
           "Scale": "1.035215,1.035215,0.9179774",
+          "Tags": "",
           "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.ModelRenderer",
@@ -1000,12 +1187,18 @@
         },
         {
           "__guid": "31358558-1631-4d54-b126-42f0f860e633",
+          "__version": 1,
           "Flags": 0,
           "Name": "beech_shrub_wide_large",
           "Position": "-903.6628,415.6353,3.079625",
           "Rotation": "0,0,0.2492267,0.9684452",
           "Scale": "1.035215,1.035215,0.9179774",
+          "Tags": "",
           "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.ModelRenderer",
@@ -1035,12 +1228,18 @@
         },
         {
           "__guid": "7ff68ebd-ae2d-4e93-ac36-401b02c4968a",
+          "__version": 1,
           "Flags": 0,
           "Name": "beech_shrub_wide_large (1)",
           "Position": "-974.6241,-55.16941,3.079723",
           "Rotation": "0,0,-0.9540242,-0.2997298",
           "Scale": "1.035215,1.035215,0.9179774",
+          "Tags": "",
           "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.ModelRenderer",
@@ -1070,12 +1269,18 @@
         },
         {
           "__guid": "e5811a06-93a0-4ff5-918e-8bf8154961ae",
+          "__version": 1,
           "Flags": 0,
           "Name": "beech_shrub_wide_large (2)",
           "Position": "-484.2506,-600.6501,3.079747",
           "Rotation": "0,0,-0.5001789,-0.865922",
           "Scale": "0.8809656,0.8809656,0.7811965",
+          "Tags": "",
           "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.ModelRenderer",
@@ -1105,12 +1310,18 @@
         },
         {
           "__guid": "285621bc-70b0-4037-adba-b04e285cab48",
+          "__version": 1,
           "Flags": 0,
           "Name": "tree_oak_big_b",
-          "Position": "2600.664,712.5457,-5.278502",
+          "Position": "2600.664,712.5456,-5.278502",
           "Rotation": "0,0,0.2492267,0.9684452",
           "Scale": "0.7246507,0.7246507,0.9179774",
+          "Tags": "",
           "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.Prop",
@@ -1138,11 +1349,18 @@
     },
     {
       "__guid": "b93f26fe-fe8e-42e6-bc2d-22aae3f3a5ae",
+      "__version": 1,
       "Flags": 0,
       "Name": "ENV Probe",
       "Position": "-1261.944,-699.588,18.18147",
+      "Rotation": "0,0,0,1",
       "Scale": "2.174645,1,1.976722",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "Sandbox.EnvmapProbe",
@@ -1176,10 +1394,18 @@
     },
     {
       "__guid": "3ae79859-c9cd-4874-998d-3b648d5fe0a9",
+      "__version": 1,
       "Flags": 0,
       "Name": "sound",
       "Position": "-3108.282,57.49799,22.88043",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "Sandbox.SoundPointComponent",
@@ -1251,7 +1477,7 @@
       "IncludedBodies": ""
     }
   },
-  "ResourceVersion": 2,
+  "ResourceVersion": 3,
   "Title": null,
   "Description": null,
   "__references": [
@@ -1265,5 +1491,5 @@
     "rust.ladder_300_top#25203",
     "rust.ladder_600#25206"
   ],
-  "__version": 2
+  "__version": 3
 }
