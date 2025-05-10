@@ -3,34 +3,19 @@
   "GameObjects": [
     {
       "__guid": "42035bce-96ad-4552-a9e0-6d11db02213e",
-      "__version": 1,
       "Flags": 0,
       "Name": "Sun Spawns Player Light",
       "Position": "0,0,16",
       "Rotation": "-0.1690185,0.5295566,0.2527532,0.791908",
-      "Scale": "1,1,1",
-      "Tags": "",
       "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkInterpolation": true,
-      "NetworkOrphaned": 0,
-      "OwnerTransfer": 1,
       "Components": [],
       "Children": [
         {
           "__guid": "70a71c66-b990-4b15-8747-04a9972bed56",
-          "__version": 1,
           "Flags": 0,
           "Name": "Sun",
-          "Position": "0,0,0",
-          "Rotation": "0,0,0,1",
-          "Scale": "1,1,1",
           "Tags": "light_directional,light",
           "Enabled": true,
-          "NetworkMode": 2,
-          "NetworkInterpolation": true,
-          "NetworkOrphaned": 0,
-          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.DirectionalLight",
@@ -52,34 +37,18 @@
         },
         {
           "__guid": "b1a79e4a-28bd-4be1-ba21-59a7bd150649",
-          "__version": 1,
           "Flags": 0,
           "Name": "Spawnpoints",
           "Position": "82.96908,30.17891,158.8375",
           "Rotation": "-0.2549389,-0.4939672,0.38124,0.738687",
-          "Scale": "1,1,1",
-          "Tags": "",
           "Enabled": true,
-          "NetworkMode": 2,
-          "NetworkInterpolation": true,
-          "NetworkOrphaned": 0,
-          "OwnerTransfer": 1,
           "Components": [],
           "Children": [
             {
               "__guid": "72acebf9-dee9-4e56-a313-4843a65e60c0",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn",
-              "Position": "0,0,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -97,18 +66,10 @@
             },
             {
               "__guid": "28d50aee-30d9-4f64-8dfe-7264bb02d7bf",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (1)",
               "Position": "0.00001907349,-128,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -126,18 +87,10 @@
             },
             {
               "__guid": "7686efc3-53ff-41d9-993e-615713d901c6",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (2)",
               "Position": "0.00003814697,-256,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -155,18 +108,10 @@
             },
             {
               "__guid": "eadbcdb7-6a8d-472f-b57c-a8f5729a5b66",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (3)",
               "Position": "0.00006103516,-384,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -184,18 +129,10 @@
             },
             {
               "__guid": "baf93459-56aa-48c5-a3c9-ab22c11246a4",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (4)",
               "Position": "0.00007629395,-512,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -213,18 +150,10 @@
             },
             {
               "__guid": "3de35dfc-8d67-4493-94fc-73a8ada17564",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (5)",
               "Position": "0.00009155273,-640,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -242,18 +171,10 @@
             },
             {
               "__guid": "74303fb2-d195-4a4d-9a10-6e5be3142ae7",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (6)",
               "Position": "0.0001220703,-768,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -271,18 +192,10 @@
             },
             {
               "__guid": "da061725-8757-4831-a3ca-e057ac31d7ac",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (7)",
               "Position": "0.0001831055,-896,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -300,18 +213,10 @@
             },
             {
               "__guid": "e6dcd146-7e31-4756-89b0-0acc6f0021b9",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (8)",
               "Position": "0.0001525879,-1024,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -329,18 +234,10 @@
             },
             {
               "__guid": "32fe4941-d563-4d66-bca8-e69328065ddb",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (9)",
               "Position": "0.0001831055,-1152,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -360,34 +257,18 @@
         },
         {
           "__guid": "25ab3d77-dc42-42d0-a94b-cf2fde35f6ac",
-          "__version": 1,
           "Flags": 0,
           "Name": "Spawnpoints",
-          "Position": "111.2961,134.5113,227.3672",
+          "Position": "97.13258,82.34511,193.1023",
           "Rotation": "-0.2549388,-0.4939671,0.3812399,0.738687",
-          "Scale": "1,1,1",
-          "Tags": "",
           "Enabled": true,
-          "NetworkMode": 2,
-          "NetworkInterpolation": true,
-          "NetworkOrphaned": 0,
-          "OwnerTransfer": 1,
           "Components": [],
           "Children": [
             {
               "__guid": "29a3d5bf-4ec9-42cc-89ef-34e4eab404fc",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn",
-              "Position": "0,0,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -405,18 +286,10 @@
             },
             {
               "__guid": "79f42fe2-1f57-4bcc-a08c-39a5d4ead85c",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (1)",
               "Position": "0.00001907349,-128,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -434,18 +307,10 @@
             },
             {
               "__guid": "2e515fcb-1c78-405e-9b39-7b951c746319",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (2)",
               "Position": "0.00003814697,-256,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -463,18 +328,10 @@
             },
             {
               "__guid": "8962a4fc-04f6-4aae-8601-cc0e549eb246",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (3)",
               "Position": "0.00006103516,-384,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -492,18 +349,10 @@
             },
             {
               "__guid": "7addc3c7-0f41-4010-b6b9-4a5859780fb1",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (4)",
               "Position": "0.00007629395,-512,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -521,18 +370,10 @@
             },
             {
               "__guid": "68865980-a5bd-4045-85e8-802a4bd40536",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (5)",
               "Position": "0.00009155273,-640,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -550,18 +391,10 @@
             },
             {
               "__guid": "a8193f6e-9212-4a5f-97e8-0a79d17371f6",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (6)",
               "Position": "0.0001220703,-768,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -579,18 +412,10 @@
             },
             {
               "__guid": "70327e8b-218e-4d3a-9e7a-c2b3c424e9fa",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (7)",
               "Position": "0.0001831055,-896,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -608,18 +433,10 @@
             },
             {
               "__guid": "b8f35549-aa60-4f6a-a626-74f24101d3b3",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (8)",
               "Position": "0.0001525879,-1024,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -637,18 +454,10 @@
             },
             {
               "__guid": "a8fbccd4-31eb-458b-a8ab-ddf5392b3ca0",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (9)",
               "Position": "0.0001831055,-1152,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -668,34 +477,18 @@
         },
         {
           "__guid": "7996944c-7c79-41e7-b926-e92cef556486",
-          "__version": 1,
           "Flags": 0,
           "Name": "Spawnpoints",
-          "Position": "139.6231,238.8438,295.8969",
+          "Position": "111.296,134.5114,227.3671",
           "Rotation": "-0.2549388,-0.4939671,0.3812399,0.7386869",
-          "Scale": "1,1,1",
-          "Tags": "",
           "Enabled": true,
-          "NetworkMode": 2,
-          "NetworkInterpolation": true,
-          "NetworkOrphaned": 0,
-          "OwnerTransfer": 1,
           "Components": [],
           "Children": [
             {
               "__guid": "40bb1b9b-a9db-4056-9005-b6541631b85c",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn",
-              "Position": "0,0,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -713,18 +506,10 @@
             },
             {
               "__guid": "341a9e54-3414-4b40-be1b-0844873c649d",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (1)",
               "Position": "0.00001907349,-128,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -742,18 +527,10 @@
             },
             {
               "__guid": "2740d81f-cbc0-4157-8fee-a8274bc7a246",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (2)",
               "Position": "0.00003814697,-256,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -771,18 +548,10 @@
             },
             {
               "__guid": "46d41f2d-6e56-4837-81e2-8962f2637ab2",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (3)",
               "Position": "0.00006103516,-384,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -800,18 +569,10 @@
             },
             {
               "__guid": "1134acc7-3c16-43f1-8880-14dafe1d5375",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (4)",
               "Position": "0.00007629395,-512,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -829,18 +590,10 @@
             },
             {
               "__guid": "fc5c3881-94f1-4a66-9c58-a09afe8e1cbd",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (5)",
               "Position": "0.00009155273,-640,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -858,18 +611,10 @@
             },
             {
               "__guid": "f32a8f0f-fad9-4779-9fe6-c292abb706b1",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (6)",
               "Position": "0.0001220703,-768,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -887,18 +632,10 @@
             },
             {
               "__guid": "e1afe9df-4f22-4629-b28e-a4e352dee113",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (7)",
               "Position": "0.0001831055,-896,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -916,18 +653,10 @@
             },
             {
               "__guid": "e5cf98a0-de7f-4ddc-a6cd-d5b6d4afeffb",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (8)",
               "Position": "0.0001525879,-1024,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -945,18 +674,10 @@
             },
             {
               "__guid": "300db9b1-3fa8-48ae-a2ea-a875113cee09",
-              "__version": 1,
               "Flags": 0,
               "Name": "Spawn (9)",
               "Position": "0.0001831055,-1152,0",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
               "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkInterpolation": true,
-              "NetworkOrphaned": 0,
-              "OwnerTransfer": 1,
               "Components": [
                 {
                   "__type": "Sandbox.SpawnPoint",
@@ -976,18 +697,11 @@
         },
         {
           "__guid": "8c134c2c-4f30-4470-97c2-49547e9b6330",
-          "__version": 1,
           "Flags": 0,
           "Name": "Scene Information",
           "Position": "-14.78656,0.0000002384186,6.112082",
           "Rotation": "0.1690185,-0.5295566,-0.2527532,0.791908",
-          "Scale": "1,1,1",
-          "Tags": "",
           "Enabled": true,
-          "NetworkMode": 2,
-          "NetworkInterpolation": true,
-          "NetworkOrphaned": 0,
-          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.SceneInformation",
@@ -1011,18 +725,11 @@
         },
         {
           "__guid": "413c2998-67fc-4a0e-bef5-cc15bc132dc5",
-          "__version": 1,
           "Flags": 0,
           "Name": "Light",
           "Position": "248.0243,929.1082,632.2016",
           "Rotation": "0.1690185,-0.5295566,-0.2527532,0.791908",
-          "Scale": "1,1,1",
-          "Tags": "",
           "Enabled": true,
-          "NetworkMode": 2,
-          "NetworkInterpolation": true,
-          "NetworkOrphaned": 0,
-          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.AmbientLight",
@@ -1040,18 +747,12 @@
         },
         {
           "__guid": "a072f256-b250-4cdc-82f7-dcedd90e1d2a",
-          "__version": 1,
           "Flags": 0,
           "Name": "2D Skybox",
           "Position": "-96.03259,100.7768,126.2217",
           "Rotation": "0.1690185,-0.5295566,-0.2527532,0.791908",
-          "Scale": "1,1,1",
           "Tags": "skybox",
           "Enabled": true,
-          "NetworkMode": 2,
-          "NetworkInterpolation": true,
-          "NetworkOrphaned": 0,
-          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.SkyBox2D",
@@ -1071,18 +772,11 @@
         },
         {
           "__guid": "fadf7b1d-bcd6-4834-83dc-7a58143854aa",
-          "__version": 1,
           "Flags": 0,
           "Name": "Envmap Probe",
           "Position": "289.3949,721.2739,1412.146",
           "Rotation": "0.1690185,-0.5295566,-0.2527532,0.791908",
-          "Scale": "1,1,1",
-          "Tags": "",
           "Enabled": true,
-          "NetworkMode": 2,
-          "NetworkInterpolation": true,
-          "NetworkOrphaned": 0,
-          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.EnvmapProbe",
@@ -1118,34 +812,18 @@
     },
     {
       "__guid": "ba1ade81-77e3-4997-9595-e4800f477801",
-      "__version": 1,
       "Flags": 0,
       "Name": "Geometry",
       "Position": "188.5253,1398.334,28.757",
-      "Rotation": "0,0,0,1",
-      "Scale": "1,1,1",
-      "Tags": "",
       "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkInterpolation": true,
-      "NetworkOrphaned": 0,
-      "OwnerTransfer": 1,
       "Components": [],
       "Children": [
         {
           "__guid": "c9e9ce72-eec5-4b90-b208-f439f7d0eff9",
-          "__version": 1,
           "Flags": 0,
           "Name": "Walls",
           "Position": "590.475,-198.3339,59.243",
-          "Rotation": "0,0,0,1",
-          "Scale": "1,1,1",
-          "Tags": "",
           "Enabled": true,
-          "NetworkMode": 2,
-          "NetworkInterpolation": true,
-          "NetworkOrphaned": 0,
-          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
@@ -1454,18 +1132,10 @@
         },
         {
           "__guid": "2ec9d03c-598e-4c81-9a8e-07159dca4cb1",
-          "__version": 1,
           "Flags": 0,
           "Name": "Walls",
           "Position": "590.475,-198.3339,59.243",
-          "Rotation": "0,0,0,1",
-          "Scale": "1,1,1",
-          "Tags": "",
           "Enabled": true,
-          "NetworkMode": 2,
-          "NetworkInterpolation": true,
-          "NetworkOrphaned": 0,
-          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
@@ -2020,18 +1690,10 @@
         },
         {
           "__guid": "18f6fc1f-a549-4828-9532-1d3d7700d8f0",
-          "__version": 1,
           "Flags": 0,
           "Name": "Walls",
           "Position": "1038.475,-374.3339,59.243",
-          "Rotation": "0,0,0,1",
-          "Scale": "1,1,1",
-          "Tags": "",
           "Enabled": true,
-          "NetworkMode": 2,
-          "NetworkInterpolation": true,
-          "NetworkOrphaned": 0,
-          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
@@ -2435,18 +2097,10 @@
         },
         {
           "__guid": "60a8bf1f-5e5a-4c2d-9961-7535e354090d",
-          "__version": 1,
           "Flags": 0,
           "Name": "Walls",
           "Position": "196.4747,-374.3339,59.243",
-          "Rotation": "0,0,0,1",
-          "Scale": "1,1,1",
-          "Tags": "",
           "Enabled": true,
-          "NetworkMode": 2,
-          "NetworkInterpolation": true,
-          "NetworkOrphaned": 0,
-          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
@@ -2831,18 +2485,10 @@
         },
         {
           "__guid": "49dfbd7d-8fc7-4eeb-a9e7-868e21219f22",
-          "__version": 1,
           "Flags": 0,
           "Name": "Ramp",
           "Position": "590.4747,-858.3339,59.243",
-          "Rotation": "0,0,0,1",
-          "Scale": "1,1,1",
-          "Tags": "",
           "Enabled": true,
-          "NetworkMode": 2,
-          "NetworkInterpolation": true,
-          "NetworkOrphaned": 0,
-          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
@@ -3888,18 +3534,10 @@
         },
         {
           "__guid": "67f68743-cb7e-4552-8f10-2a67cf17c867",
-          "__version": 1,
           "Flags": 0,
           "Name": "Floor",
           "Position": "-188.5253,-1398.334,-28.757",
-          "Rotation": "0,0,0,1",
-          "Scale": "1,1,1",
-          "Tags": "",
           "Enabled": true,
-          "NetworkMode": 2,
-          "NetworkInterpolation": true,
-          "NetworkOrphaned": 0,
-          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
@@ -4316,18 +3954,11 @@
         },
         {
           "__guid": "d66b2466-fa3e-4b78-8ae8-6153fa235d74",
-          "__version": 1,
           "Flags": 0,
           "Name": "Skybox",
           "Position": "536.4747,-198.334,479.243",
-          "Rotation": "0,0,0,1",
-          "Scale": "1,1,1",
           "Tags": "skybox",
           "Enabled": true,
-          "NetworkMode": 2,
-          "NetworkInterpolation": true,
-          "NetworkOrphaned": 0,
-          "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
@@ -4746,18 +4377,10 @@
     },
     {
       "__guid": "f74ff0e1-ac9c-4757-a6e9-3aced8606191",
-      "__version": 1,
       "Flags": 0,
       "Name": "flame001_side",
       "Position": "160,1464,44",
-      "Rotation": "0,0,0,1",
-      "Scale": "1,1,1",
-      "Tags": "",
       "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkInterpolation": true,
-      "NetworkOrphaned": 0,
-      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "Sandbox.SpriteRenderer",
@@ -4792,18 +4415,11 @@
     },
     {
       "__guid": "a0fa3451-0df9-4d1c-a36c-6ecef5101c04",
-      "__version": 1,
       "Flags": 0,
       "Name": "Camera",
       "Position": "-595.0892,584,328",
       "Rotation": "-0.02271119,0.1288025,0.1721554,0.9763486",
-      "Scale": "1,1,1",
       "Tags": "maincamera",
-      "Enabled": false,
-      "NetworkMode": 2,
-      "NetworkInterpolation": true,
-      "NetworkOrphaned": 0,
-      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "Sandbox.CameraComponent",
@@ -4855,11 +4471,11 @@
       "IncludedBodies": ""
     }
   },
-  "ResourceVersion": 3,
+  "ResourceVersion": 2,
   "Title": "AWP Lego",
   "Description": null,
   "__references": [
     "facepunch.walker#80958"
   ],
-  "__version": 3
+  "__version": 2
 }
