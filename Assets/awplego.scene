@@ -5672,7 +5672,7 @@
       "__version": 1,
       "Flags": 0,
       "Name": "Camera",
-      "Position": "-595.0892,584,328",
+      "Position": "-337,584,328",
       "Rotation": "-0.02271119,0.1288025,0.1721554,0.9763486",
       "Scale": "1,1,1",
       "Tags": "maincamera",
