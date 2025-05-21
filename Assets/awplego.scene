@@ -35,6 +35,7 @@
             {
               "__type": "Sandbox.DirectionalLight",
               "__guid": "a280cf53-8346-48d4-ade4-138b1f1681da",
+              "__enabled": true,
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "0.91373,0.98039,1,1",
@@ -68,6 +69,7 @@
             {
               "__type": "Sandbox.SceneInformation",
               "__guid": "c4a974bb-2fff-42ee-9b31-e75b2e3a9820",
+              "__enabled": true,
               "Author": "web_artur",
               "Changes": "",
               "Description": "",
@@ -103,6 +105,7 @@
             {
               "__type": "Sandbox.AmbientLight",
               "__guid": "1eb51313-282c-431c-b293-b2fe37b62f5f",
+              "__enabled": true,
               "Color": "0.5,0.5,0.5,1",
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
@@ -132,6 +135,7 @@
             {
               "__type": "Sandbox.SkyBox2D",
               "__guid": "2b975f47-6f71-4a26-9b31-06888e5c81c9",
+              "__enabled": true,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -163,6 +167,7 @@
             {
               "__type": "Sandbox.EnvmapProbe",
               "__guid": "ae48b4c9-ed1d-4a44-898e-ce6e44098e57",
+              "__enabled": true,
               "Bounds": {
                 "Mins": "-797.823,-1518.219,-325.5541",
                 "Maxs": "754.6279,1077.734,520.0447"
@@ -242,6 +247,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "eba7ac03-4777-408d-aa5f-2da6fa7a59f4",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -271,6 +277,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "7dda9990-bd11-4fd7-815e-3761ee294906",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -300,6 +307,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "de7ecbe7-05ea-4bc7-8df7-69c8f8fdc56b",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -329,6 +337,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "6c54aacf-db28-40cb-8a71-ba18680eb486",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -358,6 +367,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "85bcb72e-01c8-47be-bc55-f0589e059f17",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -387,6 +397,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "d77703a4-4e76-495e-bbc6-4f1cf32387d4",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -416,6 +427,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "f5bc4271-9df5-4034-805f-93ec4c9e6939",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -445,6 +457,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "2fe1be69-38a7-4ddf-b1e1-53537b6fcc7f",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -474,6 +487,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "ff385ace-e84a-4313-988f-3d4d2d71b82a",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -503,6 +517,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "75c5717c-7d8d-497c-a858-31e9a0041bbd",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -550,6 +565,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "a069c581-b941-4a82-9fe7-a39f24a27f15",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -579,6 +595,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "4d9f24b4-f46f-48be-9acc-b950ddcd590e",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -608,6 +625,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "8640b5a8-fe1e-477c-85f7-929d2e85a417",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -637,6 +655,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "9879e806-0774-4007-9d14-3a580829b4c9",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -666,6 +685,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "98c63650-4862-408a-aa70-d6c94672430e",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -695,6 +715,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "53bddbf5-242a-4bd9-81ed-51a1b8ced132",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -724,6 +745,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "ca400ee5-2000-4e89-85bd-d99fccef28ab",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -753,6 +775,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "af7a74dd-789d-4477-bd88-c8ccc1cb0fdb",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -782,6 +805,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "c64513a6-4ece-4bcf-b421-c4d09df3e375",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -811,6 +835,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "6586b37e-f75c-47fd-835f-57fbcf4fcf23",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -858,6 +883,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "c5ff0e5b-8839-4c89-9e7b-b5cb4c9bd815",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -887,6 +913,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "2537044c-1e64-4fc0-82b7-7e35d6e91b57",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -916,6 +943,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "700f6a5e-944b-4ed7-a34c-5bbf1f60521a",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -945,6 +973,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "7a4467c7-ed81-4718-8d44-e8ac7cc3ab85",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -974,6 +1003,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "6e19865e-5985-4ae4-8972-52ebe92e2bf3",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1003,6 +1033,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "cb14b9da-fd45-4a07-aec3-ec5c1d0a3b17",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1032,6 +1063,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "d5e3bba0-d21d-4638-9650-864cf54369f3",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1061,6 +1093,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "186692d5-c474-4f6c-87b4-4b993aeaa259",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1090,6 +1123,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "3301fb8a-9690-4b21-b809-b324653d1d6e",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1119,6 +1153,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "48d54393-8559-4280-98f0-951ca7874cca",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1166,6 +1201,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "854dfe9c-28eb-46cd-a253-115f22ffc5cd",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1195,6 +1231,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "253a9e08-4d0c-4d25-9954-3146b9106d3d",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1224,6 +1261,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "05fb0471-6284-4241-91e9-c0a852aaff5f",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1253,6 +1291,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "6f043fbc-df20-4aa0-a4ff-b8e36a777fe2",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1282,6 +1321,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "ac63afc9-b138-4e8d-871d-ad2bd8c528b2",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1311,6 +1351,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "42bbb1fb-5ad9-41b9-bf72-17c604453bcd",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1340,6 +1381,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "4bdf8ca2-323d-4fdf-942e-547a379a22c3",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1369,6 +1411,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "8541c10a-e007-49e9-bfd7-9f1c3ec979be",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1398,6 +1441,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "5a2076c7-ff8f-4a54-8a0e-2b5113927cb5",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1427,6 +1471,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "f209e0b6-e45f-4d0a-89e5-3b18d91eb2f8",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1474,6 +1519,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "703de32b-4ecb-4d2f-85dd-390353fd1d73",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1503,6 +1549,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "9732e8df-5343-49d3-bc5a-04cfef724aad",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1532,6 +1579,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "d1c835e3-f980-400d-ba5c-9ce2b6a02dde",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1561,6 +1609,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "400d13ac-dca7-4da9-b334-263ce861b5e8",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1590,6 +1639,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "aa737412-e2bc-476f-a6a9-62e04aa2f1b3",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1619,6 +1669,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "03f2dec3-4de2-42f9-8479-59c86e4005db",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1648,6 +1699,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "461ac42e-7d10-4389-90b1-524c70c17770",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1677,6 +1729,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "9f3abdf0-dceb-4152-86eb-352acfbf0d67",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1706,6 +1759,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "2ef29dcd-0108-45ef-8580-42cfe9871953",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1735,6 +1789,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "59f2cb69-b4ad-4e3b-ae52-57726552a988",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1782,6 +1837,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "635f6607-1e2e-4672-b8e0-40e544be0986",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1811,6 +1867,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "88f7cf8b-c43f-44df-a031-20e54c6c1123",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1840,6 +1897,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "cfcc058a-b9a9-4a48-95ac-8ec1f3cd8c82",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1869,6 +1927,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "f3d9f56d-8406-48fd-8d3c-6bf391258c3d",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1898,6 +1957,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "23884b8a-e6d3-4347-b090-578f90b9d885",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1927,6 +1987,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "9e5e72c2-dcc1-4dfb-b0ec-5a5c6e4f8678",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1956,6 +2017,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "d2a97c79-6eeb-4b53-a643-dff10a6f1298",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -1985,6 +2047,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "1538f921-a923-47e7-8c13-075d3c724ff5",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -2014,6 +2077,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "71965132-ddb0-4d16-9b2e-191d3cf8475f",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -2043,6 +2107,7 @@
                 {
                   "__type": "Sandbox.SpawnPoint",
                   "__guid": "5ebf6019-2285-4476-9fc7-1f1bb4e83044",
+                  "__enabled": true,
                   "Color": "0.8902,0.31765,0.05098,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -2092,6 +2157,7 @@
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "c1e5a894-7021-4756-9ec5-a6f43a8e21da",
+              "__enabled": true,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Friction": null,
@@ -2412,6 +2478,7 @@
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "247bdbb1-bea9-4205-bc1a-a63a09264763",
+              "__enabled": true,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Friction": null,
@@ -3235,6 +3302,7 @@
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "3d239ce4-d681-4dac-9799-ce2c28351065",
+              "__enabled": true,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Friction": null,
@@ -3650,6 +3718,7 @@
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "4c71864b-623e-43d9-8404-c8136b6db970",
+              "__enabled": true,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Friction": null,
@@ -4046,6 +4115,7 @@
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "be9a03bd-a506-44e2-87e8-64eee944a1c4",
+              "__enabled": true,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Friction": null,
@@ -5723,6 +5793,7 @@
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "5ddcbb2a-4be2-4e68-b654-b6edd971893a",
+              "__enabled": true,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Friction": null,
@@ -6487,6 +6558,7 @@
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "017e89e0-3b64-45d0-ad73-040c97f06275",
+              "__enabled": true,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Friction": null,
@@ -6917,6 +6989,7 @@
         {
           "__type": "Sandbox.CameraComponent",
           "__guid": "b2477c21-f11f-4b1c-a6af-6b1af15cd8ae",
+          "__enabled": true,
           "BackgroundColor": "0.33333,0.46275,0.52157,1",
           "ClearFlags": "All",
           "FieldOfView": 60,
@@ -6975,6 +7048,7 @@
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "abe70777-436a-4197-a3ac-fb3b08d7cdda",
+              "__enabled": true,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Friction": null,
@@ -7392,6 +7466,7 @@
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "5eb1f90b-ab12-447a-8704-22d096bb049c",
+              "__enabled": true,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Friction": null,
@@ -7859,6 +7934,7 @@
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "ac8af13b-785b-4d6f-b0b8-73ebf7d8b849",
+              "__enabled": true,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Friction": null,
@@ -8371,6 +8447,7 @@
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "e5601e59-7a33-4580-8c9f-9cd543a62ced",
+              "__enabled": true,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Friction": null,
@@ -8857,6 +8934,7 @@
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "382ea220-654d-4ca2-949a-4a7587416e03",
+              "__enabled": true,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Friction": null,
@@ -9202,6 +9280,7 @@
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "592d7eb4-acd0-4a51-99c5-6c16e2f319c8",
+              "__enabled": true,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Friction": null,
@@ -9669,6 +9748,7 @@
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "1e7392ff-f3aa-4679-b124-97aadca8dc1f",
+              "__enabled": true,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Friction": null,
@@ -10014,6 +10094,7 @@
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "23b17966-dcee-40b1-85fc-0c057f10718b",
+              "__enabled": true,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Friction": null,
@@ -10484,6 +10565,7 @@
         {
           "__type": "Sandbox.MeshComponent",
           "__guid": "fdf43b1d-754d-47b4-9d42-25683afefa0c",
+          "__enabled": true,
           "Collision": "Mesh",
           "Color": "1,1,1,1",
           "Friction": null,
@@ -12903,6 +12985,119 @@
           "Static": true,
           "Surface": null,
           "SurfaceVelocity": "0,0,0"
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "84985cc1-6daa-4f32-996e-01311f3124ef",
+      "__version": 1,
+      "Flags": 0,
+      "Name": "Object",
+      "Position": "599.1202,309,31",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.DspVolume",
+          "__guid": "3be190be-11ad-4be1-b8a6-bc69418a1b76",
+          "__enabled": true,
+          "Dsp": "concrete.large",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Priority": 0,
+          "SceneVolume": {
+            "Type": "Sphere",
+            "Sphere": {
+              "Center": "0,0,0",
+              "Radius": 360.39993
+            },
+            "Box": {
+              "Mins": "-50,-50,-50",
+              "Maxs": "50,50,50"
+            }
+          },
+          "TargetMixer": {
+            "Name": "game",
+            "Id": "00000000-0000-0000-0000-000000000000"
+          }
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "94eb0c61-ec7d-48c7-a517-584a42335fc6",
+      "__version": 1,
+      "Flags": 0,
+      "Name": "Sound Point",
+      "Position": "743,284,72",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.SoundPointComponent",
+          "__guid": "bb502893-fd6c-4f05-b39d-f003def70f3f",
+          "__enabled": true,
+          "Distance": 1000,
+          "DistanceAttenuation": true,
+          "DistanceAttenuationOverride": true,
+          "Falloff": [
+            {
+              "x": 0,
+              "y": 1,
+              "in": 3.1415927,
+              "out": -3.1415927,
+              "mode": "Mirrored"
+            },
+            {
+              "x": 1,
+              "y": 0,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            }
+          ],
+          "Force2d": false,
+          "MaxRepeatTime": 1,
+          "MinRepeatTime": 1,
+          "Occlusion": true,
+          "OcclusionOverride": true,
+          "OcclusionRadius": 32,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Pitch": 1,
+          "PlayOnStart": true,
+          "ReflectionOverride": true,
+          "Reflections": true,
+          "Repeat": false,
+          "SoundEvent": "sounds/music/boc/boards of canada - tellia - perc.sound",
+          "SoundOverride": true,
+          "StopOnNew": false,
+          "TargetMixer": {
+            "Name": "game",
+            "Id": "77ea200f-6420-466f-87d9-a488b4d0985a"
+          },
+          "Volume": 1
         }
       ],
       "Children": []
