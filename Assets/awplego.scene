@@ -13054,7 +13054,7 @@
           "__type": "Sandbox.SoundPointComponent",
           "__guid": "bb502893-fd6c-4f05-b39d-f003def70f3f",
           "__enabled": true,
-          "Distance": 1000,
+          "Distance": 9376,
           "DistanceAttenuation": true,
           "DistanceAttenuationOverride": true,
           "Falloff": [
