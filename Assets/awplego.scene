@@ -12990,12 +12990,12 @@
       "Children": []
     },
     {
-      "__guid": "84985cc1-6daa-4f32-996e-01311f3124ef",
+      "__guid": "e5755eba-e82c-4ef6-b78c-41b5e4425437",
       "__version": 1,
       "Flags": 0,
-      "Name": "Object",
-      "Position": "599.1202,309,31",
-      "Rotation": "0,0,0,1",
+      "Name": "Swing",
+      "Position": "440,478.5652,0",
+      "Rotation": "0,0,-0.7071067,0.7071068",
       "Scale": "1,1,1",
       "Tags": "",
       "Enabled": true,
@@ -13005,102 +13005,141 @@
       "OwnerTransfer": 1,
       "Components": [
         {
-          "__type": "Sandbox.DspVolume",
-          "__guid": "3be190be-11ad-4be1-b8a6-bc69418a1b76",
+          "__type": "Sandbox.Prop",
+          "__guid": "9b8af6d6-20e2-4fac-b0ee-ee1a1fcc8918",
           "__enabled": true,
-          "Dsp": "concrete.large",
+          "BodyGroups": 18446744073709551615,
+          "Health": 0,
+          "IsStatic": true,
+          "MaterialGroup": null,
+          "Model": "models/swing01a.vmdl",
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
           "OnComponentFixedUpdate": null,
           "OnComponentStart": null,
           "OnComponentUpdate": null,
-          "Priority": 0,
-          "SceneVolume": {
-            "Type": "Sphere",
-            "Sphere": {
-              "Center": "0,0,0",
-              "Radius": 360.39993
-            },
-            "Box": {
-              "Mins": "-50,-50,-50",
-              "Maxs": "50,50,50"
-            }
-          },
-          "TargetMixer": {
-            "Name": "game",
-            "Id": "00000000-0000-0000-0000-000000000000"
-          }
+          "OnPropBreak": null,
+          "OnPropTakeDamage": null,
+          "StartAsleep": false,
+          "Tint": "1,1,1,1"
         }
       ],
-      "Children": []
-    },
-    {
-      "__guid": "94eb0c61-ec7d-48c7-a517-584a42335fc6",
-      "__version": 1,
-      "Flags": 0,
-      "Name": "Sound Point",
-      "Position": "743,284,72",
-      "Rotation": "0,0,0,1",
-      "Scale": "1,1,1",
-      "Tags": "",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkInterpolation": true,
-      "NetworkOrphaned": 0,
-      "OwnerTransfer": 1,
-      "Components": [
+      "Children": [
         {
-          "__type": "Sandbox.SoundPointComponent",
-          "__guid": "bb502893-fd6c-4f05-b39d-f003def70f3f",
-          "__enabled": true,
-          "Distance": 9376,
-          "DistanceAttenuation": true,
-          "DistanceAttenuationOverride": true,
-          "Falloff": [
+          "__guid": "94eb0c61-ec7d-48c7-a517-584a42335fc6",
+          "__version": 1,
+          "Flags": 0,
+          "Name": "Sound Point",
+          "Position": "0.9527283,1.434753,72",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": false,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
+          "Components": [
             {
-              "x": 0,
-              "y": 1,
-              "in": 3.1415927,
-              "out": -3.1415927,
-              "mode": "Mirrored"
-            },
-            {
-              "x": 1,
-              "y": 0,
-              "in": 0,
-              "out": 0,
-              "mode": "Mirrored"
+              "__type": "Sandbox.SoundPointComponent",
+              "__guid": "bb502893-fd6c-4f05-b39d-f003def70f3f",
+              "__enabled": true,
+              "Distance": 9376,
+              "DistanceAttenuation": true,
+              "DistanceAttenuationOverride": false,
+              "Falloff": [
+                {
+                  "x": 0,
+                  "y": 1,
+                  "in": 3.1415927,
+                  "out": -3.1415927,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "Force2d": false,
+              "MaxRepeatTime": 1,
+              "MinRepeatTime": 1,
+              "Occlusion": true,
+              "OcclusionOverride": false,
+              "OcclusionRadius": 32,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Pitch": 1,
+              "PlayOnStart": true,
+              "ReflectionOverride": false,
+              "Reflections": true,
+              "Repeat": false,
+              "SoundEvent": "sounds/music/boc/boards of canada - tellia.sound",
+              "SoundOverride": false,
+              "StopOnNew": false,
+              "TargetMixer": {
+                "Name": "game",
+                "Id": "77ea200f-6420-466f-87d9-a488b4d0985a"
+              },
+              "Volume": 1
             }
           ],
-          "Force2d": false,
-          "MaxRepeatTime": 1,
-          "MinRepeatTime": 1,
-          "Occlusion": true,
-          "OcclusionOverride": true,
-          "OcclusionRadius": 32,
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "Pitch": 1,
-          "PlayOnStart": true,
-          "ReflectionOverride": true,
-          "Reflections": true,
-          "Repeat": false,
-          "SoundEvent": "sounds/music/boc/boards of canada - tellia - perc.sound",
-          "SoundOverride": true,
-          "StopOnNew": false,
-          "TargetMixer": {
-            "Name": "game",
-            "Id": "77ea200f-6420-466f-87d9-a488b4d0985a"
-          },
-          "Volume": 1
+          "Children": []
+        },
+        {
+          "__guid": "84985cc1-6daa-4f32-996e-01311f3124ef",
+          "__version": 1,
+          "Flags": 0,
+          "Name": "DSP Volume",
+          "Position": "14.56528,160,30.99996",
+          "Rotation": "0,0,0.7071067,0.7071068",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.DspVolume",
+              "__guid": "3be190be-11ad-4be1-b8a6-bc69418a1b76",
+              "__enabled": true,
+              "Dsp": "concrete.medium",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Priority": 0,
+              "SceneVolume": {
+                "Type": "Box",
+                "Sphere": {
+                  "Center": "0,0,0",
+                  "Radius": 360.39993
+                },
+                "Box": {
+                  "Mins": "-404.3622,-61.46567,-28.05325",
+                  "Maxs": "76.87122,205.1929,149.4367"
+                }
+              },
+              "TargetMixer": {
+                "Name": "game",
+                "Id": "00000000-0000-0000-0000-000000000000"
+              }
+            }
+          ],
+          "Children": []
         }
-      ],
-      "Children": []
+      ]
     }
   ],
   "SceneProperties": {
