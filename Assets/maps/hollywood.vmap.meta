@@ -16,13 +16,14 @@
         "facepunch.plastic_glossy_yellow_a_hs#28965",
         "facepunch.rubber_a_hs#28967"
       ],
+      "Mounts": null,
       "IsStandaloneOnly": false,
       "Metadata": {
         "SingleAssetSource": "maps/hollywood.vmap",
         "GameSupport": [
           "facepunch.sandbox"
         ],
-        "ParentPackage": "carsonk.talker"
+        "ParentPackage": "facepunch.walker"
       }
     }
   }
