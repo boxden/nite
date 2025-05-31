@@ -2438,7 +2438,8 @@
                   0
                 ],
                 "Materials": [
-                  "materials/dev/reflectivity_30.vmat"
+                  "materials/dev/reflectivity_30.vmat",
+                  "materials/dev/reflectivity_30b.vmat"
                 ]
               },
               "OnComponentDestroy": null,
@@ -5753,7 +5754,8 @@
                 ],
                 "Materials": [
                   "materials/dev/reflectivity_30.vmat",
-                  "materials/tiles/floor/rubber_tiles_a.vmat"
+                  "materials/tiles/floor/rubber_tiles_a.vmat",
+                  "materials/dev/reflectivity_30b.vmat"
                 ]
               },
               "OnComponentDestroy": null,
@@ -6518,7 +6520,8 @@
                 ],
                 "Materials": [
                   "materials/dev/reflectivity_30.vmat",
-                  "materials/tools/toolsskybox.vmat"
+                  "materials/tools/toolsskybox.vmat",
+                  "materials/dev/reflectivity_30b.vmat"
                 ]
               },
               "OnComponentDestroy": null,
@@ -13140,6 +13143,90 @@
           "Children": []
         }
       ]
+    },
+    {
+      "__guid": "f74c1f12-cdbd-4cf5-9dc5-15f12313ff36",
+      "__version": 1,
+      "Flags": 0,
+      "Name": "swing_scale_0_3937",
+      "Position": "304,478.5652,0",
+      "Rotation": "0,0,1,0.0000001947072",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "2d00cabc-a5b5-4a3b-9e4e-b24f0bc08fc2",
+          "__enabled": true,
+          "BodyGroups": 18446744073709551615,
+          "CreateAttachments": false,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Model": "models/fbx/swing01 scale 0_3937.vmdl",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "11756fc1-c4d9-41ac-8126-ba79347ceca6",
+      "__version": 1,
+      "Flags": 0,
+      "Name": "swing01 deform scale 0_3937",
+      "Position": "576,478.5652,0",
+      "Rotation": "-0,0,1,-0.00000004371139",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "279d2bcb-2a71-4402-a7c1-483d9eb53200",
+          "__enabled": true,
+          "BodyGroups": 18446744073709551615,
+          "CreateAttachments": false,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Model": "models/fbx/swing01 deform scale 0_3937.vmdl",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        }
+      ],
+      "Children": []
     }
   ],
   "SceneProperties": {
