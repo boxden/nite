@@ -1,0 +1,21 @@
+{
+  "publish": {
+    "Enabled": true,
+    "ProjectConfig": {
+      "Title": "Swing01",
+      "Type": "model",
+      "Org": "nite",
+      "Ident": "swing01_scale_0-3937",
+      "Schema": 0,
+      "IncludeSourceFiles": true,
+      "Resources": null,
+      "PackageReferences": null,
+      "EditorReferences": null,
+      "Mounts": null,
+      "IsStandaloneOnly": false,
+      "Metadata": {
+        "SingleAssetSource": "models/fbx/swing01 scale 0_3937.vmdl"
+      }
+    }
+  }
+}

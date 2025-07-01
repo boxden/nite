@@ -32,34 +32,41 @@
 				children = 
 				[
 					{
-						_class = "PhysicsShapeBox"
-						name = "board01"
-						parent_bone = ""
-						surface_prop = "wood"
-						collision_tags = "solid"
-						origin = [ -8.0, 32.0, 29.0 ]
-						angles = [ 0.0, 0.0, 0.0 ]
-						dimensions = [ 4.0, 24.0, 1.0 ]
-					},
-					{
-						_class = "PhysicsShapeBox"
-						name = "board02"
-						parent_bone = ""
-						surface_prop = "wood"
-						collision_tags = "solid"
-						origin = [ -3.0, 32.0, 29.0 ]
-						angles = [ 0.0, 0.0, 0.0 ]
-						dimensions = [ 4.0, 24.0, 1.0 ]
-					},
-					{
-						_class = "PhysicsShapeBox"
-						name = "board03"
-						parent_bone = ""
-						surface_prop = "wood"
-						collision_tags = "solid"
-						origin = [ 3.0, 32.0, 29.0 ]
-						angles = [ 0.0, 0.0, 0.0 ]
-						dimensions = [ 4.0, 24.0, 1.0 ]
+						_class = "Folder"
+						name = "right_swing"
+						children = 
+						[
+							{
+								_class = "PhysicsShapeBox"
+								name = "board01"
+								parent_bone = ""
+								surface_prop = "wood"
+								collision_tags = "solid"
+								origin = [ -8.0, 32.0, 29.0 ]
+								angles = [ 0.0, 0.0, 0.0 ]
+								dimensions = [ 4.0, 24.0, 1.0 ]
+							},
+							{
+								_class = "PhysicsShapeBox"
+								name = "board02"
+								parent_bone = ""
+								surface_prop = "wood"
+								collision_tags = "solid"
+								origin = [ -3.0, 32.0, 29.0 ]
+								angles = [ 0.0, 0.0, 0.0 ]
+								dimensions = [ 4.0, 24.0, 1.0 ]
+							},
+							{
+								_class = "PhysicsShapeBox"
+								name = "board03"
+								parent_bone = ""
+								surface_prop = "wood"
+								collision_tags = "solid"
+								origin = [ 3.0, 32.0, 29.0 ]
+								angles = [ 0.0, 0.0, 0.0 ]
+								dimensions = [ 4.0, 24.0, 1.0 ]
+							},
+						]
 					},
 				]
 			},
