@@ -1159,8 +1159,8 @@
       "__version": 1,
       "Flags": 0,
       "Name": "Spawn",
-      "Position": "-184,832,0.00005333684",
-      "Rotation": "0,0,0,1",
+      "Position": "-1536,832,0.00005333684",
+      "Rotation": "0,0,0.7071067,0.7071068",
       "Scale": "1,1,1",
       "Tags": "",
       "Enabled": true,
@@ -2332,6 +2332,74 @@
           "Static": false,
           "Surface": null,
           "SurfaceVelocity": "0,0,0"
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "c6243514-981c-40c2-a37b-b5aba3dbbfaa",
+      "__version": 1,
+      "Flags": 0,
+      "Name": "Object",
+      "Position": "-1568,1104,80",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.SoundBoxComponent",
+          "__guid": "3909b0e9-e78b-473d-bac6-2b13615af3f5",
+          "__enabled": true,
+          "Distance": 512,
+          "DistanceAttenuation": false,
+          "DistanceAttenuationOverride": false,
+          "Falloff": [
+            {
+              "x": 0,
+              "y": 1,
+              "in": 3.1415927,
+              "out": -3.1415927,
+              "mode": "Mirrored"
+            },
+            {
+              "x": 1,
+              "y": 0,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            }
+          ],
+          "Force2d": true,
+          "MaxRepeatTime": 1,
+          "MinRepeatTime": 1,
+          "Occlusion": false,
+          "OcclusionOverride": false,
+          "OcclusionRadius": 32,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Pitch": 0.86,
+          "PlayOnStart": true,
+          "ReflectionOverride": false,
+          "Reflections": false,
+          "Repeat": false,
+          "Scale": "128,287,160",
+          "SoundEvent": "sounds/music/415555114.sound",
+          "SoundOverride": true,
+          "StopOnNew": false,
+          "TargetMixer": {
+            "Name": "music",
+            "Id": "ecff8367-7311-467e-8a14-1df429d8109a"
+          },
+          "Volume": 0.44
         }
       ],
       "Children": []
