@@ -1159,8 +1159,8 @@
       "__version": 1,
       "Flags": 0,
       "Name": "Spawn",
-      "Position": "-1536,832,0.00005333684",
-      "Rotation": "0,0,0.7071067,0.7071068",
+      "Position": "-2088,-1040,-48",
+      "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
       "Tags": "",
       "Enabled": true,
@@ -2340,7 +2340,7 @@
       "__guid": "c6243514-981c-40c2-a37b-b5aba3dbbfaa",
       "__version": 1,
       "Flags": 0,
-      "Name": "Object",
+      "Name": "Sound",
       "Position": "-1568,1104,80",
       "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
@@ -2400,6 +2400,146 @@
             "Id": "ecff8367-7311-467e-8a14-1df429d8109a"
           },
           "Volume": 0.44
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "65537026-3cbf-461c-99f0-611ecdc0b130",
+      "__version": 1,
+      "Flags": 0,
+      "Name": "Object",
+      "Position": "-2192,312,56",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.SoundscapeTrigger",
+          "__guid": "8b6ee3f8-353c-4149-b0ce-2b18b3244c5c",
+          "__enabled": true,
+          "BoxSize": "12,50,50",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Radius": 500,
+          "Soundscape": null,
+          "StayActiveOnExit": true,
+          "TargetMixer": {
+            "Name": "music",
+            "Id": "0b8e97b8-f378-48c6-9ddc-1709e6f5ac3a"
+          },
+          "Type": "Box",
+          "Volume": 1
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "bb2c6088-01c8-42e9-87a6-60b734e311b1",
+      "__version": 1,
+      "Flags": 0,
+      "Name": "Object",
+      "Position": "-2406.054,370.7061,-47.50132",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "skybox",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.SkyBox2D",
+          "__guid": "36539995-abc3-4d99-a5b1-3e82d99ced34",
+          "__enabled": true,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "SkyIndirectLighting": true,
+          "SkyMaterial": "materials/skybox/skybox_day_01.vmat",
+          "Tint": "1,1,1,1"
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "3e09db9b-a1a5-486a-9266-72ba1600122f",
+      "__version": 1,
+      "Flags": 0,
+      "Name": "Point Light",
+      "Position": "-1647.09,-1520,88",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "light_point,light",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.PointLight",
+          "__guid": "dd0e97e3-8016-4b73-8b5b-5cc8419eefe5",
+          "__enabled": true,
+          "Attenuation": 1,
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Radius": 400,
+          "Shadows": true
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "7ef4f2fb-6540-477a-8f46-4c04500ad3d5",
+      "__version": 1,
+      "Flags": 0,
+      "Name": "Sun",
+      "Position": "-1776.638,-1015.711,-47.48697",
+      "Rotation": "0,0.3826834,0,0.9238796",
+      "Scale": "1,1,1",
+      "Tags": "light_directional,light",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.DirectionalLight",
+          "__guid": "a8a4dac8-277f-4284-b640-d73743e43195",
+          "__enabled": true,
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Shadows": true,
+          "SkyColor": "0,0,0,0"
         }
       ],
       "Children": []

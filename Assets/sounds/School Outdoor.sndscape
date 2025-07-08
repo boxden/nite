@@ -1,0 +1,19 @@
+{
+  "MasterVolume": "1",
+  "LoopedSounds": [
+    {
+      "SoundFile": "sounds/music/415555114.vsnd",
+      "Volume": "1"
+    }
+  ],
+  "StingSounds": [
+    {
+      "SoundFile": "sounds/1071160110.sound",
+      "InstanceCount": 1,
+      "RepeatTime": "1 2",
+      "Distance": "50 100"
+    }
+  ],
+  "__references": [],
+  "__version": 0
+}
