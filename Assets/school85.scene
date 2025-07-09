@@ -1147,7 +1147,7 @@
           "StopOnNew": false,
           "TargetMixer": {
             "Name": "game",
-            "Id": "7539fe0a-4762-47d3-b961-187a982bcc09"
+            "Id": "1c6f0f17-a94a-490a-9e75-ca6b161b5da4"
           },
           "Volume": 1
         }
@@ -2396,8 +2396,8 @@
           "SoundOverride": true,
           "StopOnNew": false,
           "TargetMixer": {
-            "Name": "music",
-            "Id": "ecff8367-7311-467e-8a14-1df429d8109a"
+            "Name": "ui",
+            "Id": "9d215611-1123-4485-b438-4f331fbdeacf"
           },
           "Volume": 0.44
         }
