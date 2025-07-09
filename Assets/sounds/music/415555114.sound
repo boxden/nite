@@ -44,8 +44,8 @@
     }
   ],
   "DefaultMixer": {
-    "Name": "unknown",
-    "Id": "00000000-0000-0000-0000-000000000000"
+    "Name": "master",
+    "Id": "e1d7d750-eeff-4d0a-a45f-5722d3142b21"
   },
   "__references": [],
   "__version": 1
