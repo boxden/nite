@@ -232,11 +232,11 @@
       ],
       "Children": [
         {
-          "__guid": "560878f5-f621-4e75-8c6b-6e2a97ced781",
+          "__guid": "d5221428-f032-4144-807f-312cee563e29",
           "__version": 1,
           "Flags": 0,
-          "Name": "Text 100 Meters",
-          "Position": "1910.575,-31.90137,27.24691",
+          "Name": "Text",
+          "Position": "1910.575,-31.90137,39.97538",
           "Rotation": "0,0,0.9238795,0.3826836",
           "Scale": "1,1,1",
           "Tags": "",
@@ -245,72 +245,15 @@
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
           "OwnerTransfer": 1,
-          "Components": [
-            {
-              "__type": "Sandbox.TextRenderer",
-              "__guid": "01417cf1-5c81-4ec2-a753-bdf9c4c25b2e",
-              "__enabled": true,
-              "__version": 1,
-              "BlendMode": "Normal",
-              "FogStrength": 1,
-              "HorizontalAlignment": "Center",
-              "OnComponentDestroy": null,
-              "OnComponentDisabled": null,
-              "OnComponentEnabled": null,
-              "OnComponentFixedUpdate": null,
-              "OnComponentStart": null,
-              "OnComponentUpdate": null,
-              "RenderOptions": {
-                "GameLayer": true,
-                "OverlayLayer": false,
-                "BloomLayer": false,
-                "AfterUILayer": false
-              },
-              "Scale": 0.05,
-              "TextScope": {
-                "Text": "100 Meters | 3937 Units",
-                "TextColor": "1,1,1,1",
-                "FontName": "Coolvetica",
-                "FontSize": 256,
-                "FontWeight": 800,
-                "FontItalic": false,
-                "LineHeight": 2.73,
-                "LetterSpacing": 0,
-                "WordSpacing": 0,
-                "Outline": {
-                  "Enabled": false,
-                  "Size": 4,
-                  "Color": "0,0,1,1"
-                },
-                "Shadow": {
-                  "Enabled": false,
-                  "Size": 4,
-                  "Color": "0,0,0,1",
-                  "Offset": "4,4"
-                },
-                "OutlineUnder": {
-                  "Enabled": false,
-                  "Size": 4,
-                  "Color": "0,1,0,1"
-                },
-                "ShadowUnder": {
-                  "Enabled": true,
-                  "Size": 4,
-                  "Color": "0,0,0,1",
-                  "Offset": "4,4"
-                }
-              },
-              "VerticalAlignment": "Center"
-            }
-          ],
+          "Components": [],
           "Children": [
             {
               "__guid": "6bac7dc9-c069-4a95-a7eb-b57c1813ad2a",
               "__version": 1,
               "Flags": 0,
-              "Name": "Text 1 Meter",
-              "Position": "0,0,12.72847",
-              "Rotation": "0,0,0,1",
+              "Name": "1 Meter",
+              "Position": "0,0,0",
+              "Rotation": "0,0,-0.00000002980232,0.9999999",
               "Scale": "1,1,1",
               "Tags": "",
               "Enabled": true,
@@ -342,6 +285,80 @@
                   "Scale": 0.05,
                   "TextScope": {
                     "Text": "1 Meter | 39.37 Unit",
+                    "TextColor": "1,1,1,1",
+                    "FontName": "Coolvetica",
+                    "FontSize": 256,
+                    "FontWeight": 800,
+                    "FontItalic": false,
+                    "LineHeight": 2.73,
+                    "LetterSpacing": 0,
+                    "WordSpacing": 0,
+                    "Outline": {
+                      "Enabled": false,
+                      "Size": 4,
+                      "Color": "0,0,1,1"
+                    },
+                    "Shadow": {
+                      "Enabled": false,
+                      "Size": 4,
+                      "Color": "0,0,0,1",
+                      "Offset": "4,4"
+                    },
+                    "OutlineUnder": {
+                      "Enabled": false,
+                      "Size": 4,
+                      "Color": "0,1,0,1"
+                    },
+                    "ShadowUnder": {
+                      "Enabled": true,
+                      "Size": 4,
+                      "Color": "0,0,0,1",
+                      "Offset": "4,4"
+                    }
+                  },
+                  "VerticalAlignment": "Center"
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "560878f5-f621-4e75-8c6b-6e2a97ced781",
+              "__version": 1,
+              "Flags": 0,
+              "Name": "100 Meters",
+              "Position": "0,0,-12.72847",
+              "Rotation": "0,0,-0.00000002980232,0.9999999",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkInterpolation": true,
+              "NetworkOrphaned": 0,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Sandbox.TextRenderer",
+                  "__guid": "01417cf1-5c81-4ec2-a753-bdf9c4c25b2e",
+                  "__enabled": true,
+                  "__version": 1,
+                  "BlendMode": "Normal",
+                  "FogStrength": 1,
+                  "HorizontalAlignment": "Center",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RenderOptions": {
+                    "GameLayer": true,
+                    "OverlayLayer": false,
+                    "BloomLayer": false,
+                    "AfterUILayer": false
+                  },
+                  "Scale": 0.05,
+                  "TextScope": {
+                    "Text": "100 Meters | 3937 Units",
                     "TextColor": "1,1,1,1",
                     "FontName": "Coolvetica",
                     "FontSize": 256,
@@ -699,6 +716,38 @@
           "OnComponentFixedUpdate": null,
           "OnComponentStart": null,
           "OnComponentUpdate": null
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "99911715-3fea-4727-b814-1e1714780d46",
+      "__version": 1,
+      "Flags": 0,
+      "Name": "2D Skybox",
+      "Position": "1914.418,-800.4976,0.499527",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "skybox",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.SkyBox2D",
+          "__guid": "0cc58502-d152-4a73-95df-26c549ba8382",
+          "__enabled": true,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "SkyIndirectLighting": true,
+          "SkyMaterial": "materials/skybox/skybox_day_01.vmat",
+          "Tint": "1,1,1,1"
         }
       ],
       "Children": []
