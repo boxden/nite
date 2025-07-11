@@ -253,6 +253,7 @@
               "__version": 1,
               "BlendMode": "Normal",
               "FogStrength": 1,
+              "HorizontalAlignment": "Center",
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -266,7 +267,6 @@
                 "AfterUILayer": false
               },
               "Scale": 0.05,
-              "TextAlignment": "Center",
               "TextScope": {
                 "Text": "100 Meters | 3937 Units",
                 "TextColor": "1,1,1,1",
@@ -299,7 +299,8 @@
                   "Color": "0,0,0,1",
                   "Offset": "4,4"
                 }
-              }
+              },
+              "VerticalAlignment": "Center"
             }
           ],
           "Children": [
@@ -325,6 +326,7 @@
                   "__version": 1,
                   "BlendMode": "Normal",
                   "FogStrength": 1,
+                  "HorizontalAlignment": "Center",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
                   "OnComponentEnabled": null,
@@ -338,7 +340,6 @@
                     "AfterUILayer": false
                   },
                   "Scale": 0.05,
-                  "TextAlignment": "Center",
                   "TextScope": {
                     "Text": "1 Meter | 39.37 Unit",
                     "TextColor": "1,1,1,1",
@@ -371,7 +372,8 @@
                       "Color": "0,0,0,1",
                       "Offset": "4,4"
                     }
-                  }
+                  },
+                  "VerticalAlignment": "Center"
                 }
               ],
               "Children": []
