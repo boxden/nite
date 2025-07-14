@@ -595,7 +595,7 @@
       "Components": [
         {
           "__type": "Sandbox.DirectionalLight",
-          "__guid": "863eebbb-52f8-48cd-b295-7da5edb81c4c",
+          "__guid": "1e5ca14f-8493-43a1-a957-8f53d3446ecc",
           "__enabled": true,
           "FogMode": "Enabled",
           "FogStrength": 1,
@@ -694,7 +694,7 @@
       "__guid": "1c6a496d-9c8f-4d5b-8c25-f93eeabcca59",
       "__version": 1,
       "Flags": 0,
-      "Name": "Spawn",
+      "Name": "Sound",
       "Position": "-467.8654,-1717.997,0",
       "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
@@ -706,8 +706,75 @@
       "OwnerTransfer": 1,
       "Components": [
         {
+          "__type": "Sandbox.SoundPointComponent",
+          "__guid": "8ef22cdb-d633-4faa-a23e-e252c2e1edba",
+          "__enabled": true,
+          "Distance": 512,
+          "DistanceAttenuation": false,
+          "DistanceAttenuationOverride": false,
+          "Falloff": [
+            {
+              "x": 0,
+              "y": 1,
+              "in": 3.1415927,
+              "out": -3.1415927,
+              "mode": "Mirrored"
+            },
+            {
+              "x": 1,
+              "y": 0,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            }
+          ],
+          "Force2d": false,
+          "MaxRepeatTime": 1,
+          "MinRepeatTime": 1,
+          "Occlusion": false,
+          "OcclusionOverride": false,
+          "OcclusionRadius": 32,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Pitch": 1,
+          "PlayOnStart": true,
+          "ReflectionOverride": false,
+          "Reflections": false,
+          "Repeat": false,
+          "SoundEvent": "sounds/menu/ui_mainmenu_mus.sound",
+          "SoundOverride": false,
+          "StopOnNew": false,
+          "TargetMixer": {
+            "Name": "ui",
+            "Id": "935ef7cc-366c-4894-b98e-00563dba83d3"
+          },
+          "Volume": 1
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "7b9a13a8-46c8-47f0-a145-36c1de538cb7",
+      "__version": 1,
+      "Flags": 0,
+      "Name": "Spawn",
+      "Position": "-584,-1717.997,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
           "__type": "Sandbox.SpawnPoint",
-          "__guid": "df07ae21-cb59-42bd-807b-64df73f71c89",
+          "__guid": "89a46230-c79d-4a96-996a-febba51789c2",
           "__enabled": true,
           "Color": "0.8902,0.31765,0.05098,1",
           "OnComponentDestroy": null,
@@ -745,7 +812,7 @@
           "OnComponentFixedUpdate": null,
           "OnComponentStart": null,
           "OnComponentUpdate": null,
-          "SkyIndirectLighting": true,
+          "SkyIndirectLighting": false,
           "SkyMaterial": "materials/skybox/skybox_day_01.vmat",
           "Tint": "1,1,1,1"
         }
