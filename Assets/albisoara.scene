@@ -404,7 +404,7 @@
       "__version": 1,
       "Flags": 0,
       "Name": "Placeholder",
-      "Position": "520.1865,-568.8708,0",
+      "Position": "2476.794,-171.7935,0",
       "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
       "Tags": "",
@@ -426,13 +426,13 @@
           "IsTrigger": false,
           "Mesh": {
             "Topology": "H4sIAAAAAAAACk2OAQoAIQzD4qmn/3+xBFcwMAZtVzaADXxc3AP4gVYTL6xH75WXaLnTm9X1dqvrpyuom/VGPz8c9Bd8FaQAAAA=",
-            "Position": "520.1865,-568.8708,0",
+            "Position": "2476.794,-171.7935,0",
             "Rotation": "0,0,0,1",
             "Positions": [
-              "-3630.514,-6058.922,0",
-              "7543.728,-6058.922,0",
-              "7543.728,6853.076,0",
-              "-3630.514,6853.076,0"
+              "-5587.121,-6455.999,0",
+              "5587.121,-6455.999,0",
+              "5587.121,6455.999,0",
+              "-5587.121,6455.999,0"
             ],
             "TextureCoord": [
               "1022.966,837.3653",
@@ -457,8 +457,8 @@
               "0.25,0.25"
             ],
             "TextureOffset": [
-              "31.25488,28.51562",
-              "31.25488,28.51562"
+              "12.82617,16.82422",
+              "12.82617,16.82422"
             ],
             "MaterialIndex": [
               1,
@@ -803,96 +803,6 @@
           "SkyIndirectLighting": false,
           "SkyMaterial": "materials/skybox/skybox_day_01.vmat",
           "Tint": "1,1,1,1"
-        }
-      ],
-      "Children": []
-    },
-    {
-      "__guid": "fee21ac7-b190-43b9-9d58-30bd3f0bf00f",
-      "__version": 1,
-      "Flags": 0,
-      "Name": "Object",
-      "Position": "-698.2886,-1983.894,8",
-      "Rotation": "0,0,0,1",
-      "Scale": "1,1,1",
-      "Tags": "",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkInterpolation": true,
-      "NetworkOrphaned": 0,
-      "OwnerTransfer": 1,
-      "Components": [
-        {
-          "__type": "Sandbox.SpawnPoint",
-          "__guid": "b614886b-2db1-4929-aad9-ea65772b2687",
-          "__enabled": true,
-          "Color": "0.8902,0.31765,0.05098,1",
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null
-        }
-      ],
-      "Children": []
-    },
-    {
-      "__guid": "ce35e385-ed1a-471d-a7e8-6d4d33ff2189",
-      "__version": 1,
-      "Flags": 0,
-      "Name": "Object (1)",
-      "Position": "-698.2886,-1904,8",
-      "Rotation": "0,0,0,1",
-      "Scale": "1,1,1",
-      "Tags": "",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkInterpolation": true,
-      "NetworkOrphaned": 0,
-      "OwnerTransfer": 1,
-      "Components": [
-        {
-          "__type": "Sandbox.SpawnPoint",
-          "__guid": "fcae97f2-f3a7-4488-8946-13c339281026",
-          "__enabled": true,
-          "Color": "0.8902,0.31765,0.05098,1",
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null
-        }
-      ],
-      "Children": []
-    },
-    {
-      "__guid": "4b37b027-9314-4551-ad5a-882c0670eb59",
-      "__version": 1,
-      "Flags": 0,
-      "Name": "Object (2)",
-      "Position": "-698.2886,-2040,8",
-      "Rotation": "0,0,0,1",
-      "Scale": "1,1,1",
-      "Tags": "",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkInterpolation": true,
-      "NetworkOrphaned": 0,
-      "OwnerTransfer": 1,
-      "Components": [
-        {
-          "__type": "Sandbox.SpawnPoint",
-          "__guid": "2875ffda-ad8e-4a93-973d-be7cd7c487c0",
-          "__enabled": true,
-          "Color": "0.8902,0.31765,0.05098,1",
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null
         }
       ],
       "Children": []
