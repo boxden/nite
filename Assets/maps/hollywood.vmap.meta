@@ -25,7 +25,7 @@
         "GameSupport": [
           "facepunch.sandbox"
         ],
-        "ParentPackage": "facepunch.walker"
+        "ParentPackage": "softsplit.sandbox"
       }
     }
   }
