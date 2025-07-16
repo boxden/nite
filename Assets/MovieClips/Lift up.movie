@@ -1,8 +1,45 @@
 {
   "EditorData": {
     "SampleRate": 30,
-    "Duration": 90000,
+    "Duration": 95400,
     "Tracks": {
+      "19a94d49-877e-4a89-95d5-0df50865bd49": {
+        "$type": "Property",
+        "Name": "SoundEvent",
+        "TargetType": "Sandbox.SoundEvent",
+        "ParentId": "d1450aa1-b208-4bf7-8164-ff3498d0d8ea",
+        "Blocks": [
+          {
+            "TimeRange": {
+              "Start": 90360,
+              "End": 91440
+            },
+            "Signal": {
+              "$id": 1,
+              "$type": "Keyframes",
+              "Keyframes": [
+                {
+                  "Time": 90360,
+                  "Value": "sounds/elevator/doors/opening old elevator door.sound",
+                  "Interpolation": "Cubic"
+                },
+                {
+                  "Time": 91440,
+                  "Value": "sounds/1071160110.sound",
+                  "Interpolation": "Cubic"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "034e928d-9db6-441a-8e20-37469631e5f3": {
+        "$type": "Reference",
+        "ReferenceId": "07f48bf9-ce1a-42c0-a855-0545a1400053",
+        "Name": "Opening",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "031dba6a-5d86-4fae-acff-fb8383f8fd93"
+      },
       "ca6002b5-9a51-48b6-912f-42e1df74bd65": {
         "$type": "Property",
         "Name": "LocalPosition",
@@ -39,6 +76,13 @@
         "Name": "Lift",
         "TargetType": "Sandbox.GameObject"
       },
+      "d1450aa1-b208-4bf7-8164-ff3498d0d8ea": {
+        "$type": "Reference",
+        "ReferenceId": "adacd898-d87e-4329-8546-2e4272b08116",
+        "Name": "SoundPointComponent",
+        "TargetType": "Sandbox.SoundPointComponent",
+        "ParentId": "034e928d-9db6-441a-8e20-37469631e5f3"
+      },
       "38577e97-8ee9-4dfd-982a-5a02ed065c32": {
         "$type": "Property",
         "Name": "LocalPosition",
@@ -48,7 +92,7 @@
           {
             "TimeRange": {
               "Start": 720,
-              "End": 6480
+              "End": 95400
             },
             "Signal": {
               "$id": 1,
@@ -62,6 +106,16 @@
                 {
                   "Time": 6480,
                   "Value": "6.796997,83.06262,-15.05522",
+                  "Interpolation": "Linear"
+                },
+                {
+                  "Time": 90720,
+                  "Value": "6.796997,83.06262,-15.05522",
+                  "Interpolation": "Linear"
+                },
+                {
+                  "Time": 95400,
+                  "Value": "92.33862,83.06262,-15.05522",
                   "Interpolation": "Linear"
                 }
               ]
