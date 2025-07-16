@@ -636,7 +636,7 @@
       "Flags": 0,
       "Name": "swing01a",
       "Position": "80.18863,-1609.368,0.000002662508",
-      "Rotation": "0,0,-1,0.0000001947072",
+      "Rotation": "0,0,-0.999229,0.03926001",
       "Scale": "1,1,1",
       "Tags": "",
       "Enabled": true,
@@ -694,7 +694,7 @@
           "__version": 1,
           "Flags": 0,
           "Name": "Point Light",
-          "Position": "0,0,0",
+          "Position": "0,0,42.39433",
           "Rotation": "0,0,0,1",
           "Scale": "1,1,1",
           "Tags": "light_point,light",
@@ -728,8 +728,8 @@
           "__guid": "5bf71f0d-c891-400f-b45d-7bb8d06fffb8",
           "__version": 1,
           "Flags": 0,
-          "Name": "Point Light (2)",
-          "Position": "0,-192,0",
+          "Name": "Point Light",
+          "Position": "0,-192,42.39433",
           "Rotation": "0,0,0,1",
           "Scale": "1,1,1",
           "Tags": "light_point,light",
@@ -763,8 +763,8 @@
           "__guid": "69acc480-a9c5-4f96-9b38-31c8919c2d48",
           "__version": 1,
           "Flags": 0,
-          "Name": "Point Light (3)",
-          "Position": "-32,-408,-0.000003814697",
+          "Name": "Point Light",
+          "Position": "-32,-408,42.39433",
           "Rotation": "0,0,0,1",
           "Scale": "1,1,1",
           "Tags": "light_point,light",
@@ -798,8 +798,8 @@
           "__guid": "f40e2bd9-0ea1-4c69-a8cb-4165aa86b6a1",
           "__version": 1,
           "Flags": 0,
-          "Name": "Point Light (4)",
-          "Position": "-232,-296,134.3943",
+          "Name": "Point Light",
+          "Position": "-232,-296,166.3943",
           "Rotation": "0,0,0,1",
           "Scale": "1,1,1",
           "Tags": "light_point,light",
@@ -833,8 +833,8 @@
           "__guid": "f92d101c-d89d-44af-baf8-1af114cb5605",
           "__version": 1,
           "Flags": 0,
-          "Name": "Point Light (5)",
-          "Position": "-88,-464,158.3943",
+          "Name": "Point Light",
+          "Position": "-88,-464,162.3943",
           "Rotation": "0,0,0,1",
           "Scale": "1,1,1",
           "Tags": "light_point,light",
@@ -868,8 +868,8 @@
           "__guid": "d22f4011-3c4e-4c43-a298-a117d401bcae",
           "__version": 1,
           "Flags": 0,
-          "Name": "Point Light (6)",
-          "Position": "-40,-600,182.3943",
+          "Name": "Point Light",
+          "Position": "-40,-600,194.3943",
           "Rotation": "0,0,0,1",
           "Scale": "1,1,1",
           "Tags": "light_point,light",
@@ -900,11 +900,151 @@
           "Children": []
         },
         {
+          "__guid": "f04821c5-804b-4563-b6af-576a324962c5",
+          "__version": 1,
+          "Flags": 0,
+          "Name": "Point Light",
+          "Position": "-40,-600,2442.394",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "light_point,light",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.PointLight",
+              "__guid": "21472f61-dd81-4043-b6ba-65cd38b83f26",
+              "__enabled": true,
+              "Attenuation": 1,
+              "FogMode": "Enabled",
+              "FogStrength": 1,
+              "LightColor": "0.91373,0.98039,1,1",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Radius": 250,
+              "Shadows": true
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "b6b44a2d-5cf9-4eca-8d8e-03b8c6d83caf",
+          "__version": 1,
+          "Flags": 0,
+          "Name": "Point Light",
+          "Position": "-40,-444,2438.394",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "light_point,light",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.PointLight",
+              "__guid": "60ec293a-2eeb-4977-ae4b-7d9cb9805026",
+              "__enabled": true,
+              "Attenuation": 1,
+              "FogMode": "Enabled",
+              "FogStrength": 1,
+              "LightColor": "0.91373,0.98039,1,1",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Radius": 250,
+              "Shadows": true
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "20dbbd93-0126-432f-9e55-373c49d95776",
+          "__version": 1,
+          "Flags": 0,
+          "Name": "Point Light",
+          "Position": "8,-236,2430.394",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "light_point,light",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.PointLight",
+              "__guid": "b32c9015-245c-4244-aa1e-345f3e014575",
+              "__enabled": true,
+              "Attenuation": 1,
+              "FogMode": "Enabled",
+              "FogStrength": 1,
+              "LightColor": "0.91373,0.98039,1,1",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Radius": 250,
+              "Shadows": true
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "d52f50b0-6a01-4372-a82d-917a6074d8e9",
+          "__version": 1,
+          "Flags": 0,
+          "Name": "Point Light",
+          "Position": "-12,4,2430.394",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "light_point,light",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.PointLight",
+              "__guid": "2a605181-697c-4182-892a-5076cb20f53c",
+              "__enabled": true,
+              "Attenuation": 1,
+              "FogMode": "Enabled",
+              "FogStrength": 1,
+              "LightColor": "0.91373,0.98039,1,1",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Radius": 250,
+              "Shadows": true
+            }
+          ],
+          "Children": []
+        },
+        {
           "__guid": "6574080c-1aaa-4853-8b6e-ca11493c4d1d",
           "__version": 1,
           "Flags": 0,
-          "Name": "Point Light (1)",
-          "Position": "-256,0,0",
+          "Name": "Point Light",
+          "Position": "-256,0,54.39433",
           "Rotation": "0,0,0,1",
           "Scale": "1,1,1",
           "Tags": "light_point,light",
@@ -937,73 +1077,6 @@
       ]
     },
     {
-      "__guid": "1c6a496d-9c8f-4d5b-8c25-f93eeabcca59",
-      "__version": 1,
-      "Flags": 0,
-      "Name": "Sound",
-      "Position": "-467.8654,-1717.997,0",
-      "Rotation": "0,0,0,1",
-      "Scale": "1,1,1",
-      "Tags": "",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkInterpolation": true,
-      "NetworkOrphaned": 0,
-      "OwnerTransfer": 1,
-      "Components": [
-        {
-          "__type": "Sandbox.SoundPointComponent",
-          "__guid": "8ef22cdb-d633-4faa-a23e-e252c2e1edba",
-          "__enabled": true,
-          "Distance": 512,
-          "DistanceAttenuation": false,
-          "DistanceAttenuationOverride": false,
-          "Falloff": [
-            {
-              "x": 0,
-              "y": 1,
-              "in": 3.1415927,
-              "out": -3.1415927,
-              "mode": "Mirrored"
-            },
-            {
-              "x": 1,
-              "y": 0,
-              "in": 0,
-              "out": 0,
-              "mode": "Mirrored"
-            }
-          ],
-          "Force2d": false,
-          "MaxRepeatTime": 1,
-          "MinRepeatTime": 1,
-          "Occlusion": false,
-          "OcclusionOverride": false,
-          "OcclusionRadius": 32,
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "Pitch": 0.75,
-          "PlayOnStart": true,
-          "ReflectionOverride": false,
-          "Reflections": false,
-          "Repeat": false,
-          "SoundEvent": "sounds/menu/ui_mainmenu_mus.sound",
-          "SoundOverride": true,
-          "StopOnNew": false,
-          "TargetMixer": {
-            "Name": "ui",
-            "Id": "1d8b7654-e49b-4add-b883-81f67c69ba4b"
-          },
-          "Volume": 1
-        }
-      ],
-      "Children": []
-    },
-    {
       "__guid": "99911715-3fea-4727-b814-1e1714780d46",
       "__version": 1,
       "Flags": 0,
@@ -1031,148 +1104,6 @@
           "SkyIndirectLighting": false,
           "SkyMaterial": "materials/skybox/skybox_day_01.vmat",
           "Tint": "1,1,1,1"
-        }
-      ],
-      "Children": []
-    },
-    {
-      "__guid": "f2b69902-46f4-41d5-b89d-88f5060a0ca7",
-      "__version": 1,
-      "Flags": 0,
-      "Name": "Movie Rotation",
-      "Position": "0,0,0",
-      "Rotation": "0,0,0,1",
-      "Scale": "1,1,1",
-      "Tags": "",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkInterpolation": true,
-      "NetworkOrphaned": 0,
-      "OwnerTransfer": 1,
-      "Components": [
-        {
-          "__type": "Sandbox.MovieMaker.MoviePlayer",
-          "__guid": "12cdbc08-5e4a-46e4-b0ce-0d1dcaeb3d21",
-          "__enabled": true,
-          "Binder": {
-            "GameObjects": [
-              {
-                "Track": "5130f1d3-bc74-4ad0-b448-a98c8b9a40e9",
-                "Reference": "02e4941c-da52-4c25-87da-aa92393a52ac"
-              },
-              {
-                "Track": "58fdb4a2-79e6-4ab8-aaa6-659e21d6fde5",
-                "Reference": null
-              },
-              {
-                "Track": "4f6eb2ce-ccb0-4d48-95ad-eb06b207b423",
-                "Reference": "1c6a496d-9c8f-4d5b-8c25-f93eeabcca59"
-              },
-              {
-                "Track": "33122171-6732-4511-a4fb-d89bc314523f",
-                "Reference": "fc5fcd1d-2818-4001-884a-3d58ee1c8bee"
-              }
-            ],
-            "Components": [
-              {
-                "Track": "a1c36c74-db6b-495c-8eaa-636d111b6333",
-                "Reference": null
-              },
-              {
-                "Track": "3f906d3a-0df7-402b-995d-743ca0168c58",
-                "Reference": "8ef22cdb-d633-4faa-a23e-e252c2e1edba"
-              }
-            ]
-          },
-          "IsLooping": true,
-          "IsPlaying": true,
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "PositionSeconds": 0,
-          "Resource": {
-            "Compiled": {
-              "Tracks": [
-                {
-                  "Kind": "Reference",
-                  "Name": "swing01a",
-                  "Type": "Sandbox.GameObject",
-                  "Id": "5130f1d3-bc74-4ad0-b448-a98c8b9a40e9",
-                  "ReferenceId": "02e4941c-da52-4c25-87da-aa92393a52ac",
-                  "Children": [
-                    {
-                      "Kind": "Property",
-                      "Name": "LocalRotation",
-                      "Type": "Rotation",
-                      "Blocks": [
-                        {
-                          "TimeRange": {
-                            "Start": 0,
-                            "End": 28800
-                          },
-                          "SampleRate": 30,
-                          "Samples": "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"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            "EditorData": {
-              "SampleRate": 30,
-              "Duration": 28800,
-              "Tracks": {
-                "2ae0058d-01a9-493b-8553-e4aed07ac1bb": {
-                  "$type": "Property",
-                  "Name": "LocalRotation",
-                  "TargetType": "Rotation",
-                  "ParentId": "5130f1d3-bc74-4ad0-b448-a98c8b9a40e9",
-                  "Blocks": [
-                    {
-                      "TimeRange": {
-                        "Start": 0,
-                        "End": 28800
-                      },
-                      "Signal": {
-                        "$id": 1,
-                        "$type": "Keyframes",
-                        "Keyframes": [
-                          {
-                            "Time": 0,
-                            "Value": "0,0,-1,0.0000001947072",
-                            "Interpolation": "Linear"
-                          },
-                          {
-                            "Time": 14400,
-                            "Value": "0,0,0,1",
-                            "Interpolation": "Linear"
-                          },
-                          {
-                            "Time": 28800,
-                            "Value": "0,0,1,0.0000001947072",
-                            "Interpolation": "Linear"
-                          }
-                        ]
-                      }
-                    }
-                  ]
-                },
-                "5130f1d3-bc74-4ad0-b448-a98c8b9a40e9": {
-                  "$type": "Reference",
-                  "ReferenceId": "02e4941c-da52-4c25-87da-aa92393a52ac",
-                  "Name": "swing01a",
-                  "TargetType": "Sandbox.GameObject"
-                }
-              },
-              "Sources": {},
-              "References": []
-            }
-          },
-          "TimeScale": 1
         }
       ],
       "Children": []
@@ -1316,17 +1247,17 @@
               "4,4"
             ],
             "TextureOffset": [
-              "30.08466,2.734344",
-              "30.08466,2.734344",
+              "30.08475,2.734344",
+              "30.08475,2.734344",
               "2.734573,15.84458",
               "29.26546,15.84458",
-              "1.915344,15.84458",
-              "30.08466,15.84458",
+              "1.915253,15.84458",
+              "30.08475,15.84458",
               "32,256.0073",
-              "1.913696,15.84458",
-              "1.915344,15.84458",
-              "1.915558,15.84458",
-              "1.913696,15.84458"
+              "1.913605,15.84458",
+              "1.915253,15.84458",
+              "1.915466,15.84458",
+              "1.913605,15.84458"
             ],
             "MaterialIndex": [
               2,
@@ -1413,6 +1344,30 @@
           "RollingResistance": null,
           "SmoothingAngle": 40,
           "Static": true,
+          "Surface": null,
+          "SurfaceVelocity": "0,0,0"
+        },
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "02db7b9d-8844-467f-a8f4-fd63ab5a1980",
+          "__enabled": true,
+          "Center": "-0.5185699,10.02828,-63.06746",
+          "Elasticity": null,
+          "Friction": null,
+          "IsTrigger": false,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
+          "RollingResistance": null,
+          "Scale": "145.3896,140.2117,3.301826",
+          "Static": false,
           "Surface": null,
           "SurfaceVelocity": "0,0,0"
         }
@@ -1578,12 +1533,12 @@
                   "0.25,0.25"
                 ],
                 "TextureOffset": [
-                  "497.3547,59.74927",
-                  "497.3547,59.74927",
+                  "497.3562,59.74927",
+                  "497.3562,59.74927",
                   "59.74927,136.9345",
                   "452.2507,136.9345",
-                  "14.64526,136.9345",
-                  "497.3547,136.9345"
+                  "14.6438,136.9345",
+                  "497.3562,136.9345"
                 ],
                 "MaterialIndex": [
                   0,
@@ -1634,7 +1589,7 @@
               "OnTriggerEnter": {
                 "__version": 9,
                 "__guid": "b181992d-c698-4e1a-8ff9-7ba46c709d5a",
-                "__changeId": 19,
+                "__changeId": 92,
                 "UserData": {
                   "Title": "On Collider Enter",
                   "ReferencedComponentTypes": []
@@ -1649,7 +1604,7 @@
                     "Id": 2,
                     "Type": "scene.ref",
                     "UserData": {
-                      "Position": "108,156"
+                      "Position": "144,84"
                     }
                   },
                   {
@@ -1661,7 +1616,7 @@
                       "_type": "Sandbox.MovieMaker.MoviePlayer"
                     },
                     "UserData": {
-                      "Position": "312,120"
+                      "Position": "288,0"
                     }
                   },
                   {
@@ -1673,7 +1628,53 @@
                       "_type": "Sandbox.GameObject"
                     },
                     "UserData": {
-                      "Position": "564,132"
+                      "Position": "1212,0"
+                    }
+                  },
+                  {
+                    "Id": 19,
+                    "Type": "scene.ref",
+                    "UserData": {
+                      "Position": "444,72"
+                    }
+                  },
+                  {
+                    "Id": 20,
+                    "Type": "call",
+                    "Properties": {
+                      "_isStatic": false,
+                      "_name": "StartSound",
+                      "_type": "Sandbox.SoundPointComponent"
+                    },
+                    "UserData": {
+                      "Position": "600,0"
+                    }
+                  },
+                  {
+                    "Id": 29,
+                    "Type": "property",
+                    "Properties": {
+                      "_name": "Resource",
+                      "_type": "Sandbox.MovieMaker.MoviePlayer"
+                    },
+                    "UserData": {
+                      "Position": "900,0"
+                    }
+                  },
+                  {
+                    "Id": 30,
+                    "Type": "scene.ref",
+                    "ParentId": 29
+                  },
+                  {
+                    "Id": 32,
+                    "Type": "resource.ref",
+                    "Properties": {
+                      "T": "Sandbox.MovieMaker.MovieResource",
+                      "value": "movieclips/lift up.movie"
+                    },
+                    "UserData": {
+                      "Position": "756,84"
                     }
                   }
                 ],
@@ -1691,7 +1692,7 @@
                     "DstName": "_target"
                   },
                   {
-                    "SrcId": 3,
+                    "SrcId": 29,
                     "SrcName": "_signal",
                     "DstId": 7,
                     "DstName": "_signal"
@@ -1701,10 +1702,52 @@
                     "SrcName": "_target",
                     "DstId": 7,
                     "DstName": "_target"
+                  },
+                  {
+                    "SrcId": 3,
+                    "SrcName": "_signal",
+                    "DstId": 20,
+                    "DstName": "_signal"
+                  },
+                  {
+                    "SrcId": 19,
+                    "SrcName": "_result",
+                    "DstId": 20,
+                    "DstName": "_target"
+                  },
+                  {
+                    "SrcId": 20,
+                    "SrcName": "_signal",
+                    "DstId": 29,
+                    "DstName": "_signal"
+                  },
+                  {
+                    "SrcId": 30,
+                    "SrcName": "_result",
+                    "DstId": 29,
+                    "DstName": "_target"
+                  },
+                  {
+                    "SrcId": 32,
+                    "SrcName": "_result",
+                    "DstId": 29,
+                    "DstName": "_value"
                   }
                 ],
                 "Defaults": {
                   "$2.component": {
+                    "_type": "component",
+                    "component_id": "5f218213-6406-477e-8531-4a08e1640baa",
+                    "go": "897fd01c-fcf8-4205-b615-c53e953a8e69",
+                    "component_type": "MoviePlayer"
+                  },
+                  "$19.component": {
+                    "_type": "component",
+                    "component_id": "adacd898-d87e-4329-8546-2e4272b08116",
+                    "go": "07f48bf9-ce1a-42c0-a855-0545a1400053",
+                    "component_type": "SoundPointComponent"
+                  },
+                  "$30.component": {
                     "_type": "component",
                     "component_id": "5f218213-6406-477e-8531-4a08e1640baa",
                     "go": "897fd01c-fcf8-4205-b615-c53e953a8e69",
@@ -1750,7 +1793,7 @@
               "IsTrigger": false,
               "Mesh": {
                 "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
-                "Position": "-924,-802,48.3231",
+                "Position": "-924.0004,-802,48.3231",
                 "Rotation": "0,0,0,1",
                 "Positions": [
                   "-45.54163,-2,48",
@@ -1813,12 +1856,12 @@
                   "0.25,0.25"
                 ],
                 "TextureOffset": [
-                  "113.8335,376",
-                  "113.8335,376",
+                  "113.835,376",
+                  "113.835,376",
                   "376,193.2924",
                   "136,193.2924",
-                  "398.1665,193.2924",
-                  "113.8335,193.2924"
+                  "398.165,193.2924",
+                  "113.835,193.2924"
                 ],
                 "MaterialIndex": [
                   0,
@@ -1876,7 +1919,75 @@
               "SurfaceVelocity": "0,0,0"
             }
           ],
-          "Children": []
+          "Children": [
+            {
+              "__guid": "07f48bf9-ce1a-42c0-a855-0545a1400053",
+              "__version": 1,
+              "Flags": 0,
+              "Name": "Opening",
+              "Position": "-42.45801,0,47.6769",
+              "Rotation": "0,0,0,1",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkInterpolation": true,
+              "NetworkOrphaned": 0,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Sandbox.SoundPointComponent",
+                  "__guid": "adacd898-d87e-4329-8546-2e4272b08116",
+                  "__enabled": true,
+                  "Distance": 1000,
+                  "DistanceAttenuation": true,
+                  "DistanceAttenuationOverride": false,
+                  "Falloff": [
+                    {
+                      "x": 0,
+                      "y": 1,
+                      "in": 3.1415927,
+                      "out": -3.1415927,
+                      "mode": "Mirrored"
+                    },
+                    {
+                      "x": 1,
+                      "y": 0,
+                      "in": 0,
+                      "out": 0,
+                      "mode": "Mirrored"
+                    }
+                  ],
+                  "Force2d": false,
+                  "MaxRepeatTime": 1,
+                  "MinRepeatTime": 1,
+                  "Occlusion": false,
+                  "OcclusionOverride": false,
+                  "OcclusionRadius": 32,
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "Pitch": 1,
+                  "PlayOnStart": false,
+                  "ReflectionOverride": false,
+                  "Reflections": false,
+                  "Repeat": false,
+                  "SoundEvent": "sounds/elevator/doors/opening old elevator door.sound",
+                  "SoundOverride": false,
+                  "StopOnNew": false,
+                  "TargetMixer": {
+                    "Name": "game",
+                    "Id": "96e39959-f5db-4ba9-9a04-466eb03bfc64"
+                  },
+                  "Volume": 1
+                }
+              ],
+              "Children": []
+            }
+          ]
         },
         {
           "__guid": "ab2bb105-c8f4-423c-bf8c-7aefdcad148f",
@@ -1968,12 +2079,12 @@
                   "0.25,0.25"
                 ],
                 "TextureOffset": [
-                  "16,376",
-                  "16,376",
+                  "16.00146,376",
+                  "16.00146,376",
                   "376,193.2924",
                   "136,193.2924",
-                  "496,193.2924",
-                  "16,193.2924"
+                  "495.9985,193.2924",
+                  "16.00146,193.2924"
                 ],
                 "MaterialIndex": [
                   0,
@@ -2059,9 +2170,26 @@
               {
                 "Track": "031dba6a-5d86-4fae-acff-fb8383f8fd93",
                 "Reference": "2181388e-57b5-43ef-a308-bf2a423aad7d"
+              },
+              {
+                "Track": "b7e88a23-9bea-45ef-bf66-646007db048f",
+                "Reference": "07f48bf9-ce1a-42c0-a855-0545a1400053"
+              },
+              {
+                "Track": "034e928d-9db6-441a-8e20-37469631e5f3",
+                "Reference": "07f48bf9-ce1a-42c0-a855-0545a1400053"
               }
             ],
-            "Components": []
+            "Components": [
+              {
+                "Track": "cf3005f2-81e1-4be8-a1d6-95f93b1471e7",
+                "Reference": "adacd898-d87e-4329-8546-2e4272b08116"
+              },
+              {
+                "Track": "d1450aa1-b208-4bf7-8164-ff3498d0d8ea",
+                "Reference": "adacd898-d87e-4329-8546-2e4272b08116"
+              }
+            ]
           },
           "IsLooping": false,
           "IsPlaying": false,
@@ -2072,141 +2200,7 @@
           "OnComponentStart": null,
           "OnComponentUpdate": null,
           "PositionSeconds": 0,
-          "Resource": {
-            "Compiled": {
-              "Tracks": [
-                {
-                  "Kind": "Reference",
-                  "Name": "Lift",
-                  "Type": "Sandbox.GameObject",
-                  "Id": "02695371-1ed0-499f-9820-23a59c1b6fe9",
-                  "ReferenceId": "fc5fcd1d-2818-4001-884a-3d58ee1c8bee",
-                  "Children": [
-                    {
-                      "Kind": "Property",
-                      "Name": "LocalPosition",
-                      "Type": "Vector3",
-                      "Blocks": [
-                        {
-                          "TimeRange": {
-                            "Start": 7200,
-                            "End": 90000
-                          },
-                          "SampleRate": 30,
-                          "Samples": "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"
-                        }
-                      ]
-                    },
-                    {
-                      "Kind": "Reference",
-                      "Name": "Open door",
-                      "Type": "Sandbox.GameObject",
-                      "Id": "031dba6a-5d86-4fae-acff-fb8383f8fd93",
-                      "ReferenceId": "2181388e-57b5-43ef-a308-bf2a423aad7d",
-                      "Children": [
-                        {
-                          "Kind": "Property",
-                          "Name": "LocalPosition",
-                          "Type": "Vector3",
-                          "Blocks": [
-                            {
-                              "TimeRange": {
-                                "Start": 720,
-                                "End": 6480
-                              },
-                              "SampleRate": 30,
-                              "Samples": "H4sIAAAAAAACCjNgYGBIWLvDSUBhmZPOo4KD72S2wtm1PRvhbO4/a+Hsmdmr4GyN28vg7G1ei+Fsl13z4ezLmnPg7MSZM+DsDxxT4ey6iolwNs+LXjh7VngXnK15vA3O3m7WDGd3+dTD2Su0K+DsI1yFcPaDl5lw9r8TSXC21IpoONusPQTODknzhbMLXN3g7F4Vezh7JbMFnH3skQGc/figJpz9f4ESnC3TIA1nW8aLwNmhdrxwdpEsG5wt9/OvI4wdtv09nD2h9CGcfcb4MpzN8OkInG2zYRucXZG3As5eozMLzn7xqhvO9giqhrM3nIuDszW8neDsBcdV4WwOF064vQD2QWy6RAIAAA=="
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            "EditorData": {
-              "SampleRate": 30,
-              "Duration": 90000,
-              "Tracks": {
-                "ca6002b5-9a51-48b6-912f-42e1df74bd65": {
-                  "$type": "Property",
-                  "Name": "LocalPosition",
-                  "TargetType": "Vector3",
-                  "ParentId": "02695371-1ed0-499f-9820-23a59c1b6fe9",
-                  "Blocks": [
-                    {
-                      "TimeRange": {
-                        "Start": 7200,
-                        "End": 90000
-                      },
-                      "Signal": {
-                        "$id": 1,
-                        "$type": "Keyframes",
-                        "Keyframes": [
-                          {
-                            "Time": 7200,
-                            "Value": "-1016.339,-885.0626,63.37832",
-                            "Interpolation": "Cubic"
-                          },
-                          {
-                            "Time": 90000,
-                            "Value": "-1016.339,-885.0626,2443.433",
-                            "Interpolation": "Cubic"
-                          }
-                        ]
-                      }
-                    }
-                  ]
-                },
-                "02695371-1ed0-499f-9820-23a59c1b6fe9": {
-                  "$type": "Reference",
-                  "ReferenceId": "fc5fcd1d-2818-4001-884a-3d58ee1c8bee",
-                  "Name": "Lift",
-                  "TargetType": "Sandbox.GameObject"
-                },
-                "38577e97-8ee9-4dfd-982a-5a02ed065c32": {
-                  "$type": "Property",
-                  "Name": "LocalPosition",
-                  "TargetType": "Vector3",
-                  "ParentId": "031dba6a-5d86-4fae-acff-fb8383f8fd93",
-                  "Blocks": [
-                    {
-                      "TimeRange": {
-                        "Start": 720,
-                        "End": 6480
-                      },
-                      "Signal": {
-                        "$id": 1,
-                        "$type": "Keyframes",
-                        "Keyframes": [
-                          {
-                            "Time": 720,
-                            "Value": "92.33862,83.06262,-15.05522",
-                            "Interpolation": "Linear"
-                          },
-                          {
-                            "Time": 6480,
-                            "Value": "6.796997,83.06262,-15.05522",
-                            "Interpolation": "Linear"
-                          }
-                        ]
-                      }
-                    }
-                  ]
-                },
-                "031dba6a-5d86-4fae-acff-fb8383f8fd93": {
-                  "$type": "Reference",
-                  "ReferenceId": "2181388e-57b5-43ef-a308-bf2a423aad7d",
-                  "Name": "Open door",
-                  "TargetType": "Sandbox.GameObject",
-                  "ParentId": "02695371-1ed0-499f-9820-23a59c1b6fe9"
-                }
-              },
-              "Sources": {},
-              "References": []
-            }
-          },
+          "Resource": "movieclips/lift up.movie",
           "TimeScale": 1
         }
       ],
@@ -2221,7 +2215,7 @@
       "Rotation": "0,0,-0.7071067,0.7071068",
       "Scale": "1,1,1",
       "Tags": "",
-      "Enabled": true,
+      "Enabled": false,
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
@@ -2230,6 +2224,679 @@
         {
           "__type": "Sandbox.SpawnPoint",
           "__guid": "a8548270-299c-4a4e-ae2f-b6112740d5ad",
+          "__enabled": true,
+          "Color": "0.8902,0.31765,0.05098,1",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "3eb7ff2b-dbbf-4db3-9cd0-b1c029c687eb",
+      "__version": 1,
+      "Flags": 0,
+      "Name": "industrial_light01",
+      "Position": "-779.9999,-731.9999,2508.154",
+      "Rotation": "0,0.9999999,0,0",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.Prop",
+          "__guid": "dc70d446-9315-40ff-a1af-6e65f137a03c",
+          "__enabled": true,
+          "BodyGroups": 18446744073709551615,
+          "Health": 0,
+          "IsStatic": true,
+          "MaterialGroup": "default",
+          "Model": "models/industrial_lights01/industrial_light01.vmdl",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnPropBreak": null,
+          "OnPropTakeDamage": null,
+          "StartAsleep": false,
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "4d970438-315e-4521-9c89-1747fbecd0d0",
+          "__enabled": true,
+          "BodyGroups": 18446744073709551615,
+          "CreateAttachments": false,
+          "MaterialGroup": "default",
+          "MaterialOverride": null,
+          "Materials": null,
+          "Model": "models/industrial_lights01/industrial_light01.vmdl",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "Off",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "Sandbox.ModelCollider",
+          "__guid": "c0494b71-a852-48da-b99f-315da57df59d",
+          "__enabled": true,
+          "Elasticity": null,
+          "Friction": null,
+          "IsTrigger": false,
+          "Model": "models/industrial_lights01/industrial_light01.vmdl",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
+          "RollingResistance": null,
+          "Static": true,
+          "Surface": null,
+          "SurfaceVelocity": "0,0,0"
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "08f9dfc0-5675-4ab3-8539-25d00fbf41a7",
+      "__version": 1,
+      "Flags": 0,
+      "Name": "Screamer",
+      "Position": "-975.9999,-731.9999,2508",
+      "Rotation": "0,0.9999999,0,0",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
+      "Components": [],
+      "Children": [
+        {
+          "__guid": "a1c37ba9-5b91-41de-a6e1-3d9f5d0ad438",
+          "__version": 1,
+          "Flags": 0,
+          "Name": "industrial_light01",
+          "Position": "0.0002441407,0,-0.1535645",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.Prop",
+              "__guid": "375da347-6f96-4a97-9cc3-ed4c5af64fc8",
+              "__enabled": true,
+              "BodyGroups": 18446744073709551615,
+              "Health": 0,
+              "IsStatic": true,
+              "MaterialGroup": "default",
+              "Model": "models/industrial_lights01/industrial_light01.vmdl",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "OnPropBreak": null,
+              "OnPropTakeDamage": null,
+              "StartAsleep": false,
+              "Tint": "1,1,1,1"
+            },
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "a1d6640c-6a4f-4e06-b55d-4f6c1d927f8f",
+              "__enabled": true,
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "MaterialGroup": "default",
+              "MaterialOverride": null,
+              "Materials": null,
+              "Model": "models/industrial_lights01/industrial_light01.vmdl",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "Off",
+              "Tint": "1,1,1,1"
+            },
+            {
+              "__type": "Sandbox.ModelCollider",
+              "__guid": "27a0b02e-5bf8-4f17-ae40-76e9d6d3a130",
+              "__enabled": true,
+              "Elasticity": null,
+              "Friction": null,
+              "IsTrigger": false,
+              "Model": "models/industrial_lights01/industrial_light01.vmdl",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "OnObjectTriggerEnter": null,
+              "OnObjectTriggerExit": null,
+              "OnTriggerEnter": null,
+              "OnTriggerExit": null,
+              "RollingResistance": null,
+              "Static": true,
+              "Surface": null,
+              "SurfaceVelocity": "0,0,0"
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "abef306c-c144-4dd0-9aa4-191f62c8dd11",
+          "__version": 1,
+          "Flags": 0,
+          "Name": "Point Light Destroy Sound",
+          "Position": "0.0001220703,-0.0001220703,16.00025",
+          "Rotation": "0,-1,0,0",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.SoundPointComponent",
+              "__guid": "7f14c484-48e1-4aa6-82a5-b10f1d895a09",
+              "__enabled": true,
+              "Distance": 512,
+              "DistanceAttenuation": false,
+              "DistanceAttenuationOverride": false,
+              "Falloff": [
+                {
+                  "x": 0,
+                  "y": 1,
+                  "in": 3.1415927,
+                  "out": -3.1415927,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "Force2d": false,
+              "MaxRepeatTime": 1,
+              "MinRepeatTime": 1,
+              "Occlusion": false,
+              "OcclusionOverride": false,
+              "OcclusionRadius": 32,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Pitch": 1,
+              "PlayOnStart": false,
+              "ReflectionOverride": false,
+              "Reflections": false,
+              "Repeat": false,
+              "SoundEvent": "sounds/light/light bulb drop.sound",
+              "SoundOverride": false,
+              "StopOnNew": false,
+              "TargetMixer": {
+                "Name": "game",
+                "Id": "96e39959-f5db-4ba9-9a04-466eb03bfc64"
+              },
+              "Volume": 1
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "73f67584-92d8-4df2-a87e-afed9283e1c0",
+          "__version": 1,
+          "Flags": 0,
+          "Name": "Point Light Destroy",
+          "Position": "0.0001220703,-0.0001220703,20.00025",
+          "Rotation": "0,-1,0,0",
+          "Scale": "1,1,1",
+          "Tags": "light_point,light",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.PointLight",
+              "__guid": "b970a02d-6b32-455e-9cbf-426732a01b55",
+              "__enabled": true,
+              "Attenuation": 1,
+              "FogMode": "Enabled",
+              "FogStrength": 1,
+              "LightColor": "0.91373,0.98039,1,1",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Radius": 250,
+              "Shadows": true
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "82eb98d6-abcf-4d74-8e3c-f635c463087b",
+          "__version": 1,
+          "Flags": 0,
+          "Name": "Trigger destroy light",
+          "Position": "34.00013,-2.000123,80.00026",
+          "Rotation": "0,-1,0,0",
+          "Scale": "1,1,1",
+          "Tags": "trigger",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.MeshComponent",
+              "__guid": "4368001f-7642-4ac3-9e52-d079b077a379",
+              "__enabled": true,
+              "Collision": "Mesh",
+              "Color": "1,1,1,1",
+              "Elasticity": null,
+              "Friction": null,
+              "HideInGame": true,
+              "IsTrigger": true,
+              "Mesh": {
+                "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
+                "Position": "-1010,-734,2428",
+                "Rotation": "0,0,0,1",
+                "Positions": [
+                  "-42,-42,48",
+                  "42,-42,48",
+                  "42,42,48",
+                  "-42,42,48",
+                  "-42,42,-48",
+                  "42,42,-48",
+                  "42,-42,-48",
+                  "-42,-42,-48"
+                ],
+                "TextureCoord": [
+                  "0.328125,0.328125",
+                  "-0.328125,-0.375",
+                  "0.328125,-0.328125",
+                  "-0.328125,-0.375",
+                  "-0.328125,-0.328125",
+                  "-0.328125,-0.375",
+                  "-0.328125,0.328125",
+                  "-0.328125,-0.375",
+                  "0.328125,-0.328125",
+                  "0.328125,0.375",
+                  "0.328125,0.328125",
+                  "0.328125,0.375",
+                  "-0.328125,0.328125",
+                  "0.328125,0.375",
+                  "-0.328125,-0.328125",
+                  "0.328125,0.375",
+                  "0.328125,-0.375",
+                  "-0.328125,0.375",
+                  "-0.328125,0.375",
+                  "0.328125,-0.375",
+                  "-0.328125,0.375",
+                  "0.328125,-0.375",
+                  "0.328125,-0.375",
+                  "-0.328125,0.375"
+                ],
+                "TextureUAxis": [
+                  "1,0,0",
+                  "1,0,-0",
+                  "0,-1,0",
+                  "0,1,0",
+                  "-1,0,0",
+                  "1,-0,0"
+                ],
+                "TextureVAxis": [
+                  "0,-1,0",
+                  "0,-1,0",
+                  "0,0,-1",
+                  "-0,0,-1",
+                  "0,0,-1",
+                  "-0,0,-1"
+                ],
+                "TextureScale": [
+                  "0.25,0.25",
+                  "0.25,0.25",
+                  "0.25,0.25",
+                  "0.25,0.25",
+                  "0.25,0.25",
+                  "0.25,0.25"
+                ],
+                "TextureOffset": [
+                  "456,136",
+                  "456,136",
+                  "136,496",
+                  "376,496",
+                  "56,496",
+                  "456,496"
+                ],
+                "MaterialIndex": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "EdgeFlags": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "Materials": [
+                  "materials/dev/reflectivity_30.vmat"
+                ]
+              },
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "OnObjectTriggerEnter": null,
+              "OnObjectTriggerExit": null,
+              "OnTriggerEnter": {
+                "__version": 9,
+                "__guid": "fe96b13f-f4cf-4f23-9ab5-3de17d94f61d",
+                "__changeId": 76,
+                "UserData": {
+                  "Title": "On Collider Enter",
+                  "ReferencedComponentTypes": []
+                },
+                "Variables": [],
+                "Nodes": [
+                  {
+                    "Id": 0,
+                    "Type": "input"
+                  },
+                  {
+                    "Id": 2,
+                    "Type": "scene.ref",
+                    "UserData": {
+                      "Position": "768,108"
+                    }
+                  },
+                  {
+                    "Id": 3,
+                    "Type": "call",
+                    "Properties": {
+                      "_isStatic": false,
+                      "_name": "Destroy",
+                      "_type": "Sandbox.Component"
+                    },
+                    "UserData": {
+                      "Position": "912,0"
+                    }
+                  },
+                  {
+                    "Id": 16,
+                    "Type": "time.delay",
+                    "UserData": {
+                      "Position": "216,0"
+                    }
+                  },
+                  {
+                    "Id": 20,
+                    "Type": "scene.ref",
+                    "UserData": {
+                      "Position": "312,96"
+                    }
+                  },
+                  {
+                    "Id": 21,
+                    "Type": "call",
+                    "Properties": {
+                      "_isStatic": false,
+                      "_name": "StartSound",
+                      "_type": "Sandbox.SoundPointComponent"
+                    },
+                    "UserData": {
+                      "Position": "444,-0"
+                    }
+                  },
+                  {
+                    "Id": 22,
+                    "Type": "time.delay",
+                    "UserData": {
+                      "Position": "684,0"
+                    }
+                  },
+                  {
+                    "Id": 28,
+                    "Type": "call",
+                    "Properties": {
+                      "_isStatic": false,
+                      "_name": "Destroy",
+                      "_type": "Sandbox.GameObject"
+                    },
+                    "UserData": {
+                      "Position": "1476,0"
+                    }
+                  },
+                  {
+                    "Id": 33,
+                    "Type": "property",
+                    "Properties": {
+                      "_kind": "Set",
+                      "_name": "MaterialGroup",
+                      "_type": "Sandbox.Prop"
+                    },
+                    "UserData": {
+                      "Position": "1152,12"
+                    }
+                  },
+                  {
+                    "Id": 34,
+                    "Type": "scene.ref",
+                    "ParentId": 33
+                  }
+                ],
+                "Links": [
+                  {
+                    "SrcId": 22,
+                    "SrcName": "_signal",
+                    "DstId": 3,
+                    "DstName": "_signal"
+                  },
+                  {
+                    "SrcId": 2,
+                    "SrcName": "_result",
+                    "DstId": 3,
+                    "DstName": "_target"
+                  },
+                  {
+                    "SrcId": 0,
+                    "SrcName": "_signal",
+                    "DstId": 16,
+                    "DstName": "_signal"
+                  },
+                  {
+                    "Id": 18,
+                    "Value": 0.5,
+                    "DstId": 16,
+                    "DstName": "seconds"
+                  },
+                  {
+                    "SrcId": 16,
+                    "SrcName": "_signal",
+                    "DstId": 21,
+                    "DstName": "_signal"
+                  },
+                  {
+                    "SrcId": 20,
+                    "SrcName": "_result",
+                    "DstId": 21,
+                    "DstName": "_target"
+                  },
+                  {
+                    "SrcId": 21,
+                    "SrcName": "_signal",
+                    "DstId": 22,
+                    "DstName": "_signal"
+                  },
+                  {
+                    "Id": 26,
+                    "Value": 0.15,
+                    "DstId": 22,
+                    "DstName": "seconds"
+                  },
+                  {
+                    "SrcId": 33,
+                    "SrcName": "_signal",
+                    "DstId": 28,
+                    "DstName": "_signal"
+                  },
+                  {
+                    "SrcId": 0,
+                    "SrcName": "_target",
+                    "DstId": 28,
+                    "DstName": "_target"
+                  },
+                  {
+                    "SrcId": 3,
+                    "SrcName": "_signal",
+                    "DstId": 33,
+                    "DstName": "_signal"
+                  },
+                  {
+                    "SrcId": 34,
+                    "SrcName": "_result",
+                    "DstId": 33,
+                    "DstName": "_target"
+                  },
+                  {
+                    "Id": 37,
+                    "Value": "off",
+                    "DstId": 33,
+                    "DstName": "_value"
+                  }
+                ],
+                "Defaults": {
+                  "$2.component": {
+                    "_type": "component",
+                    "component_id": "b970a02d-6b32-455e-9cbf-426732a01b55",
+                    "go": "73f67584-92d8-4df2-a87e-afed9283e1c0",
+                    "component_type": "PointLight"
+                  },
+                  "$34.component": {
+                    "_type": "component",
+                    "component_id": "375da347-6f96-4a97-9cc3-ed4c5af64fc8",
+                    "go": "a1c37ba9-5b91-41de-a6e1-3d9f5d0ad438",
+                    "component_type": "Prop"
+                  },
+                  "$20.component": {
+                    "_type": "component",
+                    "component_id": "7f14c484-48e1-4aa6-82a5-b10f1d895a09",
+                    "go": "abef306c-c144-4dd0-9aa4-191f62c8dd11",
+                    "component_type": "SoundPointComponent"
+                  }
+                }
+              },
+              "OnTriggerExit": null,
+              "RenderType": "Off",
+              "RollingResistance": null,
+              "SmoothingAngle": 40,
+              "Static": true,
+              "Surface": null,
+              "SurfaceVelocity": "0,0,0"
+            }
+          ],
+          "Children": []
+        }
+      ]
+    },
+    {
+      "__guid": "65ddef21-beef-4577-8bcd-330ea2a41c76",
+      "__version": 1,
+      "Flags": 0,
+      "Name": "Spawn",
+      "Position": "-919.0967,-737.3216,2380.505",
+      "Rotation": "0,0,-1,0.0000001947072",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.SpawnPoint",
+          "__guid": "77553436-5f59-4fd5-82e8-f4484a7db75b",
           "__enabled": true,
           "Color": "0.8902,0.31765,0.05098,1",
           "OnComponentDestroy": null,
@@ -2264,6 +2931,8 @@
   "ResourceVersion": 3,
   "Title": null,
   "Description": null,
-  "__references": [],
+  "__references": [
+    "saandy.industrial_light01#27009"
+  ],
   "__version": 3
 }
