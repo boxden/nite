@@ -831,9 +831,18 @@
               {
                 "Track": "5130f1d3-bc74-4ad0-b448-a98c8b9a40e9",
                 "Reference": "02e4941c-da52-4c25-87da-aa92393a52ac"
+              },
+              {
+                "Track": "58fdb4a2-79e6-4ab8-aaa6-659e21d6fde5",
+                "Reference": "09936bec-ba73-4ca1-a94b-767c6a837028"
               }
             ],
-            "Components": []
+            "Components": [
+              {
+                "Track": "a1c36c74-db6b-495c-8eaa-636d111b6333",
+                "Reference": "4014c455-224c-4bc8-951f-134bc18c2550"
+              }
+            ]
           },
           "IsLooping": true,
           "IsPlaying": true,
@@ -847,6 +856,39 @@
           "Resource": {
             "Compiled": {
               "Tracks": [
+                {
+                  "Kind": "Reference",
+                  "Name": "Point Light",
+                  "Type": "Sandbox.GameObject",
+                  "Id": "58fdb4a2-79e6-4ab8-aaa6-659e21d6fde5",
+                  "ReferenceId": "09936bec-ba73-4ca1-a94b-767c6a837028",
+                  "Children": [
+                    {
+                      "Kind": "Reference",
+                      "Name": "PointLight",
+                      "Type": "Sandbox.PointLight",
+                      "Id": "a1c36c74-db6b-495c-8eaa-636d111b6333",
+                      "ReferenceId": "4014c455-224c-4bc8-951f-134bc18c2550",
+                      "Children": [
+                        {
+                          "Kind": "Property",
+                          "Name": "Radius",
+                          "Type": "System.Single",
+                          "Blocks": [
+                            {
+                              "TimeRange": {
+                                "Start": 0,
+                                "End": 28800
+                              },
+                              "SampleRate": 30,
+                              "Samples": "H4sIAAAAAAACChWTf0zMcRzGv21m2dooZsuPzWKNxHCxUcz2lN11V0KaJmo137RaIqRhrrRzXCUh19FKWuiUdOX0S13pzh99/cj4wxR/0MxsZfJjTPN+7p/b99f787yf5/VMKvw9Rd0iH8YWe6HNGMLpkUEo1gGooR54WvoQEvIYjqIebHzWhcBZndDp3GiN60B1sgvKngf4YbgP65pmaAFOjLy/g6amRqi5DZgfXg/tYy0c1TUoN15Hz187dM4qzNx7BTEBlVD6LyK2oEzm2aBNWbG814KkshKoajFyDGZM5J5CRMYJeA8fxfCNPKjjOXAnZGFs9ACUinRsyUpFd3aKzE/Gn6kk+JkToUXtxNlVCYhOjEeEy4QjJqPoj0XmBgPSbHroluqhKHqsDdPjQ6Nc5xuwqzQWByeMMicOc6zb8c29Q3ZPhP1FEppdydCGU7AkOA3Pr2ZA2ZqJ0XnZuBB4SHTnY/p4Aea+PQkt3Ix9hcWIf1ki98/hZs15rJxdCtVSjnG/S4gyX5ZzqzB4xo6F0w44CmvwerIW+9PFo+EGtK2+jVuWu9C9cuJXUAuKo1vFhzZsKmhH5bGHUNIeIXh9F/K+d4vOXqwI7UP7tX5oXz3wXzaI35FP5NwhmPy9eNPphbrNh4p7Pnz+4gPz5T+veZ/P+R7f53f8nnM4L0zmcj7P4Xk8l+dHig7qKRJdP0UfdVIvdVN/quzBfbjXAtmPe3LfzbL3J9mfPtCPevGF/tAn+kXfgsS/f+Ij/bSJr+/EX/pMv+k7/WcOzIO5MB/mxLyYG/NjjsyTuTJf5sy8mTvzJwfkIUa4IB/kRBFeyA356RGOyBO5Il8dwhl504Q7n/C3Tjgkj+SSfO4WTskruSW/5Jg8RwvX5Juck3dyT/7ZA/aBvXBKP9gT9oW9YX/YI/aJvWK/2DP2jb1j/wakh+wje8l+sqfsK3v7H/zNavLEAwAA"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
                 {
                   "Kind": "Reference",
                   "Name": "swing01a",
@@ -877,6 +919,64 @@
               "SampleRate": 30,
               "Duration": 28800,
               "Tracks": {
+                "a1c36c74-db6b-495c-8eaa-636d111b6333": {
+                  "$type": "Reference",
+                  "ReferenceId": "4014c455-224c-4bc8-951f-134bc18c2550",
+                  "Name": "PointLight",
+                  "TargetType": "Sandbox.PointLight",
+                  "ParentId": "58fdb4a2-79e6-4ab8-aaa6-659e21d6fde5"
+                },
+                "1d4416a4-671c-4384-ba94-fdbfd4321d87": {
+                  "$type": "Property",
+                  "Name": "Radius",
+                  "TargetType": "System.Single",
+                  "ParentId": "a1c36c74-db6b-495c-8eaa-636d111b6333",
+                  "Blocks": [
+                    {
+                      "TimeRange": {
+                        "Start": 0,
+                        "End": 28800
+                      },
+                      "Signal": {
+                        "$id": 1,
+                        "$type": "Keyframes",
+                        "Keyframes": [
+                          {
+                            "Time": 0,
+                            "Value": 400,
+                            "Interpolation": "Cubic"
+                          },
+                          {
+                            "Time": 7200,
+                            "Value": 200,
+                            "Interpolation": "Cubic"
+                          },
+                          {
+                            "Time": 14400,
+                            "Value": 400,
+                            "Interpolation": "Cubic"
+                          },
+                          {
+                            "Time": 21600,
+                            "Value": 200,
+                            "Interpolation": "Cubic"
+                          },
+                          {
+                            "Time": 28800,
+                            "Value": 400,
+                            "Interpolation": "Cubic"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                "58fdb4a2-79e6-4ab8-aaa6-659e21d6fde5": {
+                  "$type": "Reference",
+                  "ReferenceId": "09936bec-ba73-4ca1-a94b-767c6a837028",
+                  "Name": "Point Light",
+                  "TargetType": "Sandbox.GameObject"
+                },
                 "2ae0058d-01a9-493b-8553-e4aed07ac1bb": {
                   "$type": "Property",
                   "Name": "LocalRotation",
@@ -923,7 +1023,7 @@
               "References": []
             }
           },
-          "TimeScale": 2
+          "TimeScale": 1
         }
       ],
       "Children": []
