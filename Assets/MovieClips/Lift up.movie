@@ -1,0 +1,85 @@
+{
+  "EditorData": {
+    "SampleRate": 30,
+    "Duration": 90000,
+    "Tracks": {
+      "ca6002b5-9a51-48b6-912f-42e1df74bd65": {
+        "$type": "Property",
+        "Name": "LocalPosition",
+        "TargetType": "Vector3",
+        "ParentId": "02695371-1ed0-499f-9820-23a59c1b6fe9",
+        "Blocks": [
+          {
+            "TimeRange": {
+              "Start": 7200,
+              "End": 90000
+            },
+            "Signal": {
+              "$id": 1,
+              "$type": "Keyframes",
+              "Keyframes": [
+                {
+                  "Time": 7200,
+                  "Value": "-1016.339,-885.0626,63.37832",
+                  "Interpolation": "Cubic"
+                },
+                {
+                  "Time": 90000,
+                  "Value": "-1016.339,-885.0626,2443.433",
+                  "Interpolation": "Cubic"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "02695371-1ed0-499f-9820-23a59c1b6fe9": {
+        "$type": "Reference",
+        "ReferenceId": "fc5fcd1d-2818-4001-884a-3d58ee1c8bee",
+        "Name": "Lift",
+        "TargetType": "Sandbox.GameObject"
+      },
+      "38577e97-8ee9-4dfd-982a-5a02ed065c32": {
+        "$type": "Property",
+        "Name": "LocalPosition",
+        "TargetType": "Vector3",
+        "ParentId": "031dba6a-5d86-4fae-acff-fb8383f8fd93",
+        "Blocks": [
+          {
+            "TimeRange": {
+              "Start": 720,
+              "End": 6480
+            },
+            "Signal": {
+              "$id": 1,
+              "$type": "Keyframes",
+              "Keyframes": [
+                {
+                  "Time": 720,
+                  "Value": "92.33862,83.06262,-15.05522",
+                  "Interpolation": "Linear"
+                },
+                {
+                  "Time": 6480,
+                  "Value": "6.796997,83.06262,-15.05522",
+                  "Interpolation": "Linear"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "031dba6a-5d86-4fae-acff-fb8383f8fd93": {
+        "$type": "Reference",
+        "ReferenceId": "2181388e-57b5-43ef-a308-bf2a423aad7d",
+        "Name": "Open door",
+        "TargetType": "Sandbox.GameObject",
+        "ParentId": "02695371-1ed0-499f-9820-23a59c1b6fe9"
+      }
+    },
+    "Sources": {},
+    "References": []
+  },
+  "__references": [],
+  "__version": 0
+}
