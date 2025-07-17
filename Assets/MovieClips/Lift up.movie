@@ -3,6 +3,42 @@
     "SampleRate": 30,
     "Duration": 95400,
     "Tracks": {
+      "4f7bb85a-e684-40c4-8e81-f588c7c3bf03": {
+        "$type": "Reference",
+        "ReferenceId": "e337bf9d-aa64-420b-9fe1-797fd8a26940",
+        "Name": "Door 1st floor",
+        "TargetType": "Sandbox.GameObject"
+      },
+      "2239d66b-af65-4240-a4ee-4fdcb3a4306e": {
+        "$type": "Property",
+        "Name": "LocalPosition",
+        "TargetType": "Vector3",
+        "ParentId": "4f7bb85a-e684-40c4-8e81-f588c7c3bf03",
+        "Blocks": [
+          {
+            "TimeRange": {
+              "Start": 720,
+              "End": 6480
+            },
+            "Signal": {
+              "$id": 1,
+              "$type": "Keyframes",
+              "Keyframes": [
+                {
+                  "Time": 720,
+                  "Value": "-924.0004,-796,48.3231",
+                  "Interpolation": "Linear"
+                },
+                {
+                  "Time": 6480,
+                  "Value": "-1008.993,-796,48.3231",
+                  "Interpolation": "Linear"
+                }
+              ]
+            }
+          }
+        ]
+      },
       "19a94d49-877e-4a89-95d5-0df50865bd49": {
         "$type": "Property",
         "Name": "SoundEvent",
@@ -62,7 +98,7 @@
                 },
                 {
                   "Time": 90000,
-                  "Value": "-1016.339,-885.0626,2443.433",
+                  "Value": "-1016.339,-885.0626,2443",
                   "Interpolation": "Cubic"
                 }
               ]
