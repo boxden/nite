@@ -1,7 +1,7 @@
 {
   "EditorData": {
     "SampleRate": 30,
-    "Duration": 95400,
+    "Duration": 5400,
     "Tracks": {
       "4f7bb85a-e684-40c4-8e81-f588c7c3bf03": {
         "$type": "Reference",
@@ -17,154 +17,27 @@
         "Blocks": [
           {
             "TimeRange": {
-              "Start": 720,
-              "End": 6480
+              "Start": 0,
+              "End": 5400
             },
             "Signal": {
               "$id": 1,
               "$type": "Keyframes",
               "Keyframes": [
                 {
-                  "Time": 720,
-                  "Value": "-924.0004,-796,48.3231",
-                  "Interpolation": "Linear"
-                },
-                {
-                  "Time": 6480,
+                  "Time": 0,
                   "Value": "-1008.993,-796,48.3231",
                   "Interpolation": "Linear"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      "19a94d49-877e-4a89-95d5-0df50865bd49": {
-        "$type": "Property",
-        "Name": "SoundEvent",
-        "TargetType": "Sandbox.SoundEvent",
-        "ParentId": "d1450aa1-b208-4bf7-8164-ff3498d0d8ea",
-        "Blocks": [
-          {
-            "TimeRange": {
-              "Start": 90360,
-              "End": 91440
-            },
-            "Signal": {
-              "$id": 1,
-              "$type": "Keyframes",
-              "Keyframes": [
-                {
-                  "Time": 90360,
-                  "Value": "sounds/elevator/doors/opening old elevator door.sound",
-                  "Interpolation": "Cubic"
                 },
                 {
-                  "Time": 91440,
-                  "Value": "sounds/1071160110.sound",
-                  "Interpolation": "Cubic"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      "034e928d-9db6-441a-8e20-37469631e5f3": {
-        "$type": "Reference",
-        "ReferenceId": "07f48bf9-ce1a-42c0-a855-0545a1400053",
-        "Name": "Opening",
-        "TargetType": "Sandbox.GameObject",
-        "ParentId": "031dba6a-5d86-4fae-acff-fb8383f8fd93"
-      },
-      "ca6002b5-9a51-48b6-912f-42e1df74bd65": {
-        "$type": "Property",
-        "Name": "LocalPosition",
-        "TargetType": "Vector3",
-        "ParentId": "02695371-1ed0-499f-9820-23a59c1b6fe9",
-        "Blocks": [
-          {
-            "TimeRange": {
-              "Start": 7200,
-              "End": 90000
-            },
-            "Signal": {
-              "$id": 1,
-              "$type": "Keyframes",
-              "Keyframes": [
-                {
-                  "Time": 7200,
-                  "Value": "-1016.339,-885.0626,63.37832",
-                  "Interpolation": "Cubic"
-                },
-                {
-                  "Time": 90000,
-                  "Value": "-1016.339,-885.0626,2443",
-                  "Interpolation": "Cubic"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      "02695371-1ed0-499f-9820-23a59c1b6fe9": {
-        "$type": "Reference",
-        "ReferenceId": "fc5fcd1d-2818-4001-884a-3d58ee1c8bee",
-        "Name": "Lift",
-        "TargetType": "Sandbox.GameObject"
-      },
-      "d1450aa1-b208-4bf7-8164-ff3498d0d8ea": {
-        "$type": "Reference",
-        "ReferenceId": "adacd898-d87e-4329-8546-2e4272b08116",
-        "Name": "SoundPointComponent",
-        "TargetType": "Sandbox.SoundPointComponent",
-        "ParentId": "034e928d-9db6-441a-8e20-37469631e5f3"
-      },
-      "38577e97-8ee9-4dfd-982a-5a02ed065c32": {
-        "$type": "Property",
-        "Name": "LocalPosition",
-        "TargetType": "Vector3",
-        "ParentId": "031dba6a-5d86-4fae-acff-fb8383f8fd93",
-        "Blocks": [
-          {
-            "TimeRange": {
-              "Start": 720,
-              "End": 95400
-            },
-            "Signal": {
-              "$id": 1,
-              "$type": "Keyframes",
-              "Keyframes": [
-                {
-                  "Time": 720,
-                  "Value": "92.33862,83.06262,-15.05522",
-                  "Interpolation": "Linear"
-                },
-                {
-                  "Time": 6480,
-                  "Value": "6.796997,83.06262,-15.05522",
-                  "Interpolation": "Linear"
-                },
-                {
-                  "Time": 90720,
-                  "Value": "6.796997,83.06262,-15.05522",
-                  "Interpolation": "Linear"
-                },
-                {
-                  "Time": 95400,
-                  "Value": "92.33862,83.06262,-15.05522",
+                  "Time": 5400,
+                  "Value": "-924.0004,-796,48.3231",
                   "Interpolation": "Linear"
                 }
               ]
             }
           }
         ]
-      },
-      "031dba6a-5d86-4fae-acff-fb8383f8fd93": {
-        "$type": "Reference",
-        "ReferenceId": "2181388e-57b5-43ef-a308-bf2a423aad7d",
-        "Name": "Open door",
-        "TargetType": "Sandbox.GameObject",
-        "ParentId": "02695371-1ed0-499f-9820-23a59c1b6fe9"
       }
     },
     "Sources": {},

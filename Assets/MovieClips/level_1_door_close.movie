@@ -1,0 +1,48 @@
+{
+  "EditorData": {
+    "SampleRate": 30,
+    "Duration": 5400,
+    "Tracks": {
+      "68cbe1ec-8631-48ca-a5d7-dbf9aef19f42": {
+        "$type": "Reference",
+        "ReferenceId": "e337bf9d-aa64-420b-9fe1-797fd8a26940",
+        "Name": "Door 1st floor",
+        "TargetType": "Sandbox.GameObject"
+      },
+      "2cd5f7b5-2fff-4a5d-b60b-d259100b6dfe": {
+        "$type": "Property",
+        "Name": "LocalPosition",
+        "TargetType": "Vector3",
+        "ParentId": "68cbe1ec-8631-48ca-a5d7-dbf9aef19f42",
+        "Blocks": [
+          {
+            "TimeRange": {
+              "Start": 0,
+              "End": 5400
+            },
+            "Signal": {
+              "$id": 1,
+              "$type": "Keyframes",
+              "Keyframes": [
+                {
+                  "Time": 0,
+                  "Value": "-924.0004,-796,48.3231",
+                  "Interpolation": "Linear"
+                },
+                {
+                  "Time": 5400,
+                  "Value": "-1007.104,-796,48.3231",
+                  "Interpolation": "Linear"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "Sources": {},
+    "References": []
+  },
+  "__references": [],
+  "__version": 0
+}
