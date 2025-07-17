@@ -1005,41 +1005,6 @@
           "Children": []
         },
         {
-          "__guid": "d52f50b0-6a01-4372-a82d-917a6074d8e9",
-          "__version": 1,
-          "Flags": 0,
-          "Name": "Point Light",
-          "Position": "-12,4,2430.394",
-          "Rotation": "0,0,0,1",
-          "Scale": "1,1,1",
-          "Tags": "light_point,light",
-          "Enabled": true,
-          "NetworkMode": 2,
-          "NetworkInterpolation": true,
-          "NetworkOrphaned": 0,
-          "OwnerTransfer": 1,
-          "Components": [
-            {
-              "__type": "Sandbox.PointLight",
-              "__guid": "2a605181-697c-4182-892a-5076cb20f53c",
-              "__enabled": true,
-              "Attenuation": 1,
-              "FogMode": "Enabled",
-              "FogStrength": 1,
-              "LightColor": "0.91373,0.98039,1,1",
-              "OnComponentDestroy": null,
-              "OnComponentDisabled": null,
-              "OnComponentEnabled": null,
-              "OnComponentFixedUpdate": null,
-              "OnComponentStart": null,
-              "OnComponentUpdate": null,
-              "Radius": 250,
-              "Shadows": true
-            }
-          ],
-          "Children": []
-        },
-        {
           "__guid": "6574080c-1aaa-4853-8b6e-ca11493c4d1d",
           "__version": 1,
           "Flags": 0,
@@ -1212,7 +1177,7 @@
               "1,0,0",
               "0.0000008291943,-1,0",
               "-0.0000008291943,1,0",
-              "-1,0,0",
+              "-1,-0,0",
               "1,-0,0",
               "-1,0,0",
               "-1,-0.000008335904,0",
@@ -1225,39 +1190,39 @@
               "0,-1,-0.00000007773696",
               "0,0,-1",
               "0,0,-1",
-              "0,-0,-1",
+              "-0.0000002050418,0,-1",
               "-0,0,-1",
               "0,0,-1",
-              "0,0,-1",
-              "0,0,-1",
-              "0,-0,-1",
-              "0,0,-1"
+              "0.0000002604974,0.000000000002171481,-1",
+              "-0.0000002050423,0,-1",
+              "0.00000006888794,-0.00000000000007592823,-1",
+              "0.0000002604974,0.000000000002171481,-1"
             ],
             "TextureScale": [
-              "4,4",
-              "4,4",
-              "4,4",
-              "4,4",
-              "4,4",
+              "4,3.999999",
+              "4,3.999999",
+              "3.999999,4",
+              "3.999999,4",
+              "3.999987,4",
               "4,4",
               "0.25,0.25",
               "4,4",
-              "4,4",
-              "4,4",
+              "3.999987,3.999998",
+              "4.000002,3.999999",
               "4,4"
             ],
             "TextureOffset": [
-              "30.08475,2.734344",
-              "30.08475,2.734344",
-              "2.734573,15.84458",
-              "29.26546,15.84458",
-              "1.915253,15.84458",
+              "30.08475,2.734253",
+              "30.08475,2.734253",
+              "2.734482,15.84458",
+              "29.26555,15.84458",
+              "1.91449,15.84453",
               "30.08475,15.84458",
               "32,256.0073",
-              "1.913605,15.84458",
-              "1.915253,15.84458",
-              "1.915466,15.84458",
-              "1.913605,15.84458"
+              "1.913605,15.84465",
+              "1.914459,15.84454",
+              "1.915619,15.84461",
+              "1.913605,15.84465"
             ],
             "MaterialIndex": [
               2,
@@ -1351,7 +1316,7 @@
           "__type": "Sandbox.BoxCollider",
           "__guid": "02db7b9d-8844-467f-a8f4-fd63ab5a1980",
           "__enabled": true,
-          "Center": "-0.5185699,10.02828,-63.06746",
+          "Center": "-0.5185699,13.29867,-65.21329",
           "Elasticity": null,
           "Friction": null,
           "IsTrigger": false,
@@ -1366,7 +1331,7 @@
           "OnTriggerEnter": null,
           "OnTriggerExit": null,
           "RollingResistance": null,
-          "Scale": "145.3896,140.2117,3.301826",
+          "Scale": "145.3896,146.7525,4.682556",
           "Static": false,
           "Surface": null,
           "SurfaceVelocity": "0,0,0"
@@ -1533,10 +1498,10 @@
                   "0.25,0.25"
                 ],
                 "TextureOffset": [
+                  "497.3562,59.74925",
                   "497.3562,59.74927",
-                  "497.3562,59.74927",
-                  "59.74927,136.9345",
-                  "452.2507,136.9345",
+                  "59.74976,136.9345",
+                  "452.2502,136.9345",
                   "14.6438,136.9345",
                   "497.3562,136.9345"
                 ],
@@ -1771,7 +1736,7 @@
           "__version": 1,
           "Flags": 0,
           "Name": "Open door",
-          "Position": "92.33862,83.06262,-15.05522",
+          "Position": "81.64592,83.06262,-15.05522",
           "Rotation": "0,0,0,1",
           "Scale": "1,1,1",
           "Tags": "",
@@ -1793,7 +1758,7 @@
               "IsTrigger": false,
               "Mesh": {
                 "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
-                "Position": "-924.0004,-802,48.3231",
+                "Position": "-934.6931,-802,48.3231",
                 "Rotation": "0,0,0,1",
                 "Positions": [
                   "-45.54163,-2,48",
@@ -1856,12 +1821,12 @@
                   "0.25,0.25"
                 ],
                 "TextureOffset": [
-                  "113.835,376",
-                  "113.835,376",
+                  "156.6057,376",
+                  "156.6057,376",
                   "376,193.2924",
                   "136,193.2924",
-                  "398.165,193.2924",
-                  "113.835,193.2924"
+                  "355.3943,193.2924",
+                  "156.6057,193.2924"
                 ],
                 "MaterialIndex": [
                   0,
@@ -1975,7 +1940,7 @@
                   "ReflectionOverride": false,
                   "Reflections": false,
                   "Repeat": false,
-                  "SoundEvent": "sounds/elevator/doors/opening old elevator door.sound",
+                  "SoundEvent": "sounds/1071160110.sound",
                   "SoundOverride": false,
                   "StopOnNew": false,
                   "TargetMixer": {
@@ -2016,7 +1981,7 @@
               "IsTrigger": false,
               "Mesh": {
                 "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
-                "Position": "-1065,-802,48.3231",
+                "Position": "-1065,-802,48.32311",
                 "Rotation": "0,0,0,1",
                 "Positions": [
                   "-9,-2,48",
@@ -2178,6 +2143,10 @@
               {
                 "Track": "034e928d-9db6-441a-8e20-37469631e5f3",
                 "Reference": "07f48bf9-ce1a-42c0-a855-0545a1400053"
+              },
+              {
+                "Track": "4f7bb85a-e684-40c4-8e81-f588c7c3bf03",
+                "Reference": "e337bf9d-aa64-420b-9fe1-797fd8a26940"
               }
             ],
             "Components": [
@@ -2210,12 +2179,12 @@
       "__guid": "d25c64e5-702a-4585-a1a6-32271fbb4f2b",
       "__version": 1,
       "Flags": 0,
-      "Name": "Spawnpoint",
-      "Position": "-1008,-752,0",
+      "Name": "Spawn",
+      "Position": "-1008,-724.0001,0",
       "Rotation": "0,0,-0.7071067,0.7071068",
       "Scale": "1,1,1",
       "Tags": "",
-      "Enabled": false,
+      "Enabled": true,
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
@@ -2239,10 +2208,71 @@
     {
       "__guid": "3eb7ff2b-dbbf-4db3-9cd0-b1c029c687eb",
       "__version": 1,
+      "__Prefab": "prefabs/lightsystem01.prefab",
+      "__PrefabInstancePatch": {
+        "AddedObjects": [],
+        "RemovedObjects": [],
+        "PropertyOverrides": [
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "9ea2dc23-1d4a-4534-9e3e-652b481c2a82"
+            },
+            "Property": "Position",
+            "Value": "-779.9999,-731.9999,2508.154"
+          }
+        ],
+        "MovedObjects": []
+      },
+      "__PrefabIdToInstanceId": {
+        "9ea2dc23-1d4a-4534-9e3e-652b481c2a82": "3eb7ff2b-dbbf-4db3-9cd0-b1c029c687eb",
+        "bb5f904a-cf5a-4c36-9dd6-e94a1ad9db52": "dc70d446-9315-40ff-a1af-6e65f137a03c",
+        "9fa8a41d-c3ae-496d-bfb1-991b25e01008": "3e8dc031-09d6-4836-9b3e-f7d4974b3dc9",
+        "d80c3002-58fb-40a5-8f15-a668c1e45859": "735ec107-6fbb-426c-8aaa-fd2703be0c12"
+      }
+    },
+    {
+      "__guid": "d52f50b0-6a01-4372-a82d-917a6074d8e9",
+      "__version": 1,
       "Flags": 0,
-      "Name": "industrial_light01",
-      "Position": "-779.9999,-731.9999,2508.154",
-      "Rotation": "0,0.9999999,0,0",
+      "Name": "Point Light",
+      "Position": "-780,-732,2488",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "light_point,light",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.PointLight",
+          "__guid": "2a605181-697c-4182-892a-5076cb20f53c",
+          "__enabled": true,
+          "Attenuation": 1,
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Radius": 250,
+          "Shadows": true
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "661aaa48-cb79-470d-b249-ebcda722f611",
+      "__version": 1,
+      "Flags": 0,
+      "Name": "Door 1st floor fixed",
+      "Position": "-1065,-796,48.32311",
+      "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
       "Tags": "",
       "Enabled": true,
@@ -2252,58 +2282,125 @@
       "OwnerTransfer": 1,
       "Components": [
         {
-          "__type": "Sandbox.Prop",
-          "__guid": "dc70d446-9315-40ff-a1af-6e65f137a03c",
+          "__type": "Sandbox.MeshComponent",
+          "__guid": "e791bddf-e8c6-4975-b68f-adbc6c3f51b9",
           "__enabled": true,
-          "BodyGroups": 18446744073709551615,
-          "Health": 0,
-          "IsStatic": true,
-          "MaterialGroup": "default",
-          "Model": "models/industrial_lights01/industrial_light01.vmdl",
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "OnPropBreak": null,
-          "OnPropTakeDamage": null,
-          "StartAsleep": false,
-          "Tint": "1,1,1,1"
-        },
-        {
-          "__type": "Sandbox.ModelRenderer",
-          "__guid": "4d970438-315e-4521-9c89-1747fbecd0d0",
-          "__enabled": true,
-          "BodyGroups": 18446744073709551615,
-          "CreateAttachments": false,
-          "MaterialGroup": "default",
-          "MaterialOverride": null,
-          "Materials": null,
-          "Model": "models/industrial_lights01/industrial_light01.vmdl",
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "RenderOptions": {
-            "GameLayer": true,
-            "OverlayLayer": false,
-            "BloomLayer": false,
-            "AfterUILayer": false
-          },
-          "RenderType": "Off",
-          "Tint": "1,1,1,1"
-        },
-        {
-          "__type": "Sandbox.ModelCollider",
-          "__guid": "c0494b71-a852-48da-b99f-315da57df59d",
-          "__enabled": true,
+          "Collision": "Mesh",
+          "Color": "1,1,1,1",
           "Elasticity": null,
           "Friction": null,
+          "HideInGame": false,
           "IsTrigger": false,
-          "Model": "models/industrial_lights01/industrial_light01.vmdl",
+          "Mesh": {
+            "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
+            "Position": "-1065,-796,48.32311",
+            "Rotation": "0,0,0,1",
+            "Positions": [
+              "-9,-2,48",
+              "9,-2,48",
+              "9,2,48",
+              "-9,2,48",
+              "-9,2,-48",
+              "9,2,-48",
+              "9,-2,-48",
+              "-9,-2,-48"
+            ],
+            "TextureCoord": [
+              "-8.21875,7.015625",
+              "-8.359375,-0.375",
+              "-8.21875,6.984375",
+              "-6.015625,-0.375",
+              "-8.359375,6.984375",
+              "9.21875,-0.375",
+              "-8.359375,7.015625",
+              "6.984375,-0.375",
+              "-8.21875,6.984375",
+              "9.359375,0.375",
+              "-8.21875,7.015625",
+              "-5.984375,0.375",
+              "-8.359375,7.015625",
+              "-8.21875,0.375",
+              "-8.359375,6.984375",
+              "7.015625,0.375",
+              "7.015625,-0.375",
+              "-8.359375,0.375",
+              "6.984375,0.375",
+              "9.359375,-0.375",
+              "-6.015625,0.375",
+              "-8.21875,-0.375",
+              "-5.984375,-0.375",
+              "9.21875,0.375"
+            ],
+            "TextureUAxis": [
+              "1,0,0",
+              "1,0,-0",
+              "0,-1,0",
+              "0,1,0",
+              "-1,0,0",
+              "1,-0,0"
+            ],
+            "TextureVAxis": [
+              "0,-1,0",
+              "0,-1,0",
+              "0,0,-1",
+              "-0,0,-1",
+              "0,0,-1",
+              "-0,0,-1"
+            ],
+            "TextureScale": [
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25"
+            ],
+            "TextureOffset": [
+              "16,400",
+              "16,400",
+              "400,193.2924",
+              "112,193.2924",
+              "496,193.2924",
+              "16,193.2924"
+            ],
+            "MaterialIndex": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "EdgeFlags": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "Materials": [
+              "materials/dev/reflectivity_30.vmat"
+            ]
+          },
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
@@ -2314,7 +2411,164 @@
           "OnObjectTriggerExit": null,
           "OnTriggerEnter": null,
           "OnTriggerExit": null,
+          "RenderType": "On",
           "RollingResistance": null,
+          "SmoothingAngle": 40,
+          "Static": true,
+          "Surface": null,
+          "SurfaceVelocity": "0,0,0"
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "e337bf9d-aa64-420b-9fe1-797fd8a26940",
+      "__version": 1,
+      "Flags": 0,
+      "Name": "Door 1st floor",
+      "Position": "-934.6245,-796,48.3231",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.MeshComponent",
+          "__guid": "43352fcd-5e0f-4488-8691-9e61104cd1e1",
+          "__enabled": true,
+          "Collision": "Mesh",
+          "Color": "1,1,1,1",
+          "Elasticity": null,
+          "Friction": null,
+          "HideInGame": false,
+          "IsTrigger": false,
+          "Mesh": {
+            "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
+            "Position": "-934.6245,-796,48.3231",
+            "Rotation": "0,0,0,1",
+            "Positions": [
+              "-45.54163,-2,48",
+              "45.54163,-2,48",
+              "45.54163,2,48",
+              "-45.54163,2,48",
+              "-45.54163,2,-48",
+              "45.54163,2,-48",
+              "45.54163,-2,-48",
+              "-45.54163,-2,-48"
+            ],
+            "TextureCoord": [
+              "-6.640625,7.015625",
+              "-7.352213,-0.375",
+              "-6.640625,6.984375",
+              "-6.015625,-0.375",
+              "-7.352213,6.984375",
+              "7.640625,-0.375",
+              "-7.352213,7.015625",
+              "6.984375,-0.375",
+              "-6.640625,6.984375",
+              "8.352213,0.375",
+              "-6.640625,7.015625",
+              "-5.984375,0.375",
+              "-7.352213,7.015625",
+              "-6.640625,0.375",
+              "-7.352213,6.984375",
+              "7.015625,0.375",
+              "7.015625,-0.375",
+              "-7.352213,0.375",
+              "6.984375,0.375",
+              "8.352213,-0.375",
+              "-6.015625,0.375",
+              "-6.640625,-0.375",
+              "-5.984375,-0.375",
+              "7.640625,0.375"
+            ],
+            "TextureUAxis": [
+              "1,0,0",
+              "1,0,-0",
+              "0,-1,0",
+              "0,1,0",
+              "-1,0,0",
+              "1,-0,0"
+            ],
+            "TextureVAxis": [
+              "0,-1,0",
+              "0,-1,0",
+              "0,0,-1",
+              "-0,0,-1",
+              "0,0,-1",
+              "-0,0,-1"
+            ],
+            "TextureScale": [
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25"
+            ],
+            "TextureOffset": [
+              "156.3315,400",
+              "156.3315,400",
+              "400,193.2924",
+              "112,193.2924",
+              "355.6685,193.2924",
+              "156.3315,193.2924"
+            ],
+            "MaterialIndex": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "EdgeFlags": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "Materials": [
+              "materials/dev/reflectivity_30.vmat"
+            ]
+          },
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
+          "RenderType": "On",
+          "RollingResistance": null,
+          "SmoothingAngle": 40,
           "Static": true,
           "Surface": null,
           "SurfaceVelocity": "0,0,0"
@@ -2375,7 +2629,7 @@
             },
             {
               "__type": "Sandbox.ModelRenderer",
-              "__guid": "a1d6640c-6a4f-4e06-b55d-4f6c1d927f8f",
+              "__guid": "d3d0c384-01b3-4a27-95f7-529187d00b83",
               "__enabled": true,
               "BodyGroups": 18446744073709551615,
               "CreateAttachments": false,
@@ -2400,7 +2654,7 @@
             },
             {
               "__type": "Sandbox.ModelCollider",
-              "__guid": "27a0b02e-5bf8-4f17-ae40-76e9d6d3a130",
+              "__guid": "e9a2292e-38bc-461e-848c-d7872edcf878",
               "__enabled": true,
               "Elasticity": null,
               "Friction": null,
@@ -2554,7 +2808,7 @@
               "Mesh": {
                 "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
                 "Position": "-1010,-734,2428",
-                "Rotation": "0,0,0,1",
+                "Rotation": "0,0,0,0.9999999",
                 "Positions": [
                   "-42,-42,48",
                   "42,-42,48",
@@ -2618,10 +2872,10 @@
                 "TextureOffset": [
                   "456,136",
                   "456,136",
-                  "136,496",
-                  "376,496",
-                  "56,496",
-                  "456,496"
+                  "136,495.999",
+                  "376,495.999",
+                  "56,495.999",
+                  "456,495.999"
                 ],
                 "MaterialIndex": [
                   0,
@@ -2785,7 +3039,7 @@
                     "DstName": "_signal"
                   },
                   {
-                    "Id": 18,
+                    "Id": 35,
                     "Value": 0.5,
                     "DstId": 16,
                     "DstName": "seconds"
@@ -2809,7 +3063,7 @@
                     "DstName": "_signal"
                   },
                   {
-                    "Id": 26,
+                    "Id": 36,
                     "Value": 0.15,
                     "DstId": 22,
                     "DstName": "seconds"
@@ -2852,17 +3106,17 @@
                     "go": "73f67584-92d8-4df2-a87e-afed9283e1c0",
                     "component_type": "PointLight"
                   },
-                  "$34.component": {
-                    "_type": "component",
-                    "component_id": "375da347-6f96-4a97-9cc3-ed4c5af64fc8",
-                    "go": "a1c37ba9-5b91-41de-a6e1-3d9f5d0ad438",
-                    "component_type": "Prop"
-                  },
                   "$20.component": {
                     "_type": "component",
                     "component_id": "7f14c484-48e1-4aa6-82a5-b10f1d895a09",
                     "go": "abef306c-c144-4dd0-9aa4-191f62c8dd11",
                     "component_type": "SoundPointComponent"
+                  },
+                  "$34.component": {
+                    "_type": "component",
+                    "component_id": "375da347-6f96-4a97-9cc3-ed4c5af64fc8",
+                    "go": "a1c37ba9-5b91-41de-a6e1-3d9f5d0ad438",
+                    "component_type": "Prop"
                   }
                 }
               },
@@ -2888,7 +3142,7 @@
       "Rotation": "0,0,-1,0.0000001947072",
       "Scale": "1,1,1",
       "Tags": "",
-      "Enabled": true,
+      "Enabled": false,
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
