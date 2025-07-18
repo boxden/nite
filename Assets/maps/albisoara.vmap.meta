@@ -1,24 +1,21 @@
 {
   "publish": {
-    "Allowed": true,
     "Enabled": false,
     "ProjectConfig": {
       "Title": "albisoara",
       "Type": "map",
       "Org": "local",
       "Ident": "albisoara",
-      "Tags": null,
       "Schema": 0,
-      "HasAssets": false,
-      "AssetsPath": null,
+      "IncludeSourceFiles": false,
       "Resources": null,
-      "MenuResources": "*",
-      "HasCode": false,
-      "CodePath": null,
       "PackageReferences": [],
       "EditorReferences": [],
+      "Mounts": null,
+      "IsStandaloneOnly": false,
       "Metadata": {
-        "SingleAssetSource": "maps/albisoara.vmap"
+        "SingleAssetSource": "maps/albisoara.vmap",
+        "ParentPackage": "facepunch.walker"
       }
     }
   }

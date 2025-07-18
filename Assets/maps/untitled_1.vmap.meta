@@ -1,0 +1,22 @@
+{
+  "publish": {
+    "Enabled": false,
+    "ProjectConfig": {
+      "Title": "Untitled 1",
+      "Type": "map",
+      "Org": "local",
+      "Ident": "untitled1",
+      "Schema": 0,
+      "IncludeSourceFiles": false,
+      "Resources": null,
+      "PackageReferences": [],
+      "EditorReferences": [],
+      "Mounts": null,
+      "IsStandaloneOnly": false,
+      "Metadata": {
+        "SingleAssetSource": "maps/untitled_1.vmap",
+        "ParentPackage": "facepunch.walker"
+      }
+    }
+  }
+}
