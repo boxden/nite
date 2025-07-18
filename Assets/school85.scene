@@ -54,7 +54,7 @@
             },
             {
               "__type": "Sandbox.ModelRenderer",
-              "__guid": "756c9940-e3ea-4f96-80f5-dec9b00b01f2",
+              "__guid": "f2a9bf51-1573-4d32-b2cd-ae3f90fbe4ba",
               "__enabled": true,
               "BodyGroups": 18446744073709551615,
               "CreateAttachments": false,
@@ -79,7 +79,7 @@
             },
             {
               "__type": "Sandbox.ModelCollider",
-              "__guid": "cdac7f10-237f-4a41-b4e5-24e69357d2ed",
+              "__guid": "2956c4ac-eea7-4c25-8ca7-e497aff5a09e",
               "__enabled": true,
               "Elasticity": null,
               "Friction": null,
@@ -140,7 +140,7 @@
             },
             {
               "__type": "Sandbox.ModelRenderer",
-              "__guid": "5e5dafe0-9e61-47a8-b6a1-1562876b4aa4",
+              "__guid": "ac3b39f7-4b66-4081-8416-2df89bdf6d42",
               "__enabled": true,
               "BodyGroups": 18446744073709551615,
               "CreateAttachments": false,
@@ -165,7 +165,7 @@
             },
             {
               "__type": "Sandbox.ModelCollider",
-              "__guid": "ec86cf83-9bff-4e11-b585-d6e694eeedf8",
+              "__guid": "679eac02-f57a-45fb-b670-a4e603983ea3",
               "__enabled": true,
               "Elasticity": null,
               "Friction": null,
@@ -226,7 +226,7 @@
             },
             {
               "__type": "Sandbox.ModelRenderer",
-              "__guid": "7e6ea6f7-63f2-4e1b-8b95-8b1bb1cd9e82",
+              "__guid": "5929420c-5f43-4707-909f-643ece62aa93",
               "__enabled": true,
               "BodyGroups": 18446744073709551615,
               "CreateAttachments": false,
@@ -251,7 +251,7 @@
             },
             {
               "__type": "Sandbox.ModelCollider",
-              "__guid": "fd088edd-ca84-46f0-bc04-8e49185cd148",
+              "__guid": "34e1cf79-be0e-477f-80c6-0fa92a68a1d2",
               "__enabled": true,
               "Elasticity": null,
               "Friction": null,
@@ -1182,7 +1182,7 @@
             },
             {
               "__type": "Sandbox.ModelRenderer",
-              "__guid": "f3a03b1a-9a06-489b-9219-a252f966356d",
+              "__guid": "31ddf105-e773-4197-b531-955a4646ea89",
               "__enabled": true,
               "BodyGroups": 18446744073709551615,
               "CreateAttachments": false,
@@ -1207,7 +1207,7 @@
             },
             {
               "__type": "Sandbox.ModelCollider",
-              "__guid": "dbe44ac2-964a-4ada-a479-0d4ccadf3127",
+              "__guid": "5f422b2d-80d0-4420-a6f9-64c55874e830",
               "__enabled": true,
               "Elasticity": null,
               "Friction": null,

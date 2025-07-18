@@ -2,10 +2,10 @@
   "publish": {
     "Enabled": false,
     "ProjectConfig": {
-      "Title": "albisoara",
+      "Title": "Prefabs",
       "Type": "map",
       "Org": "local",
-      "Ident": "albisoara",
+      "Ident": "prefabs",
       "Schema": 0,
       "IncludeSourceFiles": false,
       "Resources": null,
@@ -14,7 +14,7 @@
       "Mounts": null,
       "IsStandaloneOnly": false,
       "Metadata": {
-        "SingleAssetSource": "maps/albisoara.vmap",
+        "SingleAssetSource": "maps/prefabs/prefabs.vmap",
         "ParentPackage": "facepunch.walker"
       }
     }

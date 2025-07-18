@@ -2,7 +2,7 @@
   "publish": {
     "Enabled": true,
     "ProjectConfig": {
-      "Title": "Albisoara - Scene Test",
+      "Title": "Albisoara (Greyboxing)",
       "Type": "map",
       "Org": "nite",
       "Ident": "albisoara2",

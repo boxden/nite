@@ -13037,7 +13037,7 @@
         },
         {
           "__type": "Sandbox.ModelRenderer",
-          "__guid": "066ad3a6-252f-43ef-9239-221bc98e0067",
+          "__guid": "d1759312-ad64-4090-83a8-41cce6b635f0",
           "__enabled": true,
           "BodyGroups": 18446744073709551615,
           "CreateAttachments": false,
@@ -13062,7 +13062,7 @@
         },
         {
           "__type": "Sandbox.ModelCollider",
-          "__guid": "ef40034a-5d72-432a-8f0a-5710f56706e3",
+          "__guid": "d9e1b41f-7729-4f55-a4ec-8f62c1c2b98e",
           "__enabled": true,
           "Elasticity": null,
           "Friction": null,
