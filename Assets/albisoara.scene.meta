@@ -15,9 +15,9 @@
       "IsStandaloneOnly": false,
       "Metadata": {
         "SingleAssetSource": "albisoara.scene",
-        "ParentPackage": "facepunch.walker",
+        "ParentPackage": "facepunch.sandbox",
         "GameSupport": [
-          "facepunch.walker"
+          "facepunch.sandbox"
         ]
       }
     }

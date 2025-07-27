@@ -15,7 +15,10 @@
       "IsStandaloneOnly": false,
       "Metadata": {
         "SingleAssetSource": "school85.scene",
-        "ParentPackage": "facepunch.walker"
+        "ParentPackage": "facepunch.walker",
+        "GameSupport": [
+          "facepunch.sandbox"
+        ]
       }
     }
   }
