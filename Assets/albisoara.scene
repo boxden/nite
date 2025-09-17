@@ -7644,8 +7644,14 @@
           "OnComponentUpdate": null,
           "PositionSeconds": 0,
           "Resource": {
-            "Type": null,
-            "Value": null
+            "Compiled": {},
+            "EditorData": {
+              "SampleRate": 30,
+              "Duration": 0,
+              "Tracks": {},
+              "Sources": {},
+              "References": []
+            }
           },
           "TimeScale": 1
         }
