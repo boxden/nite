@@ -7648,6 +7648,7 @@
             "EditorData": {
               "SampleRate": 30,
               "Duration": 0,
+              "ExportConfig": null,
               "Tracks": {},
               "Sources": {},
               "References": []
