@@ -7660,36 +7660,6 @@
       "Children": []
     },
     {
-      "__guid": "7bd8df0e-cb4e-43b7-b840-dd866945eff4",
-      "__version": 1,
-      "Flags": 0,
-      "Name": "Spawn Point",
-      "Position": "-528,-1152,0",
-      "Rotation": "0,0,0.7071067,0.7071068",
-      "Scale": "1,1,1",
-      "Tags": "",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkInterpolation": true,
-      "NetworkOrphaned": 0,
-      "OwnerTransfer": 1,
-      "Components": [
-        {
-          "__type": "Sandbox.SpawnPoint",
-          "__guid": "2551f1a4-f147-4c3b-8e9f-27a9ac86ba62",
-          "__enabled": true,
-          "Color": "0.8902,0.31765,0.05098,1",
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null
-        }
-      ],
-      "Children": []
-    },
-    {
       "__guid": "47f764f4-9291-4f82-9434-f76a3e03e420",
       "__version": 1,
       "Flags": 0,
@@ -7843,6 +7813,23 @@
         }
       ],
       "Children": []
+    },
+    {
+      "__guid": "10f67d15-4839-4a5f-9445-e74a44fc132e",
+      "__version": 1,
+      "Flags": 0,
+      "Name": "Object",
+      "Position": "-297.3366,-1629.337,23.3745",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
+      "Components": [],
+      "Children": []
     }
   ],
   "SceneProperties": {
@@ -7868,7 +7855,6 @@
   "Description": null,
   "__references": [
     "facepunch.metal_fence_panel#110524",
-    "facepunch.walker#104599",
     "saandy.industrial_light01#27009"
   ],
   "__version": 3
