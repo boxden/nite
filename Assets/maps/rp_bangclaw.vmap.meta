@@ -17,7 +17,7 @@
       "IsStandaloneOnly": false,
       "Metadata": {
         "SingleAssetSource": "maps/rp_bangclaw.vmap",
-        "ParentPackage": "facepunch.walker"
+        "ParentPackage": "facepunch.sandbox"
       }
     }
   }
