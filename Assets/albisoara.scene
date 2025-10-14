@@ -7855,6 +7855,7 @@
   "Description": null,
   "__references": [
     "facepunch.metal_fence_panel#110524",
+    "facepunch.walker#104599",
     "saandy.industrial_light01#27009"
   ],
   "__version": 3
