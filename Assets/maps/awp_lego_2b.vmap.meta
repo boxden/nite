@@ -32,7 +32,7 @@
             "PostLaunchCommand": ""
           }
         ],
-        "ParentPackage": "facepunch.walker"
+        "ParentPackage": "facepunch.sandbox"
       }
     }
   }
