@@ -14,13 +14,14 @@
         "facepunch.wood_painted_a_hs#28972",
         "rustextended.glass_dirty#43276"
       ],
+      "Mounts": null,
       "IsStandaloneOnly": false,
       "Metadata": {
         "SingleAssetSource": "maps/phys_lobby.vmap",
         "GameSupport": [
           "swb.demo"
         ],
-        "ParentPackage": "carsonk.talker"
+        "ParentPackage": "facepunch.sandbox"
       }
     }
   }
