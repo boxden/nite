@@ -13,10 +13,11 @@
       "EditorReferences": [
         "caro.bluecloudysky#27761"
       ],
+      "Mounts": null,
       "IsStandaloneOnly": false,
       "Metadata": {
         "SingleAssetSource": "maps/downtown_bangclaw.vmap",
-        "ParentPackage": "carsonk.talker"
+        "ParentPackage": "facepunch.sandbox"
       }
     }
   }
