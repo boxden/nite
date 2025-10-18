@@ -11,13 +11,16 @@
       "Resources": null,
       "PackageReferences": [],
       "EditorReferences": [
-        "facepunch.walker#104599"
+        "caro.bluecloudysky#27761"
       ],
       "Mounts": null,
       "IsStandaloneOnly": false,
       "Metadata": {
         "SingleAssetSource": "maps/rp_bangclaw.vmap",
-        "ParentPackage": "facepunch.sandbox"
+        "ParentPackage": "facepunch.sandbox",
+        "GameSupport": [
+          "facepunch.sandbox"
+        ]
       }
     }
   }
