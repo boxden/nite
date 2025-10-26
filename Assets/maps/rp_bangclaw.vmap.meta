@@ -12,11 +12,7 @@
       "PackageReferences": [],
       "EditorReferences": [
         "caro.bluecloudysky#27761",
-        "facepunch.grass_mud_blend_01a#47043",
-        "facepunch.walker#104599",
-        "facepunch.wall_brick_d#111168",
-        "rustextended.road_b#43363",
-        "rustextended.sidewalk_blend#43371"
+        "facepunch.walker#104599"
       ],
       "Mounts": null,
       "IsStandaloneOnly": false,
