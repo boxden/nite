@@ -14,12 +14,14 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "Sandbox.MeshComponent",
           "__guid": "9a2d78d7-3a15-4e7f-adce-8c2bf9cdc453",
           "__enabled": true,
+          "ColliderFlags": 0,
           "Collision": "Mesh",
           "Color": "1,1,1,1",
           "Elasticity": null,
@@ -244,6 +246,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [],
           "Children": [
@@ -260,6 +263,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -335,6 +339,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -414,12 +419,14 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "Sandbox.MeshComponent",
           "__guid": "7f379c20-de97-4d1a-9c42-43de0e85778c",
           "__enabled": true,
+          "ColliderFlags": 0,
           "Collision": "Mesh",
           "Color": "1,1,1,1",
           "Elasticity": null,
@@ -510,6 +517,7 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [
         {
@@ -546,6 +554,7 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [
         {
@@ -598,6 +607,7 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [
         {
@@ -632,6 +642,7 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [
         {
@@ -676,6 +687,7 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [],
       "Children": [
@@ -692,6 +704,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
@@ -727,6 +740,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
@@ -762,6 +776,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
@@ -797,6 +812,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
@@ -832,6 +848,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
@@ -867,6 +884,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
@@ -902,6 +920,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
@@ -937,6 +956,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
@@ -972,6 +992,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
@@ -1007,6 +1028,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
@@ -1044,6 +1066,7 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [
         {
@@ -1076,6 +1099,7 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [],
       "Children": [
@@ -1092,6 +1116,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [],
           "Children": [
@@ -1108,6 +1133,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [],
               "Children": [
@@ -1124,6 +1150,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -1176,6 +1203,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "62269865-223e-4301-8875-6c5fdea5c2ec",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -1211,6 +1239,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -1263,6 +1292,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "a24ae28a-ef90-45b2-a930-2f3c9ead24c2",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -1298,6 +1328,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -1350,6 +1381,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "5bbf4207-8652-4767-aa83-001ccb000fb8",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -1385,6 +1417,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -1437,6 +1470,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "9f01b1ab-1a39-42dc-bc69-0e90e3937ffe",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -1472,6 +1506,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -1524,6 +1559,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "a4f3e293-b353-457b-a430-9a8ebb1d53dd",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -1559,6 +1595,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -1611,6 +1648,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "24a17ee9-18fe-47ec-95b2-0b59bf55bc45",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -1646,6 +1684,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -1698,6 +1737,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "9f488a8a-4660-483b-bf0e-8bba54475a4d",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -1733,6 +1773,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -1785,6 +1826,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "b75db00d-5024-4397-aa96-c2bc2681c01a",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -1820,6 +1862,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -1872,6 +1915,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "b2f9786e-5bab-460c-8112-a54db28a351d",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -1907,6 +1951,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -1959,6 +2004,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "9dbc6637-5251-4ea2-a702-b1c7ae471654",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -1994,6 +2040,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -2046,6 +2093,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "d68694c1-0d2b-4b39-86db-0e8fede0191f",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -2081,6 +2129,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -2133,6 +2182,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "4089a21a-fcb5-4ac4-ae05-38043166b9bf",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -2168,6 +2218,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -2220,6 +2271,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "e18931c5-16f3-4770-8db1-491bbc113e8b",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -2257,6 +2309,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [],
               "Children": [
@@ -2273,6 +2326,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -2325,6 +2379,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "41c69cc2-d64e-4d6f-b093-d25c5eb32f9e",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -2360,6 +2415,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -2412,6 +2468,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "f99558da-4906-40d8-91c3-3ca297c19ada",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -2447,6 +2504,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -2499,6 +2557,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "26fa2090-4f87-4d92-8c60-109529ac8101",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -2534,6 +2593,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -2586,6 +2646,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "50c66a0f-d6e8-49fe-98fc-b25b68995756",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -2621,6 +2682,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -2673,6 +2735,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "d5e91954-3554-4022-b32a-1d81588e74df",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -2708,6 +2771,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -2760,6 +2824,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "b75d5309-7ebb-4744-93ba-397988b2166e",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -2795,6 +2860,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -2847,6 +2913,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "ee1aeac8-bb9a-4efe-9d0e-4f16992b8dee",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -2882,6 +2949,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -2934,6 +3002,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "4687a7d8-ef4a-4b78-8c52-8ccb7169fa3c",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -2969,6 +3038,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -3021,6 +3091,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "67d3ba8b-921b-4aee-8c86-3d50fda140a3",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -3056,6 +3127,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -3108,6 +3180,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "40794056-ad1f-4a82-958b-b6e5d07758d3",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -3143,6 +3216,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -3195,6 +3269,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "bf29b8fd-5023-48b4-a3c5-1ac6ebc25e1c",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -3230,6 +3305,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -3282,6 +3358,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "951bc4ea-027c-47d5-ab08-83605c40905d",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -3317,6 +3394,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -3369,6 +3447,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "81e1ed81-da4a-4366-a060-41fdf396b172",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -3404,6 +3483,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -3456,6 +3536,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "4209049c-b172-474e-b749-03bc79a66bec",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -3493,6 +3574,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [],
               "Children": [
@@ -3509,6 +3591,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -3561,6 +3644,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "1cee816c-8390-4c59-b93b-c0ce1d67d84e",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -3596,6 +3680,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -3648,6 +3733,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "8a1a267d-e959-4c2b-98e5-05bed7deca85",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -3683,6 +3769,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -3735,6 +3822,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "7901eb0f-81a8-4a1e-903b-b44083a68212",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -3770,6 +3858,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -3822,6 +3911,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "c18932aa-d8da-48e2-bbc0-57378b7ff806",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -3857,6 +3947,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -3909,6 +4000,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "ab2f2449-cfe1-418c-ac01-bcb6a9f5cc79",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -3944,6 +4036,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -3996,6 +4089,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "a84bd2c1-4122-4c55-888d-11a0276e3bd4",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -4031,6 +4125,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -4083,6 +4178,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "9986a7fe-2637-4938-b69c-c951160e5f7e",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -4118,6 +4214,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -4170,6 +4267,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "9bb74de4-f579-49b9-b9f7-4a2b13deae68",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -4205,6 +4303,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -4257,6 +4356,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "e4b2a828-271d-470e-98b2-97707bb8f99c",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -4292,6 +4392,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -4344,6 +4445,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "32d34fae-b04a-4acf-bb2c-d0e93cfd62b8",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -4379,6 +4481,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -4431,6 +4534,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "41ace342-4a72-494e-9b81-12eb2a7a5d31",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -4466,6 +4570,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -4518,6 +4623,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "db2f8463-2e9a-4dba-8b56-9d1073abbef8",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -4553,6 +4659,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -4605,6 +4712,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "960e237d-aa48-4fb8-bc72-874b46d2293a",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -4640,6 +4748,7 @@
                   "NetworkMode": 2,
                   "NetworkInterpolation": true,
                   "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
                   "OwnerTransfer": 1,
                   "Components": [
                     {
@@ -4692,6 +4801,7 @@
                       "__type": "Sandbox.ModelCollider",
                       "__guid": "64760613-56d1-458c-86b9-238adff902a7",
                       "__enabled": true,
+                      "ColliderFlags": 0,
                       "Elasticity": null,
                       "Friction": null,
                       "IsTrigger": false,
@@ -4731,6 +4841,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
@@ -4798,12 +4909,14 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "385ea1b7-a69f-4af0-8bd1-3e1d2652f90d",
               "__enabled": true,
+              "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Elasticity": null,
@@ -4953,12 +5066,14 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "13d35ce3-ddc5-4824-9d0e-797e6846d8a4",
               "__enabled": true,
+              "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Elasticity": null,
@@ -5107,6 +5222,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -5176,12 +5292,14 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "81af3d78-4cbc-4c52-b357-565c5f5ac6c3",
               "__enabled": true,
+              "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Elasticity": null,
@@ -5404,6 +5522,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
@@ -5439,6 +5558,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
@@ -5474,12 +5594,14 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "7b612318-1dd0-4594-8a66-f465ffc9a65d",
               "__enabled": true,
+              "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Elasticity": null,
@@ -5901,6 +6023,7 @@
               "__guid": "02db7b9d-8844-467f-a8f4-fd63ab5a1980",
               "__enabled": true,
               "Center": "-0.5185699,13.29867,-64.30134",
+              "ColliderFlags": 0,
               "Elasticity": null,
               "Friction": null,
               "IsTrigger": false,
@@ -5936,12 +6059,14 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "9827feee-a6aa-41f7-8411-e7da1ce143e2",
               "__enabled": true,
+              "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Elasticity": null,
@@ -6284,6 +6409,7 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [
         {
@@ -6336,6 +6462,7 @@
           "__type": "Sandbox.ModelCollider",
           "__guid": "f1e36f4e-ee58-483d-bbf7-db0694510ca9",
           "__enabled": true,
+          "ColliderFlags": 0,
           "Elasticity": null,
           "Friction": null,
           "IsTrigger": false,
@@ -6371,6 +6498,7 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [
         {
@@ -6406,12 +6534,14 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "Sandbox.MeshComponent",
           "__guid": "933c52eb-250f-4e8a-940b-4cb72cb7f287",
           "__enabled": true,
+          "ColliderFlags": 0,
           "Collision": "Mesh",
           "Color": "1,1,1,1",
           "Elasticity": null,
@@ -6634,12 +6764,14 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "Sandbox.MeshComponent",
           "__guid": "e791bddf-e8c6-4975-b68f-adbc6c3f51b9",
           "__enabled": true,
+          "ColliderFlags": 0,
           "Collision": "Mesh",
           "Color": "1,1,1,1",
           "Elasticity": null,
@@ -6789,12 +6921,14 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "Sandbox.MeshComponent",
           "__guid": "43352fcd-5e0f-4488-8691-9e61104cd1e1",
           "__enabled": true,
+          "ColliderFlags": 0,
           "Collision": "Mesh",
           "Color": "1,1,1,1",
           "Elasticity": null,
@@ -6944,6 +7078,7 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [],
       "Children": [
@@ -6960,6 +7095,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
@@ -7012,6 +7148,7 @@
               "__type": "Sandbox.ModelCollider",
               "__guid": "9b65d3f4-3748-4460-a261-4b7438c6649f",
               "__enabled": true,
+              "ColliderFlags": 0,
               "Elasticity": null,
               "Friction": null,
               "IsTrigger": false,
@@ -7047,6 +7184,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
@@ -7114,6 +7252,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
@@ -7149,12 +7288,14 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "4368001f-7642-4ac3-9e52-d079b077a379",
               "__enabled": true,
+              "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Elasticity": null,
@@ -7395,7 +7536,7 @@
                     "DstName": "_signal"
                   },
                   {
-                    "Id": 35,
+                    "Id": 47,
                     "Value": 0.5,
                     "DstId": 16,
                     "DstName": "seconds"
@@ -7419,7 +7560,7 @@
                     "DstName": "_signal"
                   },
                   {
-                    "Id": 36,
+                    "Id": 48,
                     "Value": 0.15,
                     "DstId": 22,
                     "DstName": "seconds"
@@ -7449,7 +7590,7 @@
                     "DstName": "_target"
                   },
                   {
-                    "Id": 37,
+                    "Id": 49,
                     "Value": "off",
                     "DstId": 33,
                     "DstName": "_value"
@@ -7502,6 +7643,7 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [
         {
@@ -7537,6 +7679,7 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [
         {
@@ -7619,6 +7762,7 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [
         {
@@ -7672,12 +7816,14 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "Sandbox.MeshComponent",
           "__guid": "035fa3de-86ad-4360-90f8-95ff1df37c29",
           "__enabled": true,
+          "ColliderFlags": 0,
           "Collision": "Mesh",
           "Color": "1,1,1,1",
           "Elasticity": null,
@@ -7827,6 +7973,7 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [],
       "Children": []
@@ -7855,7 +8002,6 @@
   "Description": null,
   "__references": [
     "facepunch.metal_fence_panel#110524",
-    "facepunch.walker#104599",
     "saandy.industrial_light01#27009"
   ],
   "__version": 3
