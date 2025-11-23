@@ -14,6 +14,7 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [],
       "Children": [
@@ -30,6 +31,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
@@ -64,6 +66,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
@@ -100,6 +103,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
@@ -130,6 +134,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
@@ -162,6 +167,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
@@ -210,6 +216,7 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [],
       "Children": [
@@ -226,6 +233,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [],
           "Children": [
@@ -242,6 +250,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -272,6 +281,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -302,6 +312,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -332,6 +343,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -362,6 +374,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -392,6 +405,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -422,6 +436,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -452,6 +467,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -482,6 +498,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -512,6 +529,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -544,6 +562,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [],
           "Children": [
@@ -560,6 +579,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -590,6 +610,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -620,6 +641,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -650,6 +672,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -680,6 +703,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -710,6 +734,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -740,6 +765,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -770,6 +796,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -800,6 +827,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -830,6 +858,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -862,6 +891,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [],
           "Children": [
@@ -878,6 +908,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -908,6 +939,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -938,6 +970,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -968,6 +1001,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -998,6 +1032,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1028,6 +1063,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1058,6 +1094,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1088,6 +1125,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1118,6 +1156,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1148,6 +1187,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1180,6 +1220,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [],
           "Children": [
@@ -1196,6 +1237,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1226,6 +1268,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1256,6 +1299,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1286,6 +1330,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1316,6 +1361,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1346,6 +1392,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1376,6 +1423,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1406,6 +1454,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1436,6 +1485,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1466,6 +1516,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1498,6 +1549,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [],
           "Children": [
@@ -1514,6 +1566,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1544,6 +1597,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1574,6 +1628,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1604,6 +1659,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1634,6 +1690,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1664,6 +1721,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1694,6 +1752,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1724,6 +1783,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1754,6 +1814,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1784,6 +1845,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1816,6 +1878,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [],
           "Children": [
@@ -1832,6 +1895,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1862,6 +1926,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1892,6 +1957,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1922,6 +1988,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1952,6 +2019,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -1982,6 +2050,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -2012,6 +2081,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -2042,6 +2112,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -2072,6 +2143,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -2102,6 +2174,7 @@
               "NetworkMode": 2,
               "NetworkInterpolation": true,
               "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
               "OwnerTransfer": 1,
               "Components": [
                 {
@@ -2136,6 +2209,7 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [],
       "Children": [
@@ -2152,12 +2226,14 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "c1e5a894-7021-4756-9ec5-a6f43a8e21da",
               "__enabled": true,
+              "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Elasticity": null,
@@ -2439,8 +2515,7 @@
                   0
                 ],
                 "Materials": [
-                  "materials/dev/reflectivity_30.vmat",
-                  "materials/dev/reflectivity_30b.vmat"
+                  "materials/dev/reflectivity_30.vmat"
                 ]
               },
               "OnComponentDestroy": null,
@@ -2476,12 +2551,14 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "247bdbb1-bea9-4205-bc1a-a63a09264763",
               "__enabled": true,
+              "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Elasticity": null,
@@ -3265,8 +3342,7 @@
                   0
                 ],
                 "Materials": [
-                  "materials/dev/reflectivity_30.vmat",
-                  "materials/tiles/floor/rubber_tiles_a.vmat"
+                  "materials/dev/reflectivity_30.vmat"
                 ]
               },
               "OnComponentDestroy": null,
@@ -3302,12 +3378,14 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "3d239ce4-d681-4dac-9799-ce2c28351065",
               "__enabled": true,
+              "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Elasticity": null,
@@ -3739,12 +3817,14 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "4c71864b-623e-43d9-8404-c8136b6db970",
               "__enabled": true,
+              "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Elasticity": null,
@@ -3752,7 +3832,7 @@
               "HideInGame": false,
               "IsTrigger": false,
               "Mesh": {
-                "Topology": "H4sIAAAAAAAACu3VSVICQBBE0XcAUbgAiNNCbiOoOM/j/fcaGZFcAGVHbfNnVQ/V1Sf4xhA/f4xTXK6RZ4ELXOMWj3jGOz7/YV3b2MYmY4QZvtqreUt5C2fY2fbvNjYcY8yxaL8N23vpwegTnHfGRh+XnVcfdW7Pqk/KLjHAPq46nwfVl80Z/xQ3nd0rPuw9dpH8d60RfVr2FXs4wEPnfvj4403N5D/EU/+E6OHDxrOq/9I1RA8fNp7oR3jrf5J64VM7nujH+OhfEz182HhW55O3nT1EDx82nnXuK2eb/WeNyfMLwFYfxoQHAAA=",
+                "Topology": "H4sIAAAAAAAACu3VyXFCQQyE4S8AMDgBMF444GzM6t3gDcj/bqqr9BLAcHu69t/SLBrNGHv08ffPmGB5RJ4ZFnjCCz6wwQ+2J1hXG22cMy5xj131at5S3sIDOm3/tnHmGGCKWfVbv3ovPRh9iHnN2OiDYuNp+ndZPRx9WOwKXVzhseZzt/RV5Yx/hOea3Q0f9g0XSP7XqhF9VOwXerjGe8398PHHm5rJf4N1/QnRw4eNp6n/WWuIHj5sPNFv8V3/SeqFT+14ot/ht/6a6OHDxtOcT9529hA9fNh4jrmvnG32nzUmzwHAVh/GhAcAAA==",
                 "Position": "385,1024,88",
                 "Rotation": "0,0,0,1",
                 "Positions": [
@@ -4138,12 +4218,14 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "be9a03bd-a506-44e2-87e8-64eee944a1c4",
               "__enabled": true,
+              "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Elasticity": null,
@@ -5782,8 +5864,7 @@
                 ],
                 "Materials": [
                   "materials/dev/reflectivity_30.vmat",
-                  "materials/tiles/floor/rubber_tiles_a.vmat",
-                  "materials/dev/reflectivity_30b.vmat"
+                  "materials/tiles/floor/rubber_tiles_a.vmat"
                 ]
               },
               "OnComponentDestroy": null,
@@ -5819,12 +5900,14 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "5ddcbb2a-4be2-4e68-b654-b6edd971893a",
               "__enabled": true,
+              "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Elasticity": null,
@@ -6549,9 +6632,7 @@
                   0
                 ],
                 "Materials": [
-                  "materials/dev/reflectivity_30.vmat",
-                  "materials/tools/toolsskybox.vmat",
-                  "materials/dev/reflectivity_30b.vmat"
+                  "materials/dev/reflectivity_30.vmat"
                 ]
               },
               "OnComponentDestroy": null,
@@ -6587,12 +6668,14 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "017e89e0-3b64-45d0-ad73-040c97f06275",
               "__enabled": true,
+              "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Elasticity": null,
@@ -6864,15 +6947,15 @@
                   0,
                   0,
                   0,
-                  1,
-                  1,
-                  1,
-                  1,
-                  1,
-                  1,
-                  1,
-                  1,
-                  1
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
                 ],
                 "EdgeFlags": [
                   0,
@@ -6981,7 +7064,6 @@
                   0
                 ],
                 "Materials": [
-                  "materials/dev/reflectivity_30.vmat",
                   "materials/tools/toolsskybox.vmat"
                 ]
               },
@@ -7020,6 +7102,7 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [],
       "Children": [
@@ -7036,12 +7119,14 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "abe70777-436a-4197-a3ac-fb3b08d7cdda",
               "__enabled": true,
+              "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Elasticity": null,
@@ -7456,12 +7541,14 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "5eb1f90b-ab12-447a-8704-22d096bb049c",
               "__enabled": true,
+              "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Elasticity": null,
@@ -7469,7 +7556,7 @@
               "HideInGame": false,
               "IsTrigger": false,
               "Mesh": {
-                "Topology": "H4sIAAAAAAAACu3VyU6UURQE4C9ha0LTrUlDN4o+gLyFiL4AoEzOgOCsyMtrKqlOeuFGjAtNn9X/p+qM995T93CFW3iMH7X7c9+/a1vY/oX/Hp7iCM/wCm/wHh/xFZd/kHdhC/sXDDZx0ru+hLy3B7ixuP9/3YbIjnrYeS919rOdN+r+elR8WO5Wcd2Vm8VH5e5g+T84vzF2sdd+Ru3tAAOs4kl3efBxuc/n5rPfGS2XH+4LrGANh9WBQeMfzGnGBMfViEH54Z72LMbNtVt8Uu55/ad4WX1Zaf7k/oybWMfrak/wablvG1/f5n7x9XI/NX7+zxpj2PpS20V7mbSW4+LTxv5e/9t4V90b1f+iMwl+Bx+qicHDDzc+s/ypJTUEDz/c+ATfwJfqafpN/+k9Zxb8Lr5Va4OHH258ZvNLrZlh8PDDjc917lPexuw79yBnlXlmJqk7sX8CAjy9lIgIAAA=",
+                "Topology": "H4sIAAAAAAAACu3VyU5UURgE4C9ha0LTrUlrNzg8AL6FEy8AKCig4ogzoi+PqaRu0gs3Ylho+l/dm6p/PufUHfzENWzhvLa58P2ndh8Pf+O/iyd4hkO8xCt8xGec4uwv8i5taf+CwV287llfQe7bPVxZnv9LtzHyRj3ovFc6++HNm/T9elR8XG58hv1tdYfBJ+VuY/U/2N8UO9htP5P2to8RruNx3/Lg03KPFuaz1xmtlh/uc6zhBp5WB0aNv7+gGTMcVCNG5Yf7pruYNtdO8Vm57+s/x4vqy1rzJ/dXXMU6jqs9weflvmt8vZt7xdfL/dL4+X/bGOPWl9pO2sustRwUnzf2j/pv4EN1b1L/k84k+E18qiYGDz/c+Az5U0tqCB5+uPEJfgvfqqfpN/2n9+ws+G18r9YGDz/c+AzzS62ZYfDww43PRc5T7sbwnXOQXWWemUnqTuxfAjy9lIgIAAA=",
                 "Position": "838,1231,380.9919",
                 "Rotation": "0,0,0,1",
                 "Positions": [
@@ -7910,6 +7997,7 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [],
       "Children": [
@@ -7926,12 +8014,14 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "ac8af13b-785b-4d6f-b0b8-73ebf7d8b849",
               "__enabled": true,
+              "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Elasticity": null,
@@ -8441,12 +8531,14 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "e5601e59-7a33-4580-8c9f-9cd543a62ced",
               "__enabled": true,
+              "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Elasticity": null,
@@ -8454,7 +8546,7 @@
               "HideInGame": false,
               "IsTrigger": false,
               "Mesh": {
-                "Topology": "H4sIAAAAAAAACu3VyU6UURAF4C9ha0LTjaa1GZzW8hbi8AKCguI8ggjO45trTnI66YUbNS40Xav/zzk13Lp161zEN5zCdXyvXZr5/lXbxNWf+G/jFu7gLh7iMV7iFd7gHT7hyx/kn9vc/gWDDTzprC8g7+4yTszn/6/bENlVV9rvhfZ+uvtG3WPXig/L3SyuO3Oj+KjcG1j8D+5vjC1s9zyjnm0XA5zGze704ONy7830Z6c9Wiw/3PtYwhncrh4MGn93Rjsm2KtWDMoP92nvYtxcW8Un5b6o/woeVGeWmj+5j7GMVTyqBgVfKfd54+vb3Cm+Wu5R4+f/WWMMW19q2+9ZJq1lr/hKY7+v/xoOqn+j+u+3J8HXcVhtDL5W7sFM/qPWEHy93MPiZ/G6urrc8x/3zoKfw9tqbvDww/2Ak603taaHwcMP92v9z+Nj9Tr8+Mc3OYNfwOdqefDww43PNH9ipYbg4Ycbn9+Z17y96XfmLLOQ+0rP05fUnvg/AAumW6X0CAAA",
+                "Topology": "H4sIAAAAAAAACu3VyU6UURAF4C9ha0LTjaaVBpzW+hZOvICgoDiPIIKKs2+uOcnppBdu1LjQdK3+P+fUcKvq3nMR33AKG/heuzTz/at2Fdd/4r+F27iLe3iEJ3iF13iLY3zClz/IP7e5/QsGl/G0u76A3LsrODHf/79uQ+StutZ+L7T307dv1HfsRvFhufGZzm+jMww+KvcmFv+D+Y2xia2eZ9Sz7WCA07jVNz34uNz7M/3Zbo8Wyw/3AZZwBneqB4PG35nRjhXsVisG5Yf7rLMYN9dm8ZVyX9Z/gofVmaXmT+4jLGMVj6tBwSflvmh8vZvbxVfLPWz8/D9vjGHrS217PctKa9ktPmns9/Vfw371b1T/vfYk+DoOqo3B18rdn8l/2BqCr5d7UPws3lRXl3v+o84s+Dm8q+YGDz/cDzjZelNrehg8/HC/1v88Plavw49/fJMz+AV8rpYHDz/c+EzzJ1ZqCB5+uPH5nX3N3Zt+Z8+yC5lXep6+pPbE/wELplul9AgAAA==",
                 "Position": "688,1231,380.9919",
                 "Rotation": "0,0,-1,0.0000001947072",
                 "Positions": [
@@ -8914,6 +9006,7 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [],
       "Children": [
@@ -8930,12 +9023,14 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "382ea220-654d-4ca2-949a-4a7587416e03",
               "__enabled": true,
+              "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Elasticity": null,
@@ -9278,12 +9373,14 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "592d7eb4-acd0-4a51-99c5-6c16e2f319c8",
               "__enabled": true,
+              "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Elasticity": null,
@@ -9291,7 +9388,7 @@
               "HideInGame": false,
               "IsTrigger": false,
               "Mesh": {
-                "Topology": "H4sIAAAAAAAACu3VyU6UURQE4C9ha0LTrUlDN4o+gLyFiL4AoEzOgOCsyMtrKqlOeuFGjAtNn9X/p+qM995T93CFW3iMH7X7c9+/a1vY/oX/Hp7iCM/wCm/wHh/xFZd/kHdhC/sXDDZx0ru+hLy3B7ixuP9/3YbIjnrYeS919rOdN+r+elR8WO5Wcd2Vm8VH5e5g+T84vzF2sdd+Ru3tAAOs4kl3efBxuc/n5rPfGS2XH+4LrGANh9WBQeMfzGnGBMfViEH54Z72LMbNtVt8Uu55/ad4WX1Zaf7k/oybWMfrak/wablvG1/f5n7x9XI/NX7+zxpj2PpS20V7mbSW4+LTxv5e/9t4V90b1f+iMwl+Bx+qicHDDzc+s/ypJTUEDz/c+ATfwJfqafpN/+k9Zxb8Lr5Va4OHH258ZvNLrZlh8PDDjc917lPexuw79yBnlXlmJqk7sX8CAjy9lIgIAAA=",
+                "Topology": "H4sIAAAAAAAACu3VyU5UURgE4C9ha0LTrUlrNzg8AL6FEy8AKCig4ogzoi+PqaRu0gs3Ylho+l/dm6p/PufUHfzENWzhvLa58P2ndh8Pf+O/iyd4hkO8xCt8xGec4uwv8i5taf+CwV287llfQe7bPVxZnv9LtzHyRj3ovFc6++HNm/T9elR8XG58hv1tdYfBJ+VuY/U/2N8UO9htP5P2to8RruNx3/Lg03KPFuaz1xmtlh/uc6zhBp5WB0aNv7+gGTMcVCNG5Yf7pruYNtdO8Vm57+s/x4vqy1rzJ/dXXMU6jqs9weflvmt8vZt7xdfL/dL4+X/bGOPWl9pO2sustRwUnzf2j/pv4EN1b1L/k84k+E18qiYGDz/c+Az5U0tqCB5+uPEJfgvfqqfpN/2n9+ws+G18r9YGDz/c+AzzS62ZYfDww43PRc5T7sbwnXOQXWWemUnqTuxfAjy9lIgIAAA=",
                 "Position": "756,1149,380.9919",
                 "Rotation": "0,0,-0.7071067,0.7071068",
                 "Positions": [
@@ -9732,6 +9829,7 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [],
       "Children": [
@@ -9748,12 +9846,14 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "1e7392ff-f3aa-4679-b124-97aadca8dc1f",
               "__enabled": true,
+              "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Elasticity": null,
@@ -10096,12 +10196,14 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
               "__type": "Sandbox.MeshComponent",
               "__guid": "23b17966-dcee-40b1-85fc-0c057f10718b",
               "__enabled": true,
+              "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
               "Elasticity": null,
@@ -10109,7 +10211,7 @@
               "HideInGame": false,
               "IsTrigger": false,
               "Mesh": {
-                "Topology": "H4sIAAAAAAAACu3VyU6UURAF4C9ha0LTjaa1GZzW8hbi8AKCguI8ggjO45trTnI66YUbNS40Xav/zzk13Lp161zEN5zCdXyvXZr5/lXbxNWf+G/jFu7gLh7iMV7iFd7gHT7hyx/kn9vc/gWDDTzprC8g7+4yTszn/6/bENlVV9rvhfZ+uvtG3WPXig/L3SyuO3Oj+KjcG1j8D+5vjC1s9zyjnm0XA5zGze704ONy7830Z6c9Wiw/3PtYwhncrh4MGn93Rjsm2KtWDMoP92nvYtxcW8Un5b6o/woeVGeWmj+5j7GMVTyqBgVfKfd54+vb3Cm+Wu5R4+f/WWMMW19q2+9ZJq1lr/hKY7+v/xoOqn+j+u+3J8HXcVhtDL5W7sFM/qPWEHy93MPiZ/G6urrc8x/3zoKfw9tqbvDww/2Ak603taaHwcMP92v9z+Nj9Tr8+Mc3OYNfwOdqefDww43PNH9ipYbg4Ycbn9+Z17y96XfmLLOQ+0rP05fUnvg/AAumW6X0CAAA",
+                "Topology": "H4sIAAAAAAAACu3VyU6UURAF4C9ha0LTjaaVBpzW+hZOvICgoDiPIIKKs2+uOcnppBdu1LjQdK3+P+fUcKvq3nMR33AKG/heuzTz/at2Fdd/4r+F27iLe3iEJ3iF13iLY3zClz/IP7e5/QsGl/G0u76A3LsrODHf/79uQ+StutZ+L7T307dv1HfsRvFhufGZzm+jMww+KvcmFv+D+Y2xia2eZ9Sz7WCA07jVNz34uNz7M/3Zbo8Wyw/3AZZwBneqB4PG35nRjhXsVisG5Yf7rLMYN9dm8ZVyX9Z/gofVmaXmT+4jLGMVj6tBwSflvmh8vZvbxVfLPWz8/D9vjGHrS217PctKa9ktPmns9/Vfw371b1T/vfYk+DoOqo3B18rdn8l/2BqCr5d7UPws3lRXl3v+o84s+Dm8q+YGDz/cDzjZelNrehg8/HC/1v88Plavw49/fJMz+AV8rpYHDz/c+EzzJ1ZqCB5+uPH5nX3N3Zt+Z8+yC5lXep6+pPbE/wELplul9AgAAA==",
                 "Position": "770,1313,380.9919",
                 "Rotation": "0,0,0.7071067,0.7071068",
                 "Positions": [
@@ -10569,12 +10671,14 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "Sandbox.MeshComponent",
           "__guid": "fdf43b1d-754d-47b4-9d42-25683afefa0c",
           "__enabled": true,
+          "ColliderFlags": 0,
           "Collision": "Mesh",
           "Color": "1,1,1,1",
           "Elasticity": null,
@@ -13013,6 +13117,7 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [
         {
@@ -13041,6 +13146,7 @@
           "__enabled": true,
           "BodyGroups": 18446744073709551615,
           "CreateAttachments": false,
+          "LodOverride": null,
           "MaterialGroup": null,
           "MaterialOverride": null,
           "Materials": null,
@@ -13064,6 +13170,7 @@
           "__type": "Sandbox.ModelCollider",
           "__guid": "d9e1b41f-7729-4f55-a4ec-8f62c1c2b98e",
           "__enabled": true,
+          "ColliderFlags": 0,
           "Elasticity": null,
           "Friction": null,
           "IsTrigger": false,
@@ -13098,6 +13205,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
@@ -13165,6 +13273,7 @@
           "NetworkMode": 2,
           "NetworkInterpolation": true,
           "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
           "OwnerTransfer": 1,
           "Components": [
             {
@@ -13188,6 +13297,11 @@
                 "Box": {
                   "Mins": "-404.3622,-61.46567,-28.05325",
                   "Maxs": "76.87122,205.1929,149.4367"
+                },
+                "Capsule": {
+                  "CenterA": "0,0,10",
+                  "CenterB": "0,0,90",
+                  "Radius": 10
                 }
               },
               "TargetMixer": {
@@ -13213,6 +13327,7 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [
         {
@@ -13221,6 +13336,7 @@
           "__enabled": true,
           "BodyGroups": 18446744073709551615,
           "CreateAttachments": false,
+          "LodOverride": null,
           "MaterialGroup": null,
           "MaterialOverride": null,
           "Materials": null,
@@ -13256,6 +13372,7 @@
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [
         {
@@ -13264,6 +13381,7 @@
           "__enabled": true,
           "BodyGroups": 18446744073709551615,
           "CreateAttachments": false,
+          "LodOverride": null,
           "MaterialGroup": null,
           "MaterialOverride": null,
           "Materials": null,
