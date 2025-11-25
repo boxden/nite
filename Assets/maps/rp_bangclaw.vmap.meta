@@ -11,7 +11,8 @@
       "Resources": null,
       "PackageReferences": [],
       "EditorReferences": [
-        "caro.bluecloudysky#27761"
+        "caro.bluecloudysky#27761",
+        "facepunch.walker#104599"
       ],
       "Mounts": null,
       "IsStandaloneOnly": false,
