@@ -7808,7 +7808,7 @@
       "__version": 1,
       "Flags": 0,
       "Name": "Box",
-      "Position": "-608,-715,-1",
+      "Position": "-608,-715,-2",
       "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
       "Tags": "",
@@ -7832,7 +7832,7 @@
           "IsTrigger": false,
           "Mesh": {
             "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
-            "Position": "-608,-715,-1",
+            "Position": "-608,-715,-2",
             "Rotation": "0,0,0,1",
             "Positions": [
               "-3595.005,-6326.89,1",
@@ -7887,20 +7887,20 @@
               "-0,0,-1"
             ],
             "TextureScale": [
-              "0.25,0.25",
-              "0.25,0.25",
-              "0.25,0.25",
-              "0.25,0.25",
-              "0.25,0.25",
-              "0.25,0.25"
+              "4,4",
+              "4,4",
+              "4,4",
+              "4,4",
+              "4,4",
+              "4,4"
             ],
             "TextureOffset": [
-              "384,212",
-              "384,212",
-              "212,508",
-              "300,508",
-              "128,508",
-              "384,508"
+              "24,13.25",
+              "24,13.25",
+              "13.25,31.5",
+              "18.75,31.5",
+              "7.999939,31.5",
+              "24.00006,31.5"
             ],
             "MaterialIndex": [
               0,
