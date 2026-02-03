@@ -8175,7 +8175,6 @@
             "Maxs": "6890.928,5691.5,2883.058"
           },
           "Contrast": 2,
-          "DepthSharpness": 2,
           "DistanceTexture": "albisoara_scene_data/ddgi/indirect light volume_distance_41a526bf-1e7c-4b98-a422-8f65f095781e.vtex",
           "InsideGeometry": "Deactivate",
           "IrradianceTexture": "albisoara_scene_data/ddgi/indirect light volume_irradiance_41a526bf-1e7c-4b98-a422-8f65f095781e.vtex",
@@ -8212,15 +8211,14 @@
       "AgentMaxSlope": 40,
       "ExcludedBodies": "",
       "IncludedBodies": ""
-    },
-    "GameObjectSystems": []
+    }
   },
   "ResourceVersion": 3,
   "Title": null,
   "Description": null,
   "__references": [
     "facepunch.metal_fence_panel#110524",
-    "facepunch.sandbox#142825",
+    "facepunch.sandbox#145413",
     "saandy.industrial_light01#27009"
   ],
   "__version": 3
