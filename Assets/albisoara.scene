@@ -9121,6 +9121,38 @@
         }
       ],
       "Children": []
+    },
+    {
+      "__guid": "88d5fa1c-11c7-446a-b047-6329d056cae9",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Spawn Point",
+      "Position": "-836.304,-723.8655,2380.005",
+      "Rotation": "0,0,1,0.0000001947072",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.SpawnPoint",
+          "__guid": "d1fe0e6c-a86a-4881-aaf6-4e66a296b9ad",
+          "__enabled": true,
+          "Flags": 0,
+          "Color": "0.8902,0.31765,0.05098,1",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        }
+      ],
+      "Children": []
     }
   ],
   "SceneProperties": {
