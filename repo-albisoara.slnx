@@ -3,7 +3,7 @@
     <Platform Name="Any CPU" />
   </Configurations>
   <Folder Name="/Addons/">
-    <Project Path="C:/Program Files (x86)/Steam/steamapps/common/sbox/addons/base/Code/Base Library.csproj" />
+    <Project Path="C:/Program Files (x86)/Steam/steamapps/common/sbox/addons/base/code/Base Library.csproj" />
   </Folder>
   <Folder Name="/Tools/">
     <Project Path="C:/Program Files (x86)/Steam/steamapps/common/sbox/addons/tools/Code/Base Editor Library.csproj" />
