@@ -9099,15 +9099,13 @@
           "__enabled": true,
           "Flags": 0,
           "Bounds": {
-            "Mins": "-2352.772,-5918.994,0",
-            "Maxs": "6890.928,5691.5,2883.058"
+            "Mins": "-4281.28,-7057.89,-19",
+            "Maxs": "3003.005,5627.89,2703.532"
           },
-          "Contrast": 2,
+          "Contrast": 1,
           "DistanceTexture": "albisoara_scene_data/ddgi/indirect light volume_distance_41a526bf-1e7c-4b98-a422-8f65f095781e.vtex",
           "InsideGeometry": "Deactivate",
           "IrradianceTexture": "albisoara_scene_data/ddgi/indirect light volume_irradiance_41a526bf-1e7c-4b98-a422-8f65f095781e.vtex",
-          "MaxRelocationDistanceFraction": 0.75,
-          "MinSurfaceDistanceFraction": 0.75,
           "NormalBias": 5,
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
@@ -9116,7 +9114,6 @@
           "OnComponentStart": null,
           "OnComponentUpdate": null,
           "ProbeDensity": 8,
-          "RelocationRayCount": 48,
           "RelocationTexture": "albisoara_scene_data/ddgi/indirect light volume_relocation_41a526bf-1e7c-4b98-a422-8f65f095781e.vtex"
         }
       ],
