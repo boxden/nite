@@ -9078,48 +9078,6 @@
       "Children": []
     },
     {
-      "__guid": "1f3a6a49-8da3-427e-8267-ee99934ca8f4",
-      "__version": 2,
-      "Flags": 0,
-      "Name": "Indirect Light Volume",
-      "Position": "0,0,0",
-      "Rotation": "0,0,0,1",
-      "Scale": "1,1,1",
-      "Tags": "",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkFlags": 0,
-      "NetworkOrphaned": 0,
-      "NetworkTransmit": true,
-      "OwnerTransfer": 1,
-      "Components": [
-        {
-          "__type": "Sandbox.IndirectLightVolume",
-          "__guid": "41a526bf-1e7c-4b98-a422-8f65f095781e",
-          "__enabled": true,
-          "Flags": 0,
-          "Bounds": {
-            "Mins": "-4281.28,-7057.89,-19",
-            "Maxs": "3003.005,5627.89,2703.532"
-          },
-          "Contrast": 1,
-          "DistanceTexture": "albisoara_scene_data/ddgi/indirect light volume_distance_41a526bf-1e7c-4b98-a422-8f65f095781e.vtex",
-          "InsideGeometry": "Deactivate",
-          "IrradianceTexture": "albisoara_scene_data/ddgi/indirect light volume_irradiance_41a526bf-1e7c-4b98-a422-8f65f095781e.vtex",
-          "NormalBias": 5,
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "ProbeDensity": 8,
-          "RelocationTexture": "albisoara_scene_data/ddgi/indirect light volume_relocation_41a526bf-1e7c-4b98-a422-8f65f095781e.vtex"
-        }
-      ],
-      "Children": []
-    },
-    {
       "__guid": "88d5fa1c-11c7-446a-b047-6329d056cae9",
       "__version": 2,
       "Flags": 0,
