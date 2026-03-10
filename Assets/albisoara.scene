@@ -5958,7 +5958,7 @@
               "Attenuation": 1,
               "FogMode": "Enabled",
               "FogStrength": 1,
-              "LightColor": "0.86047,0.65395,0.34419,1",
+              "LightColor": "1,0.69804,0.35294,1",
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -5995,7 +5995,7 @@
               "Attenuation": 1,
               "FogMode": "Enabled",
               "FogStrength": 1,
-              "LightColor": "0.86047,0.65395,0.34419,1",
+              "LightColor": "1,0.69804,0.35294,1",
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -9126,6 +9126,13 @@
       "AgentMaxSlope": 40,
       "ExcludedBodies": "",
       "IncludedBodies": ""
+    },
+    "GameObjectSystems": {
+      "Sandbox.Clutter.ClutterGridSystem": {
+        "Storage": {
+          "$blob": "86942663-7ce8-44d6-96b6-5c1fa614b901"
+        }
+      }
     }
   },
   "ResourceVersion": 3,
@@ -9133,7 +9140,7 @@
   "Description": null,
   "__references": [
     "facepunch.metal_fence_panel#110524",
-    "facepunch.sandbox#145413",
+    "facepunch.sandbox#158856",
     "saandy.industrial_light01#27009"
   ],
   "__version": 3
