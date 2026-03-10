@@ -9060,24 +9060,6 @@
       "Children": []
     },
     {
-      "__guid": "10f67d15-4839-4a5f-9445-e74a44fc132e",
-      "__version": 2,
-      "Flags": 0,
-      "Name": "Object",
-      "Position": "-297.3366,-1629.337,23.3745",
-      "Rotation": "0,0,0,1",
-      "Scale": "1,1,1",
-      "Tags": "",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkFlags": 0,
-      "NetworkOrphaned": 0,
-      "NetworkTransmit": true,
-      "OwnerTransfer": 1,
-      "Components": [],
-      "Children": []
-    },
-    {
       "__guid": "88d5fa1c-11c7-446a-b047-6329d056cae9",
       "__version": 2,
       "Flags": 0,
@@ -9130,7 +9112,7 @@
     "GameObjectSystems": {
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
-          "$blob": "47f63250-96ba-46a5-b5a0-b4c802f1a8f4"
+          "$blob": "15889ab1-649e-4d72-a236-17d1eaa2b18d"
         }
       }
     }
