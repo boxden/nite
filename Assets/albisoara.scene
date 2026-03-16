@@ -512,125 +512,6 @@
       ]
     },
     {
-      "__guid": "cff67f89-cbee-46d3-a84a-b34c335578c9",
-      "__version": 2,
-      "Flags": 0,
-      "Name": "Placeholder",
-      "Position": "2476.794,-171.7935,0",
-      "Rotation": "0,0,0,1",
-      "Scale": "1,1,1",
-      "Tags": "",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkFlags": 0,
-      "NetworkOrphaned": 0,
-      "NetworkTransmit": true,
-      "OwnerTransfer": 1,
-      "Components": [
-        {
-          "__type": "Sandbox.MeshComponent",
-          "__guid": "7f379c20-de97-4d1a-9c42-43de0e85778c",
-          "__enabled": true,
-          "Flags": 0,
-          "ColliderFlags": 0,
-          "Collision": "Mesh",
-          "Color": "1,1,1,1",
-          "Elasticity": null,
-          "Friction": null,
-          "HideInGame": false,
-          "IsTrigger": false,
-          "Mesh": {
-            "Topology": "H4sIAAAAAAAACmNhYGDgYGBgYGJgYPg/SAEAZlwp8qQAAAA=",
-            "Position": "2476.794,-171.7935,0",
-            "Rotation": "0,0,0,1",
-            "Positions": [
-              "-5587.121,-6455.999,0",
-              "5587.121,-6455.999,0",
-              "5587.121,6455.999,0",
-              "-5587.121,6455.999,0"
-            ],
-            "Blends": [
-              "0,0,0,0",
-              "0,0,0,0",
-              "0,0,0,0",
-              "0,0,0,0",
-              "0,0,0,0",
-              "0,0,0,0",
-              "0,0,0,0",
-              "0,0,0,0"
-            ],
-            "Colors": [
-              "0,0,0,0",
-              "0,0,0,0",
-              "0,0,0,0",
-              "0,0,0,0",
-              "0,0,0,0",
-              "0,0,0,0",
-              "0,0,0,0",
-              "0,0,0,0"
-            ],
-            "TextureCoord": [
-              "1022.966,837.3653",
-              "-373.8142,837.3653",
-              "1022.966,-776.6347",
-              "1022.966,837.3653",
-              "-373.8142,-776.6347",
-              "1022.966,-776.6347",
-              "-373.8142,837.3653",
-              "-373.8142,-776.6347"
-            ],
-            "TextureUAxis": [
-              "1,0,0",
-              "1,-0,0"
-            ],
-            "TextureVAxis": [
-              "0,-1,0",
-              "0,-1,0"
-            ],
-            "TextureScale": [
-              "0.25,0.25",
-              "0.25,0.25"
-            ],
-            "TextureOffset": [
-              "12.82617,16.82422",
-              "12.82617,16.82422"
-            ],
-            "MaterialIndex": [
-              0,
-              0
-            ],
-            "EdgeFlags": [
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
-            ]
-          },
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "OnObjectTriggerEnter": null,
-          "OnObjectTriggerExit": null,
-          "OnTriggerEnter": null,
-          "OnTriggerExit": null,
-          "RenderType": "On",
-          "RollingResistance": null,
-          "SmoothingAngle": 40,
-          "Static": true,
-          "Surface": null,
-          "SurfaceVelocity": "0,0,0"
-        }
-      ],
-      "Children": []
-    },
-    {
       "__guid": "1b6a0823-1730-4b47-9bc2-f608ab1e8098",
       "__version": 2,
       "Flags": 0,
@@ -9107,12 +8988,13 @@
       "AgentStepSize": 18,
       "AgentMaxSlope": 40,
       "ExcludedBodies": "",
-      "IncludedBodies": ""
+      "IncludedBodies": "",
+      "CustomBounds": false
     },
     "GameObjectSystems": {
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
-          "$blob": "15889ab1-649e-4d72-a236-17d1eaa2b18d"
+          "$blob": "eb2ad1a2-e8b3-438a-a6a2-2175bdaf5ff4"
         }
       }
     }
@@ -9122,7 +9004,7 @@
   "Description": null,
   "__references": [
     "facepunch.metal_fence_panel#110524",
-    "facepunch.sandbox#158856",
+    "facepunch.sandbox#160979",
     "saandy.industrial_light01#27009"
   ],
   "__version": 3
