@@ -8705,6 +8705,7 @@
             ],
             "Components": []
           },
+          "CreateTargets": true,
           "IsLooping": false,
           "IsPlaying": false,
           "OnComponentDestroy": null,
@@ -8994,7 +8995,7 @@
     "GameObjectSystems": {
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
-          "$blob": "eb2ad1a2-e8b3-438a-a6a2-2175bdaf5ff4"
+          "$blob": "f33af310-4ef4-46a3-b0f9-99369fca3d5c"
         }
       }
     }
@@ -9004,7 +9005,7 @@
   "Description": null,
   "__references": [
     "facepunch.metal_fence_panel#110524",
-    "facepunch.sandbox#160979",
+    "facepunch.sandbox#163367",
     "saandy.industrial_light01#27009"
   ],
   "__version": 3
