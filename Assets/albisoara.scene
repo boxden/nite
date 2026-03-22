@@ -8724,7 +8724,8 @@
               "Tracks": {},
               "Sources": {},
               "References": []
-            }
+            },
+            "__references": []
           },
           "TimeScale": 1
         }
@@ -8995,7 +8996,7 @@
     "GameObjectSystems": {
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
-          "$blob": "f33af310-4ef4-46a3-b0f9-99369fca3d5c"
+          "$blob": "c735b2db-f840-4cf5-a280-d96b07e887fc"
         }
       }
     }
@@ -9005,7 +9006,7 @@
   "Description": null,
   "__references": [
     "facepunch.metal_fence_panel#110524",
-    "facepunch.sandbox#163367",
+    "facepunch.sandbox#163380",
     "saandy.industrial_light01#27009"
   ],
   "__version": 3
