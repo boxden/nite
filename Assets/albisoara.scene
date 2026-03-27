@@ -9031,13 +9031,13 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
-      "Sandbox.Clutter.ClutterGridSystem": {
-        "Storage": {
-          "$blob": "3ff2f2c3-449f-4e58-94f1-30c70cfd7c5c"
-        }
-      },
       "Sandbox.MovieMaker.MovieRecorderSystem": {
         "DisableClientRecording": false
+      },
+      "Sandbox.Clutter.ClutterGridSystem": {
+        "Storage": {
+          "$blob": "84d5f6dd-0d7d-4118-93c2-2556707cdbb5"
+        }
       }
     }
   },
