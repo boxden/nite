@@ -396,6 +396,7 @@
                     "FontSize": 256,
                     "FontWeight": 800,
                     "FontItalic": false,
+                    "FontVariantNumeric": "Normal",
                     "LineHeight": 2.73,
                     "LetterSpacing": 0,
                     "WordSpacing": 0,
@@ -474,6 +475,7 @@
                     "FontSize": 256,
                     "FontWeight": 800,
                     "FontItalic": false,
+                    "FontVariantNumeric": "Normal",
                     "LineHeight": 2.73,
                     "LetterSpacing": 0,
                     "WordSpacing": 0,
@@ -633,8 +635,13 @@
           "OnComponentFixedUpdate": null,
           "OnComponentStart": null,
           "OnComponentUpdate": null,
+          "ShadowBias": 0.0005,
+          "ShadowCascadeCount": 4,
+          "ShadowCascadeSplitRatio": 0.91,
+          "ShadowHardness": 0,
           "Shadows": true,
-          "SkyColor": "0,0,0,0"
+          "SkyColor": "0,0,0,0",
+          "Visualizer": {}
         }
       ],
       "Children": []
@@ -734,6 +741,8 @@
               "OnComponentStart": null,
               "OnComponentUpdate": null,
               "Radius": 400,
+              "ShadowBias": 0.0005,
+              "ShadowHardness": 0,
               "Shadows": true
             }
           ],
@@ -744,7 +753,7 @@
           "__version": 2,
           "Flags": 0,
           "Name": "Point Light",
-          "Position": "0,-192,42.39433",
+          "Position": "2.505859,-192,42.39433",
           "Rotation": "0,0,0,1",
           "Scale": "1,1,1",
           "Tags": "light_point,light",
@@ -771,6 +780,8 @@
               "OnComponentStart": null,
               "OnComponentUpdate": null,
               "Radius": 400,
+              "ShadowBias": 0.0005,
+              "ShadowHardness": 0,
               "Shadows": true
             }
           ],
@@ -808,6 +819,8 @@
               "OnComponentStart": null,
               "OnComponentUpdate": null,
               "Radius": 400,
+              "ShadowBias": 0.0005,
+              "ShadowHardness": 0,
               "Shadows": true
             }
           ],
@@ -845,6 +858,8 @@
               "OnComponentStart": null,
               "OnComponentUpdate": null,
               "Radius": 400,
+              "ShadowBias": 0.0005,
+              "ShadowHardness": 0,
               "Shadows": true
             }
           ],
@@ -882,6 +897,8 @@
               "OnComponentStart": null,
               "OnComponentUpdate": null,
               "Radius": 400,
+              "ShadowBias": 0.0005,
+              "ShadowHardness": 0,
               "Shadows": true
             }
           ],
@@ -919,6 +936,8 @@
               "OnComponentStart": null,
               "OnComponentUpdate": null,
               "Radius": 250,
+              "ShadowBias": 0.0005,
+              "ShadowHardness": 0,
               "Shadows": true
             }
           ],
@@ -956,6 +975,8 @@
               "OnComponentStart": null,
               "OnComponentUpdate": null,
               "Radius": 250,
+              "ShadowBias": 0.0005,
+              "ShadowHardness": 0,
               "Shadows": true
             }
           ],
@@ -993,6 +1014,8 @@
               "OnComponentStart": null,
               "OnComponentUpdate": null,
               "Radius": 250,
+              "ShadowBias": 0.0005,
+              "ShadowHardness": 0,
               "Shadows": true
             }
           ],
@@ -1030,6 +1053,8 @@
               "OnComponentStart": null,
               "OnComponentUpdate": null,
               "Radius": 250,
+              "ShadowBias": 0.0005,
+              "ShadowHardness": 0,
               "Shadows": true
             }
           ],
@@ -1067,6 +1092,8 @@
               "OnComponentStart": null,
               "OnComponentUpdate": null,
               "Radius": 400,
+              "ShadowBias": 0.0005,
+              "ShadowHardness": 0,
               "Shadows": true
             }
           ],
@@ -5847,6 +5874,8 @@
               "OnComponentStart": null,
               "OnComponentUpdate": null,
               "Radius": 400,
+              "ShadowBias": 0.0005,
+              "ShadowHardness": 0,
               "Shadows": true
             }
           ],
@@ -5884,6 +5913,8 @@
               "OnComponentStart": null,
               "OnComponentUpdate": null,
               "Radius": 400,
+              "ShadowBias": 0.0005,
+              "ShadowHardness": 0,
               "Shadows": true
             }
           ],
@@ -7223,6 +7254,8 @@
           "OnComponentStart": null,
           "OnComponentUpdate": null,
           "Radius": 250,
+          "ShadowBias": 0.0005,
+          "ShadowHardness": 0,
           "Shadows": true
         }
       ],
@@ -8141,6 +8174,8 @@
               "OnComponentStart": null,
               "OnComponentUpdate": null,
               "Radius": 250,
+              "ShadowBias": 0.0005,
+              "ShadowHardness": 0,
               "Shadows": true
             }
           ],
@@ -8586,6 +8621,8 @@
           "OnComponentStart": null,
           "OnComponentUpdate": null,
           "Radius": 400,
+          "ShadowBias": 0.0005,
+          "ShadowHardness": 0,
           "Shadows": true
         }
       ],
@@ -8996,7 +9033,7 @@
     "GameObjectSystems": {
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
-          "$blob": "c735b2db-f840-4cf5-a280-d96b07e887fc"
+          "$blob": "4e3db44f-f086-436e-a1b9-f6000ddcbabc"
         }
       }
     }
@@ -9006,7 +9043,7 @@
   "Description": null,
   "__references": [
     "facepunch.metal_fence_panel#110524",
-    "facepunch.sandbox#163380",
+    "facepunch.sandbox#166413",
     "saandy.industrial_light01#27009"
   ],
   "__version": 3
