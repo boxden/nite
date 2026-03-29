@@ -1,9 +1,9 @@
 {
-  "UI": false,
+  "UI": true,
   "Volume": "1",
   "Pitch": "1",
   "Decibels": 70,
-  "SelectionMode": "Random",
+  "SelectionMode": "Forward",
   "Sounds": [
     "sounds/1071160110.vsnd"
   ],
@@ -44,8 +44,8 @@
     }
   ],
   "DefaultMixer": {
-    "Name": "unknown",
-    "Id": "00000000-0000-0000-0000-000000000000"
+    "Name": "ui",
+    "Id": "de30e586-48d9-4d79-a31c-aeab788aedd0"
   },
   "__references": [],
   "__version": 1
