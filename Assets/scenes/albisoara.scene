@@ -9010,47 +9010,6 @@
         }
       ],
       "Children": []
-    },
-    {
-      "__guid": "2011d77e-6034-4729-ada8-6b687648d586",
-      "__version": 2,
-      "Flags": 0,
-      "Name": "Soundscape",
-      "Position": "777.13,-1538.633,41.73591",
-      "Rotation": "0,0,0,1",
-      "Scale": "1,1,1",
-      "Tags": "",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkFlags": 0,
-      "NetworkOrphaned": 0,
-      "NetworkTransmit": true,
-      "OwnerTransfer": 1,
-      "Components": [
-        {
-          "__type": "Sandbox.SoundscapeTrigger",
-          "__guid": "4aae0d1f-c078-4e01-9799-334f4f381051",
-          "__enabled": true,
-          "Flags": 0,
-          "BoxSize": "69.96006,50,50",
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "Radius": 512,
-          "Soundscape": "sounds/school outdoor.sndscape",
-          "StayActiveOnExit": true,
-          "TargetMixer": {
-            "Name": "game",
-            "Id": "e2c7bd76-af44-45eb-95d2-8d9a7d494e19"
-          },
-          "Type": "Sphere",
-          "Volume": 1
-        }
-      ],
-      "Children": []
     }
   ],
   "SceneProperties": {
@@ -9074,7 +9033,7 @@
     "GameObjectSystems": {
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
-          "$blob": "1d47c84c-4f27-408e-a162-1b19baaed64c"
+          "$blob": "3ee0b709-aa39-4be4-8398-ad69ffa884f5"
         }
       },
       "Sandbox.MovieMaker.MovieRecorderSystem": {
