@@ -3302,13 +3302,13 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
-      "Sandbox.MovieMaker.MovieRecorderSystem": {
-        "DisableClientRecording": false
-      },
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
-          "$blob": "f9031e4f-5478-4213-81f7-df34857274b7"
+          "$blob": "d11b6f8e-e549-400b-b53b-f746870fc6f6"
         }
+      },
+      "Sandbox.MovieMaker.MovieRecorderSystem": {
+        "DisableClientRecording": false
       }
     }
   },
@@ -3321,7 +3321,7 @@
     "facepunch.beech_bush_regular_medium_a#60670",
     "facepunch.beech_shrub_wide_large#29102",
     "facepunch.ivy_fresh_02a#47130",
-    "facepunch.sandbox#166413",
+    "facepunch.sandbox#169144",
     "facepunch.tree_oak_big_b#33691",
     "fish.gt_shitty_pine_tree2#89754",
     "rust.ladder_300_top#25203",
