@@ -11,9 +11,9 @@
       "Resources": null,
       "PackageReferences": [],
       "EditorReferences": [
-        "caro.bluecloudysky#27761",
         "facepunch.sandbox#181124",
-        "japancitymodels.door_01#31988"
+        "japancitymodels.door_01#31988",
+        "titanovsky.payphone#54776"
       ],
       "Mounts": null,
       "IsStandaloneOnly": false,
