@@ -105,7 +105,7 @@
           "OnComponentUpdate": null,
           "ShadowBias": 0.0005,
           "ShadowCascadeCount": 4,
-          "ShadowCascadeSplitRatio": 0.9,
+          "ShadowCascadeSplitRatio": 0.8425926,
           "ShadowHardness": 0,
           "Shadows": false,
           "SkyColor": "0,0,0,0",
@@ -185,13 +185,13 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
-      "Sandbox.MovieMaker.MovieRecorderSystem": {
-        "DisableClientRecording": false
-      },
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
-          "$blob": "cfaf965b-1196-44fb-b142-31e39f5e7ab0"
+          "$blob": "1bd8a087-4abb-41d7-a7dd-4d0df9a6819e"
         }
+      },
+      "Sandbox.MovieMaker.MovieRecorderSystem": {
+        "DisableClientRecording": false
       }
     }
   },
