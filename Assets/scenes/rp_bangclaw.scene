@@ -173,7 +173,7 @@
       "Position": "-673.946533,-1226.28613,233.363266",
       "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
-      "Tags": "",
+      "Tags": "world",
       "Enabled": true,
       "NetworkMode": 2,
       "NetworkFlags": 0,
@@ -69952,13 +69952,13 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
-      "Sandbox.MovieMaker.MovieRecorderSystem": {
-        "DisableClientRecording": false
-      },
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
           "$blob": "34418648-a7a8-42ca-b259-5d73732b55cb"
         }
+      },
+      "Sandbox.MovieMaker.MovieRecorderSystem": {
+        "DisableClientRecording": false
       }
     }
   },
@@ -69967,7 +69967,7 @@
   "Description": null,
   "__references": [
     "caro.bluecloudysky#27761",
-    "facepunch.sandbox#185033"
+    "facepunch.sandbox#203779"
   ],
   "__version": 3
 }
