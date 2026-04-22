@@ -12,6 +12,14 @@
 					{
 						_class = "LODGroup"
 						switch_threshold = 0.0
+						auto_simplify_mode = 0
+						auto_reduction = 0.5
+						auto_max_error = 0.0
+						auto_lock_border_vertices = true
+						auto_permissive_simplification = false
+						auto_protect_uv_seams = true
+						auto_regularize = 1
+						auto_prune_isolated_components = false
 						meshes = 
 						[
 							"unnamed_1",
@@ -19,27 +27,55 @@
 					},
 					{
 						_class = "LODGroup"
-						switch_threshold = 100.0
-						meshes = 
-						[
-							"tree_small_lod1",
-						]
+						switch_threshold = 5.0
+						auto_simplify_mode = 1
+						auto_reduction = 0.5
+						auto_max_error = 0.0
+						auto_lock_border_vertices = true
+						auto_permissive_simplification = false
+						auto_protect_uv_seams = true
+						auto_regularize = 1
+						auto_prune_isolated_components = false
+						meshes = [  ]
 					},
 					{
 						_class = "LODGroup"
-						switch_threshold = 130.0
-						meshes = 
-						[
-							"tree_small_lod2",
-						]
+						switch_threshold = 15.0
+						auto_simplify_mode = 1
+						auto_reduction = 0.5
+						auto_max_error = 0.0
+						auto_lock_border_vertices = false
+						auto_permissive_simplification = true
+						auto_protect_uv_seams = true
+						auto_regularize = 1
+						auto_prune_isolated_components = false
+						meshes = [  ]
 					},
 					{
 						_class = "LODGroup"
-						switch_threshold = 160.0
-						meshes = 
-						[
-							"tree_small_lod3",
-						]
+						switch_threshold = 30.0
+						auto_simplify_mode = 1
+						auto_reduction = 0.45
+						auto_max_error = 0.0
+						auto_lock_border_vertices = false
+						auto_permissive_simplification = true
+						auto_protect_uv_seams = false
+						auto_regularize = 1
+						auto_prune_isolated_components = false
+						meshes = [  ]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 50.0
+						auto_simplify_mode = 1
+						auto_reduction = 0.4
+						auto_max_error = 0.0
+						auto_lock_border_vertices = false
+						auto_permissive_simplification = true
+						auto_protect_uv_seams = false
+						auto_regularize = 1
+						auto_prune_isolated_components = false
+						meshes = [  ]
 					},
 				]
 			},
