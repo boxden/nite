@@ -69952,13 +69952,18 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
+      "Sandbox.MovieMaker.MovieRecorderSystem": {
+        "DisableClientRecording": false
+      },
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
           "$blob": "34418648-a7a8-42ca-b259-5d73732b55cb"
         }
       },
-      "Sandbox.MovieMaker.MovieRecorderSystem": {
-        "DisableClientRecording": false
+      "Sandbox.SelectionSetsSystem": {
+        "Data": {
+          "SelectionSets": []
+        }
       }
     }
   },
@@ -69967,7 +69972,7 @@
   "Description": null,
   "__references": [
     "caro.bluecloudysky#27761",
-    "facepunch.sandbox#203779"
+    "facepunch.sandbox#206156"
   ],
   "__version": 3
 }
