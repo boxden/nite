@@ -107,7 +107,7 @@
           "ShadowCascadeCount": 4,
           "ShadowCascadeSplitRatio": 0.8425926,
           "ShadowHardness": 0,
-          "Shadows": false,
+          "Shadows": true,
           "SkyColor": "0,0,0,0",
           "Visualizer": {}
         }
@@ -145,7 +145,7 @@
           "Feathering": 0.02,
           "FrameInterval": 5,
           "MaxDistance": 512,
-          "Mode": "CustomTexture",
+          "Mode": "Realtime",
           "MultiBounce": false,
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
@@ -155,7 +155,7 @@
           "OnComponentUpdate": null,
           "Priority": 0,
           "Projection": "Box",
-          "Resolution": "Small",
+          "Resolution": "Huge",
           "Texture": "textures/cubemaps/default2.vtex",
           "TintColor": "1,1,1,1",
           "UpdateStrategy": "OnEnabled",
