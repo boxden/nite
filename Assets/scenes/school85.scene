@@ -1373,7 +1373,7 @@
       "__guid": "3ae79859-c9cd-4874-998d-3b648d5fe0a9",
       "__version": 2,
       "Flags": 0,
-      "Name": "sound",
+      "Name": "Sound BoC",
       "Position": "-3108.28198,57.4979897,22.8804302",
       "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
@@ -1423,15 +1423,15 @@
           "OnComponentUpdate": null,
           "Pitch": 1,
           "PlayOnStart": true,
-          "ReflectionOverride": false,
-          "Reflections": false,
+          "ReflectionOverride": true,
+          "Reflections": true,
           "Repeat": false,
           "SoundEvent": "sounds/music/boc/boards of canada - tellia - drums.sound",
           "SoundOverride": false,
           "StopOnNew": false,
           "TargetMixer": {
             "Name": "game",
-            "Id": "1c6f0f17-a94a-490a-9e75-ca6b161b5da4"
+            "Id": "e2c7bd76-af44-45eb-95d2-8d9a7d494e19"
           },
           "Volume": 1
         }
@@ -1443,8 +1443,8 @@
       "__version": 2,
       "Flags": 0,
       "Name": "Spawn",
-      "Position": "-2088,-1040,-48",
-      "Rotation": "0,0,0,1",
+      "Position": "-2665.76807,23.3391113,-48",
+      "Rotation": "0,0,0.707106769,0.707106769",
       "Scale": "1,1,1",
       "Tags": "",
       "Enabled": true,
@@ -2985,7 +2985,7 @@
       "__guid": "65537026-3cbf-461c-99f0-611ecdc0b130",
       "__version": 2,
       "Flags": 0,
-      "Name": "Object",
+      "Name": "SoundScape Trigger",
       "Position": "-2192,312,56",
       "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
@@ -3026,7 +3026,7 @@
       "__guid": "bb2c6088-01c8-42e9-87a6-60b734e311b1",
       "__version": 2,
       "Flags": 0,
-      "Name": "Object",
+      "Name": "2D Skybox",
       "Position": "-2406.05396,370.706085,-47.5013199",
       "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
@@ -3135,6 +3135,147 @@
         }
       ],
       "Children": []
+    },
+    {
+      "__guid": "da5928ab-3055-4cfb-97f7-87a2c9d6dd0f",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Baked Light",
+      "Position": "-2176.74048,1336.1626,297.612549",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "light_spot,light",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.EnvmapProbe",
+          "__guid": "2f149a79-79f4-4daf-91ce-7feb0b9d4170",
+          "__enabled": true,
+          "Flags": 0,
+          "__version": 1,
+          "BakedTexture": "scenes/school85_scene_data/envmap/bake_2f149a79-79f4-4daf-91ce-7feb0b9d4170.vtex",
+          "Bounds": {
+            "Mins": "-1859.36414,-8685.91016,-512",
+            "Maxs": "4061.76611,760.706177,512"
+          },
+          "DelayBetweenUpdates": 0.1,
+          "Feathering": 8,
+          "FrameInterval": 5,
+          "MaxDistance": 512,
+          "Mode": "Realtime",
+          "MultiBounce": false,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Priority": 0,
+          "Projection": "Sphere",
+          "Resolution": "Huge",
+          "Texture": null,
+          "TintColor": "1,1,1,1",
+          "UpdateStrategy": "OnEnabled",
+          "ZFar": 4096,
+          "ZNear": 16
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "28b42d7b-f7c4-47d3-adcf-c4ec70a77aa6",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "DSP",
+      "Position": "-2657.00977,136.257202,8.71770477",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.DspVolume",
+          "__guid": "7512b0c6-ada2-490a-b4f3-e10bc61d2786",
+          "__enabled": true,
+          "Flags": 0,
+          "Dsp": "chamber.medium",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Priority": 0,
+          "SceneVolume": {
+            "Type": "Box",
+            "Sphere": {
+              "Center": "0,0,0",
+              "Radius": 10
+            },
+            "Box": {
+              "Mins": "-1024.80518,-1381.43604,-52.4067879",
+              "Maxs": "491.275818,1930.09521,139.798447"
+            },
+            "Capsule": {
+              "CenterA": "0,0,10",
+              "CenterB": "0,0,90",
+              "Radius": 10
+            }
+          },
+          "TargetMixer": {
+            "Name": "game",
+            "Id": "00000000-0000-0000-0000-000000000000"
+          }
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "698f2994-74f1-487a-98f5-e2e60e295746",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Fog",
+      "Position": "-2895.63916,36.0349083,168.568848",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.VolumetricFogVolume",
+          "__guid": "45648c7c-c66c-4b2d-a8b9-c4972f7feda7",
+          "__enabled": true,
+          "Flags": 0,
+          "Bounds": {
+            "Mins": "-774.924988,-6320.00635,-532.876709",
+            "Maxs": "4803.51221,2191.104,1044.70239"
+          },
+          "FalloffExponent": 1,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Strength": 1
+        }
+      ],
+      "Children": []
     }
   ],
   "SceneProperties": {
@@ -3157,9 +3298,6 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
-      "Sandbox.MovieMaker.MovieRecorderSystem": {
-        "DisableClientRecording": false
-      },
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
           "$blob": "d11b6f8e-e549-400b-b53b-f746870fc6f6"
@@ -3181,7 +3319,7 @@
     "facepunch.beech_bush_regular_medium_a#60670",
     "facepunch.beech_shrub_wide_large#29102",
     "facepunch.ivy_fresh_02a#47130",
-    "facepunch.sandbox#206156",
+    "facepunch.sandbox#270878",
     "facepunch.tree_oak_big_b#33691",
     "fish.gt_shitty_pine_tree2#89754",
     "rust.ladder_300_top#25203",

@@ -186,14 +186,14 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
-      "Sandbox.SelectionSetsSystem": {
-        "Data": {
-          "SelectionSets": []
-        }
-      },
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
           "$blob": "34418648-a7a8-42ca-b259-5d73732b55cb"
+        }
+      },
+      "Sandbox.SelectionSetsSystem": {
+        "Data": {
+          "SelectionSets": []
         }
       }
     }
@@ -203,7 +203,7 @@
   "Description": null,
   "__references": [
     "caro.bluecloudysky#27761",
-    "facepunch.sandbox#268377"
+    "facepunch.sandbox#270878"
   ],
   "__version": 3
 }
