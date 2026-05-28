@@ -155,6 +155,7 @@
           "OnComponentUpdate": null,
           "Priority": 0,
           "Projection": "Box",
+          "RenderExcludeTags": "",
           "Resolution": "Huge",
           "Texture": "textures/cubemaps/default2.vtex",
           "TintColor": "1,1,1,1",
@@ -186,14 +187,14 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
-      "Sandbox.Clutter.ClutterGridSystem": {
-        "Storage": {
-          "$blob": "34418648-a7a8-42ca-b259-5d73732b55cb"
-        }
-      },
       "Sandbox.SelectionSetsSystem": {
         "Data": {
           "SelectionSets": []
+        }
+      },
+      "Sandbox.Clutter.ClutterGridSystem": {
+        "Storage": {
+          "$blob": "34418648-a7a8-42ca-b259-5d73732b55cb"
         }
       }
     }
