@@ -1359,6 +1359,7 @@
           "OnComponentUpdate": null,
           "Priority": 0,
           "Projection": "Box",
+          "RenderExcludeTags": "",
           "Resolution": "Medium",
           "Texture": null,
           "TintColor": "1,1,1,1",
@@ -3177,6 +3178,7 @@
           "OnComponentUpdate": null,
           "Priority": 0,
           "Projection": "Sphere",
+          "RenderExcludeTags": "",
           "Resolution": "Huge",
           "Texture": null,
           "TintColor": "1,1,1,1",
@@ -3298,14 +3300,14 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
-      "Sandbox.Clutter.ClutterGridSystem": {
-        "Storage": {
-          "$blob": "d11b6f8e-e549-400b-b53b-f746870fc6f6"
-        }
-      },
       "Sandbox.SelectionSetsSystem": {
         "Data": {
           "SelectionSets": []
+        }
+      },
+      "Sandbox.Clutter.ClutterGridSystem": {
+        "Storage": {
+          "$blob": "d11b6f8e-e549-400b-b53b-f746870fc6f6"
         }
       }
     }
