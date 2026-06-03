@@ -1248,7 +1248,7 @@
               "BodyGroups": 18446744073709551615,
               "Health": 0,
               "IsStatic": true,
-              "MaterialGroup": null,
+              "MaterialGroup": "default",
               "Model": "models/sbox_props/trees/oak/tree_oak_big_b.vmdl",
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
@@ -1269,7 +1269,7 @@
               "BodyGroups": 18446744073709551615,
               "CreateAttachments": false,
               "LodOverride": null,
-              "MaterialGroup": null,
+              "MaterialGroup": "default",
               "MaterialOverride": null,
               "Materials": null,
               "Model": "models/sbox_props/trees/oak/tree_oak_big_b.vmdl",
@@ -1413,9 +1413,8 @@
           "Force2d": false,
           "MaxRepeatTime": 1,
           "MinRepeatTime": 1,
-          "Occlusion": true,
+          "OcclusionEnabled": true,
           "OcclusionOverride": true,
-          "OcclusionRadius": 32,
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
@@ -1424,9 +1423,9 @@
           "OnComponentUpdate": null,
           "Pitch": 1,
           "PlayOnStart": true,
-          "ReflectionOverride": true,
-          "Reflections": true,
           "Repeat": false,
+          "ReverbEnabled": true,
+          "ReverbOverride": true,
           "SoundEvent": "sounds/music/boc/boards of canada - tellia - drums.sound",
           "SoundOverride": false,
           "StopOnNew": false,
@@ -2934,8 +2933,8 @@
           "__enabled": true,
           "Flags": 0,
           "Distance": 512,
-          "DistanceAttenuation": false,
-          "DistanceAttenuationOverride": false,
+          "DistanceAttenuation": true,
+          "DistanceAttenuationOverride": true,
           "Falloff": [
             {
               "x": 0,
@@ -2955,9 +2954,8 @@
           "Force2d": true,
           "MaxRepeatTime": 1,
           "MinRepeatTime": 1,
-          "Occlusion": false,
-          "OcclusionOverride": false,
-          "OcclusionRadius": 32,
+          "OcclusionEnabled": true,
+          "OcclusionOverride": true,
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
@@ -2966,16 +2964,16 @@
           "OnComponentUpdate": null,
           "Pitch": 0.86,
           "PlayOnStart": true,
-          "ReflectionOverride": false,
-          "Reflections": false,
           "Repeat": false,
+          "ReverbEnabled": true,
+          "ReverbOverride": true,
           "Scale": "128,287,160",
           "SoundEvent": "sounds/music/415555114.sound",
           "SoundOverride": true,
           "StopOnNew": false,
           "TargetMixer": {
             "Name": "ui",
-            "Id": "9d215611-1123-4485-b438-4f331fbdeacf"
+            "Id": "de30e586-48d9-4d79-a31c-aeab788aedd0"
           },
           "Volume": 0.44
         }
@@ -3168,7 +3166,7 @@
           "Feathering": 8,
           "FrameInterval": 5,
           "MaxDistance": 512,
-          "Mode": "Realtime",
+          "Mode": "Baked",
           "MultiBounce": false,
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
@@ -3236,7 +3234,7 @@
           },
           "TargetMixer": {
             "Name": "game",
-            "Id": "00000000-0000-0000-0000-000000000000"
+            "Id": "e2c7bd76-af44-45eb-95d2-8d9a7d494e19"
           }
         }
       ],
@@ -3267,6 +3265,7 @@
             "Mins": "-774.924988,-6320.00635,-532.876709",
             "Maxs": "4803.51221,2191.104,1044.70239"
           },
+          "Color": "1,1,1,1",
           "FalloffExponent": 1,
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
@@ -3316,13 +3315,13 @@
   "Title": null,
   "Description": null,
   "__references": [
-    "facepunch.beech_bush_medium_wall_corner#60668",
-    "facepunch.beech_bush_medium#60671",
-    "facepunch.beech_bush_regular_medium_a#60670",
-    "facepunch.beech_shrub_wide_large#29102",
+    "facepunch.beech_bush_medium_wall_corner#145431",
+    "facepunch.beech_bush_medium#145428",
+    "facepunch.beech_bush_regular_medium_a#145432",
+    "facepunch.beech_shrub_wide_large#145481",
     "facepunch.ivy_fresh_02a#47130",
     "facepunch.sandbox#272047",
-    "facepunch.tree_oak_big_b#33691",
+    "facepunch.tree_oak_big_b#145475",
     "fish.gt_shitty_pine_tree2#89754",
     "rust.ladder_300_top#25203",
     "rust.ladder_600#25206"
