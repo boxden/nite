@@ -576,6 +576,7 @@
           "__guid": "1e5ca14f-8493-43a1-a957-8f53d3446ecc",
           "__enabled": true,
           "Flags": 0,
+          "Contribution": "Diffuse, Specular, Transmissive",
           "FogMode": "Enabled",
           "FogStrength": 1,
           "LightColor": "0.91373,0.98039,1,1",
@@ -681,6 +682,7 @@
               "__enabled": true,
               "Flags": 0,
               "Attenuation": 1,
+              "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "0.91373,0.98039,1,1",
@@ -720,6 +722,7 @@
               "__enabled": true,
               "Flags": 0,
               "Attenuation": 1,
+              "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "0.91373,0.98039,1,1",
@@ -759,6 +762,7 @@
               "__enabled": true,
               "Flags": 0,
               "Attenuation": 1,
+              "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "0.91373,0.98039,1,1",
@@ -798,6 +802,7 @@
               "__enabled": true,
               "Flags": 0,
               "Attenuation": 1,
+              "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "0.91373,0.98039,1,1",
@@ -837,6 +842,7 @@
               "__enabled": true,
               "Flags": 0,
               "Attenuation": 1,
+              "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "0.91373,0.98039,1,1",
@@ -876,6 +882,7 @@
               "__enabled": true,
               "Flags": 0,
               "Attenuation": 1,
+              "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "0.91373,0.98039,1,1",
@@ -915,6 +922,7 @@
               "__enabled": true,
               "Flags": 0,
               "Attenuation": 1,
+              "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "0.91373,0.98039,1,1",
@@ -954,6 +962,7 @@
               "__enabled": true,
               "Flags": 0,
               "Attenuation": 1,
+              "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "0.91373,0.98039,1,1",
@@ -993,6 +1002,7 @@
               "__enabled": true,
               "Flags": 0,
               "Attenuation": 1,
+              "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "0.91373,0.98039,1,1",
@@ -1032,6 +1042,7 @@
               "__enabled": true,
               "Flags": 0,
               "Attenuation": 1,
+              "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "0.91373,0.98039,1,1",
@@ -4993,9 +5004,8 @@
               "Force2d": false,
               "MaxRepeatTime": 1,
               "MinRepeatTime": 1,
-              "Occlusion": false,
+              "OcclusionEnabled": false,
               "OcclusionOverride": false,
-              "OcclusionRadius": 32,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -5004,9 +5014,9 @@
               "OnComponentUpdate": null,
               "Pitch": 1,
               "PlayOnStart": false,
-              "ReflectionOverride": false,
-              "Reflections": false,
               "Repeat": false,
+              "ReverbEnabled": false,
+              "ReverbOverride": false,
               "SoundEvent": "sounds/elevator/motor/elevator-motor.sound",
               "SoundOverride": false,
               "StopOnNew": false,
@@ -5413,9 +5423,8 @@
                   "Force2d": false,
                   "MaxRepeatTime": 1,
                   "MinRepeatTime": 1,
-                  "Occlusion": false,
+                  "OcclusionEnabled": false,
                   "OcclusionOverride": false,
-                  "OcclusionRadius": 32,
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
                   "OnComponentEnabled": null,
@@ -5424,9 +5433,9 @@
                   "OnComponentUpdate": null,
                   "Pitch": 1,
                   "PlayOnStart": false,
-                  "ReflectionOverride": false,
-                  "Reflections": false,
                   "Repeat": false,
+                  "ReverbEnabled": false,
+                  "ReverbOverride": false,
                   "SoundEvent": "sounds/elevator/doors/opening old elevator door.sound",
                   "SoundOverride": false,
                   "StopOnNew": false,
@@ -5712,6 +5721,7 @@
               "__enabled": true,
               "Flags": 0,
               "Attenuation": 1,
+              "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "1,0.69804,0.35294,1",
@@ -5751,6 +5761,7 @@
               "__enabled": true,
               "Flags": 0,
               "Attenuation": 1,
+              "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "1,0.69804,0.35294,1",
@@ -6912,6 +6923,7 @@
           "__enabled": true,
           "Flags": 0,
           "Attenuation": 1,
+          "Contribution": "Diffuse, Specular, Transmissive",
           "FogMode": "Enabled",
           "FogStrength": 1,
           "LightColor": "0.91373,0.98039,1,1",
@@ -7682,9 +7694,8 @@
               "Force2d": false,
               "MaxRepeatTime": 1,
               "MinRepeatTime": 1,
-              "Occlusion": false,
+              "OcclusionEnabled": false,
               "OcclusionOverride": false,
-              "OcclusionRadius": 32,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -7693,9 +7704,9 @@
               "OnComponentUpdate": null,
               "Pitch": 1,
               "PlayOnStart": false,
-              "ReflectionOverride": false,
-              "Reflections": false,
               "Repeat": false,
+              "ReverbEnabled": false,
+              "ReverbOverride": false,
               "SoundEvent": "sounds/light/light bulb drop.sound",
               "SoundOverride": false,
               "StopOnNew": false,
@@ -7730,6 +7741,7 @@
               "__enabled": true,
               "Flags": 0,
               "Attenuation": 1,
+              "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "0.91373,0.98039,1,1",
@@ -8143,6 +8155,7 @@
           "__enabled": true,
           "Flags": 0,
           "Attenuation": 0.13,
+          "Contribution": "Diffuse, Specular, Transmissive",
           "FogMode": "Enabled",
           "FogStrength": 1,
           "LightColor": "0.91373,0.98039,1,1",
@@ -8530,17 +8543,14 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
-      "Sandbox.MovieMaker.MovieRecorderSystem": {
-        "DisableClientRecording": false
+      "Sandbox.SelectionSetsSystem": {
+        "Data": {
+          "SelectionSets": []
+        }
       },
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
           "$blob": "af50b953-4dbf-48e0-8dce-2ce3e79abb75"
-        }
-      },
-      "Sandbox.SelectionSetsSystem": {
-        "Data": {
-          "SelectionSets": []
         }
       }
     }
@@ -8550,7 +8560,7 @@
   "Description": null,
   "__references": [
     "facepunch.metal_fence_panel#143812",
-    "facepunch.sandbox#206156",
+    "facepunch.sandbox#272047",
     "saandy.industrial_light01#27009"
   ],
   "__version": 3
