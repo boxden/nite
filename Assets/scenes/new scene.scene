@@ -1,0 +1,578 @@
+{
+  "__guid": "50ad92d9-78fe-44d8-b364-81c3dc56b1e1",
+  "GameObjects": [
+    {
+      "__guid": "a69daede-6207-437c-a2b7-ef8ca9d8624a",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Door Elevator Level 1",
+      "Position": "2.5766449,-82.7318497,64",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "world",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.MeshComponent",
+          "__guid": "19bcbf48-f78f-402f-816b-3d14ea0380a5",
+          "__enabled": true,
+          "Flags": 0,
+          "ColliderFlags": 0,
+          "Collision": "Mesh",
+          "Color": "1,1,1,1",
+          "Elasticity": null,
+          "Friction": null,
+          "HideInGame": false,
+          "IsTrigger": false,
+          "Mesh": {
+            "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
+            "Positions": [
+              "-6.32835388,-99.3155823,64",
+              "6.32835388,-99.3155823,64",
+              "6.32835388,99.3155823,64",
+              "-6.32835388,99.3155823,64",
+              "-6.32835388,99.3155823,-64",
+              "6.32835388,99.3155823,-64",
+              "6.32835388,-99.3155823,-64",
+              "-6.32835388,-99.3155823,-64"
+            ],
+            "Blends": [
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0"
+            ],
+            "Colors": [
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0"
+            ],
+            "TextureCoord": [
+              "0.069570303,0.709573269",
+              "-0.0293102264,-1",
+              "0.069570303,-0.842232704",
+              "-0.709573269,-1",
+              "-0.0293102264,-0.842232704",
+              "-0.069570303,-1",
+              "-0.0293102264,0.709573269",
+              "-0.842232704,-1",
+              "0.069570303,-0.842232704",
+              "0.0293102264,0",
+              "0.069570303,0.709573269",
+              "0.842232704,0",
+              "-0.0293102264,0.709573269",
+              "0.069570303,0",
+              "-0.0293102264,-0.842232704",
+              "0.709573269,0",
+              "0.709573269,-1",
+              "-0.0293102264,0",
+              "-0.842232704,0",
+              "0.0293102264,-1",
+              "-0.709573269,0",
+              "0.069570303,-1",
+              "0.842232704,-1",
+              "-0.069570303,0"
+            ],
+            "MaterialIndex": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "EdgeFlags": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "Materials": [
+              "materials/dev/reflectivity_30.vmat"
+            ]
+          },
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
+          "RenderType": "On",
+          "RollingResistance": null,
+          "SmoothingAngle": 40,
+          "Static": true,
+          "Surface": null,
+          "SurfaceVelocity": "0,0,0"
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "512cacad-daa4-4332-b826-1ee85c8b88cc",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Door Elevator",
+      "Position": "-15.3001728,-68.57164,64",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "world",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.MeshComponent",
+          "__guid": "826941d6-e3d3-492e-809b-42e7983dbed0",
+          "__enabled": true,
+          "Flags": 0,
+          "ColliderFlags": 0,
+          "Collision": "Mesh",
+          "Color": "1,1,1,1",
+          "Elasticity": null,
+          "Friction": null,
+          "HideInGame": false,
+          "IsTrigger": false,
+          "Mesh": {
+            "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
+            "Positions": [
+              "-6.32835388,-99.3155823,64",
+              "6.32835388,-99.3155823,64",
+              "6.32835388,99.3155823,64",
+              "-6.32835388,99.3155823,64",
+              "-6.32835388,99.3155823,-64",
+              "6.32835388,99.3155823,-64",
+              "6.32835388,-99.3155823,-64",
+              "-6.32835388,-99.3155823,-64"
+            ],
+            "Blends": [
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0"
+            ],
+            "Colors": [
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0"
+            ],
+            "TextureCoord": [
+              "0.069570303,0.709573269",
+              "-0.0293102264,-1",
+              "0.069570303,-0.842232704",
+              "-0.709573269,-1",
+              "-0.0293102264,-0.842232704",
+              "-0.069570303,-1",
+              "-0.0293102264,0.709573269",
+              "-0.842232704,-1",
+              "0.069570303,-0.842232704",
+              "0.0293102264,0",
+              "0.069570303,0.709573269",
+              "0.842232704,0",
+              "-0.0293102264,0.709573269",
+              "0.069570303,0",
+              "-0.0293102264,-0.842232704",
+              "0.709573269,0",
+              "0.709573269,-1",
+              "-0.0293102264,0",
+              "-0.842232704,0",
+              "0.0293102264,-1",
+              "-0.709573269,0",
+              "0.069570303,-1",
+              "0.842232704,-1",
+              "-0.069570303,0"
+            ],
+            "MaterialIndex": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "EdgeFlags": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "Materials": [
+              "materials/dev/reflectivity_30.vmat"
+            ]
+          },
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
+          "RenderType": "On",
+          "RollingResistance": null,
+          "SmoothingAngle": 40,
+          "Static": true,
+          "Surface": null,
+          "SurfaceVelocity": "0,0,0"
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "bd9ede80-f973-4134-827f-9d40d77602fb",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "New Movie Player",
+      "Position": "0,0,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.MovieMaker.MoviePlayer",
+          "__guid": "d08e0514-11cb-44cc-9c35-6cb06f1b44bb",
+          "__enabled": true,
+          "Flags": 0,
+          "Binder": {
+            "GameObjects": [
+              {
+                "Track": "2023a110-f095-4441-9fee-f45da2de1af6",
+                "Reference": "512cacad-daa4-4332-b826-1ee85c8b88cc"
+              },
+              {
+                "Track": "63697db4-3475-4757-8b7f-56eba7b80823",
+                "Reference": "a69daede-6207-437c-a2b7-ef8ca9d8624a"
+              }
+            ],
+            "Components": []
+          },
+          "CreateTargets": false,
+          "IsLooping": false,
+          "IsPlaying": false,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "PositionSeconds": 0,
+          "Resource": {
+            "Compiled": {
+              "Tracks": [
+                {
+                  "Kind": "Reference",
+                  "Name": "Door Elevator",
+                  "Type": "Sandbox.GameObject",
+                  "Id": "2023a110-f095-4441-9fee-f45da2de1af6",
+                  "Metadata": {
+                    "ReferenceId": "512cacad-daa4-4332-b826-1ee85c8b88cc"
+                  },
+                  "Children": [
+                    {
+                      "Kind": "Property",
+                      "Name": "LocalPosition",
+                      "Type": "Vector3",
+                      "Blocks": [
+                        {
+                          "TimeRange": "0,3600",
+                          "SampleRate": 30,
+                          "Samples": "H4sIAAAAAAAACpNjYGBoOltycGH4w0MMDA1OIHbo6ztwdt2+63D2/XsX4WzLqNNwtpfdETj76ow9cPas8i1wdtSL1XD2lR+L4Owz22bC2f/1J8DZBkVtcLadWCWcLSGYCmcXfQiAs0+dt4Gzl53SgLOb/4jA2c8bGOHsmc/uHISxS+9th7MTFKbA2QeOJcPZz/Yowdk1SqcPwNgax43gbIbcd3Yw9oSDkQ4wtsq6/WA2AA68lOpsAQAA"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Kind": "Reference",
+                  "Name": "Door Elevator Level 1",
+                  "Type": "Sandbox.GameObject",
+                  "Id": "63697db4-3475-4757-8b7f-56eba7b80823",
+                  "Metadata": {
+                    "ReferenceId": "a69daede-6207-437c-a2b7-ef8ca9d8624a"
+                  },
+                  "Children": [
+                    {
+                      "Kind": "Property",
+                      "Name": "LocalPosition",
+                      "Type": "Vector3",
+                      "Blocks": [
+                        {
+                          "TimeRange": "360,3960",
+                          "SampleRate": 30,
+                          "Samples": "H4sIAAAAAAAACpNjYGA48FzFYWH4w0MMDA1OIHbo6ztwdt2+63D2/XsX4WzLqNNwtpfdETj76ow9cPas8i1wdtSL1XD2lR+L4Owz22bC2f/1J8DZBkVtcLadWCWcLSGYCmcXfQiAs0+dt4Gzl53SgLOb/4jA2c8bGOHsmc/uHISxS+9th7MTFKbA2QeOJcPZz/Yowdk1SqcPwNgax43gbIbcd3Yw9oSDkQ4wtsq6/WA2ANqvpfZsAQAA"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "EditorData": {
+              "SampleRate": 30,
+              "Duration": 3960,
+              "ExportConfig": null,
+              "Tracks": {
+                "2023a110-f095-4441-9fee-f45da2de1af6": {
+                  "$type": "Reference",
+                  "Metadata": {
+                    "ReferenceId": "512cacad-daa4-4332-b826-1ee85c8b88cc"
+                  },
+                  "Name": "Door Elevator",
+                  "TargetType": "Sandbox.GameObject"
+                },
+                "63697db4-3475-4757-8b7f-56eba7b80823": {
+                  "$type": "Reference",
+                  "Metadata": {
+                    "ReferenceId": "a69daede-6207-437c-a2b7-ef8ca9d8624a"
+                  },
+                  "Name": "Door Elevator Level 1",
+                  "TargetType": "Sandbox.GameObject"
+                },
+                "930b613e-5f9d-44cd-8dd7-a600312752f5": {
+                  "$type": "Property",
+                  "Format": "Editor",
+                  "Name": "LocalPosition",
+                  "TargetType": "Vector3",
+                  "ParentId": "63697db4-3475-4757-8b7f-56eba7b80823",
+                  "Blocks": [
+                    {
+                      "TimeRange": "360,3960",
+                      "Signal": {
+                        "$id": 1,
+                        "$type": "Keyframes",
+                        "Keyframes": [
+                          {
+                            "Time": 360,
+                            "Value": "2.5766449,-112.67115,64",
+                            "Interpolation": "Cubic"
+                          },
+                          {
+                            "Time": 3960,
+                            "Value": "2.5766449,8.20153046,64",
+                            "Interpolation": "Cubic"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                "2d7186f1-b187-4884-92c3-3cdebd5e1e9e": {
+                  "$type": "Property",
+                  "Format": "Editor",
+                  "Name": "LocalPosition",
+                  "TargetType": "Vector3",
+                  "ParentId": "2023a110-f095-4441-9fee-f45da2de1af6",
+                  "Blocks": [
+                    {
+                      "TimeRange": "0,3600",
+                      "Signal": {
+                        "$id": 1,
+                        "$type": "Keyframes",
+                        "Keyframes": [
+                          {
+                            "Time": 0,
+                            "Value": "-15.3001728,-112.67115,64",
+                            "Interpolation": "Cubic"
+                          },
+                          {
+                            "Time": 3600,
+                            "Value": "-15.3001728,8.20153046,64",
+                            "Interpolation": "Cubic"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              "References": []
+            },
+            "__references": []
+          },
+          "TimeScale": 1
+        }
+      ],
+      "Children": []
+    }
+  ],
+  "SceneProperties": {
+    "NetworkInterpolation": true,
+    "TimeScale": 1,
+    "WantsSystemScene": true,
+    "Metadata": {},
+    "NavMesh": {
+      "Enabled": false,
+      "IncludeStaticBodies": true,
+      "IncludeKeyframedBodies": true,
+      "EditorAutoUpdate": false,
+      "AgentHeight": 64,
+      "AgentRadius": 16,
+      "AgentStepSize": 18,
+      "AgentMaxSlope": 40,
+      "ExcludedBodies": "",
+      "IncludedBodies": "",
+      "DeferGeneration": false,
+      "CustomBounds": false
+    },
+    "GameObjectSystems": {
+      "Sandbox.SelectionSetsSystem": {
+        "Data": {
+          "SelectionSets": []
+        }
+      },
+      "Sandbox.Clutter.ClutterGridSystem": {
+        "Storage": {
+          "$blob": "1429d204-6669-4771-b6db-4c4e753bbdac"
+        }
+      }
+    }
+  },
+  "ResourceVersion": 3,
+  "Title": null,
+  "Description": null,
+  "__references": [
+    "facepunch.sandbox#272047"
+  ],
+  "__version": 3
+}
