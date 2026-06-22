@@ -1,0 +1,84 @@
+{
+  "EditorData": {
+    "SampleRate": 30,
+    "Duration": 3960,
+    "ExportConfig": null,
+    "Tracks": {
+      "2023a110-f095-4441-9fee-f45da2de1af6": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "512cacad-daa4-4332-b826-1ee85c8b88cc"
+        },
+        "Name": "Door Elevator",
+        "TargetType": "Sandbox.GameObject"
+      },
+      "63697db4-3475-4757-8b7f-56eba7b80823": {
+        "$type": "Reference",
+        "Metadata": {
+          "ReferenceId": "a69daede-6207-437c-a2b7-ef8ca9d8624a"
+        },
+        "Name": "Door Elevator Level 1",
+        "TargetType": "Sandbox.GameObject"
+      },
+      "930b613e-5f9d-44cd-8dd7-a600312752f5": {
+        "$type": "Property",
+        "Format": "Editor",
+        "Name": "LocalPosition",
+        "TargetType": "Vector3",
+        "ParentId": "63697db4-3475-4757-8b7f-56eba7b80823",
+        "Blocks": [
+          {
+            "TimeRange": "360,3960",
+            "Signal": {
+              "$id": 1,
+              "$type": "Keyframes",
+              "Keyframes": [
+                {
+                  "Time": 360,
+                  "Value": "2.5766449,-112.67115,64",
+                  "Interpolation": "Cubic"
+                },
+                {
+                  "Time": 3960,
+                  "Value": "2.5766449,8.20153046,64",
+                  "Interpolation": "Cubic"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "2d7186f1-b187-4884-92c3-3cdebd5e1e9e": {
+        "$type": "Property",
+        "Format": "Editor",
+        "Name": "LocalPosition",
+        "TargetType": "Vector3",
+        "ParentId": "2023a110-f095-4441-9fee-f45da2de1af6",
+        "Blocks": [
+          {
+            "TimeRange": "0,3600",
+            "Signal": {
+              "$id": 1,
+              "$type": "Keyframes",
+              "Keyframes": [
+                {
+                  "Time": 0,
+                  "Value": "-15.3001728,-112.67115,64",
+                  "Interpolation": "Cubic"
+                },
+                {
+                  "Time": 3600,
+                  "Value": "-15.3001728,8.20153046,64",
+                  "Interpolation": "Cubic"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "References": []
+  },
+  "__references": [],
+  "__version": 0
+}
