@@ -94,6 +94,7 @@
           "__guid": "aa17732d-5cee-48ac-97f8-4c27c758a975",
           "__enabled": true,
           "Flags": 0,
+          "Contribution": "Diffuse, Specular, Transmissive",
           "FogMode": "Enabled",
           "FogStrength": 1,
           "LightColor": "0.91373,0.98039,1,1",
@@ -187,14 +188,14 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
-      "Sandbox.SelectionSetsSystem": {
-        "Data": {
-          "SelectionSets": []
-        }
-      },
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
           "$blob": "34418648-a7a8-42ca-b259-5d73732b55cb"
+        }
+      },
+      "Sandbox.SelectionSetsSystem": {
+        "Data": {
+          "SelectionSets": []
         }
       }
     }
@@ -204,7 +205,7 @@
   "Description": null,
   "__references": [
     "caro.bluecloudysky#27761",
-    "facepunch.sandbox#272047"
+    "facepunch.sandbox#285684"
   ],
   "__version": 3
 }
