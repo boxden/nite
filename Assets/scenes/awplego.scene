@@ -39,6 +39,7 @@
               "__guid": "a280cf53-8346-48d4-ade4-138b1f1681da",
               "__enabled": true,
               "Flags": 0,
+              "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "0.91373,0.98039,1,1",
@@ -204,6 +205,7 @@
               "OnComponentUpdate": null,
               "Priority": 0,
               "Projection": "Box",
+              "RenderExcludeTags": "",
               "Resolution": "Large",
               "Texture": "textures/cubemaps/default.vtex",
               "TintColor": "1,1,1,1",
@@ -17155,9 +17157,8 @@
               "Force2d": false,
               "MaxRepeatTime": 1,
               "MinRepeatTime": 1,
-              "Occlusion": true,
+              "OcclusionEnabled": false,
               "OcclusionOverride": false,
-              "OcclusionRadius": 32,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -17166,9 +17167,9 @@
               "OnComponentUpdate": null,
               "Pitch": 1,
               "PlayOnStart": true,
-              "ReflectionOverride": false,
-              "Reflections": true,
               "Repeat": false,
+              "ReverbEnabled": false,
+              "ReverbOverride": false,
               "SoundEvent": "sounds/music/boc/boards of canada - tellia.sound",
               "SoundOverride": false,
               "StopOnNew": false,
@@ -17353,9 +17354,6 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
-      "Sandbox.MovieMaker.MovieRecorderSystem": {
-        "DisableClientRecording": false
-      },
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
           "$blob": "3d367fed-b93b-48cf-b5fb-86a97484d719"
@@ -17373,7 +17371,7 @@
   "Description": null,
   "__references": [
     "facepunch.rubbertilesa#111167",
-    "facepunch.sandbox#206156"
+    "facepunch.sandbox#285684"
   ],
   "__version": 3
 }
