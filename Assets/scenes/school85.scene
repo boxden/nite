@@ -1509,6 +1509,7 @@
               "__enabled": true,
               "Flags": 0,
               "Attenuation": 0.23,
+              "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "0.91373,0.98039,1,1",
@@ -1548,6 +1549,7 @@
               "__enabled": true,
               "Flags": 0,
               "Attenuation": 0.23,
+              "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "0.91373,0.98039,1,1",
@@ -1587,6 +1589,7 @@
               "__enabled": true,
               "Flags": 0,
               "Attenuation": 0.23,
+              "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "0.91373,0.98039,1,1",
@@ -1626,6 +1629,7 @@
               "__enabled": true,
               "Flags": 0,
               "Attenuation": 0.23,
+              "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "0.91373,0.98039,1,1",
@@ -1665,6 +1669,7 @@
               "__enabled": true,
               "Flags": 0,
               "Attenuation": 0.23,
+              "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "0.91373,0.98039,1,1",
@@ -1704,6 +1709,7 @@
               "__enabled": true,
               "Flags": 0,
               "Attenuation": 0.23,
+              "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "0.91373,0.98039,1,1",
@@ -1743,6 +1749,7 @@
               "__enabled": true,
               "Flags": 0,
               "Attenuation": 0.23,
+              "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "0.91373,0.98039,1,1",
@@ -1782,6 +1789,7 @@
               "__enabled": true,
               "Flags": 0,
               "Attenuation": 0.23,
+              "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "0.91373,0.98039,1,1",
@@ -1821,6 +1829,7 @@
               "__enabled": true,
               "Flags": 0,
               "Attenuation": 0.23,
+              "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "0.91373,0.98039,1,1",
@@ -1860,6 +1869,7 @@
               "__enabled": true,
               "Flags": 0,
               "Attenuation": 0.23,
+              "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "0.91373,0.98039,1,1",
@@ -1899,6 +1909,7 @@
               "__enabled": true,
               "Flags": 0,
               "Attenuation": 0.23,
+              "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
               "LightColor": "0.91373,0.98039,1,1",
@@ -3077,6 +3088,7 @@
           "__enabled": true,
           "Flags": 0,
           "Attenuation": 1,
+          "Contribution": "Diffuse, Specular, Transmissive",
           "FogMode": "Enabled",
           "FogStrength": 1,
           "LightColor": "0.91373,0.98039,1,1",
@@ -3115,6 +3127,7 @@
           "__guid": "a8a4dac8-277f-4284-b640-d73743e43195",
           "__enabled": true,
           "Flags": 0,
+          "Contribution": "Diffuse, Specular, Transmissive",
           "FogMode": "Enabled",
           "FogStrength": 1,
           "LightColor": "0.91373,0.98039,1,1",
@@ -3299,14 +3312,14 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
-      "Sandbox.SelectionSetsSystem": {
-        "Data": {
-          "SelectionSets": []
-        }
-      },
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
           "$blob": "d11b6f8e-e549-400b-b53b-f746870fc6f6"
+        }
+      },
+      "Sandbox.SelectionSetsSystem": {
+        "Data": {
+          "SelectionSets": []
         }
       }
     }
@@ -3320,7 +3333,7 @@
     "facepunch.beech_bush_regular_medium_a#145432",
     "facepunch.beech_shrub_wide_large#145481",
     "facepunch.ivy_fresh_02a#47130",
-    "facepunch.sandbox#272047",
+    "facepunch.sandbox#285684",
     "facepunch.tree_oak_big_b#145475",
     "fish.gt_shitty_pine_tree2#89754",
     "rust.ladder_300_top#25203",
