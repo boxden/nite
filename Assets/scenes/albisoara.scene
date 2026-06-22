@@ -323,6 +323,7 @@
                   "__enabled": true,
                   "Flags": 0,
                   "__version": 2,
+                  "Billboard": "None",
                   "BlendMode": "Normal",
                   "FogStrength": 1,
                   "HorizontalAlignment": "Center",
@@ -402,6 +403,7 @@
                   "__enabled": true,
                   "Flags": 0,
                   "__version": 2,
+                  "Billboard": "None",
                   "BlendMode": "Normal",
                   "FogStrength": 1,
                   "HorizontalAlignment": "Center",
@@ -5210,7 +5212,7 @@
           "__version": 2,
           "Flags": 0,
           "Name": "Open door",
-          "Position": "7.55358887,76.3895874,-85.0700607",
+          "Position": "-983.600403,-791.554993,48.323101",
           "Rotation": "0,0,0,1",
           "Scale": "1,1,1",
           "Tags": "world",
@@ -7131,61 +7133,64 @@
           "SurfaceVelocity": "0,0,0"
         },
         {
-          "__type": "FuncButton",
-          "__guid": "62fe4fa4-1b81-40c7-b564-d4043bb081cc",
+          "__type": "Sandbox.Mapping.Button",
+          "__guid": "ff8ba775-7968-4315-bc57-4b14591b6907",
           "__enabled": true,
-          "AutoReset": true,
-          "CloseDuration": 0.1,
-          "CloseMovementCurve": [
+          "Flags": 0,
+          "AnimationCurve": [
             {
               "x": 0,
               "y": 0,
-              "in": -1,
-              "out": 1,
+              "in": 0,
+              "out": 0,
               "mode": "Mirrored"
             },
             {
               "x": 1,
               "y": 1,
-              "in": -1,
-              "out": 1,
+              "in": 0,
+              "out": 0,
               "mode": "Mirrored"
             }
           ],
-          "Move": true,
-          "MoveDelta": "-2,0,0",
-          "OnButtonPressed": null,
-          "OnButtonReleased": null,
-          "OnCloseEnd": null,
-          "OnCloseStart": null,
+          "AnimationTime": 0.5,
+          "AutoReset": true,
+          "Mode": "Toggle",
+          "Move": false,
+          "MoveDelta": "0,0,0",
+          "MoveTarget": null,
+          "OffSound": null,
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
           "OnComponentFixedUpdate": null,
           "OnComponentStart": null,
           "OnComponentUpdate": null,
-          "OnOpenEnd": null,
-          "OnOpenStart": null,
-          "OnStateChanged": null,
-          "OpenDuration": 0.1,
-          "OpenMovementCurve": [
-            {
-              "x": 0,
-              "y": 0,
-              "in": -1,
-              "out": 1,
-              "mode": "Mirrored"
-            },
-            {
-              "x": 1,
-              "y": 1,
-              "in": -1,
-              "out": 1,
-              "mode": "Mirrored"
-            }
-          ],
-          "ResetTime": 0,
-          "State": false
+          "OnPressed": {
+            "body": [
+              {
+                "$type": "ivk",
+                "InvokeType": "Member",
+                "TargetComponent": {
+                  "t": "Direct",
+                  "cv": null
+                },
+                "Member": null,
+                "ReturnVariable": null
+              }
+            ]
+          },
+          "OnReleased": null,
+          "OnSound": null,
+          "OnTurnedOff": null,
+          "OnTurnedOn": null,
+          "ResetTime": 1,
+          "TooltipDescription": "",
+          "TooltipDescriptionOff": "",
+          "TooltipIcon": "swap_vert",
+          "TooltipIconOff": "swap_vert",
+          "TooltipTitle": "Call",
+          "TooltipTitleOff": "Call"
         }
       ],
       "Children": []
@@ -7371,7 +7376,7 @@
       "__version": 2,
       "Flags": 0,
       "Name": "Door 1st floor",
-      "Position": "-1010,-791.554993,48.323101",
+      "Position": "-962.00293,-791.554993,48.323101",
       "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
       "Tags": "world",
@@ -8258,63 +8263,6 @@
       "Children": []
     },
     {
-      "__guid": "b5f0faac-3db9-471b-95b5-d2b846c5780e",
-      "__version": 2,
-      "Flags": 0,
-      "Name": "Movie Player",
-      "Position": "0,0,0",
-      "Rotation": "0,0,0,1",
-      "Scale": "1,1,1",
-      "Tags": "",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkFlags": 0,
-      "NetworkOrphaned": 0,
-      "NetworkTransmit": true,
-      "OwnerTransfer": 1,
-      "Components": [
-        {
-          "__type": "Sandbox.MovieMaker.MoviePlayer",
-          "__guid": "fc1b24fe-1686-40d2-802a-668f7eb18a95",
-          "__enabled": true,
-          "Flags": 0,
-          "Binder": {
-            "GameObjects": [
-              {
-                "Track": "4ec7e334-7462-441f-b7b2-77c4ece37163",
-                "Reference": "b18566b5-845f-4be3-a6b8-c978bb9f51ab"
-              }
-            ],
-            "Components": []
-          },
-          "CreateTargets": true,
-          "IsLooping": false,
-          "IsPlaying": false,
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "PositionSeconds": 0,
-          "Resource": {
-            "Compiled": {},
-            "EditorData": {
-              "SampleRate": 30,
-              "Duration": 0,
-              "ExportConfig": null,
-              "Tracks": {},
-              "Sources": {},
-              "References": []
-            },
-            "__references": []
-          },
-          "TimeScale": 1
-        }
-      ],
-      "Children": []
-    },
-    {
       "__guid": "47f764f4-9291-4f82-9434-f76a3e03e420",
       "__version": 2,
       "Flags": 0,
@@ -8491,12 +8439,12 @@
       "Children": []
     },
     {
-      "__guid": "88d5fa1c-11c7-446a-b047-6329d056cae9",
+      "__guid": "aebac033-de47-4831-9470-8ad0a07a47e9",
       "__version": 2,
       "Flags": 0,
       "Name": "Spawn Point",
-      "Position": "-836.304016,-723.865479,2380.00488",
-      "Rotation": "0,0,1,1.94707198E-07",
+      "Position": "-942.038208,-731.232544,-0.00048828125",
+      "Rotation": "0,0,0.707106948,-0.70710659",
       "Scale": "1,1,1",
       "Tags": "",
       "Enabled": true,
@@ -8508,7 +8456,7 @@
       "Components": [
         {
           "__type": "Sandbox.SpawnPoint",
-          "__guid": "d1fe0e6c-a86a-4881-aaf6-4e66a296b9ad",
+          "__guid": "ed08d431-60c9-4757-bb02-f0b1313e91dd",
           "__enabled": true,
           "Flags": 0,
           "Color": "0.8902,0.31765,0.05098,1",
@@ -8518,6 +8466,169 @@
           "OnComponentFixedUpdate": null,
           "OnComponentStart": null,
           "OnComponentUpdate": null
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "7d5f3d22-308f-4b99-940e-7149d8c45779",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "New Movie Player",
+      "Position": "0,0,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.MovieMaker.MoviePlayer",
+          "__guid": "187ff2e5-4f3b-418f-9880-0f1c7e822353",
+          "__enabled": true,
+          "Flags": 0,
+          "Binder": {
+            "GameObjects": [
+              {
+                "Track": "5d514ecf-7d93-47d3-b5ed-7c50a022ee11",
+                "Reference": "e337bf9d-aa64-420b-9fe1-797fd8a26940"
+              },
+              {
+                "Track": "7dbb72d1-d0ba-475c-90ad-4e3d6c2bcbee",
+                "Reference": "e337bf9d-aa64-420b-9fe1-797fd8a26940"
+              },
+              {
+                "Track": "68cbe1ec-8631-48ca-a5d7-dbf9aef19f42",
+                "Reference": "e337bf9d-aa64-420b-9fe1-797fd8a26940"
+              },
+              {
+                "Track": "4f7bb85a-e684-40c4-8e81-f588c7c3bf03",
+                "Reference": "e337bf9d-aa64-420b-9fe1-797fd8a26940"
+              },
+              {
+                "Track": "09120fa6-bbce-4ecd-a585-ff45497bede6",
+                "Reference": "e337bf9d-aa64-420b-9fe1-797fd8a26940"
+              },
+              {
+                "Track": "20b8ce2a-574f-4c26-82f0-e1c95f9460a5",
+                "Reference": "2181388e-57b5-43ef-a308-bf2a423aad7d"
+              }
+            ],
+            "Components": []
+          },
+          "CreateTargets": false,
+          "IsLooping": false,
+          "IsPlaying": false,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "PositionSeconds": 0,
+          "Resource": {
+            "Compiled": {
+              "Tracks": [
+                {
+                  "Kind": "Reference",
+                  "Name": "Door 1st floor",
+                  "Type": "Sandbox.GameObject",
+                  "Id": "09120fa6-bbce-4ecd-a585-ff45497bede6",
+                  "Metadata": {
+                    "ReferenceId": "e337bf9d-aa64-420b-9fe1-797fd8a26940"
+                  },
+                  "Children": [
+                    {
+                      "Kind": "Property",
+                      "Name": "LocalPosition",
+                      "Type": "Vector3",
+                      "Blocks": [
+                        {
+                          "TimeRange": "0,3600",
+                          "SampleRate": 30,
+                          "Samples": "H4sIAAAAAAAACpNjYGA4m11zpPWx65HbXo5OO1gQbOmeajjbnBnB9s2ugrPnHa2EszOFEewPoRVwdnFfOZxttK8Mzs59Vgpnp3Mg2HGqJXD2ZLtiONs9tAjO3pNVCGcbNBTA2U+m5cPZkhvy4GyBs7lwNtf7HDjbVRzBZnHPhrPb67PgbL5DmXD2DX4EWysrA852uJQOZ8d4Itj7L6TB2QD4u0kNbAEAAA=="
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Kind": "Reference",
+                  "Name": "Open door",
+                  "Type": "Sandbox.GameObject",
+                  "Id": "20b8ce2a-574f-4c26-82f0-e1c95f9460a5",
+                  "Metadata": {
+                    "ReferenceId": "2181388e-57b5-43ef-a308-bf2a423aad7d"
+                  }
+                }
+              ]
+            },
+            "EditorData": {
+              "SampleRate": 30,
+              "Duration": 3600,
+              "ExportConfig": null,
+              "Tracks": {
+                "47f23106-ac7c-403a-a878-00376ecef6bb": {
+                  "$type": "Property",
+                  "Format": "Editor",
+                  "Name": "LocalPosition",
+                  "TargetType": "Vector3",
+                  "ParentId": "20b8ce2a-574f-4c26-82f0-e1c95f9460a5"
+                },
+                "09120fa6-bbce-4ecd-a585-ff45497bede6": {
+                  "$type": "Reference",
+                  "Metadata": {
+                    "ReferenceId": "e337bf9d-aa64-420b-9fe1-797fd8a26940"
+                  },
+                  "Name": "Door 1st floor",
+                  "TargetType": "Sandbox.GameObject"
+                },
+                "20b8ce2a-574f-4c26-82f0-e1c95f9460a5": {
+                  "$type": "Reference",
+                  "Metadata": {
+                    "ReferenceId": "2181388e-57b5-43ef-a308-bf2a423aad7d"
+                  },
+                  "Name": "Open door",
+                  "TargetType": "Sandbox.GameObject"
+                },
+                "9e825913-ebb4-4401-b3f6-491ed47f5a9b": {
+                  "$type": "Property",
+                  "Format": "Editor",
+                  "Name": "LocalPosition",
+                  "TargetType": "Vector3",
+                  "ParentId": "09120fa6-bbce-4ecd-a585-ff45497bede6",
+                  "Blocks": [
+                    {
+                      "TimeRange": "0,3600",
+                      "Signal": {
+                        "$id": 1,
+                        "$type": "Keyframes",
+                        "Keyframes": [
+                          {
+                            "Time": 0,
+                            "Value": "-1009.68439,-791.554993,48.323101",
+                            "Interpolation": "Cubic"
+                          },
+                          {
+                            "Time": 3600,
+                            "Value": "-921.651001,-791.554993,48.323101",
+                            "Interpolation": "Cubic"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              "References": []
+            },
+            "__references": []
+          },
+          "TimeScale": 1
         }
       ],
       "Children": []
@@ -8543,14 +8654,14 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
+      "Sandbox.Clutter.ClutterGridSystem": {
+        "Storage": {
+          "$blob": "ab40ae01-7151-4abb-8cc9-70d6544ed26d"
+        }
+      },
       "Sandbox.SelectionSetsSystem": {
         "Data": {
           "SelectionSets": []
-        }
-      },
-      "Sandbox.Clutter.ClutterGridSystem": {
-        "Storage": {
-          "$blob": "af50b953-4dbf-48e0-8dce-2ce3e79abb75"
         }
       }
     }
@@ -8560,7 +8671,7 @@
   "Description": null,
   "__references": [
     "facepunch.metal_fence_panel#143812",
-    "facepunch.sandbox#272047",
+    "facepunch.sandbox#285684",
     "saandy.industrial_light01#27009"
   ],
   "__version": 3
