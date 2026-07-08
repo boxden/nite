@@ -1959,7 +1959,7 @@
           "IsTrigger": true,
           "Mesh": {
             "Data": {
-              "$blob": "be07e081-114d-48b6-919e-b4568e8eaec5"
+              "$blob": "2013e58c-c3f4-43a6-90ba-cef219141c2a"
             },
             "Materials": [
               "materials/dev/dev_measuregeneric01.vmat"
@@ -2251,6 +2251,7 @@
           "__guid": "a8a4dac8-277f-4284-b640-d73743e43195",
           "__enabled": true,
           "Flags": 0,
+          "ContactShadows": true,
           "Contribution": "Diffuse, Specular, Transmissive",
           "FogMode": "Enabled",
           "FogStrength": 1,
