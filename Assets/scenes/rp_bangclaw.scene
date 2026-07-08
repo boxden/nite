@@ -94,6 +94,7 @@
           "__guid": "aa17732d-5cee-48ac-97f8-4c27c758a975",
           "__enabled": true,
           "Flags": 0,
+          "ContactShadows": true,
           "Contribution": "Diffuse, Specular, Transmissive",
           "FogMode": "Enabled",
           "FogStrength": 1,
