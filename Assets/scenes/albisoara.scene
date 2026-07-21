@@ -31,7 +31,7 @@
           "IsTrigger": false,
           "Mesh": {
             "Data": {
-              "$blob": "009fea51-7e2a-45c5-96b4-a55426df5dfd"
+              "$blob": "8bcbabab-8234-49c1-8aa7-4de1df44bde4"
             },
             "Materials": [
               "materials/dev/reflectivity_30.vmat"
@@ -954,6 +954,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -1046,6 +1047,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -1138,6 +1140,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -1230,6 +1233,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -1322,6 +1326,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -1414,6 +1419,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -1506,6 +1512,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -1598,6 +1605,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -1690,6 +1698,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -1782,6 +1791,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -1874,6 +1884,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -1966,6 +1977,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -2058,6 +2070,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -2169,6 +2182,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -2261,6 +2275,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -2353,6 +2368,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -2445,6 +2461,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -2537,6 +2554,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -2629,6 +2647,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -2721,6 +2740,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -2813,6 +2833,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -2905,6 +2926,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -2997,6 +3019,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -3089,6 +3112,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -3181,6 +3205,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -3273,6 +3298,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -3365,6 +3391,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -3476,6 +3503,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -3568,6 +3596,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -3660,6 +3689,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -3752,6 +3782,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -3844,6 +3875,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -3936,6 +3968,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -4028,6 +4061,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -4120,6 +4154,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -4212,6 +4247,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -4304,6 +4340,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -4396,6 +4433,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -4488,6 +4526,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -4580,6 +4619,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -4672,6 +4712,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
+                      "OnGibsCreated": null,
                       "OnPropBreak": null,
                       "OnPropTakeDamage": null,
                       "StartAsleep": false,
@@ -4834,7 +4875,7 @@
               "IsTrigger": false,
               "Mesh": {
                 "Data": {
-                  "$blob": "0560c2e1-4d10-4ac5-8bd1-f68560507a72"
+                  "$blob": "b0b13206-40ca-4a8e-b94d-af556d167c54"
                 },
                 "Materials": [
                   "materials/dev/reflectivity_30.vmat"
@@ -4890,7 +4931,7 @@
               "IsTrigger": false,
               "Mesh": {
                 "Data": {
-                  "$blob": "9e6b764b-2be0-4954-b13f-8c89d5774b2e"
+                  "$blob": "3e882b47-9b6f-4360-9329-5e2cbb31240f"
                 },
                 "Materials": [
                   "materials/dev/reflectivity_30.vmat"
@@ -5015,7 +5056,7 @@
               "IsTrigger": false,
               "Mesh": {
                 "Data": {
-                  "$blob": "af18b069-5cb6-436c-ac55-6efa2e507a2e"
+                  "$blob": "be00db79-ae56-4166-adb7-f8c2552924d1"
                 },
                 "Materials": [
                   "materials/dev/reflectivity_30.vmat"
@@ -5224,7 +5265,7 @@
               "IsTrigger": false,
               "Mesh": {
                 "Data": {
-                  "$blob": "6d7078f6-ee47-418f-8980-e8948fba2df7"
+                  "$blob": "fa974c61-1701-4ca7-9c24-ae9387d2a48c"
                 },
                 "Materials": [
                   "materials/dev/reflectivity_30b.vmat"
@@ -5306,7 +5347,7 @@
               "IsTrigger": false,
               "Mesh": {
                 "Data": {
-                  "$blob": "3561a914-a8d4-4af0-b4ad-0b3b0df8fe2b"
+                  "$blob": "0966a482-eb33-4d67-b4d4-a81a44e0ca7e"
                 },
                 "Materials": [
                   "materials/dev/reflectivity_30.vmat"
@@ -5366,6 +5407,7 @@
           "OnComponentFixedUpdate": null,
           "OnComponentStart": null,
           "OnComponentUpdate": null,
+          "OnGibsCreated": null,
           "OnPropBreak": null,
           "OnPropTakeDamage": null,
           "StartAsleep": false,
@@ -5496,7 +5538,7 @@
           "IsTrigger": false,
           "Mesh": {
             "Data": {
-              "$blob": "f14f6293-a3fa-4c35-9f2a-393f6bc03cbe"
+              "$blob": "fdbd26aa-1eb4-46e5-9a95-7c47f7f423bf"
             },
             "Materials": [
               "materials/dev/reflectivity_30.vmat"
@@ -5628,7 +5670,7 @@
           "IsTrigger": false,
           "Mesh": {
             "Data": {
-              "$blob": "56e1059e-2a18-4696-9b8e-dfedaa6d12fa"
+              "$blob": "ead56a44-d5d1-4de3-ba8f-fa696fe6bbfb"
             },
             "Materials": [
               "materials/dev/reflectivity_30.vmat"
@@ -5684,7 +5726,7 @@
           "IsTrigger": false,
           "Mesh": {
             "Data": {
-              "$blob": "d8728ddb-6784-484e-afa5-7b113f70091a"
+              "$blob": "cc6d2566-03ae-47be-9fec-f40f7118878d"
             },
             "Materials": [
               "materials/dev/reflectivity_30.vmat"
@@ -5759,6 +5801,7 @@
               "OnComponentFixedUpdate": null,
               "OnComponentStart": null,
               "OnComponentUpdate": null,
+              "OnGibsCreated": null,
               "OnPropBreak": null,
               "OnPropTakeDamage": null,
               "StartAsleep": false,
@@ -5957,7 +6000,7 @@
               "IsTrigger": true,
               "Mesh": {
                 "Data": {
-                  "$blob": "0705e762-764e-4a2e-bb46-4d5462a7b6bd"
+                  "$blob": "49733c62-26c5-412f-b072-6ac647f3f334"
                 },
                 "Materials": [
                   "materials/dev/reflectivity_30.vmat"
@@ -6335,7 +6378,7 @@
           "IsTrigger": false,
           "Mesh": {
             "Data": {
-              "$blob": "ca0d957e-0ef7-41c5-852b-0523e1a72ba4"
+              "$blob": "4df45b22-b179-461c-b1ee-d78b5a71bf30"
             },
             "Materials": [
               "materials/dev/reflectivity_30b.vmat"
@@ -6594,7 +6637,7 @@
   "Description": null,
   "__references": [
     "facepunch.metal_fence_panel#143812",
-    "facepunch.sandbox#285684",
+    "facepunch.sandbox#312480",
     "saandy.industrial_light01#27009"
   ],
   "__version": 3

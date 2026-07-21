@@ -50,6 +50,7 @@
               "OnComponentFixedUpdate": null,
               "OnComponentStart": null,
               "OnComponentUpdate": null,
+              "OnGibsCreated": null,
               "OnPropBreak": null,
               "OnPropTakeDamage": null,
               "StartAsleep": false,
@@ -142,6 +143,7 @@
               "OnComponentFixedUpdate": null,
               "OnComponentStart": null,
               "OnComponentUpdate": null,
+              "OnGibsCreated": null,
               "OnPropBreak": null,
               "OnPropTakeDamage": null,
               "StartAsleep": false,
@@ -234,6 +236,7 @@
               "OnComponentFixedUpdate": null,
               "OnComponentStart": null,
               "OnComponentUpdate": null,
+              "OnGibsCreated": null,
               "OnPropBreak": null,
               "OnPropTakeDamage": null,
               "StartAsleep": false,
@@ -1256,6 +1259,7 @@
               "OnComponentFixedUpdate": null,
               "OnComponentStart": null,
               "OnComponentUpdate": null,
+              "OnGibsCreated": null,
               "OnPropBreak": null,
               "OnPropTakeDamage": null,
               "StartAsleep": false,
@@ -1959,7 +1963,7 @@
           "IsTrigger": true,
           "Mesh": {
             "Data": {
-              "$blob": "ec930d8c-76c7-4c6a-936b-7153d90b5291"
+              "$blob": "ca17828c-7dfb-43dc-8cb9-d7550bb602bc"
             },
             "Materials": [
               "materials/dev/dev_measuregeneric01.vmat"
@@ -2458,7 +2462,7 @@
     "facepunch.beech_bush_regular_medium_a#145432",
     "facepunch.beech_shrub_wide_large#145481",
     "facepunch.ivy_fresh_02a#47130",
-    "facepunch.sandbox#285684",
+    "facepunch.sandbox#312480",
     "facepunch.tree_oak_big_b#145475",
     "fish.gt_shitty_pine_tree2#89754",
     "rust.ladder_300_top#25203",
