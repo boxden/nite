@@ -31,7 +31,7 @@
           "IsTrigger": false,
           "Mesh": {
             "Data": {
-              "$blob": "2b6c4820-a940-4937-afde-65b8295ece0f"
+              "$blob": "ed117e43-5a0c-451e-a85c-d9655abede77"
             },
             "Materials": [
               "materials/dev/reflectivity_30.vmat"
@@ -87,7 +87,7 @@
           "IsTrigger": false,
           "Mesh": {
             "Data": {
-              "$blob": "6f11d371-df20-4453-b943-d6ca92eaadb5"
+              "$blob": "061b48dc-df90-4ec0-9660-b2ad2391196e"
             },
             "Materials": [
               "materials/dev/reflectivity_30.vmat"
@@ -332,7 +332,7 @@
   "Title": null,
   "Description": null,
   "__references": [
-    "facepunch.sandbox#285684"
+    "facepunch.sandbox#312480"
   ],
   "__version": 3
 }
