@@ -1963,7 +1963,7 @@
           "IsTrigger": true,
           "Mesh": {
             "Data": {
-              "$blob": "ca17828c-7dfb-43dc-8cb9-d7550bb602bc"
+              "$blob": "0c9332ae-65c4-4d89-bcd5-b84c8447d8a8"
             },
             "Materials": [
               "materials/dev/dev_measuregeneric01.vmat"
