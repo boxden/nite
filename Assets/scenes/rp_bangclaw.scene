@@ -191,7 +191,8 @@
     "GameObjectSystems": {
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
-          "$blob": "34418648-a7a8-42ca-b259-5d73732b55cb"
+          "$blob": "64db792e-5935-8fbc-8cfa-050cd49fa7fd",
+          "$refs": []
         }
       },
       "Sandbox.SelectionSetsSystem": {

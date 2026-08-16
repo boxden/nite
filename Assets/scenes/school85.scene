@@ -1963,7 +1963,7 @@
           "IsTrigger": true,
           "Mesh": {
             "Data": {
-              "$blob": "0c9332ae-65c4-4d89-bcd5-b84c8447d8a8"
+              "$blob": "2ccddb69-e047-8e38-ac80-ec0abdb4be2f"
             },
             "Materials": [
               "materials/dev/dev_measuregeneric01.vmat"
@@ -2443,7 +2443,8 @@
     "GameObjectSystems": {
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
-          "$blob": "d11b6f8e-e549-400b-b53b-f746870fc6f6"
+          "$blob": "64db792e-5935-8fbc-8cfa-050cd49fa7fd",
+          "$refs": []
         }
       },
       "Sandbox.SelectionSetsSystem": {

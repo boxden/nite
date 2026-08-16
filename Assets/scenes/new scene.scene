@@ -31,7 +31,7 @@
           "IsTrigger": false,
           "Mesh": {
             "Data": {
-              "$blob": "67e6fc45-b056-4a6c-86f4-b9dc7002b7f4"
+              "$blob": "2914af62-7e2a-8edc-aac6-d3c2f386714b"
             },
             "Materials": [
               "materials/dev/reflectivity_30.vmat"
@@ -87,7 +87,7 @@
           "IsTrigger": false,
           "Mesh": {
             "Data": {
-              "$blob": "6cbb776a-e6cc-4079-9042-adad7f442ad7"
+              "$blob": "2914af62-7e2a-8edc-aac6-d3c2f386714b"
             },
             "Materials": [
               "materials/dev/reflectivity_30.vmat"
@@ -318,7 +318,8 @@
     "GameObjectSystems": {
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
-          "$blob": "1429d204-6669-4771-b6db-4c4e753bbdac"
+          "$blob": "64db792e-5935-8fbc-8cfa-050cd49fa7fd",
+          "$refs": []
         }
       },
       "Sandbox.SelectionSetsSystem": {
