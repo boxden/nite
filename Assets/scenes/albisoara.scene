@@ -6638,7 +6638,7 @@
   "Description": null,
   "__references": [
     "facepunch.metal_fence_panel#143812",
-    "facepunch.sandbox#312480",
+    "facepunch.sandbox#366969",
     "saandy.industrial_light01#27009"
   ],
   "__version": 3
