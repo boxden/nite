@@ -6602,6 +6602,7 @@
   ],
   "SceneProperties": {
     "NetworkInterpolation": true,
+    "PhysicsMode": "Physics3D",
     "TimeScale": 1,
     "WantsSystemScene": true,
     "Metadata": {},
@@ -6638,7 +6639,7 @@
   "Description": null,
   "__references": [
     "facepunch.metal_fence_panel#143812",
-    "facepunch.sandbox#367418",
+    "facepunch.sandbox#368964",
     "saandy.industrial_light01#27009"
   ],
   "__version": 3
