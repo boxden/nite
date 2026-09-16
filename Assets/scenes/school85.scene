@@ -43,7 +43,10 @@
               "Health": 0,
               "IsStatic": true,
               "MaterialGroup": null,
-              "Model": "models/rust_props/ladder_set/ladder_300_top.vmdl",
+              "Model": {
+                "Id": "1a9c6aee-2cfd-4d83-a630-c7ce626114b0",
+                "Path": "models/rust_props/ladder_set/ladder_300_top.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -67,7 +70,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/rust_props/ladder_set/ladder_300_top.vmdl",
+              "Model": {
+                "Id": "1a9c6aee-2cfd-4d83-a630-c7ce626114b0",
+                "Path": "models/rust_props/ladder_set/ladder_300_top.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -92,7 +98,10 @@
               "Elasticity": null,
               "Friction": null,
               "IsTrigger": false,
-              "Model": "models/rust_props/ladder_set/ladder_300_top.vmdl",
+              "Model": {
+                "Id": "1a9c6aee-2cfd-4d83-a630-c7ce626114b0",
+                "Path": "models/rust_props/ladder_set/ladder_300_top.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -136,7 +145,10 @@
               "Health": 0,
               "IsStatic": true,
               "MaterialGroup": null,
-              "Model": "models/rust_props/ladder_set/ladder_600.vmdl",
+              "Model": {
+                "Id": "8121a17d-8c41-49dc-ae90-b3f2332b7211",
+                "Path": "models/rust_props/ladder_set/ladder_600.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -160,7 +172,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/rust_props/ladder_set/ladder_600.vmdl",
+              "Model": {
+                "Id": "8121a17d-8c41-49dc-ae90-b3f2332b7211",
+                "Path": "models/rust_props/ladder_set/ladder_600.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -185,7 +200,10 @@
               "Elasticity": null,
               "Friction": null,
               "IsTrigger": false,
-              "Model": "models/rust_props/ladder_set/ladder_600.vmdl",
+              "Model": {
+                "Id": "8121a17d-8c41-49dc-ae90-b3f2332b7211",
+                "Path": "models/rust_props/ladder_set/ladder_600.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -229,7 +247,10 @@
               "Health": 0,
               "IsStatic": true,
               "MaterialGroup": null,
-              "Model": "models/rust_props/ladder_set/ladder_600.vmdl",
+              "Model": {
+                "Id": "8121a17d-8c41-49dc-ae90-b3f2332b7211",
+                "Path": "models/rust_props/ladder_set/ladder_600.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -253,7 +274,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/rust_props/ladder_set/ladder_600.vmdl",
+              "Model": {
+                "Id": "8121a17d-8c41-49dc-ae90-b3f2332b7211",
+                "Path": "models/rust_props/ladder_set/ladder_600.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -278,7 +302,10 @@
               "Elasticity": null,
               "Friction": null,
               "IsTrigger": false,
-              "Model": "models/rust_props/ladder_set/ladder_600.vmdl",
+              "Model": {
+                "Id": "8121a17d-8c41-49dc-ae90-b3f2332b7211",
+                "Path": "models/rust_props/ladder_set/ladder_600.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -426,7 +453,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/trees/shitty_pine_tree2.vmdl",
+              "Model": {
+                "Id": "59a06e5d-782e-43df-9ec6-410499d6fb70",
+                "Path": "models/trees/shitty_pine_tree2.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -472,7 +502,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/trees/shitty_pine_tree2.vmdl",
+              "Model": {
+                "Id": "59a06e5d-782e-43df-9ec6-410499d6fb70",
+                "Path": "models/trees/shitty_pine_tree2.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -518,7 +551,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/trees/shitty_pine_tree2.vmdl",
+              "Model": {
+                "Id": "59a06e5d-782e-43df-9ec6-410499d6fb70",
+                "Path": "models/trees/shitty_pine_tree2.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -564,7 +600,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/trees/shitty_pine_tree2.vmdl",
+              "Model": {
+                "Id": "59a06e5d-782e-43df-9ec6-410499d6fb70",
+                "Path": "models/trees/shitty_pine_tree2.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -610,7 +649,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/trees/shitty_pine_tree2.vmdl",
+              "Model": {
+                "Id": "59a06e5d-782e-43df-9ec6-410499d6fb70",
+                "Path": "models/trees/shitty_pine_tree2.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -656,7 +698,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/trees/shitty_pine_tree2.vmdl",
+              "Model": {
+                "Id": "59a06e5d-782e-43df-9ec6-410499d6fb70",
+                "Path": "models/trees/shitty_pine_tree2.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -702,7 +747,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/trees/shitty_pine_tree2.vmdl",
+              "Model": {
+                "Id": "59a06e5d-782e-43df-9ec6-410499d6fb70",
+                "Path": "models/trees/shitty_pine_tree2.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -748,7 +796,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/trees/shitty_pine_tree2.vmdl",
+              "Model": {
+                "Id": "59a06e5d-782e-43df-9ec6-410499d6fb70",
+                "Path": "models/trees/shitty_pine_tree2.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -794,7 +845,10 @@
               "MaterialGroup": "default",
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/sbox_props/shrubs/beech/beech_bush_medium.vmdl",
+              "Model": {
+                "Id": "14a76ce2-9d8c-45cf-b05a-f412592e781d",
+                "Path": "models/sbox_props/shrubs/beech/beech_bush_medium.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -840,7 +894,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/sbox_props/shrubs/beech/beech_bush_medium.vmdl",
+              "Model": {
+                "Id": "14a76ce2-9d8c-45cf-b05a-f412592e781d",
+                "Path": "models/sbox_props/shrubs/beech/beech_bush_medium.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -886,7 +943,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/sbox_props/shrubs/beech/beech_bush_medium.vmdl",
+              "Model": {
+                "Id": "14a76ce2-9d8c-45cf-b05a-f412592e781d",
+                "Path": "models/sbox_props/shrubs/beech/beech_bush_medium.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -932,7 +992,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/nature/ivy_fresh/ivy_fresh_02/ivy_fresh_02a.vmdl",
+              "Model": {
+                "Id": "558b0f48-f52e-4020-9434-bfbd7f44384a",
+                "Path": "models/nature/ivy_fresh/ivy_fresh_02/ivy_fresh_02a.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -978,7 +1041,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/sbox_props/shrubs/beech/beech_bush_medium_wall_corner.vmdl",
+              "Model": {
+                "Id": "a6405b7a-0ac9-4591-b214-8a210677ccb3",
+                "Path": "models/sbox_props/shrubs/beech/beech_bush_medium_wall_corner.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1024,7 +1090,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/sbox_props/shrubs/beech/beech_bush_medium_wall_corner.vmdl",
+              "Model": {
+                "Id": "a6405b7a-0ac9-4591-b214-8a210677ccb3",
+                "Path": "models/sbox_props/shrubs/beech/beech_bush_medium_wall_corner.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1070,7 +1139,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/sbox_props/shrubs/beech/beech_bush_regular_medium_a.vmdl",
+              "Model": {
+                "Id": "e47326fd-0a71-45bb-b646-9c997dbb9c7e",
+                "Path": "models/sbox_props/shrubs/beech/beech_bush_regular_medium_a.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1116,7 +1188,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/sbox_props/shrubs/beech/beech_shrub_wide_large.vmdl",
+              "Model": {
+                "Id": "865d52ca-4093-4d5c-8f9a-58305809c11d",
+                "Path": "models/sbox_props/shrubs/beech/beech_shrub_wide_large.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1162,7 +1237,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/sbox_props/shrubs/beech/beech_shrub_wide_large.vmdl",
+              "Model": {
+                "Id": "865d52ca-4093-4d5c-8f9a-58305809c11d",
+                "Path": "models/sbox_props/shrubs/beech/beech_shrub_wide_large.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1208,7 +1286,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/sbox_props/shrubs/beech/beech_shrub_wide_large.vmdl",
+              "Model": {
+                "Id": "865d52ca-4093-4d5c-8f9a-58305809c11d",
+                "Path": "models/sbox_props/shrubs/beech/beech_shrub_wide_large.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1252,7 +1333,10 @@
               "Health": 0,
               "IsStatic": true,
               "MaterialGroup": "default",
-              "Model": "models/sbox_props/trees/oak/tree_oak_big_b.vmdl",
+              "Model": {
+                "Id": "faa56f03-f944-4763-82dd-b3be7993af56",
+                "Path": "models/sbox_props/trees/oak/tree_oak_big_b.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1276,7 +1360,10 @@
               "MaterialGroup": "default",
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/sbox_props/trees/oak/tree_oak_big_b.vmdl",
+              "Model": {
+                "Id": "faa56f03-f944-4763-82dd-b3be7993af56",
+                "Path": "models/sbox_props/trees/oak/tree_oak_big_b.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1301,7 +1388,10 @@
               "Elasticity": null,
               "Friction": null,
               "IsTrigger": false,
-              "Model": "models/sbox_props/trees/oak/tree_oak_big_b.vmdl",
+              "Model": {
+                "Id": "faa56f03-f944-4763-82dd-b3be7993af56",
+                "Path": "models/sbox_props/trees/oak/tree_oak_big_b.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1430,7 +1520,10 @@
           "Repeat": false,
           "ReverbEnabled": true,
           "ReverbOverride": true,
-          "SoundEvent": "sounds/music/boc/boards of canada - tellia - drums.sound",
+          "SoundEvent": {
+            "Id": "a6f7869b-beb3-4322-983a-23a9bfaefbf0",
+            "Path": "sounds/music/boc/boards of canada - tellia - drums.sound"
+          },
           "SoundOverride": false,
           "StopOnNew": false,
           "TargetMixer": {
@@ -2107,7 +2200,10 @@
           "ReverbEnabled": true,
           "ReverbOverride": true,
           "Scale": "128,287,160",
-          "SoundEvent": "sounds/music/415555114.sound",
+          "SoundEvent": {
+            "Id": "4829c8b6-a778-4e53-bfce-53823f762a25",
+            "Path": "sounds/music/415555114.sound"
+          },
           "SoundOverride": true,
           "StopOnNew": false,
           "TargetMixer": {
@@ -2188,7 +2284,10 @@
           "OnComponentStart": null,
           "OnComponentUpdate": null,
           "SkyIndirectLighting": true,
-          "SkyMaterial": "materials/skybox/skybox_day_01.vmat",
+          "SkyMaterial": {
+            "Id": "4e21c93d-1910-478e-a891-e08aa03be625",
+            "Path": "materials/skybox/skybox_day_01.vmat"
+          },
           "Tint": "1,1,1,1"
         }
       ],
@@ -2299,7 +2398,10 @@
           "__enabled": true,
           "Flags": 0,
           "__version": 1,
-          "BakedTexture": "scenes/school85_scene_data/envmap/bake_2f149a79-79f4-4daf-91ce-7feb0b9d4170.vtex",
+          "BakedTexture": {
+            "Id": "53e8b7ac-cf97-496d-a9ba-8c44f81a400f",
+            "Path": "scenes/school85_scene_data/envmap/bake_2f149a79-79f4-4daf-91ce-7feb0b9d4170.vtex"
+          },
           "Bounds": {
             "Mins": "-1859.36414,-8685.91016,-512",
             "Maxs": "4061.76611,760.706177,512"

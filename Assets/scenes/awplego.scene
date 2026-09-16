@@ -159,7 +159,10 @@
               "OnComponentStart": null,
               "OnComponentUpdate": null,
               "SkyIndirectLighting": true,
-              "SkyMaterial": "materials/skybox/skybox_day_01.vmat",
+              "SkyMaterial": {
+                "Id": "4e21c93d-1910-478e-a891-e08aa03be625",
+                "Path": "materials/skybox/skybox_day_01.vmat"
+              },
               "Tint": "1,1,1,1"
             }
           ],
@@ -208,7 +211,10 @@
               "Projection": "Box",
               "RenderExcludeTags": "",
               "Resolution": "Large",
-              "Texture": "textures/cubemaps/default.vtex",
+              "Texture": {
+                "Id": "488743d4-e2b0-4f1d-b289-458839cb5445",
+                "Path": "textures/cubemaps/default.vtex"
+              },
               "TintColor": "1,1,1,1",
               "UpdateStrategy": "OnEnabled",
               "ZFar": 4096,
@@ -3289,7 +3295,10 @@
           "Health": 0,
           "IsStatic": true,
           "MaterialGroup": null,
-          "Model": "models/swing01a.vmdl",
+          "Model": {
+            "Id": "2bc90d6e-46b2-43bb-9521-a9246c849451",
+            "Path": "models/swing01a.vmdl"
+          },
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
@@ -3313,7 +3322,10 @@
           "MaterialGroup": null,
           "MaterialOverride": null,
           "Materials": null,
-          "Model": "models/swing01a.vmdl",
+          "Model": {
+            "Id": "2bc90d6e-46b2-43bb-9521-a9246c849451",
+            "Path": "models/swing01a.vmdl"
+          },
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
@@ -3338,7 +3350,10 @@
           "Elasticity": null,
           "Friction": null,
           "IsTrigger": false,
-          "Model": "models/swing01a.vmdl",
+          "Model": {
+            "Id": "2bc90d6e-46b2-43bb-9521-a9246c849451",
+            "Path": "models/swing01a.vmdl"
+          },
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
@@ -3412,7 +3427,10 @@
               "Repeat": false,
               "ReverbEnabled": false,
               "ReverbOverride": false,
-              "SoundEvent": "sounds/music/boc/boards of canada - tellia.sound",
+              "SoundEvent": {
+                "Id": "8411133f-4f18-4448-9b88-cecc0201297a",
+                "Path": "sounds/music/boc/boards of canada - tellia.sound"
+              },
               "SoundOverride": false,
               "StopOnNew": false,
               "TargetMixer": {
@@ -3506,7 +3524,10 @@
           "MaterialGroup": null,
           "MaterialOverride": null,
           "Materials": null,
-          "Model": "models/fbx/swing01 scale 0_3937.vmdl",
+          "Model": {
+            "Id": "07a83f50-0000-0000-3700-2e0066006200",
+            "Path": "models/fbx/swing01 scale 0_3937.vmdl"
+          },
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
@@ -3552,7 +3573,10 @@
           "MaterialGroup": null,
           "MaterialOverride": null,
           "Materials": null,
-          "Model": "models/fbx/swing01 animated.vmdl",
+          "Model": {
+            "Id": "37ee35a7-4dec-45e1-b36b-853578a383a7",
+            "Path": "models/fbx/swing01 animated.vmdl"
+          },
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
