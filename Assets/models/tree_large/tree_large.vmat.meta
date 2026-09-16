@@ -1,4 +1,5 @@
 {
+  "guid": "2691840c-7607-4b24-91be-2d8a3bdd5201",
   "publish": {
     "Enabled": false,
     "ProjectConfig": {
@@ -10,13 +11,12 @@
       "IncludeSourceFiles": false,
       "Resources": null,
       "PackageReferences": null,
-      "EditorReferences": [
-        "facepunch.v_mp5#110415"
-      ],
+      "EditorReferences": [],
       "Mounts": null,
       "IsStandaloneOnly": false,
       "Metadata": {
-        "SingleAssetSource": "models/tree_large/tree_large.vmat"
+        "SingleAssetSource": "models/tree_large/tree_large.vmat",
+        "ParentPackage": "facepunch.sandbox"
       }
     }
   }

@@ -2,5 +2,6 @@
   "loop": true,
   "rate": 44100,
   "compress": false,
-  "bitrate": 256
+  "bitrate": 256,
+  "guid": "d142523d-90ab-4ee5-b0b3-d64d555146ef"
 }

@@ -67,7 +67,10 @@
           "OnComponentStart": null,
           "OnComponentUpdate": null,
           "SkyIndirectLighting": false,
-          "SkyMaterial": "materials/sky/sky_002.vmat",
+          "SkyMaterial": {
+            "Id": "a2dd9622-79c7-471d-be79-bf154a9b74da",
+            "Path": "materials/sky/sky_002.vmat"
+          },
           "Tint": "1,1,1,1"
         }
       ],
@@ -159,7 +162,10 @@
           "Projection": "Box",
           "RenderExcludeTags": "",
           "Resolution": "Huge",
-          "Texture": "textures/cubemaps/default2.vtex",
+          "Texture": {
+            "Id": "ef0657f5-a602-4723-b92e-39ca1232b958",
+            "Path": "textures/cubemaps/default2.vtex"
+          },
           "TintColor": "1,1,1,1",
           "UpdateStrategy": "OnEnabled",
           "ZFar": 4096,
