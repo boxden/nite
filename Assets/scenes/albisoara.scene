@@ -954,7 +954,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -981,7 +981,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1009,7 +1009,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1056,7 +1056,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1083,7 +1083,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1111,7 +1111,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1158,7 +1158,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1185,7 +1185,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1213,7 +1213,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1260,7 +1260,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1287,7 +1287,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1315,7 +1315,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1362,7 +1362,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1389,7 +1389,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1417,7 +1417,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1464,7 +1464,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1491,7 +1491,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1519,7 +1519,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1566,7 +1566,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1593,7 +1593,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1621,7 +1621,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1668,7 +1668,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1695,7 +1695,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1723,7 +1723,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1770,7 +1770,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1797,7 +1797,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1825,7 +1825,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1872,7 +1872,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1899,7 +1899,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1927,7 +1927,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1974,7 +1974,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2001,7 +2001,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2029,7 +2029,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2076,7 +2076,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2103,7 +2103,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2131,7 +2131,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2178,7 +2178,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2205,7 +2205,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2233,7 +2233,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2299,7 +2299,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2326,7 +2326,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2354,7 +2354,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2401,7 +2401,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2428,7 +2428,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2456,7 +2456,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2503,7 +2503,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2530,7 +2530,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2558,7 +2558,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2605,7 +2605,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2632,7 +2632,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2660,7 +2660,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2707,7 +2707,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2734,7 +2734,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2762,7 +2762,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2809,7 +2809,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2836,7 +2836,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2864,7 +2864,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2911,7 +2911,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2938,7 +2938,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2966,7 +2966,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3013,7 +3013,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3040,7 +3040,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3068,7 +3068,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3115,7 +3115,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3142,7 +3142,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3170,7 +3170,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3217,7 +3217,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3244,7 +3244,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3272,7 +3272,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3319,7 +3319,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3346,7 +3346,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3374,7 +3374,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3421,7 +3421,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3448,7 +3448,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3476,7 +3476,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3523,7 +3523,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3550,7 +3550,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3578,7 +3578,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3625,7 +3625,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3652,7 +3652,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3680,7 +3680,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3746,7 +3746,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3773,7 +3773,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3801,7 +3801,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3848,7 +3848,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3875,7 +3875,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3903,7 +3903,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3950,7 +3950,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3977,7 +3977,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4005,7 +4005,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4052,7 +4052,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4079,7 +4079,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4107,7 +4107,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4154,7 +4154,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4181,7 +4181,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4209,7 +4209,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4256,7 +4256,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4283,7 +4283,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4311,7 +4311,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4358,7 +4358,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4385,7 +4385,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4413,7 +4413,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4460,7 +4460,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4487,7 +4487,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4515,7 +4515,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4562,7 +4562,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4589,7 +4589,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4617,7 +4617,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4664,7 +4664,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4691,7 +4691,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4719,7 +4719,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4766,7 +4766,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4793,7 +4793,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4821,7 +4821,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4868,7 +4868,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4895,7 +4895,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4923,7 +4923,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4970,7 +4970,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4997,7 +4997,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -5025,7 +5025,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -5072,7 +5072,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -5099,7 +5099,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -5127,7 +5127,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "95b509a6-74f2-4074-af57-9ead96b16fb6",
+                        "Id": "a958cccd-6c49-4168-a9f7-ed14cd16e849",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -5782,7 +5782,7 @@
           "IsStatic": true,
           "MaterialGroup": "default",
           "Model": {
-            "Id": "e27f2f24-f22a-4778-92ba-b4e3aa4e2f9c",
+            "Id": "b6613185-39ea-4330-ac9f-547841e685ad",
             "Path": "models/industrial_lights01/industrial_light01.vmdl"
           },
           "OnComponentDestroy": null,
@@ -5809,7 +5809,7 @@
           "MaterialOverride": null,
           "Materials": null,
           "Model": {
-            "Id": "e27f2f24-f22a-4778-92ba-b4e3aa4e2f9c",
+            "Id": "b6613185-39ea-4330-ac9f-547841e685ad",
             "Path": "models/industrial_lights01/industrial_light01.vmdl"
           },
           "OnComponentDestroy": null,
@@ -5837,7 +5837,7 @@
           "Friction": null,
           "IsTrigger": false,
           "Model": {
-            "Id": "e27f2f24-f22a-4778-92ba-b4e3aa4e2f9c",
+            "Id": "b6613185-39ea-4330-ac9f-547841e685ad",
             "Path": "models/industrial_lights01/industrial_light01.vmdl"
           },
           "OnComponentDestroy": null,
@@ -6185,7 +6185,7 @@
               "IsStatic": true,
               "MaterialGroup": "default",
               "Model": {
-                "Id": "e27f2f24-f22a-4778-92ba-b4e3aa4e2f9c",
+                "Id": "b6613185-39ea-4330-ac9f-547841e685ad",
                 "Path": "models/industrial_lights01/industrial_light01.vmdl"
               },
               "OnComponentDestroy": null,
@@ -6212,7 +6212,7 @@
               "MaterialOverride": null,
               "Materials": null,
               "Model": {
-                "Id": "e27f2f24-f22a-4778-92ba-b4e3aa4e2f9c",
+                "Id": "b6613185-39ea-4330-ac9f-547841e685ad",
                 "Path": "models/industrial_lights01/industrial_light01.vmdl"
               },
               "OnComponentDestroy": null,
@@ -6240,7 +6240,7 @@
               "Friction": null,
               "IsTrigger": false,
               "Model": {
-                "Id": "e27f2f24-f22a-4778-92ba-b4e3aa4e2f9c",
+                "Id": "b6613185-39ea-4330-ac9f-547841e685ad",
                 "Path": "models/industrial_lights01/industrial_light01.vmdl"
               },
               "OnComponentDestroy": null,
