@@ -68,7 +68,7 @@
           "OnComponentUpdate": null,
           "SkyIndirectLighting": false,
           "SkyMaterial": {
-            "Id": "94ea72c1-bff8-4504-b62d-9e2743c83bb0",
+            "Id": "8eb8b5de-fa0e-446c-ab59-f38e0fb07d0f",
             "Path": "materials/sky/sky_002.vmat"
           },
           "Tint": "1,1,1,1"
