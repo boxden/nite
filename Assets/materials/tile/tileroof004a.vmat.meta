@@ -14,6 +14,10 @@
       "EditorReferences": [],
       "Mounts": null,
       "IsStandaloneOnly": false,
+      "AI": {
+        "WriteAgentInstructions": true,
+        "EnableMcpCommunication": true
+      },
       "Metadata": {
         "SingleAssetSource": "materials/tile/tileroof004a.vmat",
         "ParentPackage": "facepunch.sandbox"

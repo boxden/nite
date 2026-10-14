@@ -17,12 +17,15 @@
         "facepunch.floor_grass_dirt_cliff_blend_a#18754",
         "facepunch.plastic_glossy_yellow_a_hs#28965",
         "facepunch.rubber_a_hs#111289",
-        "facepunch.sandbox#410335",
+        "facepunch.sandbox#423127",
         "rustextended.terrain_stones#43384",
         "wujekfoliarz.sl_skybox6#37474"
       ],
       "Mounts": null,
       "IsStandaloneOnly": false,
+      "AI": {
+        "EnableMcpCommunication": true
+      },
       "Metadata": {
         "SingleAssetSource": "maps/hollywood.vmap",
         "GameSupport": [

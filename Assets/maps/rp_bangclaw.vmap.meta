@@ -12,12 +12,15 @@
       "Resources": null,
       "PackageReferences": [],
       "EditorReferences": [
-        "facepunch.sandbox#410335",
+        "facepunch.sandbox#423127",
         "japancitymodels.door_01#31988",
         "titanovsky.payphone#54776"
       ],
       "Mounts": null,
       "IsStandaloneOnly": false,
+      "AI": {
+        "EnableMcpCommunication": true
+      },
       "Metadata": {
         "SingleAssetSource": "maps/rp_bangclaw.vmap",
         "ParentPackage": "facepunch.sandbox",
