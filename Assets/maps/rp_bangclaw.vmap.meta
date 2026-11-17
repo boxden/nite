@@ -10,9 +10,10 @@
       "Schema": 0,
       "IncludeSourceFiles": false,
       "Resources": null,
+      "PublishUsedAssetsOnly": false,
       "PackageReferences": [],
       "EditorReferences": [
-        "facepunch.sandbox#423127",
+        "facepunch.sandbox#427801",
         "japancitymodels.door_01#31988",
         "titanovsky.payphone#54776"
       ],

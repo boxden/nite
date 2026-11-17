@@ -17,6 +17,9 @@
       ],
       "Mounts": null,
       "IsStandaloneOnly": false,
+      "AI": {
+        "EnableMcpCommunication": true
+      },
       "Metadata": {
         "SingleAssetSource": "maps/phys_lobby.vmap",
         "GameSupport": [

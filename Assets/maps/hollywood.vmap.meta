@@ -11,13 +11,14 @@
       "Schema": 0,
       "IncludeSourceFiles": false,
       "Resources": null,
+      "PublishUsedAssetsOnly": false,
       "PackageReferences": [],
       "EditorReferences": [
         "facepunch.concrete_cast_hs_01#28794",
         "facepunch.floor_grass_dirt_cliff_blend_a#18754",
         "facepunch.plastic_glossy_yellow_a_hs#28965",
         "facepunch.rubber_a_hs#111289",
-        "facepunch.sandbox#423127",
+        "facepunch.sandbox#427801",
         "rustextended.terrain_stones#43384",
         "wujekfoliarz.sl_skybox6#37474"
       ],

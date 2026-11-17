@@ -6,6 +6,7 @@
   "Schema": 1,
   "IncludeSourceFiles": true,
   "Resources": null,
+  "PublishUsedAssetsOnly": false,
   "PackageReferences": [],
   "EditorReferences": null,
   "Mounts": null,
