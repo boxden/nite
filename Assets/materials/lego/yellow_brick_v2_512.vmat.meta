@@ -10,18 +10,19 @@
       "Schema": 0,
       "IncludeSourceFiles": false,
       "Resources": null,
+      "PublishUsedAssetsOnly": false,
       "PackageReferences": null,
       "EditorReferences": [],
       "Mounts": null,
       "IsStandaloneOnly": false,
       "AI": {
-        "WriteAgentInstructions": true,
         "EnableMcpCommunication": true
       },
       "Metadata": {
         "SingleAssetSource": "materials/lego/yellow_brick_v2_512.vmat",
         "ParentPackage": "facepunch.sandbox"
       }
-    }
+    },
+    "HammerAutoPackageReferences": null
   }
 }

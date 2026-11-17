@@ -10,18 +10,19 @@
       "Schema": 0,
       "IncludeSourceFiles": false,
       "Resources": null,
+      "PublishUsedAssetsOnly": false,
       "PackageReferences": null,
       "EditorReferences": [],
       "Mounts": null,
       "IsStandaloneOnly": false,
       "AI": {
-        "WriteAgentInstructions": true,
         "EnableMcpCommunication": true
       },
       "Metadata": {
         "SingleAssetSource": "materials/plaster/plasterwall024a.vmat",
         "ParentPackage": "facepunch.sandbox"
       }
-    }
+    },
+    "HammerAutoPackageReferences": null
   }
 }
