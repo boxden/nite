@@ -44,7 +44,7 @@
               "IsStatic": true,
               "MaterialGroup": null,
               "Model": {
-                "Id": "1bcccd94-6284-4b8e-9afe-4ac76b3f37db",
+                "Id": "38689e29-a40d-4c5b-9950-e50d3d31490e",
                 "Path": "models/rust_props/ladder_set/ladder_300_top.vmdl"
               },
               "OnComponentDestroy": null,
@@ -71,7 +71,7 @@
               "MaterialOverride": null,
               "Materials": null,
               "Model": {
-                "Id": "1bcccd94-6284-4b8e-9afe-4ac76b3f37db",
+                "Id": "38689e29-a40d-4c5b-9950-e50d3d31490e",
                 "Path": "models/rust_props/ladder_set/ladder_300_top.vmdl"
               },
               "OnComponentDestroy": null,
@@ -99,7 +99,7 @@
               "Friction": null,
               "IsTrigger": false,
               "Model": {
-                "Id": "1bcccd94-6284-4b8e-9afe-4ac76b3f37db",
+                "Id": "38689e29-a40d-4c5b-9950-e50d3d31490e",
                 "Path": "models/rust_props/ladder_set/ladder_300_top.vmdl"
               },
               "OnComponentDestroy": null,
@@ -146,7 +146,7 @@
               "IsStatic": true,
               "MaterialGroup": null,
               "Model": {
-                "Id": "cefba91b-260f-4864-b9d3-f0cdbee7071d",
+                "Id": "d8f21787-729e-436f-a011-1d26aac1c96a",
                 "Path": "models/rust_props/ladder_set/ladder_600.vmdl"
               },
               "OnComponentDestroy": null,
@@ -173,7 +173,7 @@
               "MaterialOverride": null,
               "Materials": null,
               "Model": {
-                "Id": "cefba91b-260f-4864-b9d3-f0cdbee7071d",
+                "Id": "d8f21787-729e-436f-a011-1d26aac1c96a",
                 "Path": "models/rust_props/ladder_set/ladder_600.vmdl"
               },
               "OnComponentDestroy": null,
@@ -201,7 +201,7 @@
               "Friction": null,
               "IsTrigger": false,
               "Model": {
-                "Id": "cefba91b-260f-4864-b9d3-f0cdbee7071d",
+                "Id": "d8f21787-729e-436f-a011-1d26aac1c96a",
                 "Path": "models/rust_props/ladder_set/ladder_600.vmdl"
               },
               "OnComponentDestroy": null,
@@ -248,7 +248,7 @@
               "IsStatic": true,
               "MaterialGroup": null,
               "Model": {
-                "Id": "cefba91b-260f-4864-b9d3-f0cdbee7071d",
+                "Id": "d8f21787-729e-436f-a011-1d26aac1c96a",
                 "Path": "models/rust_props/ladder_set/ladder_600.vmdl"
               },
               "OnComponentDestroy": null,
@@ -275,7 +275,7 @@
               "MaterialOverride": null,
               "Materials": null,
               "Model": {
-                "Id": "cefba91b-260f-4864-b9d3-f0cdbee7071d",
+                "Id": "d8f21787-729e-436f-a011-1d26aac1c96a",
                 "Path": "models/rust_props/ladder_set/ladder_600.vmdl"
               },
               "OnComponentDestroy": null,
@@ -303,7 +303,7 @@
               "Friction": null,
               "IsTrigger": false,
               "Model": {
-                "Id": "cefba91b-260f-4864-b9d3-f0cdbee7071d",
+                "Id": "d8f21787-729e-436f-a011-1d26aac1c96a",
                 "Path": "models/rust_props/ladder_set/ladder_600.vmdl"
               },
               "OnComponentDestroy": null,
@@ -454,7 +454,7 @@
               "MaterialOverride": null,
               "Materials": null,
               "Model": {
-                "Id": "dabf1a08-ef5f-4d9b-8382-03e2370ac977",
+                "Id": "d240e373-8607-408d-bd8b-d4efe2713a8e",
                 "Path": "models/trees/shitty_pine_tree2.vmdl"
               },
               "OnComponentDestroy": null,
@@ -503,7 +503,7 @@
               "MaterialOverride": null,
               "Materials": null,
               "Model": {
-                "Id": "dabf1a08-ef5f-4d9b-8382-03e2370ac977",
+                "Id": "d240e373-8607-408d-bd8b-d4efe2713a8e",
                 "Path": "models/trees/shitty_pine_tree2.vmdl"
               },
               "OnComponentDestroy": null,
@@ -552,7 +552,7 @@
               "MaterialOverride": null,
               "Materials": null,
               "Model": {
-                "Id": "dabf1a08-ef5f-4d9b-8382-03e2370ac977",
+                "Id": "d240e373-8607-408d-bd8b-d4efe2713a8e",
                 "Path": "models/trees/shitty_pine_tree2.vmdl"
               },
               "OnComponentDestroy": null,
@@ -601,7 +601,7 @@
               "MaterialOverride": null,
               "Materials": null,
               "Model": {
-                "Id": "dabf1a08-ef5f-4d9b-8382-03e2370ac977",
+                "Id": "d240e373-8607-408d-bd8b-d4efe2713a8e",
                 "Path": "models/trees/shitty_pine_tree2.vmdl"
               },
               "OnComponentDestroy": null,
@@ -650,7 +650,7 @@
               "MaterialOverride": null,
               "Materials": null,
               "Model": {
-                "Id": "dabf1a08-ef5f-4d9b-8382-03e2370ac977",
+                "Id": "d240e373-8607-408d-bd8b-d4efe2713a8e",
                 "Path": "models/trees/shitty_pine_tree2.vmdl"
               },
               "OnComponentDestroy": null,
@@ -699,7 +699,7 @@
               "MaterialOverride": null,
               "Materials": null,
               "Model": {
-                "Id": "dabf1a08-ef5f-4d9b-8382-03e2370ac977",
+                "Id": "d240e373-8607-408d-bd8b-d4efe2713a8e",
                 "Path": "models/trees/shitty_pine_tree2.vmdl"
               },
               "OnComponentDestroy": null,
@@ -748,7 +748,7 @@
               "MaterialOverride": null,
               "Materials": null,
               "Model": {
-                "Id": "dabf1a08-ef5f-4d9b-8382-03e2370ac977",
+                "Id": "d240e373-8607-408d-bd8b-d4efe2713a8e",
                 "Path": "models/trees/shitty_pine_tree2.vmdl"
               },
               "OnComponentDestroy": null,
@@ -797,7 +797,7 @@
               "MaterialOverride": null,
               "Materials": null,
               "Model": {
-                "Id": "dabf1a08-ef5f-4d9b-8382-03e2370ac977",
+                "Id": "d240e373-8607-408d-bd8b-d4efe2713a8e",
                 "Path": "models/trees/shitty_pine_tree2.vmdl"
               },
               "OnComponentDestroy": null,
@@ -846,7 +846,7 @@
               "MaterialOverride": null,
               "Materials": null,
               "Model": {
-                "Id": "2f0775e9-3c71-41dc-89da-3b7c9fe6a63b",
+                "Id": "660e99fc-70b9-40a5-8a54-fa522bc3c97f",
                 "Path": "models/sbox_props/shrubs/beech/beech_bush_medium.vmdl"
               },
               "OnComponentDestroy": null,
@@ -895,7 +895,7 @@
               "MaterialOverride": null,
               "Materials": null,
               "Model": {
-                "Id": "2f0775e9-3c71-41dc-89da-3b7c9fe6a63b",
+                "Id": "660e99fc-70b9-40a5-8a54-fa522bc3c97f",
                 "Path": "models/sbox_props/shrubs/beech/beech_bush_medium.vmdl"
               },
               "OnComponentDestroy": null,
@@ -944,7 +944,7 @@
               "MaterialOverride": null,
               "Materials": null,
               "Model": {
-                "Id": "2f0775e9-3c71-41dc-89da-3b7c9fe6a63b",
+                "Id": "660e99fc-70b9-40a5-8a54-fa522bc3c97f",
                 "Path": "models/sbox_props/shrubs/beech/beech_bush_medium.vmdl"
               },
               "OnComponentDestroy": null,
@@ -993,7 +993,7 @@
               "MaterialOverride": null,
               "Materials": null,
               "Model": {
-                "Id": "0fb82bd6-ce31-4c7a-954e-9e4d2238d510",
+                "Id": "d6e7cb9d-e6fa-4ce6-9e90-6acad3a44141",
                 "Path": "models/nature/ivy_fresh/ivy_fresh_02/ivy_fresh_02a.vmdl"
               },
               "OnComponentDestroy": null,
@@ -1042,7 +1042,7 @@
               "MaterialOverride": null,
               "Materials": null,
               "Model": {
-                "Id": "f8a43bc4-710b-4521-bf73-d50b4cc6efbb",
+                "Id": "dadd6b08-dc28-4b28-9104-3726d208441d",
                 "Path": "models/sbox_props/shrubs/beech/beech_bush_medium_wall_corner.vmdl"
               },
               "OnComponentDestroy": null,
@@ -1091,7 +1091,7 @@
               "MaterialOverride": null,
               "Materials": null,
               "Model": {
-                "Id": "f8a43bc4-710b-4521-bf73-d50b4cc6efbb",
+                "Id": "dadd6b08-dc28-4b28-9104-3726d208441d",
                 "Path": "models/sbox_props/shrubs/beech/beech_bush_medium_wall_corner.vmdl"
               },
               "OnComponentDestroy": null,
@@ -1140,7 +1140,7 @@
               "MaterialOverride": null,
               "Materials": null,
               "Model": {
-                "Id": "ced6d1f5-b8ee-49c5-ad19-e47aef5d127c",
+                "Id": "ec3c273a-bcf2-4165-ab38-b7afb54d5297",
                 "Path": "models/sbox_props/shrubs/beech/beech_bush_regular_medium_a.vmdl"
               },
               "OnComponentDestroy": null,
@@ -1189,7 +1189,7 @@
               "MaterialOverride": null,
               "Materials": null,
               "Model": {
-                "Id": "a2f66893-dc24-4fcf-93cc-4b74257e8e16",
+                "Id": "c8090b9f-a7b4-4216-bcf2-f2b228848833",
                 "Path": "models/sbox_props/shrubs/beech/beech_shrub_wide_large.vmdl"
               },
               "OnComponentDestroy": null,
@@ -1238,7 +1238,7 @@
               "MaterialOverride": null,
               "Materials": null,
               "Model": {
-                "Id": "a2f66893-dc24-4fcf-93cc-4b74257e8e16",
+                "Id": "c8090b9f-a7b4-4216-bcf2-f2b228848833",
                 "Path": "models/sbox_props/shrubs/beech/beech_shrub_wide_large.vmdl"
               },
               "OnComponentDestroy": null,
@@ -1287,7 +1287,7 @@
               "MaterialOverride": null,
               "Materials": null,
               "Model": {
-                "Id": "a2f66893-dc24-4fcf-93cc-4b74257e8e16",
+                "Id": "c8090b9f-a7b4-4216-bcf2-f2b228848833",
                 "Path": "models/sbox_props/shrubs/beech/beech_shrub_wide_large.vmdl"
               },
               "OnComponentDestroy": null,
@@ -1334,7 +1334,7 @@
               "IsStatic": true,
               "MaterialGroup": "default",
               "Model": {
-                "Id": "be043eb3-e628-48d5-9073-7f627f66c88f",
+                "Id": "bda8d402-71f5-4a5d-a558-d0d8c52a9f07",
                 "Path": "models/sbox_props/trees/oak/tree_oak_big_b.vmdl"
               },
               "OnComponentDestroy": null,
@@ -1361,7 +1361,7 @@
               "MaterialOverride": null,
               "Materials": null,
               "Model": {
-                "Id": "be043eb3-e628-48d5-9073-7f627f66c88f",
+                "Id": "bda8d402-71f5-4a5d-a558-d0d8c52a9f07",
                 "Path": "models/sbox_props/trees/oak/tree_oak_big_b.vmdl"
               },
               "OnComponentDestroy": null,
@@ -1389,7 +1389,7 @@
               "Friction": null,
               "IsTrigger": false,
               "Model": {
-                "Id": "be043eb3-e628-48d5-9073-7f627f66c88f",
+                "Id": "bda8d402-71f5-4a5d-a558-d0d8c52a9f07",
                 "Path": "models/sbox_props/trees/oak/tree_oak_big_b.vmdl"
               },
               "OnComponentDestroy": null,
@@ -1562,7 +1562,8 @@
           "OnComponentEnabled": null,
           "OnComponentFixedUpdate": null,
           "OnComponentStart": null,
-          "OnComponentUpdate": null
+          "OnComponentUpdate": null,
+          "Priority": 0
         }
       ],
       "Children": []
@@ -1605,11 +1606,55 @@
               "__guid": "e0c5c3d2-0b5a-4d80-a499-e9130ce0a86c",
               "__enabled": true,
               "Flags": 0,
+              "__version": 1,
+              "AnimationCurve": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.5,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "AnimationDuration": 2,
+              "AnimationEnabled": false,
+              "AnimationGradient": {
+                "blend": "Linear",
+                "color": [
+                  {
+                    "t": 0.5,
+                    "c": "1,1,1,1"
+                  }
+                ],
+                "alpha": []
+              },
+              "AnimationPattern": "Flicker",
+              "AnimationSpeed": 1,
+              "AnimationTimeOffset": 0,
               "Attenuation": 0.23,
+              "BakeLightIndex": -1,
+              "ConstantAttenuation": 0,
               "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
+              "Intensity": 1,
               "LightColor": "0.91373,0.98039,1,1",
+              "LinearAttenuation": 0,
+              "MixedShadows": false,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1619,7 +1664,8 @@
               "Radius": 822.49976,
               "ShadowBias": 0.0005,
               "ShadowHardness": 0,
-              "Shadows": true
+              "Shadows": true,
+              "Temperature": 6500
             }
           ],
           "Children": []
@@ -1645,11 +1691,55 @@
               "__guid": "6424956e-7a6f-403f-b4fb-1d20faa9a6fb",
               "__enabled": true,
               "Flags": 0,
+              "__version": 1,
+              "AnimationCurve": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.5,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "AnimationDuration": 2,
+              "AnimationEnabled": false,
+              "AnimationGradient": {
+                "blend": "Linear",
+                "color": [
+                  {
+                    "t": 0.5,
+                    "c": "1,1,1,1"
+                  }
+                ],
+                "alpha": []
+              },
+              "AnimationPattern": "Flicker",
+              "AnimationSpeed": 1,
+              "AnimationTimeOffset": 0,
               "Attenuation": 0.23,
+              "BakeLightIndex": -1,
+              "ConstantAttenuation": 0,
               "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
+              "Intensity": 1,
               "LightColor": "0.91373,0.98039,1,1",
+              "LinearAttenuation": 0,
+              "MixedShadows": false,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1659,7 +1749,8 @@
               "Radius": 822.49976,
               "ShadowBias": 0.0005,
               "ShadowHardness": 0,
-              "Shadows": true
+              "Shadows": true,
+              "Temperature": 6500
             }
           ],
           "Children": []
@@ -1685,11 +1776,55 @@
               "__guid": "1b15a186-2a80-4806-bf75-3be03d6668f2",
               "__enabled": true,
               "Flags": 0,
+              "__version": 1,
+              "AnimationCurve": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.5,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "AnimationDuration": 2,
+              "AnimationEnabled": false,
+              "AnimationGradient": {
+                "blend": "Linear",
+                "color": [
+                  {
+                    "t": 0.5,
+                    "c": "1,1,1,1"
+                  }
+                ],
+                "alpha": []
+              },
+              "AnimationPattern": "Flicker",
+              "AnimationSpeed": 1,
+              "AnimationTimeOffset": 0,
               "Attenuation": 0.23,
+              "BakeLightIndex": -1,
+              "ConstantAttenuation": 0,
               "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
+              "Intensity": 1,
               "LightColor": "0.91373,0.98039,1,1",
+              "LinearAttenuation": 0,
+              "MixedShadows": false,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1699,7 +1834,8 @@
               "Radius": 822.49976,
               "ShadowBias": 0.0005,
               "ShadowHardness": 0,
-              "Shadows": true
+              "Shadows": true,
+              "Temperature": 6500
             }
           ],
           "Children": []
@@ -1725,11 +1861,55 @@
               "__guid": "49439e2a-930e-45ba-b541-fc0050c57958",
               "__enabled": true,
               "Flags": 0,
+              "__version": 1,
+              "AnimationCurve": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.5,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "AnimationDuration": 2,
+              "AnimationEnabled": false,
+              "AnimationGradient": {
+                "blend": "Linear",
+                "color": [
+                  {
+                    "t": 0.5,
+                    "c": "1,1,1,1"
+                  }
+                ],
+                "alpha": []
+              },
+              "AnimationPattern": "Flicker",
+              "AnimationSpeed": 1,
+              "AnimationTimeOffset": 0,
               "Attenuation": 0.23,
+              "BakeLightIndex": -1,
+              "ConstantAttenuation": 0,
               "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
+              "Intensity": 1,
               "LightColor": "0.91373,0.98039,1,1",
+              "LinearAttenuation": 0,
+              "MixedShadows": false,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1739,7 +1919,8 @@
               "Radius": 822.49976,
               "ShadowBias": 0.0005,
               "ShadowHardness": 0,
-              "Shadows": true
+              "Shadows": true,
+              "Temperature": 6500
             }
           ],
           "Children": []
@@ -1765,11 +1946,55 @@
               "__guid": "43abedff-8f9e-4f0e-b122-227164218b39",
               "__enabled": true,
               "Flags": 0,
+              "__version": 1,
+              "AnimationCurve": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.5,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "AnimationDuration": 2,
+              "AnimationEnabled": false,
+              "AnimationGradient": {
+                "blend": "Linear",
+                "color": [
+                  {
+                    "t": 0.5,
+                    "c": "1,1,1,1"
+                  }
+                ],
+                "alpha": []
+              },
+              "AnimationPattern": "Flicker",
+              "AnimationSpeed": 1,
+              "AnimationTimeOffset": 0,
               "Attenuation": 0.23,
+              "BakeLightIndex": -1,
+              "ConstantAttenuation": 0,
               "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
+              "Intensity": 1,
               "LightColor": "0.91373,0.98039,1,1",
+              "LinearAttenuation": 0,
+              "MixedShadows": false,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1779,7 +2004,8 @@
               "Radius": 822.49976,
               "ShadowBias": 0.0005,
               "ShadowHardness": 0,
-              "Shadows": true
+              "Shadows": true,
+              "Temperature": 6500
             }
           ],
           "Children": []
@@ -1805,11 +2031,55 @@
               "__guid": "be2db3fd-cf76-4f0b-ab00-605d2d40dc09",
               "__enabled": true,
               "Flags": 0,
+              "__version": 1,
+              "AnimationCurve": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.5,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "AnimationDuration": 2,
+              "AnimationEnabled": false,
+              "AnimationGradient": {
+                "blend": "Linear",
+                "color": [
+                  {
+                    "t": 0.5,
+                    "c": "1,1,1,1"
+                  }
+                ],
+                "alpha": []
+              },
+              "AnimationPattern": "Flicker",
+              "AnimationSpeed": 1,
+              "AnimationTimeOffset": 0,
               "Attenuation": 0.23,
+              "BakeLightIndex": -1,
+              "ConstantAttenuation": 0,
               "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
+              "Intensity": 1,
               "LightColor": "0.91373,0.98039,1,1",
+              "LinearAttenuation": 0,
+              "MixedShadows": false,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1819,7 +2089,8 @@
               "Radius": 822.49976,
               "ShadowBias": 0.0005,
               "ShadowHardness": 0,
-              "Shadows": true
+              "Shadows": true,
+              "Temperature": 6500
             }
           ],
           "Children": []
@@ -1845,11 +2116,55 @@
               "__guid": "6feeb237-2ea4-430f-8c1c-37d382cc5e1e",
               "__enabled": true,
               "Flags": 0,
+              "__version": 1,
+              "AnimationCurve": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.5,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "AnimationDuration": 2,
+              "AnimationEnabled": false,
+              "AnimationGradient": {
+                "blend": "Linear",
+                "color": [
+                  {
+                    "t": 0.5,
+                    "c": "1,1,1,1"
+                  }
+                ],
+                "alpha": []
+              },
+              "AnimationPattern": "Flicker",
+              "AnimationSpeed": 1,
+              "AnimationTimeOffset": 0,
               "Attenuation": 0.23,
+              "BakeLightIndex": -1,
+              "ConstantAttenuation": 0,
               "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
+              "Intensity": 1,
               "LightColor": "0.91373,0.98039,1,1",
+              "LinearAttenuation": 0,
+              "MixedShadows": false,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1859,7 +2174,8 @@
               "Radius": 822.49976,
               "ShadowBias": 0.0005,
               "ShadowHardness": 0,
-              "Shadows": true
+              "Shadows": true,
+              "Temperature": 6500
             }
           ],
           "Children": []
@@ -1885,11 +2201,55 @@
               "__guid": "0043cba2-8ac5-4c3f-812b-aea78b1f77ac",
               "__enabled": true,
               "Flags": 0,
+              "__version": 1,
+              "AnimationCurve": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.5,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "AnimationDuration": 2,
+              "AnimationEnabled": false,
+              "AnimationGradient": {
+                "blend": "Linear",
+                "color": [
+                  {
+                    "t": 0.5,
+                    "c": "1,1,1,1"
+                  }
+                ],
+                "alpha": []
+              },
+              "AnimationPattern": "Flicker",
+              "AnimationSpeed": 1,
+              "AnimationTimeOffset": 0,
               "Attenuation": 0.23,
+              "BakeLightIndex": -1,
+              "ConstantAttenuation": 0,
               "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
+              "Intensity": 1,
               "LightColor": "0.91373,0.98039,1,1",
+              "LinearAttenuation": 0,
+              "MixedShadows": false,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1899,7 +2259,8 @@
               "Radius": 822.49976,
               "ShadowBias": 0.0005,
               "ShadowHardness": 0,
-              "Shadows": true
+              "Shadows": true,
+              "Temperature": 6500
             }
           ],
           "Children": []
@@ -1925,11 +2286,55 @@
               "__guid": "9e52188c-549f-40b4-b72a-a46816cefcbc",
               "__enabled": true,
               "Flags": 0,
+              "__version": 1,
+              "AnimationCurve": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.5,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "AnimationDuration": 2,
+              "AnimationEnabled": false,
+              "AnimationGradient": {
+                "blend": "Linear",
+                "color": [
+                  {
+                    "t": 0.5,
+                    "c": "1,1,1,1"
+                  }
+                ],
+                "alpha": []
+              },
+              "AnimationPattern": "Flicker",
+              "AnimationSpeed": 1,
+              "AnimationTimeOffset": 0,
               "Attenuation": 0.23,
+              "BakeLightIndex": -1,
+              "ConstantAttenuation": 0,
               "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
+              "Intensity": 1,
               "LightColor": "0.91373,0.98039,1,1",
+              "LinearAttenuation": 0,
+              "MixedShadows": false,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1939,7 +2344,8 @@
               "Radius": 822.49976,
               "ShadowBias": 0.0005,
               "ShadowHardness": 0,
-              "Shadows": true
+              "Shadows": true,
+              "Temperature": 6500
             }
           ],
           "Children": []
@@ -1965,11 +2371,55 @@
               "__guid": "6971ad90-f4e8-4d7f-a67a-2a6fcd677903",
               "__enabled": true,
               "Flags": 0,
+              "__version": 1,
+              "AnimationCurve": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.5,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "AnimationDuration": 2,
+              "AnimationEnabled": false,
+              "AnimationGradient": {
+                "blend": "Linear",
+                "color": [
+                  {
+                    "t": 0.5,
+                    "c": "1,1,1,1"
+                  }
+                ],
+                "alpha": []
+              },
+              "AnimationPattern": "Flicker",
+              "AnimationSpeed": 1,
+              "AnimationTimeOffset": 0,
               "Attenuation": 0.23,
+              "BakeLightIndex": -1,
+              "ConstantAttenuation": 0,
               "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
+              "Intensity": 1,
               "LightColor": "0.91373,0.98039,1,1",
+              "LinearAttenuation": 0,
+              "MixedShadows": false,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1979,7 +2429,8 @@
               "Radius": 822.49976,
               "ShadowBias": 0.0005,
               "ShadowHardness": 0,
-              "Shadows": true
+              "Shadows": true,
+              "Temperature": 6500
             }
           ],
           "Children": []
@@ -2005,11 +2456,55 @@
               "__guid": "b345f90f-ac5e-4521-9458-ca1201bdf4bd",
               "__enabled": true,
               "Flags": 0,
+              "__version": 1,
+              "AnimationCurve": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.5,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "AnimationDuration": 2,
+              "AnimationEnabled": false,
+              "AnimationGradient": {
+                "blend": "Linear",
+                "color": [
+                  {
+                    "t": 0.5,
+                    "c": "1,1,1,1"
+                  }
+                ],
+                "alpha": []
+              },
+              "AnimationPattern": "Flicker",
+              "AnimationSpeed": 1,
+              "AnimationTimeOffset": 0,
               "Attenuation": 0.23,
+              "BakeLightIndex": -1,
+              "ConstantAttenuation": 0,
               "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
+              "Intensity": 1,
               "LightColor": "0.91373,0.98039,1,1",
+              "LinearAttenuation": 0,
+              "MixedShadows": false,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -2019,7 +2514,8 @@
               "Radius": 822.49976,
               "ShadowBias": 0.0005,
               "ShadowHardness": 0,
-              "Shadows": true
+              "Shadows": true,
+              "Temperature": 6500
             }
           ],
           "Children": []
@@ -2050,17 +2546,15 @@
           "ColliderFlags": 0,
           "Collision": "None",
           "Color": "1,1,1,1",
+          "DisabledInLowQuality": false,
           "Elasticity": null,
           "Friction": null,
           "HideInGame": false,
           "IsTrigger": true,
           "Mesh": {
             "Data": {
-              "$blob": "2ccddb69-e047-8e38-ac80-ec0abdb4be2f"
-            },
-            "Materials": [
-              "materials/dev/dev_measuregeneric01.vmat"
-            ]
+              "$blob": "8cff326c-251f-8c33-8a82-51d132c7c24f"
+            }
           },
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
@@ -2133,6 +2627,7 @@
             ]
           },
           "OnTriggerExit": null,
+          "RenderOrder": 0,
           "RenderType": "Off",
           "RollingResistance": null,
           "SmoothingAngle": 40,
@@ -2285,7 +2780,7 @@
           "OnComponentUpdate": null,
           "SkyIndirectLighting": true,
           "SkyMaterial": {
-            "Id": "4e21c93d-1910-478e-a891-e08aa03be625",
+            "Id": "e05fd285-6edd-4c7b-9b31-8a41a0265c3e",
             "Path": "materials/skybox/skybox_day_01.vmat"
           },
           "Tint": "1,1,1,1"
@@ -2314,11 +2809,55 @@
           "__guid": "dd0e97e3-8016-4b73-8b5b-5cc8419eefe5",
           "__enabled": true,
           "Flags": 0,
+          "__version": 1,
+          "AnimationCurve": [
+            {
+              "x": 0,
+              "y": 0,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            },
+            {
+              "x": 0.5,
+              "y": 1,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            },
+            {
+              "x": 1,
+              "y": 0,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            }
+          ],
+          "AnimationDuration": 2,
+          "AnimationEnabled": false,
+          "AnimationGradient": {
+            "blend": "Linear",
+            "color": [
+              {
+                "t": 0.5,
+                "c": "1,1,1,1"
+              }
+            ],
+            "alpha": []
+          },
+          "AnimationPattern": "Flicker",
+          "AnimationSpeed": 1,
+          "AnimationTimeOffset": 0,
           "Attenuation": 1,
+          "BakeLightIndex": -1,
+          "ConstantAttenuation": 0,
           "Contribution": "Diffuse, Specular, Transmissive",
           "FogMode": "Enabled",
           "FogStrength": 1,
+          "Intensity": 1,
           "LightColor": "0.91373,0.98039,1,1",
+          "LinearAttenuation": 0,
+          "MixedShadows": false,
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
@@ -2328,7 +2867,8 @@
           "Radius": 400,
           "ShadowBias": 0.0005,
           "ShadowHardness": 0,
-          "Shadows": true
+          "Shadows": true,
+          "Temperature": 6500
         }
       ],
       "Children": []
@@ -2354,11 +2894,54 @@
           "__guid": "a8a4dac8-277f-4284-b640-d73743e43195",
           "__enabled": true,
           "Flags": 0,
+          "__version": 1,
+          "AnimationCurve": [
+            {
+              "x": 0,
+              "y": 0,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            },
+            {
+              "x": 0.5,
+              "y": 1,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            },
+            {
+              "x": 1,
+              "y": 0,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            }
+          ],
+          "AnimationDuration": 2,
+          "AnimationEnabled": false,
+          "AnimationGradient": {
+            "blend": "Linear",
+            "color": [
+              {
+                "t": 0.5,
+                "c": "1,1,1,1"
+              }
+            ],
+            "alpha": []
+          },
+          "AnimationPattern": "Flicker",
+          "AnimationSpeed": 1,
+          "AnimationTimeOffset": 0,
+          "BakeLightIndex": -1,
           "ContactShadows": true,
           "Contribution": "Diffuse, Specular, Transmissive",
           "FogMode": "Enabled",
           "FogStrength": 1,
+          "IncludeStaticShadowCasters": false,
+          "Intensity": 1,
           "LightColor": "0.91373,0.98039,1,1",
+          "MixedShadows": false,
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
@@ -2371,6 +2954,7 @@
           "ShadowHardness": 0,
           "Shadows": true,
           "SkyColor": "0,0,0,0",
+          "Temperature": 6500,
           "Visualizer": {}
         }
       ],
@@ -2399,8 +2983,8 @@
           "Flags": 0,
           "__version": 1,
           "BakedTexture": {
-            "Id": "53e8b7ac-cf97-496d-a9ba-8c44f81a400f",
-            "Path": "scenes/school85_scene_data/envmap/bake_2f149a79-79f4-4daf-91ce-7feb0b9d4170.vtex"
+            "Id": "d1fb3892-3fee-476a-b637-ac36d919243f",
+            "Path": "scenes/school85_scene_data/envmap/st4hxbul.vtex"
           },
           "Bounds": {
             "Mins": "-1859.36414,-8685.91016,-512",
@@ -2538,6 +3122,10 @@
       "AgentRadius": 16,
       "AgentStepSize": 18,
       "AgentMaxSlope": 40,
+      "GenerateLinks": false,
+      "AgentMaxDrop": 192,
+      "AgentMaxJumpDistance": 250,
+      "AgentMaxJumpHeight": 80,
       "ExcludedBodies": "",
       "IncludedBodies": "",
       "DeferGeneration": false,
@@ -2566,7 +3154,6 @@
     "facepunch.beech_bush_regular_medium_a#145432",
     "facepunch.beech_shrub_wide_large#145481",
     "facepunch.ivy_fresh_02a#47130",
-    "facepunch.sandbox#368964",
     "facepunch.tree_oak_big_b#145475",
     "fish.gt_shitty_pine_tree2#89754",
     "rust.ladder_300_top#25203",

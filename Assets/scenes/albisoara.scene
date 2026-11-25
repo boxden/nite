@@ -25,17 +25,15 @@
           "ColliderFlags": 0,
           "Collision": "Mesh",
           "Color": "1,1,1,1",
+          "DisabledInLowQuality": false,
           "Elasticity": null,
           "Friction": null,
           "HideInGame": false,
           "IsTrigger": false,
           "Mesh": {
             "Data": {
-              "$blob": "86ee53d6-b578-8ff0-a64c-0b150c51b413"
-            },
-            "Materials": [
-              "materials/dev/reflectivity_30.vmat"
-            ]
+              "$blob": "8cff326c-251f-8c33-8a82-51d132c7c24f"
+            }
           },
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
@@ -47,6 +45,7 @@
           "OnObjectTriggerExit": null,
           "OnTriggerEnter": null,
           "OnTriggerExit": null,
+          "RenderOrder": 0,
           "RenderType": "On",
           "RollingResistance": null,
           "SmoothingAngle": 40,
@@ -350,11 +349,54 @@
           "__guid": "1e5ca14f-8493-43a1-a957-8f53d3446ecc",
           "__enabled": true,
           "Flags": 0,
+          "__version": 1,
+          "AnimationCurve": [
+            {
+              "x": 0,
+              "y": 0,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            },
+            {
+              "x": 0.5,
+              "y": 1,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            },
+            {
+              "x": 1,
+              "y": 0,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            }
+          ],
+          "AnimationDuration": 2,
+          "AnimationEnabled": false,
+          "AnimationGradient": {
+            "blend": "Linear",
+            "color": [
+              {
+                "t": 0.5,
+                "c": "1,1,1,1"
+              }
+            ],
+            "alpha": []
+          },
+          "AnimationPattern": "Flicker",
+          "AnimationSpeed": 1,
+          "AnimationTimeOffset": 0,
+          "BakeLightIndex": -1,
           "ContactShadows": true,
           "Contribution": "Diffuse, Specular, Transmissive",
           "FogMode": "Enabled",
           "FogStrength": 1,
+          "IncludeStaticShadowCasters": false,
+          "Intensity": 1,
           "LightColor": "0.91373,0.98039,1,1",
+          "MixedShadows": false,
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
@@ -367,6 +409,7 @@
           "ShadowHardness": 0,
           "Shadows": true,
           "SkyColor": "0,0,0,0",
+          "Temperature": 6500,
           "Visualizer": {}
         }
       ],
@@ -459,11 +502,55 @@
               "__guid": "4014c455-224c-4bc8-951f-134bc18c2550",
               "__enabled": true,
               "Flags": 0,
+              "__version": 1,
+              "AnimationCurve": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.5,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "AnimationDuration": 2,
+              "AnimationEnabled": false,
+              "AnimationGradient": {
+                "blend": "Linear",
+                "color": [
+                  {
+                    "t": 0.5,
+                    "c": "1,1,1,1"
+                  }
+                ],
+                "alpha": []
+              },
+              "AnimationPattern": "Flicker",
+              "AnimationSpeed": 1,
+              "AnimationTimeOffset": 0,
               "Attenuation": 1,
+              "BakeLightIndex": -1,
+              "ConstantAttenuation": 0,
               "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
+              "Intensity": 1,
               "LightColor": "0.91373,0.98039,1,1",
+              "LinearAttenuation": 0,
+              "MixedShadows": false,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -473,7 +560,8 @@
               "Radius": 400,
               "ShadowBias": 0.0005,
               "ShadowHardness": 0,
-              "Shadows": true
+              "Shadows": true,
+              "Temperature": 6500
             }
           ],
           "Children": []
@@ -499,11 +587,55 @@
               "__guid": "f89deaf0-7acc-426d-862b-39e28f87684b",
               "__enabled": true,
               "Flags": 0,
+              "__version": 1,
+              "AnimationCurve": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.5,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "AnimationDuration": 2,
+              "AnimationEnabled": false,
+              "AnimationGradient": {
+                "blend": "Linear",
+                "color": [
+                  {
+                    "t": 0.5,
+                    "c": "1,1,1,1"
+                  }
+                ],
+                "alpha": []
+              },
+              "AnimationPattern": "Flicker",
+              "AnimationSpeed": 1,
+              "AnimationTimeOffset": 0,
               "Attenuation": 1,
+              "BakeLightIndex": -1,
+              "ConstantAttenuation": 0,
               "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
+              "Intensity": 1,
               "LightColor": "0.91373,0.98039,1,1",
+              "LinearAttenuation": 0,
+              "MixedShadows": false,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -513,7 +645,8 @@
               "Radius": 400,
               "ShadowBias": 0.0005,
               "ShadowHardness": 0,
-              "Shadows": true
+              "Shadows": true,
+              "Temperature": 6500
             }
           ],
           "Children": []
@@ -539,11 +672,55 @@
               "__guid": "20e46e1d-9054-492b-847d-af21447d14c1",
               "__enabled": true,
               "Flags": 0,
+              "__version": 1,
+              "AnimationCurve": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.5,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "AnimationDuration": 2,
+              "AnimationEnabled": false,
+              "AnimationGradient": {
+                "blend": "Linear",
+                "color": [
+                  {
+                    "t": 0.5,
+                    "c": "1,1,1,1"
+                  }
+                ],
+                "alpha": []
+              },
+              "AnimationPattern": "Flicker",
+              "AnimationSpeed": 1,
+              "AnimationTimeOffset": 0,
               "Attenuation": 1,
+              "BakeLightIndex": -1,
+              "ConstantAttenuation": 0,
               "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
+              "Intensity": 1,
               "LightColor": "0.91373,0.98039,1,1",
+              "LinearAttenuation": 0,
+              "MixedShadows": false,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -553,7 +730,8 @@
               "Radius": 400,
               "ShadowBias": 0.0005,
               "ShadowHardness": 0,
-              "Shadows": true
+              "Shadows": true,
+              "Temperature": 6500
             }
           ],
           "Children": []
@@ -579,11 +757,55 @@
               "__guid": "f465f73b-c20f-4e20-8eaa-1670aa2036aa",
               "__enabled": true,
               "Flags": 0,
+              "__version": 1,
+              "AnimationCurve": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.5,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "AnimationDuration": 2,
+              "AnimationEnabled": false,
+              "AnimationGradient": {
+                "blend": "Linear",
+                "color": [
+                  {
+                    "t": 0.5,
+                    "c": "1,1,1,1"
+                  }
+                ],
+                "alpha": []
+              },
+              "AnimationPattern": "Flicker",
+              "AnimationSpeed": 1,
+              "AnimationTimeOffset": 0,
               "Attenuation": 1,
+              "BakeLightIndex": -1,
+              "ConstantAttenuation": 0,
               "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
+              "Intensity": 1,
               "LightColor": "0.91373,0.98039,1,1",
+              "LinearAttenuation": 0,
+              "MixedShadows": false,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -593,7 +815,8 @@
               "Radius": 400,
               "ShadowBias": 0.0005,
               "ShadowHardness": 0,
-              "Shadows": true
+              "Shadows": true,
+              "Temperature": 6500
             }
           ],
           "Children": []
@@ -619,11 +842,55 @@
               "__guid": "99606821-0ed7-43e7-a30a-a854189cf10d",
               "__enabled": true,
               "Flags": 0,
+              "__version": 1,
+              "AnimationCurve": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.5,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "AnimationDuration": 2,
+              "AnimationEnabled": false,
+              "AnimationGradient": {
+                "blend": "Linear",
+                "color": [
+                  {
+                    "t": 0.5,
+                    "c": "1,1,1,1"
+                  }
+                ],
+                "alpha": []
+              },
+              "AnimationPattern": "Flicker",
+              "AnimationSpeed": 1,
+              "AnimationTimeOffset": 0,
               "Attenuation": 1,
+              "BakeLightIndex": -1,
+              "ConstantAttenuation": 0,
               "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
+              "Intensity": 1,
               "LightColor": "0.91373,0.98039,1,1",
+              "LinearAttenuation": 0,
+              "MixedShadows": false,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -633,7 +900,8 @@
               "Radius": 400,
               "ShadowBias": 0.0005,
               "ShadowHardness": 0,
-              "Shadows": true
+              "Shadows": true,
+              "Temperature": 6500
             }
           ],
           "Children": []
@@ -659,11 +927,55 @@
               "__guid": "17424343-92da-48bf-8d7f-97a1bea7cb62",
               "__enabled": true,
               "Flags": 0,
+              "__version": 1,
+              "AnimationCurve": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.5,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "AnimationDuration": 2,
+              "AnimationEnabled": false,
+              "AnimationGradient": {
+                "blend": "Linear",
+                "color": [
+                  {
+                    "t": 0.5,
+                    "c": "1,1,1,1"
+                  }
+                ],
+                "alpha": []
+              },
+              "AnimationPattern": "Flicker",
+              "AnimationSpeed": 1,
+              "AnimationTimeOffset": 0,
               "Attenuation": 1,
+              "BakeLightIndex": -1,
+              "ConstantAttenuation": 0,
               "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
+              "Intensity": 1,
               "LightColor": "0.91373,0.98039,1,1",
+              "LinearAttenuation": 0,
+              "MixedShadows": false,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -673,7 +985,8 @@
               "Radius": 250,
               "ShadowBias": 0.0005,
               "ShadowHardness": 0,
-              "Shadows": true
+              "Shadows": true,
+              "Temperature": 6500
             }
           ],
           "Children": []
@@ -699,11 +1012,55 @@
               "__guid": "21472f61-dd81-4043-b6ba-65cd38b83f26",
               "__enabled": true,
               "Flags": 0,
+              "__version": 1,
+              "AnimationCurve": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.5,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "AnimationDuration": 2,
+              "AnimationEnabled": false,
+              "AnimationGradient": {
+                "blend": "Linear",
+                "color": [
+                  {
+                    "t": 0.5,
+                    "c": "1,1,1,1"
+                  }
+                ],
+                "alpha": []
+              },
+              "AnimationPattern": "Flicker",
+              "AnimationSpeed": 1,
+              "AnimationTimeOffset": 0,
               "Attenuation": 1,
+              "BakeLightIndex": -1,
+              "ConstantAttenuation": 0,
               "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
+              "Intensity": 1,
               "LightColor": "0.91373,0.98039,1,1",
+              "LinearAttenuation": 0,
+              "MixedShadows": false,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -713,7 +1070,8 @@
               "Radius": 250,
               "ShadowBias": 0.0005,
               "ShadowHardness": 0,
-              "Shadows": true
+              "Shadows": true,
+              "Temperature": 6500
             }
           ],
           "Children": []
@@ -739,11 +1097,55 @@
               "__guid": "60ec293a-2eeb-4977-ae4b-7d9cb9805026",
               "__enabled": true,
               "Flags": 0,
+              "__version": 1,
+              "AnimationCurve": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.5,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "AnimationDuration": 2,
+              "AnimationEnabled": false,
+              "AnimationGradient": {
+                "blend": "Linear",
+                "color": [
+                  {
+                    "t": 0.5,
+                    "c": "1,1,1,1"
+                  }
+                ],
+                "alpha": []
+              },
+              "AnimationPattern": "Flicker",
+              "AnimationSpeed": 1,
+              "AnimationTimeOffset": 0,
               "Attenuation": 1,
+              "BakeLightIndex": -1,
+              "ConstantAttenuation": 0,
               "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
+              "Intensity": 1,
               "LightColor": "0.91373,0.98039,1,1",
+              "LinearAttenuation": 0,
+              "MixedShadows": false,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -753,7 +1155,8 @@
               "Radius": 250,
               "ShadowBias": 0.0005,
               "ShadowHardness": 0,
-              "Shadows": true
+              "Shadows": true,
+              "Temperature": 6500
             }
           ],
           "Children": []
@@ -779,11 +1182,55 @@
               "__guid": "b32c9015-245c-4244-aa1e-345f3e014575",
               "__enabled": true,
               "Flags": 0,
+              "__version": 1,
+              "AnimationCurve": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.5,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "AnimationDuration": 2,
+              "AnimationEnabled": false,
+              "AnimationGradient": {
+                "blend": "Linear",
+                "color": [
+                  {
+                    "t": 0.5,
+                    "c": "1,1,1,1"
+                  }
+                ],
+                "alpha": []
+              },
+              "AnimationPattern": "Flicker",
+              "AnimationSpeed": 1,
+              "AnimationTimeOffset": 0,
               "Attenuation": 1,
+              "BakeLightIndex": -1,
+              "ConstantAttenuation": 0,
               "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
+              "Intensity": 1,
               "LightColor": "0.91373,0.98039,1,1",
+              "LinearAttenuation": 0,
+              "MixedShadows": false,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -793,7 +1240,8 @@
               "Radius": 250,
               "ShadowBias": 0.0005,
               "ShadowHardness": 0,
-              "Shadows": true
+              "Shadows": true,
+              "Temperature": 6500
             }
           ],
           "Children": []
@@ -819,11 +1267,55 @@
               "__guid": "7fe388f7-d252-4073-8ba2-f3c2b5f4f8a9",
               "__enabled": true,
               "Flags": 0,
+              "__version": 1,
+              "AnimationCurve": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.5,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "AnimationDuration": 2,
+              "AnimationEnabled": false,
+              "AnimationGradient": {
+                "blend": "Linear",
+                "color": [
+                  {
+                    "t": 0.5,
+                    "c": "1,1,1,1"
+                  }
+                ],
+                "alpha": []
+              },
+              "AnimationPattern": "Flicker",
+              "AnimationSpeed": 1,
+              "AnimationTimeOffset": 0,
               "Attenuation": 1,
+              "BakeLightIndex": -1,
+              "ConstantAttenuation": 0,
               "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
+              "Intensity": 1,
               "LightColor": "0.91373,0.98039,1,1",
+              "LinearAttenuation": 0,
+              "MixedShadows": false,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -833,7 +1325,8 @@
               "Radius": 400,
               "ShadowBias": 0.0005,
               "ShadowHardness": 0,
-              "Shadows": true
+              "Shadows": true,
+              "Temperature": 6500
             }
           ],
           "Children": []
@@ -869,7 +1362,7 @@
           "OnComponentUpdate": null,
           "SkyIndirectLighting": false,
           "SkyMaterial": {
-            "Id": "4e21c93d-1910-478e-a891-e08aa03be625",
+            "Id": "e05fd285-6edd-4c7b-9b31-8a41a0265c3e",
             "Path": "materials/skybox/skybox_day_01.vmat"
           },
           "Tint": "1,1,1,1"
@@ -954,7 +1447,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -981,7 +1474,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1009,7 +1502,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1056,7 +1549,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1083,7 +1576,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1111,7 +1604,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1158,7 +1651,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1185,7 +1678,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1213,7 +1706,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1260,7 +1753,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1287,7 +1780,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1315,7 +1808,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1362,7 +1855,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1389,7 +1882,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1417,7 +1910,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1464,7 +1957,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1491,7 +1984,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1519,7 +2012,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1566,7 +2059,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1593,7 +2086,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1621,7 +2114,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1668,7 +2161,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1695,7 +2188,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1723,7 +2216,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1770,7 +2263,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1797,7 +2290,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1825,7 +2318,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1872,7 +2365,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1899,7 +2392,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1927,7 +2420,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -1974,7 +2467,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2001,7 +2494,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2029,7 +2522,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2076,7 +2569,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2103,7 +2596,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2131,7 +2624,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2178,7 +2671,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2205,7 +2698,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2233,7 +2726,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2299,7 +2792,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2326,7 +2819,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2354,7 +2847,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2401,7 +2894,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2428,7 +2921,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2456,7 +2949,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2503,7 +2996,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2530,7 +3023,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2558,7 +3051,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2605,7 +3098,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2632,7 +3125,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2660,7 +3153,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2707,7 +3200,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2734,7 +3227,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2762,7 +3255,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2809,7 +3302,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2836,7 +3329,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2864,7 +3357,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2911,7 +3404,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2938,7 +3431,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -2966,7 +3459,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3013,7 +3506,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3040,7 +3533,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3068,7 +3561,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3115,7 +3608,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3142,7 +3635,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3170,7 +3663,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3217,7 +3710,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3244,7 +3737,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3272,7 +3765,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3319,7 +3812,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3346,7 +3839,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3374,7 +3867,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3421,7 +3914,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3448,7 +3941,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3476,7 +3969,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3523,7 +4016,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3550,7 +4043,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3578,7 +4071,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3625,7 +4118,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3652,7 +4145,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3680,7 +4173,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3746,7 +4239,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3773,7 +4266,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3801,7 +4294,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3848,7 +4341,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3875,7 +4368,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3903,7 +4396,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3950,7 +4443,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -3977,7 +4470,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4005,7 +4498,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4052,7 +4545,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4079,7 +4572,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4107,7 +4600,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4154,7 +4647,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4181,7 +4674,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4209,7 +4702,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4256,7 +4749,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4283,7 +4776,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4311,7 +4804,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4358,7 +4851,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4385,7 +4878,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4413,7 +4906,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4460,7 +4953,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4487,7 +4980,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4515,7 +5008,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4562,7 +5055,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4589,7 +5082,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4617,7 +5110,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4664,7 +5157,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4691,7 +5184,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4719,7 +5212,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4766,7 +5259,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4793,7 +5286,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4821,7 +5314,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4868,7 +5361,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4895,7 +5388,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4923,7 +5416,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4970,7 +5463,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -4997,7 +5490,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -5025,7 +5518,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -5072,7 +5565,7 @@
                       "IsStatic": true,
                       "MaterialGroup": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -5099,7 +5592,7 @@
                       "MaterialOverride": null,
                       "Materials": null,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -5127,7 +5620,7 @@
                       "Friction": null,
                       "IsTrigger": false,
                       "Model": {
-                        "Id": "200b57d9-7f43-495a-b38c-0f00ee6c0bac",
+                        "Id": "cec4e6c2-9db1-4831-a305-7069d8226d5c",
                         "Path": "models/sbox_props/metal_fences/metal_fence_panel/metal_fence_panel.vmdl"
                       },
                       "OnComponentDestroy": null,
@@ -5247,17 +5740,15 @@
               "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
+              "DisabledInLowQuality": false,
               "Elasticity": null,
               "Friction": null,
               "HideInGame": false,
               "IsTrigger": false,
               "Mesh": {
                 "Data": {
-                  "$blob": "f0af5e2c-d037-8772-a11b-430c7fe951be"
-                },
-                "Materials": [
-                  "materials/dev/reflectivity_30.vmat"
-                ]
+                  "$blob": "8cff326c-251f-8c33-8a82-51d132c7c24f"
+                }
               },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
@@ -5269,6 +5760,7 @@
               "OnObjectTriggerExit": null,
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
+              "RenderOrder": 0,
               "RenderType": "On",
               "RollingResistance": null,
               "SmoothingAngle": 40,
@@ -5303,17 +5795,15 @@
               "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
+              "DisabledInLowQuality": false,
               "Elasticity": null,
               "Friction": null,
               "HideInGame": false,
               "IsTrigger": false,
               "Mesh": {
                 "Data": {
-                  "$blob": "848d27e8-887b-8405-89dd-c03b6c024b43"
-                },
-                "Materials": [
-                  "materials/dev/reflectivity_30.vmat"
-                ]
+                  "$blob": "8cff326c-251f-8c33-8a82-51d132c7c24f"
+                }
               },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
@@ -5325,6 +5815,7 @@
               "OnObjectTriggerExit": null,
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
+              "RenderOrder": 0,
               "RenderType": "On",
               "RollingResistance": null,
               "SmoothingAngle": 40,
@@ -5431,17 +5922,15 @@
               "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
+              "DisabledInLowQuality": false,
               "Elasticity": null,
               "Friction": null,
               "HideInGame": false,
               "IsTrigger": false,
               "Mesh": {
                 "Data": {
-                  "$blob": "a37522bb-8127-80b1-a69e-f0745f1d3fdd"
-                },
-                "Materials": [
-                  "materials/dev/reflectivity_30.vmat"
-                ]
+                  "$blob": "8cff326c-251f-8c33-8a82-51d132c7c24f"
+                }
               },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
@@ -5469,6 +5958,7 @@
                 "Links": []
               },
               "OnTriggerExit": null,
+              "RenderOrder": 0,
               "RenderType": "Off",
               "RollingResistance": null,
               "SmoothingAngle": 40,
@@ -5557,11 +6047,55 @@
               "__guid": "3d9febe6-7567-468f-b20a-c0f4b6a01da3",
               "__enabled": true,
               "Flags": 0,
+              "__version": 1,
+              "AnimationCurve": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.5,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "AnimationDuration": 2,
+              "AnimationEnabled": false,
+              "AnimationGradient": {
+                "blend": "Linear",
+                "color": [
+                  {
+                    "t": 0.5,
+                    "c": "1,1,1,1"
+                  }
+                ],
+                "alpha": []
+              },
+              "AnimationPattern": "Flicker",
+              "AnimationSpeed": 1,
+              "AnimationTimeOffset": 0,
               "Attenuation": 1,
+              "BakeLightIndex": -1,
+              "ConstantAttenuation": 0,
               "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
+              "Intensity": 1,
               "LightColor": "1,0.69804,0.35294,1",
+              "LinearAttenuation": 0,
+              "MixedShadows": false,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -5571,7 +6105,8 @@
               "Radius": 400,
               "ShadowBias": 0.0005,
               "ShadowHardness": 0,
-              "Shadows": true
+              "Shadows": true,
+              "Temperature": 6500
             }
           ],
           "Children": []
@@ -5597,11 +6132,55 @@
               "__guid": "9efdfb8f-83c0-4a87-986f-d3b9e71476a8",
               "__enabled": true,
               "Flags": 0,
+              "__version": 1,
+              "AnimationCurve": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.5,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "AnimationDuration": 2,
+              "AnimationEnabled": false,
+              "AnimationGradient": {
+                "blend": "Linear",
+                "color": [
+                  {
+                    "t": 0.5,
+                    "c": "1,1,1,1"
+                  }
+                ],
+                "alpha": []
+              },
+              "AnimationPattern": "Flicker",
+              "AnimationSpeed": 1,
+              "AnimationTimeOffset": 0,
               "Attenuation": 1,
+              "BakeLightIndex": -1,
+              "ConstantAttenuation": 0,
               "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
+              "Intensity": 1,
               "LightColor": "1,0.69804,0.35294,1",
+              "LinearAttenuation": 0,
+              "MixedShadows": false,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -5611,7 +6190,8 @@
               "Radius": 400,
               "ShadowBias": 0.0005,
               "ShadowHardness": 0,
-              "Shadows": true
+              "Shadows": true,
+              "Temperature": 6500
             }
           ],
           "Children": []
@@ -5640,17 +6220,15 @@
               "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
+              "DisabledInLowQuality": false,
               "Elasticity": null,
               "Friction": null,
               "HideInGame": false,
               "IsTrigger": false,
               "Mesh": {
                 "Data": {
-                  "$blob": "e82d5c2b-4855-89a3-96a3-f5289c3525de"
-                },
-                "Materials": [
-                  "materials/dev/reflectivity_30b.vmat"
-                ]
+                  "$blob": "8cff326c-251f-8c33-8a82-51d132c7c24f"
+                }
               },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
@@ -5662,6 +6240,7 @@
               "OnObjectTriggerExit": null,
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
+              "RenderOrder": 0,
               "RenderType": "On",
               "RollingResistance": null,
               "SmoothingAngle": 40,
@@ -5722,17 +6301,15 @@
               "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
+              "DisabledInLowQuality": false,
               "Elasticity": null,
               "Friction": null,
               "HideInGame": false,
               "IsTrigger": false,
               "Mesh": {
                 "Data": {
-                  "$blob": "b3d10912-b29d-89e2-968d-49c6b89fa8c0"
-                },
-                "Materials": [
-                  "materials/dev/reflectivity_30.vmat"
-                ]
+                  "$blob": "8cff326c-251f-8c33-8a82-51d132c7c24f"
+                }
               },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
@@ -5744,6 +6321,7 @@
               "OnObjectTriggerExit": null,
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
+              "RenderOrder": 0,
               "RenderType": "On",
               "RollingResistance": null,
               "SmoothingAngle": 40,
@@ -5782,7 +6360,7 @@
           "IsStatic": true,
           "MaterialGroup": "default",
           "Model": {
-            "Id": "ddb325aa-f2b7-488a-aa3c-2b10dfac6c13",
+            "Id": "238b7b60-5488-4e71-9853-52ad8e33d0aa",
             "Path": "models/industrial_lights01/industrial_light01.vmdl"
           },
           "OnComponentDestroy": null,
@@ -5809,7 +6387,7 @@
           "MaterialOverride": null,
           "Materials": null,
           "Model": {
-            "Id": "ddb325aa-f2b7-488a-aa3c-2b10dfac6c13",
+            "Id": "238b7b60-5488-4e71-9853-52ad8e33d0aa",
             "Path": "models/industrial_lights01/industrial_light01.vmdl"
           },
           "OnComponentDestroy": null,
@@ -5837,7 +6415,7 @@
           "Friction": null,
           "IsTrigger": false,
           "Model": {
-            "Id": "ddb325aa-f2b7-488a-aa3c-2b10dfac6c13",
+            "Id": "238b7b60-5488-4e71-9853-52ad8e33d0aa",
             "Path": "models/industrial_lights01/industrial_light01.vmdl"
           },
           "OnComponentDestroy": null,
@@ -5879,11 +6457,55 @@
           "__guid": "2a605181-697c-4182-892a-5076cb20f53c",
           "__enabled": true,
           "Flags": 0,
+          "__version": 1,
+          "AnimationCurve": [
+            {
+              "x": 0,
+              "y": 0,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            },
+            {
+              "x": 0.5,
+              "y": 1,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            },
+            {
+              "x": 1,
+              "y": 0,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            }
+          ],
+          "AnimationDuration": 2,
+          "AnimationEnabled": false,
+          "AnimationGradient": {
+            "blend": "Linear",
+            "color": [
+              {
+                "t": 0.5,
+                "c": "1,1,1,1"
+              }
+            ],
+            "alpha": []
+          },
+          "AnimationPattern": "Flicker",
+          "AnimationSpeed": 1,
+          "AnimationTimeOffset": 0,
           "Attenuation": 1,
+          "BakeLightIndex": -1,
+          "ConstantAttenuation": 0,
           "Contribution": "Diffuse, Specular, Transmissive",
           "FogMode": "Enabled",
           "FogStrength": 1,
+          "Intensity": 1,
           "LightColor": "0.91373,0.98039,1,1",
+          "LinearAttenuation": 0,
+          "MixedShadows": false,
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
@@ -5893,7 +6515,8 @@
           "Radius": 250,
           "ShadowBias": 0.0005,
           "ShadowHardness": 0,
-          "Shadows": true
+          "Shadows": true,
+          "Temperature": 6500
         }
       ],
       "Children": []
@@ -5922,17 +6545,15 @@
           "ColliderFlags": 0,
           "Collision": "Mesh",
           "Color": "1,1,1,1",
+          "DisabledInLowQuality": false,
           "Elasticity": null,
           "Friction": null,
           "HideInGame": false,
           "IsTrigger": false,
           "Mesh": {
             "Data": {
-              "$blob": "a37522bb-8127-80b1-a69e-f0745f1d3fdd"
-            },
-            "Materials": [
-              "materials/dev/reflectivity_30.vmat"
-            ]
+              "$blob": "8cff326c-251f-8c33-8a82-51d132c7c24f"
+            }
           },
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
@@ -5960,6 +6581,7 @@
             "Links": []
           },
           "OnTriggerExit": null,
+          "RenderOrder": 0,
           "RenderType": "Off",
           "RollingResistance": null,
           "SmoothingAngle": 40,
@@ -6054,17 +6676,15 @@
           "ColliderFlags": 0,
           "Collision": "Mesh",
           "Color": "1,1,1,1",
+          "DisabledInLowQuality": false,
           "Elasticity": null,
           "Friction": null,
           "HideInGame": false,
           "IsTrigger": false,
           "Mesh": {
             "Data": {
-              "$blob": "f0af5e2c-d037-8772-a11b-430c7fe951be"
-            },
-            "Materials": [
-              "materials/dev/reflectivity_30.vmat"
-            ]
+              "$blob": "8cff326c-251f-8c33-8a82-51d132c7c24f"
+            }
           },
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
@@ -6076,6 +6696,7 @@
           "OnObjectTriggerExit": null,
           "OnTriggerEnter": null,
           "OnTriggerExit": null,
+          "RenderOrder": 0,
           "RenderType": "On",
           "RollingResistance": null,
           "SmoothingAngle": 40,
@@ -6110,17 +6731,15 @@
           "ColliderFlags": 0,
           "Collision": "Mesh",
           "Color": "1,1,1,1",
+          "DisabledInLowQuality": false,
           "Elasticity": null,
           "Friction": null,
           "HideInGame": false,
           "IsTrigger": false,
           "Mesh": {
             "Data": {
-              "$blob": "848d27e8-887b-8405-89dd-c03b6c024b43"
-            },
-            "Materials": [
-              "materials/dev/reflectivity_30.vmat"
-            ]
+              "$blob": "8cff326c-251f-8c33-8a82-51d132c7c24f"
+            }
           },
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
@@ -6132,6 +6751,7 @@
           "OnObjectTriggerExit": null,
           "OnTriggerEnter": null,
           "OnTriggerExit": null,
+          "RenderOrder": 0,
           "RenderType": "On",
           "RollingResistance": null,
           "SmoothingAngle": 40,
@@ -6185,7 +6805,7 @@
               "IsStatic": true,
               "MaterialGroup": "default",
               "Model": {
-                "Id": "ddb325aa-f2b7-488a-aa3c-2b10dfac6c13",
+                "Id": "238b7b60-5488-4e71-9853-52ad8e33d0aa",
                 "Path": "models/industrial_lights01/industrial_light01.vmdl"
               },
               "OnComponentDestroy": null,
@@ -6212,7 +6832,7 @@
               "MaterialOverride": null,
               "Materials": null,
               "Model": {
-                "Id": "ddb325aa-f2b7-488a-aa3c-2b10dfac6c13",
+                "Id": "238b7b60-5488-4e71-9853-52ad8e33d0aa",
                 "Path": "models/industrial_lights01/industrial_light01.vmdl"
               },
               "OnComponentDestroy": null,
@@ -6240,7 +6860,7 @@
               "Friction": null,
               "IsTrigger": false,
               "Model": {
-                "Id": "ddb325aa-f2b7-488a-aa3c-2b10dfac6c13",
+                "Id": "238b7b60-5488-4e71-9853-52ad8e33d0aa",
                 "Path": "models/industrial_lights01/industrial_light01.vmdl"
               },
               "OnComponentDestroy": null,
@@ -6353,11 +6973,55 @@
               "__guid": "b970a02d-6b32-455e-9cbf-426732a01b55",
               "__enabled": true,
               "Flags": 0,
+              "__version": 1,
+              "AnimationCurve": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.5,
+                  "y": 1,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "AnimationDuration": 2,
+              "AnimationEnabled": false,
+              "AnimationGradient": {
+                "blend": "Linear",
+                "color": [
+                  {
+                    "t": 0.5,
+                    "c": "1,1,1,1"
+                  }
+                ],
+                "alpha": []
+              },
+              "AnimationPattern": "Flicker",
+              "AnimationSpeed": 1,
+              "AnimationTimeOffset": 0,
               "Attenuation": 1,
+              "BakeLightIndex": -1,
+              "ConstantAttenuation": 0,
               "Contribution": "Diffuse, Specular, Transmissive",
               "FogMode": "Enabled",
               "FogStrength": 1,
+              "Intensity": 1,
               "LightColor": "0.91373,0.98039,1,1",
+              "LinearAttenuation": 0,
+              "MixedShadows": false,
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -6367,7 +7031,8 @@
               "Radius": 250,
               "ShadowBias": 0.0005,
               "ShadowHardness": 0,
-              "Shadows": true
+              "Shadows": true,
+              "Temperature": 6500
             }
           ],
           "Children": []
@@ -6396,17 +7061,15 @@
               "ColliderFlags": 0,
               "Collision": "Mesh",
               "Color": "1,1,1,1",
+              "DisabledInLowQuality": false,
               "Elasticity": null,
               "Friction": null,
               "HideInGame": true,
               "IsTrigger": true,
               "Mesh": {
                 "Data": {
-                  "$blob": "17492a5a-7eb3-85a5-bb52-cd3e8c149358"
-                },
-                "Materials": [
-                  "materials/dev/reflectivity_30.vmat"
-                ]
+                  "$blob": "8cff326c-251f-8c33-8a82-51d132c7c24f"
+                }
               },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
@@ -6614,6 +7277,7 @@
                 }
               },
               "OnTriggerExit": null,
+              "RenderOrder": 0,
               "RenderType": "Off",
               "RollingResistance": null,
               "SmoothingAngle": 40,
@@ -6647,11 +7311,55 @@
           "__guid": "0b6cbebd-6fc9-4a66-b072-56bf232c99be",
           "__enabled": true,
           "Flags": 0,
+          "__version": 1,
+          "AnimationCurve": [
+            {
+              "x": 0,
+              "y": 0,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            },
+            {
+              "x": 0.5,
+              "y": 1,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            },
+            {
+              "x": 1,
+              "y": 0,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            }
+          ],
+          "AnimationDuration": 2,
+          "AnimationEnabled": false,
+          "AnimationGradient": {
+            "blend": "Linear",
+            "color": [
+              {
+                "t": 0.5,
+                "c": "1,1,1,1"
+              }
+            ],
+            "alpha": []
+          },
+          "AnimationPattern": "Flicker",
+          "AnimationSpeed": 1,
+          "AnimationTimeOffset": 0,
           "Attenuation": 0.13,
+          "BakeLightIndex": -1,
+          "ConstantAttenuation": 0,
           "Contribution": "Diffuse, Specular, Transmissive",
           "FogMode": "Enabled",
           "FogStrength": 1,
+          "Intensity": 1,
           "LightColor": "0.91373,0.98039,1,1",
+          "LinearAttenuation": 0,
+          "MixedShadows": false,
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
@@ -6661,7 +7369,8 @@
           "Radius": 400,
           "ShadowBias": 0.0005,
           "ShadowHardness": 0,
-          "Shadows": true
+          "Shadows": true,
+          "Temperature": 6500
         }
       ],
       "Children": []
@@ -6774,17 +7483,15 @@
           "ColliderFlags": 0,
           "Collision": "Mesh",
           "Color": "1,1,1,1",
+          "DisabledInLowQuality": false,
           "Elasticity": null,
           "Friction": null,
           "HideInGame": false,
           "IsTrigger": false,
           "Mesh": {
             "Data": {
-              "$blob": "61e6d793-ad6a-83d5-9378-675379d45372"
-            },
-            "Materials": [
-              "materials/dev/reflectivity_30b.vmat"
-            ]
+              "$blob": "8cff326c-251f-8c33-8a82-51d132c7c24f"
+            }
           },
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
@@ -6796,6 +7503,7 @@
           "OnObjectTriggerExit": null,
           "OnTriggerEnter": null,
           "OnTriggerExit": null,
+          "RenderOrder": 0,
           "RenderType": "On",
           "RollingResistance": null,
           "SmoothingAngle": 40,
@@ -6833,7 +7541,8 @@
           "OnComponentEnabled": null,
           "OnComponentFixedUpdate": null,
           "OnComponentStart": null,
-          "OnComponentUpdate": null
+          "OnComponentUpdate": null,
+          "Priority": 0
         }
       ],
       "Children": []
@@ -7017,10 +7726,18 @@
       "AgentRadius": 16,
       "AgentStepSize": 18,
       "AgentMaxSlope": 40,
+      "GenerateLinks": false,
+      "AgentMaxDrop": 192,
+      "AgentMaxJumpDistance": 250,
+      "AgentMaxJumpHeight": 80,
       "ExcludedBodies": "",
       "IncludedBodies": "",
       "DeferGeneration": false,
-      "CustomBounds": false
+      "CustomBounds": false,
+      "BakedDataPath": {
+        "$reference_type": "filereference",
+        "path": "scenes/albisoara_scene_data/navmesh/baked.navdata"
+      }
     },
     "GameObjectSystems": {
       "Sandbox.Clutter.ClutterGridSystem": {
@@ -7041,7 +7758,6 @@
   "Description": null,
   "__references": [
     "facepunch.metal_fence_panel#143812",
-    "facepunch.sandbox#368964",
     "saandy.industrial_light01#27009"
   ],
   "__version": 3
