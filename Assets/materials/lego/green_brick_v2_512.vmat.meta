@@ -6,6 +6,7 @@
       "Title": "Green Brick V 2 512",
       "Type": "material",
       "Org": "local",
+      "OrgTitle": null,
       "Ident": "greenbrickv2512",
       "Schema": 0,
       "IncludeSourceFiles": false,

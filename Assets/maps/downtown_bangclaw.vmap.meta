@@ -6,10 +6,12 @@
       "Title": "Downtown Bangclaw",
       "Type": "map",
       "Org": "nite",
+      "OrgTitle": null,
       "Ident": "downtown_bangclaw",
       "Schema": 0,
       "IncludeSourceFiles": false,
       "Resources": null,
+      "PublishUsedAssetsOnly": false,
       "PackageReferences": [],
       "EditorReferences": [
         "caro.bluecloudysky#27761"
@@ -23,6 +25,7 @@
         "SingleAssetSource": "maps/downtown_bangclaw.vmap",
         "ParentPackage": "facepunch.sandbox"
       }
-    }
+    },
+    "HammerAutoPackageReferences": null
   }
 }

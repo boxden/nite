@@ -2,6 +2,7 @@
   "Title": "Albisoara",
   "Type": "addon",
   "Org": "nite",
+  "OrgTitle": null,
   "Ident": "repo-albisoara",
   "Schema": 1,
   "IncludeSourceFiles": true,

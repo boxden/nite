@@ -6,10 +6,12 @@
       "Title": "AWP Lego",
       "Type": "map",
       "Org": "nite",
+      "OrgTitle": null,
       "Ident": "awp_lego_2b",
       "Schema": 0,
       "IncludeSourceFiles": false,
       "Resources": null,
+      "PublishUsedAssetsOnly": false,
       "PackageReferences": [],
       "EditorReferences": [
         "caro.sky_001#27739"
@@ -38,6 +40,7 @@
         ],
         "ParentPackage": "facepunch.sandbox"
       }
-    }
+    },
+    "HammerAutoPackageReferences": null
   }
 }

@@ -6,10 +6,12 @@
       "Title": "The Lobby",
       "Type": "map",
       "Org": "nite",
+      "OrgTitle": null,
       "Ident": "phys_lobby",
       "Schema": 0,
       "IncludeSourceFiles": false,
       "Resources": null,
+      "PublishUsedAssetsOnly": false,
       "PackageReferences": [],
       "EditorReferences": [
         "facepunch.wood_painted_a_hs#28972",
@@ -27,6 +29,7 @@
         ],
         "ParentPackage": "facepunch.sandbox"
       }
-    }
+    },
+    "HammerAutoPackageReferences": null
   }
 }

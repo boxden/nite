@@ -6,6 +6,7 @@
       "Title": "RP_BangClaw",
       "Type": "map",
       "Org": "nite",
+      "OrgTitle": null,
       "Ident": "rp_bangclaw",
       "Schema": 0,
       "IncludeSourceFiles": false,
@@ -29,6 +30,7 @@
           "facepunch.sandbox"
         ]
       }
-    }
+    },
+    "HammerAutoPackageReferences": null
   }
 }

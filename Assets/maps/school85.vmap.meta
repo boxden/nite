@@ -6,10 +6,12 @@
       "Title": "School 85",
       "Type": "map",
       "Org": "nite",
+      "OrgTitle": null,
       "Ident": "school85",
       "Schema": 0,
       "IncludeSourceFiles": false,
       "Resources": null,
+      "PublishUsedAssetsOnly": false,
       "PackageReferences": [],
       "EditorReferences": [
         "drakefruit.glass_blocks_001#20452",
@@ -39,6 +41,7 @@
         ],
         "ParentPackage": "facepunch.sandbox"
       }
-    }
+    },
+    "HammerAutoPackageReferences": null
   }
 }

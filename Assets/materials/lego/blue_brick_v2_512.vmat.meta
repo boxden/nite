@@ -6,6 +6,7 @@
       "Title": "Blue Brick V 2 512",
       "Type": "material",
       "Org": "local",
+      "OrgTitle": null,
       "Ident": "bluebrickv2512",
       "Schema": 0,
       "IncludeSourceFiles": false,
